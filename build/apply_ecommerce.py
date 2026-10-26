@@ -1,4 +1,5 @@
-"""Resolve every tree node's e-commerce category by inheritance from ecommerce-1..3.jsonl and write it into dist/tree.jsonl."""
+"""Resolve every tree node's e-commerce category by inheritance from ecommerce-1..4.jsonl (4: v0.2, 2026-10-26) and write it
+into dist/tree.jsonl. Every node gets one, since every node is shown."""
 import json, collections, sys
 from pathlib import Path
 T = Path(sys.argv[1])
@@ -16,7 +17,7 @@ HU_SUB = {"Apparel": "Ruházat", "Bags & Accessories": "Táskák és kiegészít
           "Vehicle Parts": "Járműalkatrészek", "Health Care": "Egészségmegőrzés", "Household Care": "Háztartási tisztítás",
           "Personal Care": "Személyes ápolás"}
 explicit = {}
-for i in (1, 2, 3):
+for i in (1, 2, 3, 4):
     for line in open(T / f"work/ecommerce-{i}.jsonl", encoding="utf-8"):
         r = json.loads(line)
         main = r.get("category_main") or "none"
@@ -37,8 +38,6 @@ def resolve(nid):
     return None, False
 unresolved, bad_sub = [], set()
 for n in rows:
-    if not n["visible_hu"]:
-        continue
     e, inherited = resolve(n["id"])
     if not e:
         unresolved.append(n["path_en"]); continue
@@ -52,12 +51,12 @@ print("explicit rows", len(explicit), "unresolved", len(unresolved), unresolved[
 with open(T / "dist/tree.jsonl", "w", encoding="utf-8") as f:
     for n in rows:
         f.write(json.dumps(n, ensure_ascii=False) + "\n")
-# products per e-commerce category, counted on the node that holds the Arukereso category
+# Arukereso products per e-commerce category, counted on the node that holds the Arukereso category
 tot = collections.Counter(); sub = collections.Counter()
 for n in rows:
-    if n.get("ecommerce_category") and n["products_own"]:
-        tot[n["ecommerce_category"]["main_hu"]] += n["products_own"]
-        sub[(n["ecommerce_category"]["main_hu"] or "nincs", n["ecommerce_category"]["sub_hu"] or "-")] += n["products_own"]
+    if n.get("ecommerce_category") and n["arukereso_products_own"]:
+        tot[n["ecommerce_category"]["main_hu"]] += n["arukereso_products_own"]
+        sub[(n["ecommerce_category"]["main_hu"] or "nincs", n["ecommerce_category"]["sub_hu"] or "-")] += n["arukereso_products_own"]
 allp = sum(tot.values())
 for k, v in tot.most_common():
     print(f"{v:>10,} {v/allp:6.1%}  {k}")

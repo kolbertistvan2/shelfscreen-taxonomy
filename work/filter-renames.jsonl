@@ -1,0 +1,793 @@
+{"kind": "value", "value_id": "73", "en": "Cheerleading", "new_hu": "Cheerleading", "reason": "szurkolás is fandom, not the sport"}
+{"kind": "value", "value_id": "108", "en": "Padel", "new_hu": "Padel", "reason": "evezés is rowing; padel is padel"}
+{"kind": "value", "value_id": "79", "en": "Gymnastics", "new_hu": "Torna", "reason": "gymnastics is torna"}
+{"kind": "value", "value_id": "21215", "en": "Gaelic football", "new_hu": "Gael futball", "reason": "kelta is Celtic; the sport is Gaelic football"}
+{"kind": "value", "value_id": "21217", "en": "Ice hockey", "new_hu": "Jégkorong", "reason": "ice hockey is jégkorong"}
+{"kind": "value", "value_id": "21247", "en": "Inline skating", "new_hu": "Görkorcsolyázás", "reason": "the activity, not the skate"}
+{"kind": "value", "value_id": "80", "en": "Racquetball", "new_hu": "Racquetball", "reason": "the sport keeps its name"}
+{"kind": "value", "value_id": "83", "en": "Soccer", "new_en": "Football (soccer)", "reason": "English names say Football (Soccer) where Shopify says Soccer (operator 2026-10-26)"}
+{"kind": "value", "value_id": "22736", "en": "Anti-chafing design", "new_hu": "Kidörzsölődés elleni kialakítás", "reason": "anti-chafing prevents chafing, not wear"}
+{"kind": "value", "value_id": "22752", "en": "Sweatproof pockets", "new_hu": "Izzadságálló zsebek", "reason": "sweatproof pockets keep sweat out"}
+{"kind": "value", "value_id": "22754", "en": "Thumbholes", "new_hu": "Hüvelykujjnyílás", "reason": "thumbholes"}
+{"kind": "attribute", "attribute_id": "air-hockey-items-included", "new_hu": "Mellékelt léghoki-kellékek", "reason": "items included"}
+{"kind": "value", "value_id": "7251", "en": "Grapnel", "new_hu": "Négykarú horgony (dregg)", "reason": "grapnel; segéd is a helper"}
+{"kind": "value", "value_id": "21368", "en": "Mushroom", "new_hu": "Gombahorgony", "reason": "mushroom anchor"}
+{"kind": "value", "value_id": "21369", "en": "Plow", "new_hu": "Ekehorgony", "reason": "plow anchor"}
+{"kind": "value", "value_id": "7437", "en": "Fly fishing", "new_hu": "Legyezés", "reason": "fly fishing"}
+{"kind": "value", "value_id": "7438", "en": "Ice fishing", "new_hu": "Lékhorgászat", "reason": "ice fishing is lékhorgászat"}
+{"kind": "value", "value_id": "7439", "en": "Spinning", "new_hu": "Pergetés", "reason": "spinning"}
+{"kind": "value", "value_id": "7440", "en": "Surfcasting", "new_hu": "Tengeri partról dobás (surfcasting)", "reason": "surfcasting"}
+{"kind": "value", "value_id": "7441", "en": "Trolling", "new_hu": "Vontatásos horgászat (trolling)", "reason": "trolling; villantó is a spoon lure"}
+{"kind": "value", "value_id": "15835", "en": "Crumbles", "new_hu": "Morzsa", "reason": "crumbles"}
+{"kind": "value", "value_id": "7568", "en": "Gophers", "new_hu": "Tasakospatkány", "reason": "gophers; hörcsög is the hamster"}
+{"kind": "attribute", "attribute_id": "ankle-collar-style", "new_hu": "Bokagallér kialakítása", "reason": "the attribute name was an adjective"}
+{"kind": "attribute", "attribute_id": "ankle-strap-padding-type", "new_hu": "Bokapánt párnázása", "reason": "margó is a margin"}
+{"kind": "attribute", "attribute_id": "archery-equipment-included", "new_hu": "Mellékelt íjászfelszerelés", "reason": "equipment included"}
+{"kind": "value", "value_id": "7546", "en": "Bow stringer", "new_hu": "Felajzó zsinór", "reason": "a bow stringer is a stringing cord, not the bowstring"}
+{"kind": "value", "value_id": "7552", "en": "Safety glass arrows", "new_hu": "Biztonsági üvegszálas vesszők", "reason": "safety glass arrows are fiberglass safety arrows"}
+{"kind": "value", "value_id": "7547", "en": "Sight mount", "new_hu": "Irányzéktartó", "reason": "sight mount"}
+{"kind": "value", "value_id": "7548", "en": "Stabilizer mount", "new_hu": "Stabilizátortartó", "reason": "stabilizer mount"}
+{"kind": "value", "value_id": "7543", "en": "Compound target", "new_hu": "Csigás íjas céllövészet", "reason": "compound target archery"}
+{"kind": "value", "value_id": "7544", "en": "Recreational", "new_hu": "Szabadidős", "reason": "recreational"}
+{"kind": "value", "value_id": "26404", "en": "Foam target", "new_hu": "Habszivacs célpont", "reason": "foam target"}
+{"kind": "attribute", "attribute_id": "arrow-bolt-point-type", "new_hu": "Nyílvessző- és számszeríjvessző-hegy típusa", "reason": "a bolt is a crossbow bolt, not a screw"}
+{"kind": "attribute", "attribute_id": "arrow-bolt-material", "new_hu": "Nyílvessző- és számszeríjvessző anyaga", "reason": "a bolt is a crossbow bolt, not a screw"}
+{"kind": "attribute", "attribute_id": "arrow-nock-type", "new_hu": "Nock típusa", "reason": "the nock is the arrow end"}
+{"kind": "attribute", "attribute_id": "arrow-rest-style", "new_hu": "Nyíltámasz típusa", "reason": "an arrow rest is a nyíltámasz"}
+{"kind": "attribute", "attribute_id": "arrow-shaft-compatibility", "new_hu": "Nyílvesszőszár-kompatibilitás", "reason": "arrow shafts"}
+{"kind": "attribute", "attribute_id": "ascender-descender-type", "new_hu": "Mászógép vagy ereszkedő típusa", "reason": "ascenders and descenders"}
+{"kind": "attribute", "attribute_id": "assistance-mechanism", "new_hu": "Rásegítés módja", "reason": "assistance mechanism"}
+{"kind": "attribute", "attribute_id": "assisted-braking-technology", "new_hu": "Fékrásegítés", "reason": "assisted braking"}
+{"kind": "attribute", "attribute_id": "athletic-cup-size", "new_hu": "Ágyékvédő mérete", "reason": "kupa is a trophy"}
+{"kind": "value", "value_id": "47481", "en": "Fender", "new_hu": "Kengyelszíjvédő", "reason": "a saddle fender, not a mudguard"}
+{"kind": "value", "value_id": "24828", "en": "Bucket hat", "new_hu": "Vödörsapka", "reason": "a bucket hat; szafarikalap is a safari hat"}
+{"kind": "value", "value_id": "24758", "en": "Pantyhose", "new_hu": "Vékony harisnyanadrág", "reason": "pantyhose and tights shared one name"}
+{"kind": "value", "value_id": "24759", "en": "Tights", "new_hu": "Harisnyanadrág", "reason": "pantyhose and tights shared one name"}
+{"kind": "value", "value_id": "24752", "en": "Onesie", "new_hu": "Rugdalózó", "reason": "a baby onesie is a rugdalózó"}
+{"kind": "value", "value_id": "24751", "en": "Nightgown", "new_hu": "Hálóing", "reason": "a nightgown is a hálóing"}
+{"kind": "attribute", "attribute_id": "backboard-material", "new_hu": "Palánk anyaga", "reason": "backboard"}
+{"kind": "attribute", "attribute_id": "bag-fill-medium", "new_hu": "Zsák töltőanyaga", "reason": "közepes is medium-sized"}
+{"kind": "value", "value_id": "21926", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "21928", "en": "Leatherette", "new_hu": "Textilbőr", "reason": "leatherette and faux leather shared one name"}
+{"kind": "value", "value_id": "24859", "en": "Hanging toiletry", "new_hu": "Felakasztható neszeszer", "reason": "hanging toiletry bag"}
+{"kind": "value", "value_id": "47559", "en": "Dumbbell", "new_hu": "Dumbell bojli", "reason": "dumbbell-shaped boilies"}
+{"kind": "attribute", "attribute_id": "balance-board-style", "new_hu": "Egyensúlyozó deszka típusa", "reason": "the name was garbled"}
+{"kind": "attribute", "attribute_id": "balance-cushion-accessories-included", "new_hu": "Egyensúlypárnához mellékelt kiegészítők", "reason": "the name was garbled"}
+{"kind": "value", "value_id": "47594", "en": "Resistance bands", "new_hu": "Erősítő gumiszalagok", "reason": "resistance bands"}
+{"kind": "attribute", "attribute_id": "barb-type", "new_hu": "Horogszakáll típusa", "reason": "barb was left in English"}
+{"kind": "attribute", "attribute_id": "barbell-finish", "new_hu": "Súlyzórúd felületkezelése", "reason": "finish is a surface treatment"}
+{"kind": "attribute", "attribute_id": "barrel-profile", "new_hu": "Test (barrel) profilja", "reason": "a dart barrel, not a cask"}
+{"kind": "attribute", "attribute_id": "barrel-thread-standard", "new_hu": "Cső menetszabványa", "reason": "szál is a fibre; the barrel thread is a menet"}
+{"kind": "attribute", "attribute_id": "base-anchoring-method", "new_hu": "Talp rögzítése", "reason": "base anchoring"}
+{"kind": "attribute", "attribute_id": "base-ballast-method", "new_hu": "Talp súlyozása", "reason": "base ballast"}
+{"kind": "attribute", "attribute_id": "base-fill-material", "new_hu": "Talp töltőanyaga", "reason": "base fill"}
+{"kind": "value", "value_id": "47744", "en": "Infield glove", "new_hu": "Belső mezőnyjátékos kesztyű", "reason": "infield glove"}
+{"kind": "value", "value_id": "47745", "en": "Outfield glove", "new_hu": "Külső mezőnyjátékos kesztyű", "reason": "outfield glove"}
+{"kind": "value", "value_id": "47761", "en": "Batter", "new_hu": "Ütőjátékos", "reason": "the batter is a player, not a bat"}
+{"kind": "value", "value_id": "47764", "en": "Fielder", "new_hu": "Mezőnyjátékos", "reason": "fielder"}
+{"kind": "attribute", "attribute_id": "basketball-equipment-included", "new_hu": "Mellékelt kosárlabda-felszerelés", "reason": "equipment included"}
+{"kind": "attribute", "attribute_id": "basketball-padding-location", "new_hu": "Kosárlabdapalánk-párnázás helye", "reason": "margó is a margin"}
+{"kind": "attribute", "attribute_id": "bat-handle-size-compatibility", "new_hu": "Ütőnyél mérete", "reason": "azonosító is an identifier"}
+{"kind": "value", "value_id": "6895", "en": "Little league", "new_hu": "Little League", "reason": "the league keeps its name; kispályás is small-sided"}
+{"kind": "value", "value_id": "34318", "en": "Large cell (appliance/tool/ride-on toy)", "new_hu": "Nagy elem (készülék/szerszám/játék)", "reason": "double space"}
+{"kind": "attribute", "attribute_id": "bead-hole-style", "new_hu": "Gyöngy furatának típusa", "reason": "bead hole"}
+{"kind": "attribute", "attribute_id": "beanie-style", "new_hu": "Kötött sapka fazonja", "reason": "beanies are kötött sapka"}
+{"kind": "value", "value_id": "44421", "en": "Fisherman", "new_hu": "Halászsapka", "reason": "the fisherman beanie"}
+{"kind": "value", "value_id": "44422", "en": "Skull cap", "new_hu": "Testhezálló sapka", "reason": "a skull cap fits close"}
+{"kind": "value", "value_id": "44425", "en": "Watch cap", "new_hu": "Felhajtós kötött sapka", "reason": "a watch cap is a cuffed knit cap"}
+{"kind": "value", "value_id": "34745", "en": "V-belt", "new_hu": "Ékszíj", "reason": "a V-belt is an ékszíj; öv is a clothing belt"}
+{"kind": "value", "value_id": "34744", "en": "Timing (toothed)", "new_hu": "Fogasszíj", "reason": "a timing belt is a fogasszíj"}
+{"kind": "value", "value_id": "21402", "en": "Drum", "new_hu": "Dobfék", "reason": "drum brake"}
+{"kind": "value", "value_id": "7363", "en": "Hydraulic disc", "new_hu": "Hidraulikus tárcsafék", "reason": "hydraulic disc brake"}
+{"kind": "value", "value_id": "7364", "en": "Hydraulic rim", "new_hu": "Hidraulikus peremfék", "reason": "a rim brake brakes on the rim, not the tyre"}
+{"kind": "value", "value_id": "21403", "en": "Roller", "new_hu": "Görgős fék", "reason": "roller brake"}
+{"kind": "attribute", "attribute_id": "bicycle-cage-mounting-position", "new_hu": "Kulacstartó rögzítési helye", "reason": "the cage is a bottle cage"}
+{"kind": "value", "value_id": "47998", "en": "Seat tube", "new_hu": "Ülőcső", "reason": "seat tube"}
+{"kind": "value", "value_id": "48022", "en": "Diamond", "new_hu": "Gyémántváz (zárt)", "reason": "diamond frame"}
+{"kind": "value", "value_id": "48044", "en": "Riser", "new_hu": "Emelt", "reason": "riser handlebar"}
+{"kind": "value", "value_id": "48045", "en": "Track", "new_hu": "Pályakormány", "reason": "track handlebar"}
+{"kind": "attribute", "attribute_id": "bicycle-headset-configuration", "new_hu": "Kormánycsapágy kialakítása", "reason": "fejhallgató is a headphone"}
+{"kind": "value", "value_id": "48084", "en": "Toe clip and strap", "new_hu": "Pedálkosár és pánt", "reason": "toe clip and strap"}
+{"kind": "value", "value_id": "48091", "en": "Dual-action", "new_hu": "Kétirányú (dupla működésű)", "reason": "dual-action pump"}
+{"kind": "attribute", "attribute_id": "bicycle-rack-mounting-type", "new_hu": "Csomagtartó rögzítése", "reason": "the rack is a luggage rack"}
+{"kind": "value", "value_id": "48157", "en": "Kids tabletop", "new_hu": "Asztali gyerekbiliárd", "reason": "a kids' tabletop billiard table"}
+{"kind": "attribute", "attribute_id": "binding-mount", "new_hu": "Snowboardkötés rögzítése", "reason": "the attribute names the binding mount pattern"}
+{"kind": "value", "value_id": "7662", "en": "3D disc", "new_hu": "3D tárcsa", "reason": "binding discs"}
+{"kind": "value", "value_id": "7661", "en": "2x2 disc", "new_hu": "2x2 tárcsa", "reason": "binding discs"}
+{"kind": "value", "value_id": "7664", "en": "4x4 disc", "new_hu": "4x4 tárcsa", "reason": "binding discs"}
+{"kind": "value", "value_id": "48214", "en": "Front boot", "new_hu": "Első kötés", "reason": "front binding"}
+{"kind": "value", "value_id": "48215", "en": "Rear boot", "new_hu": "Hátsó kötés", "reason": "rear binding"}
+{"kind": "attribute", "attribute_id": "binding-liner-type", "new_hu": "Kötésbélés típusa", "reason": "binding liner"}
+{"kind": "value", "value_id": "48244", "en": "Correction", "new_hu": "Korrekciós", "reason": "spelling"}
+{"kind": "value", "value_id": "17474", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "7236", "en": "Camber", "new_hu": "Camber", "reason": "camber profile"}
+{"kind": "value", "value_id": "7237", "en": "Rocker", "new_hu": "Rocker", "reason": "rocker profile; egyensúlyozó is balancing"}
+{"kind": "attribute", "attribute_id": "board-rail-shape", "new_hu": "Deszka élének (rail) alakja", "reason": "the rail is the board edge"}
+{"kind": "attribute", "attribute_id": "body-cord-connector-style", "new_hu": "Testkábel-csatlakozó típusa", "reason": "fencing body cords are cables"}
+{"kind": "attribute", "attribute_id": "bodyboard-features", "new_hu": "Bodyboard jellemzői", "reason": "extended attribute of surfboard features"}
+{"kind": "attribute", "attribute_id": "bolt-material", "new_hu": "Számszeríjvessző anyaga", "reason": "a bolt is a crossbow bolt, not a screw"}
+{"kind": "value", "value_id": "24947", "en": "Chukka", "new_hu": "Chukka", "reason": "the chukka boot keeps its name"}
+{"kind": "value", "value_id": "24951", "en": "Cut-out", "new_hu": "Kivágott", "reason": "cut-out boots; boka is ankle"}
+{"kind": "value", "value_id": "24955", "en": "Rain", "new_hu": "Esőcsizma", "reason": "rain boots"}
+{"kind": "value", "value_id": "24960", "en": "Sock", "new_hu": "Zoknicsizma", "reason": "sock boots"}
+{"kind": "value", "value_id": "24963", "en": "Work", "new_hu": "Munkavédelmi", "reason": "work boots"}
+{"kind": "attribute", "attribute_id": "bootie-toe-design", "new_hu": "Neoprén cipő orrészének kialakítása", "reason": "booties are neoprene shoes"}
+{"kind": "value", "value_id": "48479", "en": "Cone", "new_hu": "Bója (kúp)", "reason": "cones"}
+{"kind": "value", "value_id": "48481", "en": "Dome", "new_hu": "Tányérbója", "reason": "dome markers"}
+{"kind": "attribute", "attribute_id": "bow-compatibility", "new_hu": "Íj-kompatibilitás", "reason": "vonó is a violin bow"}
+{"kind": "value", "value_id": "24278", "en": "Safety auto-engage", "new_hu": "Automatikus biztosító", "reason": "safety auto-engage"}
+{"kind": "attribute", "attribute_id": "bow-features", "new_hu": "Íj jellemzői", "reason": "extended attribute of bow and crossbow features"}
+{"kind": "value", "value_id": "21504", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "393", "en": "Racerback", "new_hu": "Birkózóhátú", "reason": "racerback; sport says nothing"}
+{"kind": "value", "value_id": "24790", "en": "Racerback", "new_hu": "Birkózóhátú", "reason": "racerback; sport says nothing"}
+{"kind": "value", "value_id": "24792", "en": "T-shirt", "new_hu": "Pólómelltartó (T-shirt)", "reason": "a T-shirt bra is not a T-shirt"}
+{"kind": "value", "value_id": "24786", "en": "Minimizer", "new_hu": "Minimizer", "reason": "minimizer bras"}
+{"kind": "attribute", "attribute_id": "bridge-head-material", "new_hu": "Mankófej anyaga", "reason": "the billiard bridge is a mankó"}
+{"kind": "attribute", "attribute_id": "bridge-head-type", "new_hu": "Biliárdmankó fejtípusa", "reason": "the billiard bridge is a mankó"}
+{"kind": "value", "value_id": "48671", "en": "Cut-on-contact", "new_hu": "Érintésre vágó", "reason": "cut-on-contact broadheads"}
+{"kind": "attribute", "attribute_id": "butt-cap-material", "new_hu": "Botvég-sapka anyaga", "reason": "the butt cap of a rod"}
+{"kind": "value", "value_id": "7370", "en": "Brake", "new_hu": "Fékbowden", "reason": "bicycle brake cables are bowden"}
+{"kind": "value", "value_id": "7371", "en": "Cable housing", "new_hu": "Bowdenház", "reason": "cable housing"}
+{"kind": "value", "value_id": "7373", "en": "Gear", "new_hu": "Váltóbowden", "reason": "gear cable"}
+{"kind": "attribute", "attribute_id": "cage-package-type", "new_hu": "Ütőketrec-csomag típusa", "reason": "batting cage packages"}
+{"kind": "value", "value_id": "48742", "en": "Frame kit", "new_hu": "Keretkészlet", "reason": "the cage frame"}
+{"kind": "value", "value_id": "48743", "en": "Frame only", "new_hu": "Csak keret", "reason": "the cage frame"}
+{"kind": "attribute", "attribute_id": "cam-system", "new_hu": "Csigarendszer", "reason": "compound bow cams are csiga"}
+{"kind": "value", "value_id": "25821", "en": "Single", "new_hu": "Egycsigás", "reason": "kamera is a camera"}
+{"kind": "value", "value_id": "25819", "en": "Dual", "new_hu": "Kétcsigás", "reason": "compound bow cams are csiga"}
+{"kind": "value", "value_id": "48775", "en": "Cooking stove fuel", "new_hu": "Főzőüzemanyag", "reason": "cooking stove fuel"}
+{"kind": "attribute", "attribute_id": "cap-construction", "new_hu": "Parókaalap kialakítása", "reason": "the values describe wig caps"}
+{"kind": "attribute", "attribute_id": "cap-fit-type", "new_hu": "Sapka illeszkedése", "reason": "kupak is a lid"}
+{"kind": "attribute", "attribute_id": "carabiner-shape", "new_hu": "Karabiner alakja", "reason": "the shape of the carabiner, not of its gate"}
+{"kind": "attribute", "attribute_id": "casing-material", "new_hu": "Burkolat anyaga", "reason": "casing"}
+{"kind": "attribute", "attribute_id": "catcher-equipment-included", "new_hu": "Mellékelt elkapófelszerelés", "reason": "the catcher is elkapó"}
+{"kind": "value", "value_id": "48862", "en": "Protective cup", "new_hu": "Ágyékvédő kagyló", "reason": "a protective cup"}
+{"kind": "value", "value_id": "48895", "en": "Chain Whip", "new_hu": "Lánckorbács", "reason": "a chain whip is a lánckorbács"}
+{"kind": "value", "value_id": "48910", "en": "Eggbutt", "new_hu": "Olív", "reason": "spelling, as Eggbutt elsewhere"}
+{"kind": "value", "value_id": "48957", "en": "Hard cup", "new_hu": "Kemény állvédő", "reason": "chin cups"}
+{"kind": "value", "value_id": "48960", "en": "Soft cup", "new_hu": "Puha állvédő", "reason": "chin cups"}
+{"kind": "attribute", "attribute_id": "cleat-stud-type", "new_hu": "Stopli típusa", "reason": "stud type"}
+{"kind": "value", "value_id": "49038", "en": "Pinch", "new_hu": "Csípőfogás", "reason": "pinch holds"}
+{"kind": "value", "value_id": "49045", "en": "Active cam (spring-loaded camming device)", "new_hu": "Friend (rugós ék)", "reason": "active cams are friends"}
+{"kind": "value", "value_id": "49051", "en": "Piton", "new_hu": "Sziklaszeg", "reason": "piton"}
+{"kind": "value", "value_id": "49075", "en": "Dynamic Single", "new_hu": "Dinamikus szimpla kötél", "reason": "single rope"}
+{"kind": "attribute", "attribute_id": "clipper-trimmer-type", "new_hu": "Nyírógép típusa", "reason": "horse clippers, not hair clippers"}
+{"kind": "value", "value_id": "6733", "en": "Hook & eye", "new_hu": "Horgos kapocs", "reason": "hook and eye; it shared the name with Toggle"}
+{"kind": "value", "value_id": "3100", "en": "Toggle", "new_hu": "Pálcikagomb (toggle)", "reason": "toggle; it shared the name with Hook & eye"}
+{"kind": "value", "value_id": "18218", "en": "None", "new_hu": "Nincs", "reason": "none"}
+{"kind": "value", "value_id": "3097", "en": "Slip-on", "new_hu": "Belebújós", "reason": "slip-on"}
+{"kind": "value", "value_id": "17126", "en": "Fleece", "new_hu": "Polár", "reason": "fleece is polár; gyapjú is wool"}
+{"kind": "value", "value_id": "19469", "en": "Fleece", "new_hu": "Polár", "reason": "fleece is polár; gyapjú is wool"}
+{"kind": "value", "value_id": "19487", "en": "Tarpaulin", "new_hu": "Ponyva", "reason": "tarpaulin"}
+{"kind": "attribute", "attribute_id": "club-subset", "new_hu": "Golfütő altípusa", "reason": "club subset"}
+{"kind": "value", "value_id": "7072", "en": "Spinlock", "new_hu": "Csavaros zár (spinlock)", "reason": "spinlock collars"}
+{"kind": "attribute", "attribute_id": "combat-shorts-cut-style", "new_hu": "Küzdősport-rövidnadrág fazonja", "reason": "combat sports shorts, not military shorts"}
+{"kind": "value", "value_id": "49181", "en": "Nocking pliers", "new_hu": "Nockpont-fogó", "reason": "nocking pliers"}
+{"kind": "value", "value_id": "21394", "en": "Mountain", "new_hu": "MTB", "reason": "mountain bikes are MTB in shops"}
+{"kind": "value", "value_id": "7337", "en": "Road", "new_hu": "Országúti", "reason": "road bikes are országúti"}
+{"kind": "value", "value_id": "32673", "en": "Pump", "new_hu": "Szivattyú", "reason": "a pump, not a dumbbell"}
+{"kind": "value", "value_id": "32645", "en": "Stepper", "new_hu": "Stepper", "reason": "a stepper machine; léptetőmotor is a stepper motor"}
+{"kind": "value", "value_id": "32640", "en": "Cross trainer", "new_hu": "Ellipszistréner (cross trainer)", "reason": "Google Hungarian: ellipszistréner"}
+{"kind": "value", "value_id": "32641", "en": "Elliptical trainer", "new_hu": "Ellipszistréner", "reason": "Google Hungarian: ellipszistréner"}
+{"kind": "value", "value_id": "49293", "en": "Elliptical trainer", "new_hu": "Ellipszistréner", "reason": "Google Hungarian: ellipszistréner"}
+{"kind": "value", "value_id": "49297", "en": "Rowing machine", "new_hu": "Evezőgép", "reason": "rowing machine"}
+{"kind": "value", "value_id": "49300", "en": "Stepper / stair climber", "new_hu": "Stepper / lépcsőzőgép", "reason": "shops say stepper"}
+{"kind": "value", "value_id": "7048", "en": "Dips", "new_hu": "Tolódzkodás (dips)", "reason": "dips"}
+{"kind": "value", "value_id": "49430", "en": "Spinning", "new_hu": "Fixorsó", "reason": "spinning reels are fixorsó"}
+{"kind": "attribute", "attribute_id": "compatible-reel-type", "new_hu": "Kompatibilis orsótípus", "reason": "üzemanyag is fuel"}
+{"kind": "value", "value_id": "49564", "en": "Spinning", "new_hu": "Fixorsó", "reason": "spinning reels are fixorsó"}
+{"kind": "attribute", "attribute_id": "compatible-ride-equipment", "new_hu": "Kompatibilis sporteszköz", "reason": "orsó is a reel; the values are bikes, skates and boards"}
+{"kind": "attribute", "attribute_id": "compatible-football-kick-type", "new_hu": "Amerikai futball rúgástípus", "reason": "the values are American football kicks"}
+{"kind": "attribute", "attribute_id": "compatible-plate-size", "new_hu": "Kompatibilis védőlemez-méret", "reason": "plate carriers hold armour plates"}
+{"kind": "value", "value_id": "49518", "en": "Artificial grass", "new_hu": "Műfű (AG)", "reason": "football boot soles: artificial grass"}
+{"kind": "value", "value_id": "49519", "en": "Firm ground", "new_hu": "Kemény talaj (FG)", "reason": "football boot soles: firm ground"}
+{"kind": "value", "value_id": "49520", "en": "Hard ground", "new_hu": "Nagyon kemény talaj (HG)", "reason": "football boot soles: hard ground"}
+{"kind": "value", "value_id": "49521", "en": "Indoor", "new_hu": "Terem (IN)", "reason": "football boot soles: indoor"}
+{"kind": "value", "value_id": "49524", "en": "Soft ground", "new_hu": "Puha talaj (SG)", "reason": "football boot soles: soft ground"}
+{"kind": "value", "value_id": "49525", "en": "Turf", "new_hu": "Rövid műfű, salak (TF)", "reason": "turf soles; gyep is natural grass"}
+{"kind": "value", "value_id": "49578", "en": "Single dynamic rope", "new_hu": "Szimpla dinamikus kötél", "reason": "single rope"}
+{"kind": "attribute", "attribute_id": "compatible-snowshoe-deck-type", "new_hu": "Kompatibilis hótalptípus", "reason": "fedélzet is a ship deck"}
+{"kind": "value", "value_id": "49630", "en": "Battle ropes", "new_hu": "Battle rope", "reason": "battle ropes"}
+{"kind": "value", "value_id": "49636", "en": "Resistance bands", "new_hu": "Erősítő gumiszalagok", "reason": "resistance bands"}
+{"kind": "value", "value_id": "49637", "en": "Suspension trainer", "new_hu": "Függesztett edzőrendszer", "reason": "suspension trainer"}
+{"kind": "attribute", "attribute_id": "compatible-tube", "new_hu": "Kompatibilis belső vagy külső", "reason": "bicycle tubes and tires"}
+{"kind": "value", "value_id": "7071", "en": "Dumbbell", "new_hu": "Kézisúlyzó", "reason": "dumbbell"}
+{"kind": "attribute", "attribute_id": "core-material", "new_hu": "Mag anyaga", "reason": "extended attribute; the core, not the bow"}
+{"kind": "attribute", "attribute_id": "counter-type", "new_hu": "Számláló típusa", "reason": "pult is a counter desk"}
+{"kind": "attribute", "attribute_id": "cover-fit-style", "new_hu": "Takaró illeszkedése", "reason": "cover fit"}
+{"kind": "value", "value_id": "49747", "en": "Draped", "new_hu": "Lelógó", "reason": "draped covers"}
+{"kind": "attribute", "attribute_id": "cover-material", "new_hu": "Huzat anyaga", "reason": "tartó is a holder"}
+{"kind": "value", "value_id": "30669", "en": "Light", "new_hu": "Enyhe", "reason": "light coverage"}
+{"kind": "attribute", "attribute_id": "crampon-attachment-type", "new_hu": "Hágóvas rögzítési típusa", "reason": "crampons are hágóvas, not snowshoes"}
+{"kind": "attribute", "attribute_id": "cricket-equipment-included", "new_hu": "Mellékelt krikettfelszerelés", "reason": "equipment included"}
+{"kind": "value", "value_id": "6933", "en": "Stumps", "new_hu": "Kapufák (stumps)", "reason": "stumps are the wicket posts"}
+{"kind": "value", "value_id": "49835", "en": "Batting pads", "new_hu": "Ütőjátékos lábvédők", "reason": "batting pads"}
+{"kind": "attribute", "attribute_id": "cricket-stump-type", "new_hu": "Krikettkapufa típusa", "reason": "stumps are the wicket posts"}
+{"kind": "attribute", "attribute_id": "cricket-stump-target-features", "new_hu": "Krikettkapufa-célpont jellemzői", "reason": "stumps are the wicket posts"}
+{"kind": "value", "value_id": "49917", "en": "Reverse draw", "new_hu": "Fordított karú", "reason": "reverse draw crossbows"}
+{"kind": "attribute", "attribute_id": "cue-thread-size", "new_hu": "Dákó menetmérete", "reason": "thread is a menet"}
+{"kind": "attribute", "attribute_id": "cuff-position", "new_hu": "Mandzsetta helye", "reason": "vezetőszár is a horse lead"}
+{"kind": "attribute", "attribute_id": "cushion-rubber-profile", "new_hu": "Mandíner gumiprofilja", "reason": "billiard cushion rubber"}
+{"kind": "value", "value_id": "7377", "en": "Mountain cycling", "new_hu": "Hegyikerékpározás (MTB)", "reason": "mountain cycling"}
+{"kind": "value", "value_id": "7378", "en": "Road racing", "new_hu": "Országúti verseny", "reason": "road racing"}
+{"kind": "value", "value_id": "7376", "en": "Cross-country cycling", "new_hu": "Cross-country", "reason": "cross-country cycling"}
+{"kind": "attribute", "attribute_id": "dart-barrel-material", "new_hu": "Dartsnyíl-test anyaga", "reason": "the dart barrel is the body"}
+{"kind": "attribute", "attribute_id": "dart-shaft-thread-type", "new_hu": "Darts szár menettípusa", "reason": "thread is a menet"}
+{"kind": "attribute", "attribute_id": "decoy-buoyancy", "new_hu": "Csalétek felhajtóereje", "reason": "a decoy is a csalétek, not bait"}
+{"kind": "attribute", "attribute_id": "decoy-joint-type", "new_hu": "Csalétek illesztése", "reason": "a decoy is a csalétek, not bait"}
+{"kind": "attribute", "attribute_id": "decoy-motion-mechanism", "new_hu": "Csalétek mozgatása", "reason": "a decoy is a csalétek, not bait"}
+{"kind": "attribute", "attribute_id": "decoy-posture", "new_hu": "Csalétek testtartása", "reason": "a decoy is a csalétek, not bait"}
+{"kind": "attribute", "attribute_id": "decoy-size-class", "new_hu": "Csalétek méretosztálya", "reason": "a decoy is a csalétek, not bait"}
+{"kind": "attribute", "attribute_id": "decoy-style", "new_hu": "Csalétek típusa", "reason": "a decoy is a csalétek, not bait"}
+{"kind": "value", "value_id": "21600", "en": "Expert", "new_hu": "Szakértő", "reason": "expert"}
+{"kind": "attribute", "attribute_id": "diving-regulator-style", "new_hu": "Légzőautomata típusa", "reason": "a regulator is a légzőautomata"}
+{"kind": "value", "value_id": "7214", "en": "Balanced piston", "new_hu": "Kiegyenlített dugattyús", "reason": "a balanced piston, not a membrane"}
+{"kind": "value", "value_id": "7215", "en": "Diaphragm", "new_hu": "Membrános", "reason": "diaphragm regulators"}
+{"kind": "value", "value_id": "7216", "en": "Unbalanced piston", "new_hu": "Kiegyenlítetlen dugattyús", "reason": "an unbalanced piston, not a membrane"}
+{"kind": "attribute", "attribute_id": "diving-snorkeling-equipment-included", "new_hu": "Mellékelt búvár- és sznorkelfelszerelés", "reason": "equipment included"}
+{"kind": "value", "value_id": "7203", "en": "Wetsuit", "new_hu": "Neoprénruha", "reason": "wetsuit, as the tree node"}
+{"kind": "attribute", "attribute_id": "divot-tool-prong-configuration", "new_hu": "Gyepjavító villa ágainak száma", "reason": "divot tools repair the green"}
+{"kind": "attribute", "attribute_id": "divot-tool-style", "new_hu": "Gyepjavító villa típusa", "reason": "divot tools repair the green"}
+{"kind": "attribute", "attribute_id": "double-end-bag-core-type", "new_hu": "Kétvégű bokszlabda belső szerkezete", "reason": "double-end bags"}
+{"kind": "value", "value_id": "24717", "en": "Casual", "new_hu": "Laza", "reason": "casual; alkalom is an occasion"}
+{"kind": "value", "value_id": "24722", "en": "Pageant", "new_hu": "Szépségverseny", "reason": "pageant"}
+{"kind": "value", "value_id": "24730", "en": "Blouson", "new_hu": "Blúzos (blouson)", "reason": "a blouson dress, not a jacket"}
+{"kind": "value", "value_id": "24736", "en": "Jacket", "new_hu": "Kabátruha", "reason": "a jacket dress"}
+{"kind": "value", "value_id": "24740", "en": "Sheath", "new_hu": "Testhezálló (sheath)", "reason": "sheath dresses"}
+{"kind": "value", "value_id": "24744", "en": "Slip", "new_hu": "Kombiné (slip)", "reason": "slip dresses"}
+{"kind": "value", "value_id": "24742", "en": "Shirt", "new_hu": "Ingruha", "reason": "shirt dresses"}
+{"kind": "value", "value_id": "24741", "en": "Shift", "new_hu": "Egyenes szabású (shift)", "reason": "shift dresses; ingruha is the shirt dress"}
+{"kind": "value", "value_id": "24745", "en": "Sweater", "new_hu": "Kötött ruha", "reason": "sweater dresses"}
+{"kind": "attribute", "attribute_id": "dress-train-type", "new_hu": "Uszály típusa", "reason": "a train is an uszály, not a sleeve"}
+{"kind": "value", "value_id": "44752", "en": "Sweep/Brush", "new_hu": "Rövid uszály (sweep)", "reason": "sweep train"}
+{"kind": "attribute", "attribute_id": "e-scooter-connector-type", "new_hu": "Elektromos roller csatlakozótípusa", "reason": "an e-scooter is an elektromos roller; robogó is a moped"}
+{"kind": "attribute", "attribute_id": "e-scooter-throttle-type", "new_hu": "Elektromos roller gázkartípusa", "reason": "an e-scooter is an elektromos roller; robogó is a moped"}
+{"kind": "attribute", "attribute_id": "electric-scooter-motor-type", "new_hu": "Elektromos roller motortípusa", "reason": "an e-scooter is an elektromos roller; robogó is a moped"}
+{"kind": "value", "value_id": "36069", "en": "Fringed", "new_hu": "Rojtos", "reason": "fringed; it shared the name with Hemstitched"}
+{"kind": "value", "value_id": "36070", "en": "Hemstitched", "new_hu": "Azsúrozott", "reason": "hemstitched; it shared the name with Fringed"}
+{"kind": "attribute", "attribute_id": "elliptical-trainer-part-type", "new_hu": "Ellipszistréner-alkatrész típusa", "reason": "Google Hungarian: ellipszistréner"}
+{"kind": "value", "value_id": "50459", "en": "Monitor/computer", "new_hu": "Monitor/komputer", "reason": "bike computer"}
+{"kind": "attribute", "attribute_id": "exercise-equipment-included", "new_hu": "Mellékelt edzőfelszerelés", "reason": "equipment included"}
+{"kind": "value", "value_id": "21305", "en": "Pump", "new_hu": "Pumpa", "reason": "a pump, not a dumbbell"}
+{"kind": "value", "value_id": "7037", "en": "Elliptical machine", "new_hu": "Ellipszistréner", "reason": "Google Hungarian: ellipszistréner"}
+{"kind": "value", "value_id": "7039", "en": "Exercise bike", "new_hu": "Szobakerékpár", "reason": "exercise bike"}
+{"kind": "value", "value_id": "7041", "en": "Resistance bands", "new_hu": "Erősítő gumiszalagok", "reason": "resistance bands"}
+{"kind": "value", "value_id": "7043", "en": "Weight bench", "new_hu": "Súlyzópad", "reason": "weight bench"}
+{"kind": "value", "value_id": "24851", "en": "Wayfarer", "new_hu": "Wayfarer", "reason": "the frame style keeps its name; utazó is traveller"}
+{"kind": "value", "value_id": "555", "en": "Fleece", "new_hu": "Polár", "reason": "fleece is polár; gyapjú is wool"}
+{"kind": "value", "value_id": "561", "en": "Suede", "new_hu": "Velúrbőr", "reason": "suede is velúrbőr"}
+{"kind": "attribute", "attribute_id": "footwear-material", "new_hu": "Lábbeli anyaga", "reason": "the attribute name said only Anyag"}
+{"kind": "value", "value_id": "17005", "en": "Fleece", "new_hu": "Polár", "reason": "fleece is polár; gyapjú is wool"}
+{"kind": "value", "value_id": "17017", "en": "Suede", "new_hu": "Velúrbőr", "reason": "suede is velúrbőr"}
+{"kind": "value", "value_id": "44846", "en": "Waffle", "new_hu": "Gofri szövésű", "reason": "waffle texture"}
+{"kind": "attribute", "attribute_id": "fencing-connector-type", "new_hu": "Vívócsatlakozó típusa", "reason": "fencing is vívás; kerítés is a garden fence"}
+{"kind": "value", "value_id": "50612", "en": "Dagger", "new_hu": "Tőrkés (dagger)", "reason": "dagger; tőr is the foil"}
+{"kind": "attribute", "attribute_id": "figure-8-device-design", "new_hu": "Nyolcas ereszkedő kialakítása", "reason": "figure 8 descenders, not a figure in a book"}
+{"kind": "attribute", "attribute_id": "fishing-rod-action", "new_hu": "Horgászbot akciója", "reason": "rod action"}
+{"kind": "value", "value_id": "420", "en": "Straight leg", "new_hu": "Egyenes szárú", "reason": "straight leg"}
+{"kind": "value", "value_id": "418", "en": "Tapered leg", "new_hu": "Szűkülő szárú", "reason": "tapered leg"}
+{"kind": "attribute", "attribute_id": "flap-configuration", "new_hu": "Nyeregszárny kialakítása", "reason": "saddle flaps"}
+{"kind": "value", "value_id": "50919", "en": "Monoflap", "new_hu": "Egyszárnyú (monoflap)", "reason": "monoflap saddles"}
+{"kind": "attribute", "attribute_id": "flat-shoe-style", "new_hu": "Lapos cipő fazonja", "reason": "flat shoe style"}
+{"kind": "value", "value_id": "24982", "en": "Ballet", "new_hu": "Balerina", "reason": "ballet flats"}
+{"kind": "value", "value_id": "24983", "en": "Boat shoe", "new_hu": "Vitorlás cipő", "reason": "boat shoes"}
+{"kind": "value", "value_id": "24990", "en": "Monk strap", "new_hu": "Monk (csatos)", "reason": "monk strap shoes"}
+{"kind": "value", "value_id": "24991", "en": "Mule", "new_hu": "Papucscipő (mule)", "reason": "mules; házi cipő is a house shoe"}
+{"kind": "attribute", "attribute_id": "fletching-profile", "new_hu": "Tollazat profilja", "reason": "fletching profile"}
+{"kind": "attribute", "attribute_id": "flight-system-type", "new_hu": "Dartstoll-rendszer típusa", "reason": "dart flights, not aircraft"}
+{"kind": "value", "value_id": "50951", "en": "Bubble", "new_hu": "Buborékúszó", "reason": "bubble floats"}
+{"kind": "value", "value_id": "50957", "en": "Pole", "new_hu": "Rakósbot úszó", "reason": "pole floats"}
+{"kind": "attribute", "attribute_id": "fly-pattern-type", "new_hu": "Műlégy típusa", "reason": "fly patterns are artificial flies"}
+{"kind": "attribute", "attribute_id": "fly-rod-style", "new_hu": "Legyezőbot típusa", "reason": "fly rods"}
+{"kind": "attribute", "attribute_id": "fly-style", "new_hu": "Slicc típusa", "reason": "the fly of trousers, not fly fishing"}
+{"kind": "attribute", "attribute_id": "fly-tying-tools-included", "new_hu": "Mellékelt légykötő eszközök", "reason": "fly tying tools"}
+{"kind": "attribute", "attribute_id": "foil-discipline", "new_hu": "Foil szakág", "reason": "hydrofoil, not a fólia"}
+{"kind": "attribute", "attribute_id": "foil-mounting-interface", "new_hu": "Foil rögzítési felülete", "reason": "hydrofoil, not a fólia"}
+{"kind": "attribute", "attribute_id": "foil-mounting-system", "new_hu": "Foil rögzítési rendszere", "reason": "hydrofoil, not a fólia"}
+{"kind": "attribute", "attribute_id": "foil-mounting-type", "new_hu": "Foil rögzítési típusa", "reason": "hydrofoil, not a fólia"}
+{"kind": "attribute", "attribute_id": "folding-style", "new_hu": "Összehajtás módja", "reason": "folding style"}
+{"kind": "attribute", "attribute_id": "football-ball-type", "new_hu": "Amerikaifutball-labda típusa", "reason": "the values are American football balls"}
+{"kind": "attribute", "attribute_id": "football-dummy-type", "new_hu": "Amerikaifutball-bábu típusa", "reason": "the values are American football dummies"}
+{"kind": "attribute", "attribute_id": "football-glove-certification", "new_hu": "Amerikaifutball-kesztyű tanúsítványa", "reason": "the values are American football bodies"}
+{"kind": "attribute", "attribute_id": "frame-material", "new_hu": "Váz vagy keret anyaga", "reason": "extended attribute; bútor is furniture"}
+{"kind": "attribute", "attribute_id": "frame-suspension-type", "new_hu": "Váz felfüggesztése", "reason": "frame suspension"}
+{"kind": "attribute", "attribute_id": "free-weight-rack-type", "new_hu": "Súlytartó állvány típusa", "reason": "free weight racks"}
+{"kind": "attribute", "attribute_id": "freehub-body-type", "new_hu": "Kazettatest típusa", "reason": "freehub bodies"}
+{"kind": "attribute", "attribute_id": "freehub-driver-standard", "new_hu": "Kazettatest szabványa", "reason": "freehub drivers are cassette bodies"}
+{"kind": "attribute", "attribute_id": "front-axle-standard", "new_hu": "Első tengely szabványa", "reason": "word order"}
+{"kind": "attribute", "attribute_id": "front-point-configuration", "new_hu": "Hágóvas első fogainak kialakítása", "reason": "crampon front points"}
+{"kind": "value", "value_id": "51218", "en": "Dual-point", "new_hu": "Kétfogú", "reason": "dual front points"}
+{"kind": "value", "value_id": "51220", "en": "Mono-point", "new_hu": "Egyfogú", "reason": "mono front point"}
+{"kind": "value", "value_id": "21873", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "21889", "en": "Plywood", "new_hu": "Rétegelt lemez", "reason": "plywood; furnér is veneer"}
+{"kind": "value", "value_id": "22575", "en": "Suede", "new_hu": "Velúrbőr", "reason": "suede is velúrbőr"}
+{"kind": "value", "value_id": "7173", "en": "Pick-up sticks", "new_hu": "Marokkó (pálcikajáték)", "reason": "pick-up sticks"}
+{"kind": "value", "value_id": "51228", "en": "134a/duster gas", "new_hu": "134a (sűrített gáz)", "reason": "duster gas is not compressed air"}
+{"kind": "attribute", "attribute_id": "gear-material", "new_hu": "Felszerelés anyaga", "reason": "gear is equipment here, not a cog; the values are fabrics"}
+{"kind": "value", "value_id": "18262", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "621", "en": "Tarpaulin", "new_hu": "Ponyva", "reason": "tarpaulin"}
+{"kind": "attribute", "attribute_id": "glow-effect", "new_hu": "Világító hatás", "reason": "glow effect"}
+{"kind": "value", "value_id": "51340", "en": "Resistance band", "new_hu": "Erősítő gumiszalag", "reason": "resistance band"}
+{"kind": "attribute", "attribute_id": "golf-accessory-set-purpose", "new_hu": "Golfkiegészítő-készlet célja", "reason": "spacing and wording"}
+{"kind": "value", "value_id": "51407", "en": "Putting aid set", "new_hu": "Puttolási segédkészlet", "reason": "putting aid set"}
+{"kind": "attribute", "attribute_id": "golf-equipment-included", "new_hu": "Mellékelt golffelszerelés", "reason": "equipment included"}
+{"kind": "value", "value_id": "7495", "en": "Divot tool", "new_hu": "Gyepjavító villa", "reason": "divot tool"}
+{"kind": "value", "value_id": "7479", "en": "Head cover", "new_hu": "Ütőfejhuzat", "reason": "head cover"}
+{"kind": "value", "value_id": "7478", "en": "Putter cover", "new_hu": "Putterhuzat", "reason": "putter cover"}
+{"kind": "value", "value_id": "7482", "en": "Tee holder", "new_hu": "Teetartó", "reason": "tee holder; tű is a needle"}
+{"kind": "value", "value_id": "7481", "en": "Score counter", "new_hu": "Ütésszámláló", "reason": "score counter"}
+{"kind": "attribute", "attribute_id": "golf-shoe-spike-type", "new_hu": "Golfcipő talptípusa", "reason": "spike type"}
+{"kind": "value", "value_id": "51486", "en": "Hybrid (spikeless and cleats)", "new_hu": "Hibrid (szög nélküli és szöges)", "reason": "golf shoes have spikes, not studs"}
+{"kind": "value", "value_id": "51487", "en": "Spiked (metal)", "new_hu": "Fém szöges", "reason": "metal spikes"}
+{"kind": "value", "value_id": "51488", "en": "Spiked (replaceable soft plastic cleats)", "new_hu": "Cserélhető műanyag szöges", "reason": "replaceable soft spikes"}
+{"kind": "value", "value_id": "51489", "en": "Spikeless", "new_hu": "Szög nélküli", "reason": "spikeless"}
+{"kind": "attribute", "attribute_id": "golf-tee-style", "new_hu": "Golf tee típusa", "reason": "a golf tee, not a T-shirt"}
+{"kind": "value", "value_id": "51521", "en": "Putting", "new_hu": "Puttolás", "reason": "putting"}
+{"kind": "value", "value_id": "51528", "en": "Putt speed control", "new_hu": "Puttolási sebesség szabályozása", "reason": "putt speed control"}
+{"kind": "value", "value_id": "51578", "en": "Overgrip", "new_hu": "Fedőgrip", "reason": "overgrip"}
+{"kind": "attribute", "attribute_id": "grip-material", "new_hu": "Markolat anyaga", "reason": "grip material"}
+{"kind": "value", "value_id": "51603", "en": "Paddle", "new_hu": "Lapát alakú", "reason": "paddle-shaped putter grips"}
+{"kind": "attribute", "attribute_id": "grip-wax-form", "new_hu": "Tapadóviasz formája", "reason": "spelling"}
+{"kind": "attribute", "attribute_id": "groupset-components-included", "new_hu": "Groupset részei", "reason": "groupset components"}
+{"kind": "value", "value_id": "51656", "en": "Cassette", "new_hu": "Kazetta", "reason": "cassette"}
+{"kind": "attribute", "attribute_id": "guide-material", "new_hu": "Botgyűrű anyaga", "reason": "rod guides, not a guidebook"}
+{"kind": "attribute", "attribute_id": "guide-type", "new_hu": "Botgyűrű típusa", "reason": "rod guides"}
+{"kind": "attribute", "attribute_id": "guideline-markings", "new_hu": "Vezetővonal-jelölések", "reason": "guideline markings"}
+{"kind": "attribute", "attribute_id": "gymnastics-discipline", "new_hu": "Torna szakág", "reason": "gymnastics is torna"}
+{"kind": "attribute", "attribute_id": "halter-style", "new_hu": "Kötőfék típusa", "reason": "a halter is a kötőfék, not a bridle"}
+{"kind": "attribute", "attribute_id": "hand-paddle-strap-type", "new_hu": "Tenyérellenálló pántja", "reason": "hand paddles are tenyérellenálló"}
+{"kind": "attribute", "attribute_id": "hand-side", "new_hu": "Kéz", "reason": "the attribute names the hand"}
+{"kind": "value", "value_id": "6891", "en": "Both sides", "new_hu": "Mindkét kéz", "reason": "the hand, not a side"}
+{"kind": "value", "value_id": "6889", "en": "Left", "new_hu": "Bal kéz", "reason": "the hand, not a side"}
+{"kind": "value", "value_id": "6890", "en": "Right", "new_hu": "Jobb kéz", "reason": "the hand, not a side"}
+{"kind": "value", "value_id": "51762", "en": "Match", "new_hu": "Mérkőzéslabda", "reason": "match ball"}
+{"kind": "value", "value_id": "51782", "en": "Foil", "new_hu": "Foil", "reason": "foil handles"}
+{"kind": "value", "value_id": "17495", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "51816", "en": "Resistance band handles", "new_hu": "Gumiszalagos fogantyúk", "reason": "resistance band handles"}
+{"kind": "attribute", "attribute_id": "handwear-features", "new_hu": "Kesztyű jellemzői", "reason": "the attribute name said only Jellemzők"}
+{"kind": "attribute", "attribute_id": "handwear-material", "new_hu": "Kesztyű anyaga", "reason": "handwear is gloves"}
+{"kind": "value", "value_id": "17152", "en": "Fleece", "new_hu": "Polár", "reason": "fleece is polár; gyapjú is wool"}
+{"kind": "attribute", "attribute_id": "handwear-size", "new_hu": "Kesztyűméret", "reason": "handwear is gloves"}
+{"kind": "attribute", "attribute_id": "handwear-type", "new_hu": "Kesztyű típusa", "reason": "handwear is gloves"}
+{"kind": "value", "value_id": "24831", "en": "Convertible mittens", "new_hu": "Átalakítható egyujjas kesztyű", "reason": "convertible mittens"}
+{"kind": "attribute", "attribute_id": "hardware-material", "new_hu": "Szerelvények anyaga", "reason": "hardware"}
+{"kind": "attribute", "attribute_id": "head-configuration", "new_hu": "Csákányfej kialakítása", "reason": "ice axe heads"}
+{"kind": "value", "value_id": "51873", "en": "Adze", "new_hu": "Lapát (adze)", "reason": "an adze on an ice axe; kapa is a hoe"}
+{"kind": "value", "value_id": "51874", "en": "Adze and hammer", "new_hu": "Lapát és kalapács", "reason": "adze and hammer"}
+{"kind": "attribute", "attribute_id": "headset-standard", "new_hu": "Kormánycsapágy-szabvány", "reason": "fejhallgató is a headphone"}
+{"kind": "attribute", "attribute_id": "headstall-style", "new_hu": "Kantárfej típusa", "reason": "a headstall is a kantárfej, not a halter"}
+{"kind": "value", "value_id": "51917", "en": "In-ear earbud", "new_hu": "Hallójárati (fülbe dugható)", "reason": "spelling"}
+{"kind": "attribute", "attribute_id": "heel-shoe-type", "new_hu": "Magassarkú cipő fazonja", "reason": "heel shoe type"}
+{"kind": "attribute", "attribute_id": "hitch-type", "new_hu": "Utánfutó-csatlakozó típusa", "reason": "bicycle trailer hitches"}
+{"kind": "attribute", "attribute_id": "hockey-equipment-included", "new_hu": "Mellékelt jégkorong-felszerelés", "reason": "equipment included"}
+{"kind": "value", "value_id": "21240", "en": "Athletic cup", "new_hu": "Ágyékvédő kagyló", "reason": "an athletic cup"}
+{"kind": "value", "value_id": "21241", "en": "Stick", "new_hu": "Ütő", "reason": "a hockey stick is ütő"}
+{"kind": "value", "value_id": "51996", "en": "Pond", "new_hu": "Tavi (pond hockey)", "reason": "pond hockey goals"}
+{"kind": "value", "value_id": "51997", "en": "Regulation ice", "new_hu": "Szabványos (jégre)", "reason": "regulation ice goals"}
+{"kind": "attribute", "attribute_id": "hockey-size-category", "new_hu": "Jégkorong méretkategória", "reason": "hockey is jégkorong"}
+{"kind": "value", "value_id": "7420", "en": "Pony", "new_hu": "Póni", "reason": "pony"}
+{"kind": "attribute", "attribute_id": "hunting-call-type", "new_hu": "Vadhívó típusa", "reason": "hunting calls are vadhívó"}
+{"kind": "value", "value_id": "7281", "en": "Dagger", "new_hu": "Tőrkés", "reason": "dagger"}
+{"kind": "attribute", "attribute_id": "hydration-bag-features", "new_hu": "Hidratációs zsák jellemzői", "reason": "hydration bags"}
+{"kind": "attribute", "attribute_id": "hydration-bladder-compatibility", "new_hu": "Ivózsák-kompatibilitás", "reason": "bladders are ivózsák"}
+{"kind": "attribute", "attribute_id": "hydration-mouthpiece-style", "new_hu": "Szájrész típusa", "reason": "mouthpiece style"}
+{"kind": "attribute", "attribute_id": "hydration-pack-style", "new_hu": "Hidratációs hátizsák típusa", "reason": "hydration packs"}
+{"kind": "attribute", "attribute_id": "hydration-system-insulation", "new_hu": "Hidratációs rendszer szigetelése", "reason": "hydration systems"}
+{"kind": "attribute", "attribute_id": "hydration-valve-type", "new_hu": "Ivószelep típusa", "reason": "hydration valves"}
+{"kind": "attribute", "attribute_id": "included-hydration-vessel-type", "new_hu": "Mellékelt folyadéktartó típusa", "reason": "hydration vessels"}
+{"kind": "value", "value_id": "76560", "en": "None", "new_hu": "Nincs", "reason": "none"}
+{"kind": "attribute", "attribute_id": "inline-skate-brake-type", "new_hu": "Inline korcsolya fék típusa", "reason": "inline skates"}
+{"kind": "attribute", "attribute_id": "inline-skating-style", "new_hu": "Inline korcsolyázás stílusa", "reason": "inline skating"}
+{"kind": "attribute", "attribute_id": "instep-coverage", "new_hu": "Lábfejvédés", "reason": "instep coverage"}
+{"kind": "value", "value_id": "76640", "en": "Hydrofoil stabilizer", "new_hu": "Hydrofoil stabilizátor", "reason": "szárnyashajó is a hydrofoil boat"}
+{"kind": "value", "value_id": "76622", "en": "Bridge hook", "new_hu": "Mankótartó kampó", "reason": "the billiard bridge is a mankó"}
+{"kind": "value", "value_id": "17179", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "22842", "en": "Suede", "new_hu": "Velúrbőr", "reason": "suede is velúrbőr"}
+{"kind": "value", "value_id": "34402", "en": "Pearls", "new_hu": "Gyöngy", "reason": "pearls"}
+{"kind": "value", "value_id": "1193", "en": "Sterling silver", "new_hu": "Sterling ezüst (925)", "reason": "sterling silver is 925, not fine silver"}
+{"kind": "value", "value_id": "546", "en": "Fine jewelry", "new_hu": "Nemesfém ékszer", "reason": "fine jewelry"}
+{"kind": "attribute", "attribute_id": "joint-connection", "new_hu": "Dákótoldás", "reason": "cue joints"}
+{"kind": "value", "value_id": "7151", "en": "Wood-to-wood", "new_hu": "Fa-fa", "reason": "wood-to-wood joint"}
+{"kind": "value", "value_id": "25789", "en": "Smart", "new_hu": "Okos", "reason": "smart jump ropes"}
+{"kind": "attribute", "attribute_id": "kick-point", "new_hu": "Hajlási pont", "reason": "kick point"}
+{"kind": "attribute", "attribute_id": "kick-zone-grip-system", "new_hu": "Elrugaszkodási zóna kialakítása", "reason": "cross-country ski kick zones"}
+{"kind": "attribute", "attribute_id": "kingpin-design", "new_hu": "Kingpin kialakítása", "reason": "skateboard kingpins keep the name; királycsap is literal"}
+{"kind": "attribute", "attribute_id": "kingpin-orientation", "new_hu": "Kingpin iránya", "reason": "skateboard kingpins keep the name"}
+{"kind": "attribute", "attribute_id": "kite-inflation-system", "new_hu": "Kite felfújórendszere", "reason": "kites; sárkány is a toy kite"}
+{"kind": "attribute", "attribute_id": "kite-line-configuration", "new_hu": "Kite zsinórozása", "reason": "kites"}
+{"kind": "attribute", "attribute_id": "kite-type", "new_hu": "Kite típusa", "reason": "kites"}
+{"kind": "attribute", "attribute_id": "kitesurfing-style", "new_hu": "Kiteszörf stílusa", "reason": "shops say kiteszörf"}
+{"kind": "value", "value_id": "7220", "en": "Big air kitesurfing", "new_hu": "Big air", "reason": "the discipline keeps its name"}
+{"kind": "value", "value_id": "7221", "en": "Foiling kitesurfing", "new_hu": "Foil", "reason": "the discipline keeps its name"}
+{"kind": "value", "value_id": "7222", "en": "Freeride kitesurfing", "new_hu": "Freeride", "reason": "the discipline keeps its name"}
+{"kind": "value", "value_id": "7223", "en": "Freestyle kitesurfing", "new_hu": "Freestyle", "reason": "the discipline keeps its name"}
+{"kind": "value", "value_id": "7224", "en": "Snow kitesurfing", "new_hu": "Snowkite", "reason": "the discipline keeps its name"}
+{"kind": "value", "value_id": "7225", "en": "Speed kitesurfing", "new_hu": "Speed", "reason": "the discipline keeps its name"}
+{"kind": "value", "value_id": "7226", "en": "Wave riding", "new_hu": "Hullám (wave)", "reason": "wave riding"}
+{"kind": "attribute", "attribute_id": "kneeboard-features", "new_hu": "Kneeboard jellemzői", "reason": "extended attribute of surfboard features"}
+{"kind": "value", "value_id": "21373", "en": "Peanut", "new_hu": "Peanut (kis zsebkés)", "reason": "a pocket knife pattern, not a peanut"}
+{"kind": "value", "value_id": "7287", "en": "Toothpick", "new_hu": "Toothpick (keskeny zsebkés)", "reason": "a pocket knife pattern, not a toothpick"}
+{"kind": "value", "value_id": "7294", "en": "Sunfish", "new_hu": "Sunfish (széles zsebkés)", "reason": "a pocket knife pattern, not a fish"}
+{"kind": "value", "value_id": "7297", "en": "Utensil", "new_hu": "Evőeszközös", "reason": "utensil knives"}
+{"kind": "attribute", "attribute_id": "lacrosse-ball-certification", "new_hu": "Lacrosse-labda minősítése", "reason": "spelling of the sport, as elsewhere"}
+{"kind": "attribute", "attribute_id": "lacrosse-pocket-type", "new_hu": "Lacrosse-háló zsebe", "reason": "spelling of the sport, as elsewhere"}
+{"kind": "value", "value_id": "6949", "en": "Athletic cup", "new_hu": "Ágyékvédő kagyló", "reason": "athletic cup"}
+{"kind": "value", "value_id": "6950", "en": "Cleats", "new_hu": "Stoplis cipő", "reason": "cleats are studded shoes"}
+{"kind": "attribute", "attribute_id": "lead-hardware-type", "new_hu": "Vezetőszár csatja", "reason": "lead hardware"}
+{"kind": "value", "value_id": "34335", "en": "Alligator", "new_hu": "Aligátorbőr", "reason": "alligator and crocodile shared one name"}
+{"kind": "value", "value_id": "34340", "en": "Lizard", "new_hu": "Gyíkbőr", "reason": "leather types"}
+{"kind": "value", "value_id": "34341", "en": "Ostrich", "new_hu": "Struccbőr", "reason": "leather types"}
+{"kind": "value", "value_id": "34344", "en": "Stingray", "new_hu": "Rájabőr", "reason": "leather types"}
+{"kind": "value", "value_id": "45351", "en": "Zip-off convertible", "new_hu": "Lecipzározható szárú", "reason": "zip-off trousers"}
+{"kind": "value", "value_id": "6876", "en": "Photo polarized", "new_hu": "Fotokróm polarizált", "reason": "photo polarized lenses, not a photograph"}
+{"kind": "attribute", "attribute_id": "limb-material", "new_hu": "Íjkar anyaga", "reason": "bow limbs"}
+{"kind": "value", "value_id": "77107", "en": "Floating", "new_hu": "Úszó", "reason": "floating, apart from suspending"}
+{"kind": "value", "value_id": "77148", "en": "Band-loaded", "new_hu": "Gumiszalagos", "reason": "band-loaded"}
+{"kind": "value", "value_id": "21991", "en": "Plywood", "new_hu": "Rétegelt lemez", "reason": "plywood; furnér is veneer"}
+{"kind": "value", "value_id": "16930", "en": "Redwood", "new_hu": "Mamutfenyő (redwood)", "reason": "redwood is not vörösfenyő (larch)"}
+{"kind": "attribute", "attribute_id": "lunge-trainer-style", "new_hu": "Kitörésgyakorló típusa", "reason": "fencing lunges are kitörés"}
+{"kind": "attribute", "attribute_id": "lure-buoyancy", "new_hu": "Műcsali felhajtóereje", "reason": "lures are műcsali"}
+{"kind": "value", "value_id": "77181", "en": "Floating", "new_hu": "Úszó", "reason": "floating, apart from suspending"}
+{"kind": "attribute", "attribute_id": "marker-action-type", "new_hu": "Paintball marker működése", "reason": "a paintball marker, not a felt-tip pen"}
+{"kind": "attribute", "attribute_id": "mask-skirt-material", "new_hu": "Maszk peremének anyaga", "reason": "mask skirt"}
+{"kind": "attribute", "attribute_id": "mat-backing-type", "new_hu": "Szőnyeg hátoldala", "reason": "mat backing"}
+{"kind": "value", "value_id": "823", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "22516", "en": "Fleece", "new_hu": "Polár", "reason": "fleece is polár; gyapjú is wool"}
+{"kind": "value", "value_id": "899", "en": "Plywood", "new_hu": "Rétegelt lemez", "reason": "plywood; furnér is veneer"}
+{"kind": "value", "value_id": "22532", "en": "Suede", "new_hu": "Velúrbőr", "reason": "suede is velúrbőr"}
+{"kind": "value", "value_id": "24805", "en": "Nightgown", "new_hu": "Hálóing", "reason": "nightgown"}
+{"kind": "value", "value_id": "24806", "en": "Onesie", "new_hu": "Kezeslábas pizsama", "reason": "onesie"}
+{"kind": "value", "value_id": "24809", "en": "Sleep shirt", "new_hu": "Hálópóló", "reason": "sleep shirt, apart from the nightgown"}
+{"kind": "value", "value_id": "77425", "en": "Boil-and-bite", "new_hu": "Forró vízben formázható", "reason": "boil-and-bite mouthguards"}
+{"kind": "attribute", "attribute_id": "mouthpiece-style", "new_hu": "Zablaszájrész kialakítása", "reason": "horse bit mouthpieces, not instrument mouthpieces"}
+{"kind": "value", "value_id": "6706", "en": "Boat", "new_hu": "Csónaknyak", "reason": "boat neckline"}
+{"kind": "value", "value_id": "6707", "en": "Cowl", "new_hu": "Vízesésnyak", "reason": "cowl neckline"}
+{"kind": "value", "value_id": "6710", "en": "Mandarin", "new_hu": "Mandaringallér", "reason": "mandarin neckline"}
+{"kind": "value", "value_id": "4324", "en": "Split", "new_hu": "Hasított", "reason": "split neckline"}
+{"kind": "value", "value_id": "476", "en": "Chemise", "new_hu": "Kombiné (chemise)", "reason": "a chemise nightgown, not a shirt"}
+{"kind": "attribute", "attribute_id": "nock-transparency-level", "new_hu": "Nock átlátszósága", "reason": "spelling"}
+{"kind": "attribute", "attribute_id": "nursing-access", "new_hu": "Szoptatási nyílás", "reason": "nursing access"}
+{"kind": "value", "value_id": "20178", "en": "Casual", "new_hu": "Laza", "reason": "casual; alkalom is an occasion"}
+{"kind": "value", "value_id": "1291", "en": "Casual", "new_hu": "Laza", "reason": "casual; alkalom is an occasion"}
+{"kind": "value", "value_id": "6881", "en": "Dress", "new_hu": "Elegáns", "reason": "dress occasion"}
+{"kind": "value", "value_id": "24768", "en": "Playsuit", "new_hu": "Playsuit (rövid overál)", "reason": "playsuit"}
+{"kind": "attribute", "attribute_id": "outerwear-clothing-features", "new_hu": "Felsőruházat jellemzői", "reason": "outerwear is felsőruházat, not outdoor wear"}
+{"kind": "attribute", "attribute_id": "outerwear-pieces-included", "new_hu": "Mellékelt felsőruházati darabok", "reason": "outerwear pieces included"}
+{"kind": "value", "value_id": "7594", "en": "Paddles", "new_hu": "Ütők", "reason": "paddle ball paddles are bats"}
+{"kind": "value", "value_id": "21518", "en": "Posts", "new_hu": "Oszlopok", "reason": "posts"}
+{"kind": "attribute", "attribute_id": "paddle-oar-material", "new_hu": "Evező anyaga", "reason": "paddles and oars"}
+{"kind": "value", "value_id": "25793", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "attribute", "attribute_id": "paddle-shape", "new_hu": "Ütőlap alakja", "reason": "paddle ball paddles"}
+{"kind": "attribute", "attribute_id": "paddleboard-features", "new_hu": "SUP-deszka jellemzői", "reason": "extended attribute of surfboard features"}
+{"kind": "attribute", "attribute_id": "paddleboard-intended-use", "new_hu": "SUP-deszka rendeltetése", "reason": "paddleboards are SUP boards"}
+{"kind": "value", "value_id": "24798", "en": "Fishnet", "new_hu": "Necc", "reason": "fishnet tights"}
+{"kind": "value", "value_id": "77799", "en": "Pinworms", "new_hu": "Oxyurisok (hegyesfarkú bélférgek)", "reason": "pinworms; hegyféreg is not a word"}
+{"kind": "value", "value_id": "24494", "en": "Fret", "new_hu": "Görög (meander)", "reason": "fret pattern"}
+{"kind": "value", "value_id": "24489", "en": "Diamond", "new_hu": "Rombusz", "reason": "diamond pattern"}
+{"kind": "value", "value_id": "24501", "en": "Plaid", "new_hu": "Skót kockás", "reason": "plaid and checkered shared one name"}
+{"kind": "value", "value_id": "77860", "en": "Toe cage", "new_hu": "Pedálkosaras pedál", "reason": "toe cage pedals"}
+{"kind": "attribute", "attribute_id": "penalty-card-accessories-included", "new_hu": "Játékvezetői lapok mellékelt tartozékai", "reason": "penalty cards are the referee's cards"}
+{"kind": "attribute", "attribute_id": "penalty-card-colors-included", "new_hu": "Játékvezetői lapok színei", "reason": "penalty cards are the referee's cards"}
+{"kind": "attribute", "attribute_id": "ping-pong-certification", "new_en": "Table tennis certification", "reason": "table tennis in European English, as the tree nodes"}
+{"kind": "attribute", "attribute_id": "ping-pong-competition-certification", "new_en": "Table tennis competition certification", "reason": "table tennis in European English, as the tree nodes"}
+{"kind": "attribute", "attribute_id": "ping-pong-equipment-included", "new_en": "Table tennis equipment included", "reason": "table tennis in European English, as the tree nodes; one name for the sport", "new_hu": "Mellékelt asztalitenisz-felszerelés"}
+{"kind": "value", "value_id": "21344", "en": "Ping pong balls", "new_en": "Table tennis balls", "reason": "table tennis in European English"}
+{"kind": "value", "value_id": "7191", "en": "Ping pong paddles", "new_en": "Table tennis bats", "reason": "table tennis bats, not paddles"}
+{"kind": "attribute", "attribute_id": "ping-pong-paddle-handle-style", "new_en": "Table tennis bat handle style", "reason": "table tennis bats, not paddles"}
+{"kind": "attribute", "attribute_id": "ping-pong-robot-accessory-type", "new_en": "Table tennis robot accessory type", "reason": "table tennis in European English"}
+{"kind": "attribute", "attribute_id": "ping-pong-robot-features", "new_en": "Table tennis robot features", "reason": "table tennis in European English; one name for the sport", "new_hu": "Asztaliteniszrobot jellemzői"}
+{"kind": "attribute", "attribute_id": "ping-pong-rubber-surface-type", "new_en": "Table tennis rubber surface type", "reason": "table tennis in European English"}
+{"kind": "attribute", "attribute_id": "ping-pong-rubber-type", "new_en": "Table tennis rubber type", "reason": "table tennis in European English"}
+{"kind": "attribute", "attribute_id": "ping-pong-table-type", "new_en": "Table tennis table type", "reason": "table tennis in European English"}
+{"kind": "attribute", "attribute_id": "pit-configuration", "new_hu": "Ugrómatrac kialakítása", "reason": "jumping pits, not ball pits"}
+{"kind": "attribute", "attribute_id": "pit-cover-type", "new_hu": "Ugrómatrac-huzat típusa", "reason": "jumping pits, not ball pits"}
+{"kind": "attribute", "attribute_id": "pitching-rubber-size-designation", "new_hu": "Dobógumi méretjelölése", "reason": "pitching rubber"}
+{"kind": "attribute", "attribute_id": "plate-bottom-design", "new_hu": "Bázislap aljának kialakítása", "reason": "home plates"}
+{"kind": "attribute", "attribute_id": "plate-installation-type", "new_hu": "Bázislap rögzítése", "reason": "home plates"}
+{"kind": "attribute", "attribute_id": "plate-size-category", "new_hu": "Bázislap méretkategóriája", "reason": "home plates"}
+{"kind": "attribute", "attribute_id": "plate-compatibility-standard", "new_hu": "Súlytárcsa-kompatibilitás", "reason": "weight plates"}
+{"kind": "attribute", "attribute_id": "pod-retention-system", "new_hu": "Tubustartó rögzítése", "reason": "paintball pods"}
+{"kind": "attribute", "attribute_id": "pole-basket-type", "new_hu": "Síbot-tányér típusa", "reason": "ski pole baskets"}
+{"kind": "attribute", "attribute_id": "pom-pom-handle-style", "new_hu": "Pompon fogantyúja", "reason": "spelling"}
+{"kind": "attribute", "attribute_id": "power-source", "new_hu": "Energiaforrás", "reason": "power source"}
+{"kind": "attribute", "attribute_id": "protective-cup-configuration", "new_hu": "Ágyékvédő kialakítása", "reason": "protective cups"}
+{"kind": "attribute", "attribute_id": "pull-buoy-style", "new_hu": "Lábbója típusa", "reason": "spelling"}
+{"kind": "value", "value_id": "78279", "en": "Focus mitt", "new_hu": "Fókuszkesztyű", "reason": "focus mitt"}
+{"kind": "attribute", "attribute_id": "punching-training-bag-material", "new_hu": "Bokszzsák anyaga", "reason": "punching bags"}
+{"kind": "value", "value_id": "24214", "en": "Fleece", "new_hu": "Polár", "reason": "fleece is polár; gyapjú is wool"}
+{"kind": "attribute", "attribute_id": "punching-training-bag-shape", "new_hu": "Bokszzsák formája", "reason": "punching bags"}
+{"kind": "value", "value_id": "78288", "en": "Maize", "new_hu": "Kukorica (maize)", "reason": "maize bags"}
+{"kind": "value", "value_id": "21512", "en": "Ground", "new_hu": "Földbe szúrható", "reason": "ground quivers"}
+{"kind": "attribute", "attribute_id": "racket-gauge", "new_hu": "Húrvastagság (gauge)", "reason": "racket gauge is the string gauge"}
+{"kind": "value", "value_id": "26241", "en": "Teardrop", "new_hu": "Csepp", "reason": "teardrop head shape"}
+{"kind": "value", "value_id": "21261", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "21259", "en": "Carbon", "new_hu": "Karbon", "reason": "shops say karbon for padel and tennis rackets"}
+{"kind": "value", "value_id": "21260", "en": "Carbon fiber", "new_hu": "Karbonszál", "reason": "shops say karbon for padel and tennis rackets"}
+{"kind": "value", "value_id": "7012", "en": "Mono-filament", "new_hu": "Monofil", "reason": "monofilament strings"}
+{"kind": "attribute", "attribute_id": "racquetball-squash-training-aid-type", "new_hu": "Racquetball és squash edzőeszköz típusa", "reason": "one name for the sport"}
+{"kind": "value", "value_id": "78348", "en": "Bumper Guard", "new_hu": "Ütőfejvédő", "reason": "bumper guard of the racket"}
+{"kind": "attribute", "attribute_id": "rail-system", "new_hu": "Sínrendszer", "reason": "spelling"}
+{"kind": "value", "value_id": "45710", "en": "Bib overalls and jacket set", "new_hu": "Kantáros nadrág és dzseki szett", "reason": "bib overalls"}
+{"kind": "value", "value_id": "7607", "en": "Manual pad", "new_hu": "Manual pad (alacsony doboz)", "reason": "a manual pad is a low skate box"}
+{"kind": "attribute", "attribute_id": "reach-adjustment-type", "new_hu": "Fogástávolság állítása", "reason": "brake lever reach"}
+{"kind": "value", "value_id": "6962", "en": "Expert", "new_hu": "Szakértő", "reason": "expert level"}
+{"kind": "value", "value_id": "21239", "en": "Intermediate", "new_hu": "Középhaladó", "reason": "intermediate level"}
+{"kind": "attribute", "attribute_id": "rein-features", "new_hu": "Szár jellemzői", "reason": "reins are szár"}
+{"kind": "attribute", "attribute_id": "rein-style", "new_hu": "Szár típusa", "reason": "reins are szár"}
+{"kind": "attribute", "attribute_id": "resistance-band-design", "new_hu": "Erősítő gumiszalag kialakítása", "reason": "resistance bands"}
+{"kind": "value", "value_id": "21303", "en": "Water", "new_hu": "Vízellenállásos", "reason": "water resistance system"}
+{"kind": "value", "value_id": "38167", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "attribute", "attribute_id": "riding-style", "new_hu": "Lesiklási stílus", "reason": "snowboard riding style"}
+{"kind": "value", "value_id": "7654", "en": "All-mountain", "new_hu": "All-mountain", "reason": "the style keeps its name"}
+{"kind": "value", "value_id": "78622", "en": "Tubeless rim tape", "new_hu": "Tubeless felniszalag", "reason": "tubeless rim tape"}
+{"kind": "attribute", "attribute_id": "rim-tubeless-compatibility", "new_hu": "Felni tubeless-kompatibilitása", "reason": "tubeless"}
+{"kind": "attribute", "attribute_id": "riser-material", "new_hu": "Íjmarkolat (riser) anyaga", "reason": "extended attribute; the riser, not the bow"}
+{"kind": "value", "value_id": "28724", "en": "Wrap", "new_hu": "Átlapolós", "reason": "wrap robes"}
+{"kind": "attribute", "attribute_id": "rod-guide-material", "new_hu": "Botgyűrű anyaga", "reason": "rod guides"}
+{"kind": "attribute", "attribute_id": "rod-guide-type", "new_hu": "Botgyűrű típusa", "reason": "rod guides"}
+{"kind": "value", "value_id": "78669", "en": "Stripper guide", "new_hu": "Gyűjtőgyűrű", "reason": "the stripper guide is the first large guide"}
+{"kind": "value", "value_id": "21477", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "attribute", "attribute_id": "roller-ski-technique", "new_hu": "Síroller technika", "reason": "roller skis are síroller"}
+{"kind": "value", "value_id": "78706", "en": "Floating", "new_hu": "Úszó", "reason": "floating rope"}
+{"kind": "value", "value_id": "78707", "en": "Non-floating", "new_hu": "Nem úszó", "reason": "non-floating rope"}
+{"kind": "value", "value_id": "78708", "en": "Semi-floating", "new_hu": "Félig úszó", "reason": "semi-floating rope"}
+{"kind": "value", "value_id": "78710", "en": "Half/double", "new_hu": "Fél (dupla)", "reason": "half and double ropes are the same type; iker is twin"}
+{"kind": "attribute", "attribute_id": "rotor-mounting-standard", "new_hu": "Féktárcsa rögzítési szabványa", "reason": "the rotor is the brake disc; the name duplicated another attribute"}
+{"kind": "attribute", "attribute_id": "rotor-mounting-interface", "new_hu": "Féktárcsa rögzítési felülete", "reason": "the rotor is the brake disc"}
+{"kind": "attribute", "attribute_id": "rotor-construction-type", "new_hu": "Féktárcsa kialakítása", "reason": "the rotor is the brake disc"}
+{"kind": "attribute", "attribute_id": "runner-configuration", "new_hu": "Szánkótalp kialakítása", "reason": "sled runners"}
+{"kind": "attribute", "attribute_id": "runner-material", "new_hu": "Szánkótalp anyaga", "reason": "sled runners"}
+{"kind": "attribute", "attribute_id": "saddle-pad-style", "new_hu": "Nyeregalátét típusa", "reason": "saddle pads"}
+{"kind": "attribute", "attribute_id": "saddle-rail-material", "new_hu": "Nyeregpálca anyaga", "reason": "saddle rails"}
+{"kind": "attribute", "attribute_id": "saddle-tree-material", "new_hu": "Nyeregváz anyaga", "reason": "the saddle tree is the frame"}
+{"kind": "attribute", "attribute_id": "saddle-tree-width", "new_hu": "Nyeregváz szélessége", "reason": "the saddle tree is the frame"}
+{"kind": "value", "value_id": "24967", "en": "Fisherman", "new_hu": "Halászszandál", "reason": "fisherman sandals"}
+{"kind": "value", "value_id": "24969", "en": "Gladiator", "new_hu": "Gladiátor", "reason": "gladiator sandals"}
+{"kind": "value", "value_id": "24972", "en": "Mule flat", "new_hu": "Lapos papucs (mule)", "reason": "mule flats"}
+{"kind": "value", "value_id": "24976", "en": "Thong", "new_hu": "Lábujjközi (flip-flop)", "reason": "thong sandals"}
+{"kind": "value", "value_id": "24975", "en": "T-strap", "new_hu": "T-pántos", "reason": "T-strap"}
+{"kind": "value", "value_id": "78941", "en": "Strongman", "new_hu": "Strongman", "reason": "the style keeps its name"}
+{"kind": "value", "value_id": "24837", "en": "Cowl", "new_hu": "Csősál", "reason": "cowl scarves"}
+{"kind": "value", "value_id": "24846", "en": "Wrap", "new_hu": "Stóla", "reason": "wrap scarves"}
+{"kind": "attribute", "attribute_id": "scooter-brake-pad-material", "new_hu": "Roller fékbetét anyaga", "reason": "scooters are roller; robogó is a moped"}
+{"kind": "attribute", "attribute_id": "scooter-brake-type", "new_hu": "Roller féktípusa", "reason": "scooters are roller; robogó is a moped"}
+{"kind": "value", "value_id": "28165", "en": "Drum", "new_hu": "Dobfék", "reason": "drum brake; hordó is a barrel"}
+{"kind": "value", "value_id": "28164", "en": "Disc", "new_hu": "Tárcsafék", "reason": "disc brake"}
+{"kind": "value", "value_id": "28167", "en": "Foot", "new_hu": "Lábfék", "reason": "foot brake"}
+{"kind": "attribute", "attribute_id": "sealant-formulation", "new_hu": "Tömítőfolyadék összetétele", "reason": "spelling"}
+{"kind": "attribute", "attribute_id": "seam-design", "new_hu": "Varrat kialakítása", "reason": "seam design"}
+{"kind": "value", "value_id": "45763", "en": "Critically taped seams", "new_hu": "Főbb varratoknál ragasztott", "reason": "taped seams are ragasztott"}
+{"kind": "value", "value_id": "45764", "en": "Fully taped seams", "new_hu": "Teljesen ragasztott varratok", "reason": "taped seams are ragasztott"}
+{"kind": "value", "value_id": "7524", "en": "Ladies", "new_hu": "Női (L)", "reason": "golf shaft flex codes"}
+{"kind": "value", "value_id": "21495", "en": "Senior", "new_hu": "Senior (A)", "reason": "golf shaft flex codes"}
+{"kind": "value", "value_id": "21493", "en": "Regular", "new_hu": "Normál (R)", "reason": "golf shaft flex codes"}
+{"kind": "value", "value_id": "7521", "en": "Stiff", "new_hu": "Merev (S)", "reason": "golf shaft flex codes"}
+{"kind": "value", "value_id": "7520", "en": "Extra stiff", "new_hu": "Extra merev (X)", "reason": "golf shaft flex codes"}
+{"kind": "value", "value_id": "38382", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "7668", "en": "Speed entry", "new_hu": "Gyorsbelépős (speed entry)", "reason": "speed entry bindings"}
+{"kind": "attribute", "attribute_id": "shoe-features", "new_hu": "Cipő jellemzői", "reason": "the attribute name said only Jellemzők"}
+{"kind": "attribute", "attribute_id": "shooting-rest-design", "new_hu": "Fegyvertámasz kialakítása", "reason": "shooting rests"}
+{"kind": "attribute", "attribute_id": "shooting-target-style", "new_hu": "Lövőcél kialakítása", "reason": "the values are hockey shooting targets; the name duplicated another attribute"}
+{"kind": "attribute", "attribute_id": "shooting-target-type", "new_hu": "Lőcél típusa", "reason": "shooting targets"}
+{"kind": "value", "value_id": "79211", "en": "Bag target", "new_hu": "Zsákcél", "reason": "spelling"}
+{"kind": "value", "value_id": "79212", "en": "Clay pigeon", "new_hu": "Lövészkorong", "reason": "clay pigeon"}
+{"kind": "value", "value_id": "79270", "en": "Tournament", "new_hu": "Verseny", "reason": "tournament"}
+{"kind": "attribute", "attribute_id": "singlet-cut-style", "new_hu": "Birkózódressz szabása", "reason": "singlets are dressz"}
+{"kind": "value", "value_id": "79295", "en": "Freestyle cut", "new_hu": "Szabadfogású szabás", "reason": "freestyle wrestling, not leisure"}
+{"kind": "attribute", "attribute_id": "sinker-attachment-style", "new_hu": "Ólom rögzítési módja", "reason": "a sinker is an ólom"}
+{"kind": "attribute", "attribute_id": "sinker-finish", "new_hu": "Ólom felületkezelése", "reason": "a sinker is an ólom"}
+{"kind": "attribute", "attribute_id": "sinker-shape", "new_hu": "Ólom alakja", "reason": "a sinker is an ólom"}
+{"kind": "value", "value_id": "79336", "en": "Split-shot", "new_hu": "Sörétólom", "reason": "split shot"}
+{"kind": "value", "value_id": "82510", "en": "Tall", "new_hu": "Magas termetű", "reason": "tall sizes"}
+{"kind": "value", "value_id": "21523", "en": "Cruising", "new_hu": "Cruising", "reason": "the style keeps its name"}
+{"kind": "value", "value_id": "21524", "en": "Downhill", "new_hu": "Downhill", "reason": "the style keeps its name"}
+{"kind": "attribute", "attribute_id": "ski-binding-part-type", "new_hu": "Síkötés-alkatrész típusa", "reason": "binding parts"}
+{"kind": "value", "value_id": "16918", "en": "Hybrid cap", "new_hu": "Hibrid cap", "reason": "ski cap construction; sapka is a hat"}
+{"kind": "value", "value_id": "16919", "en": "Partial cap", "new_hu": "Részleges cap", "reason": "ski cap construction; sapka is a hat"}
+{"kind": "value", "value_id": "16920", "en": "Sidewall", "new_hu": "Sidewall", "reason": "sidewall construction"}
+{"kind": "value", "value_id": "7645", "en": "Backcountry skiing", "new_hu": "Backcountry síelés", "reason": "backcountry skiing"}
+{"kind": "value", "value_id": "7646", "en": "Carve skiing", "new_hu": "Carving", "reason": "carve skiing"}
+{"kind": "value", "value_id": "7660", "en": "Nordic skiing", "new_hu": "Északi sí (nordic)", "reason": "nordic skiing"}
+{"kind": "value", "value_id": "7653", "en": "Touring", "new_hu": "Sítúra", "reason": "touring"}
+{"kind": "value", "value_id": "79400", "en": "Vertical leap", "new_hu": "Felugrás", "reason": "vertical leap"}
+{"kind": "value", "value_id": "24820", "en": "Sheath", "new_hu": "Testhezálló", "reason": "sheath skirts"}
+{"kind": "value", "value_id": "24822", "en": "Tailored", "new_hu": "Szabott", "reason": "tailored skirts"}
+{"kind": "value", "value_id": "24824", "en": "Wrap", "new_hu": "Átlapolós", "reason": "wrap skirts"}
+{"kind": "attribute", "attribute_id": "sleeping-pad-type", "new_hu": "Kempingmatrac típusa", "reason": "sleeping pads; hálószoba is a bedroom"}
+{"kind": "value", "value_id": "176", "en": "Spaghetti strap", "new_hu": "Spagettipántos", "reason": "spaghetti strap"}
+{"kind": "value", "value_id": "25010", "en": "Bootie", "new_hu": "Bokacsizma-papucs (bootie)", "reason": "bootie slippers"}
+{"kind": "value", "value_id": "25016", "en": "Slide", "new_hu": "Papucs (slide)", "reason": "slide slippers"}
+{"kind": "attribute", "attribute_id": "sneaker-style", "new_hu": "Sneaker fazonja", "reason": "sneakers, as the tree node"}
+{"kind": "value", "value_id": "25018", "en": "Athletic", "new_hu": "Sportos", "reason": "athletic style"}
+{"kind": "value", "value_id": "25020", "en": "High-top", "new_hu": "Magas szárú", "reason": "high-top"}
+{"kind": "value", "value_id": "25021", "en": "Low-top", "new_hu": "Alacsony szárú", "reason": "low-top"}
+{"kind": "value", "value_id": "21551", "en": "Camber", "new_hu": "Camber", "reason": "camber profile"}
+{"kind": "value", "value_id": "21552", "en": "Rocker", "new_hu": "Rocker", "reason": "rocker profile; egyensúlyozó is balancing"}
+{"kind": "value", "value_id": "7681", "en": "Twin tip", "new_hu": "Twin", "reason": "twin tip"}
+{"kind": "value", "value_id": "7682", "en": "Directional twin", "new_hu": "Directional twin", "reason": "the shape keeps its name"}
+{"kind": "value", "value_id": "21554", "en": "Tapered", "new_hu": "Tapered", "reason": "the shape keeps its name"}
+{"kind": "value", "value_id": "7675", "en": "Backcountry snowboarding", "new_hu": "Backcountry snowboardozás", "reason": "backcountry"}
+{"kind": "attribute", "attribute_id": "soccer-ball-compartment-type", "new_en": "Football (soccer) ball compartment type", "reason": "English names say Football (Soccer) where Shopify says Soccer (operator 2026-10-26)"}
+{"kind": "attribute", "attribute_id": "soccer-ball-type", "new_en": "Football (soccer) ball type", "reason": "English names say Football (Soccer) where Shopify says Soccer (operator 2026-10-26)"}
+{"kind": "attribute", "attribute_id": "soccer-dummy-base-type", "new_en": "Football (soccer) dummy base type", "reason": "English names say Football (Soccer) where Shopify says Soccer (operator 2026-10-26)"}
+{"kind": "attribute", "attribute_id": "soccer-dummy-design", "new_en": "Football (soccer) dummy design", "reason": "English names say Football (Soccer) where Shopify says Soccer (operator 2026-10-26)"}
+{"kind": "attribute", "attribute_id": "soccer-goal-target-style", "new_en": "Football (soccer) goal target style", "reason": "English names say Football (Soccer) where Shopify says Soccer (operator 2026-10-26)"}
+{"kind": "attribute", "attribute_id": "soccer-goal-type", "new_en": "Football (soccer) goal type", "reason": "English names say Football (Soccer) where Shopify says Soccer (operator 2026-10-26)"}
+{"kind": "attribute", "attribute_id": "soft-bait-style", "new_hu": "Gumicsali típusa", "reason": "soft plastic baits"}
+{"kind": "value", "value_id": "79562", "en": "Paddle tail", "new_hu": "Lapátfarkú", "reason": "paddle tail"}
+{"kind": "value", "value_id": "79571", "en": "Worm", "new_hu": "Giliszta", "reason": "worm baits"}
+{"kind": "attribute", "attribute_id": "softball-discipline", "new_hu": "Softball szakág", "reason": "softball discipline"}
+{"kind": "attribute", "attribute_id": "speed-bag-accessories-included", "new_hu": "Speed bag mellékelt tartozékai", "reason": "speed bags"}
+{"kind": "value", "value_id": "20063", "en": "Variable", "new_hu": "Változó", "reason": "variable"}
+{"kind": "value", "value_id": "79615", "en": "Blank", "new_hu": "Vakcsavar", "reason": "blank spikes"}
+{"kind": "attribute", "attribute_id": "spinner-blade-shape", "new_hu": "Villantólap alakja", "reason": "spinner blades"}
+{"kind": "attribute", "attribute_id": "spinner-subtype", "new_hu": "Körforgó villantó altípusa", "reason": "spinners are körforgó villantó"}
+{"kind": "value", "value_id": "79719", "en": "J-bend", "new_hu": "J-hajlítású", "reason": "J-bend spokes"}
+{"kind": "value", "value_id": "21453", "en": "Carbon", "new_hu": "Karbon", "reason": "carbon"}
+{"kind": "attribute", "attribute_id": "spoon-style", "new_hu": "Támolygó villantó típusa", "reason": "spoons are támolygó villantó"}
+{"kind": "value", "value_id": "79732", "en": "Weedless", "new_hu": "Akadásmentes", "reason": "weedless"}
+{"kind": "attribute", "attribute_id": "sport", "new_hu": "Sportág", "reason": "extended attribute of Activity (Sportág)"}
+{"kind": "attribute", "attribute_id": "sprint-canoe-class", "new_hu": "Gyorsasági kenu osztálya", "reason": "canoes, not kayaks"}
+{"kind": "attribute", "attribute_id": "starter-pistol-caliber", "new_hu": "Indítópisztoly kalibere", "reason": "starter pistols"}
+{"kind": "attribute", "attribute_id": "stepper-motion-type", "new_hu": "Stepper mozgástípusa", "reason": "shops say stepper"}
+{"kind": "attribute", "attribute_id": "stick-bow-profile", "new_hu": "Ütőív profilja", "reason": "stick bow"}
+{"kind": "attribute", "attribute_id": "stick-head-shape", "new_hu": "Ütőfej alakja", "reason": "the name was half English"}
+{"kind": "value", "value_id": "21231", "en": "Fiberglass", "new_hu": "Üvegszál", "reason": "fiberglass; üveggyapot is glass wool"}
+{"kind": "value", "value_id": "21229", "en": "Carbon", "new_hu": "Karbon", "reason": "carbon"}
+{"kind": "attribute", "attribute_id": "stick-size-compatibility", "new_hu": "Ütőméret-kompatibilitás", "reason": "hockey sticks are ütő"}
+{"kind": "attribute", "attribute_id": "strand-configuration", "new_hu": "Szálak száma", "reason": "strand is a szál, not a beach"}
+{"kind": "attribute", "attribute_id": "strike-shield-shape", "new_hu": "Ütőpajzs alakja", "reason": "the name was garbled"}
+{"kind": "attribute", "attribute_id": "stud-attachment-type", "new_hu": "Stopli rögzítése", "reason": "studs on boots are stopli, not rivets"}
+{"kind": "attribute", "attribute_id": "stud-configuration", "new_hu": "Stoplik elrendezése", "reason": "studs on boots are stopli, not rivets"}
+{"kind": "attribute", "attribute_id": "stud-material", "new_hu": "Stopli anyaga", "reason": "studs on boots are stopli, not rivets"}
+{"kind": "attribute", "attribute_id": "stump-base-type", "new_hu": "Krikettkapufa talptípusa", "reason": "stumps"}
+{"kind": "attribute", "attribute_id": "stump-size", "new_hu": "Krikettkapufa mérete", "reason": "stumps"}
+{"kind": "attribute", "attribute_id": "suitable-for-boat-type", "new_hu": "Alkalmas csónaktípus", "reason": "suitable boat type"}
+{"kind": "value", "value_id": "25800", "en": "Outrigger canoe", "new_hu": "Kitámasztós kenu", "reason": "outrigger canoe"}
+{"kind": "value", "value_id": "25801", "en": "Raft", "new_hu": "Raft (gumicsónak)", "reason": "a raft here is an inflatable raft"}
+{"kind": "value", "value_id": "25805", "en": "White water raft", "new_hu": "Vadvízi raft", "reason": "whitewater raft; fehér vízi is literal"}
+{"kind": "value", "value_id": "7305", "en": "Backpacking", "new_hu": "Hátizsákos túrázás", "reason": "backpacking"}
+{"kind": "value", "value_id": "21556", "en": "Backcountry skiing", "new_hu": "Backcountry síelés", "reason": "backcountry skiing"}
+{"kind": "value", "value_id": "7690", "en": "Recreational use", "new_hu": "Szabadidős", "reason": "recreational"}
+{"kind": "attribute", "attribute_id": "suitable-for-swim-stroke", "new_hu": "Úszásnem", "reason": "swim stroke"}
+{"kind": "attribute", "attribute_id": "support-brace-features", "new_hu": "Rögzítő (ortézis) jellemzői", "reason": "support braces; fogszabályozó is dental braces"}
+{"kind": "attribute", "attribute_id": "support-leg-count", "new_hu": "Támaszlábak száma", "reason": "the name was garbled"}
+{"kind": "attribute", "attribute_id": "surfboard-tail-shape", "new_hu": "Szörfdeszka farokformája", "reason": "the name was half English"}
+{"kind": "value", "value_id": "80093", "en": "Moon", "new_hu": "Félhold (moon)", "reason": "moon tail"}
+{"kind": "value", "value_id": "80092", "en": "Fish", "new_hu": "Fish", "reason": "fish tail"}
+{"kind": "attribute", "attribute_id": "suspension-trainer-accessories-included", "new_hu": "Függesztett edzőheveder tartozékai", "reason": "suspension trainers"}
+{"kind": "attribute", "attribute_id": "suspension-trainer-anchor-type", "new_hu": "Függesztett edzőheveder rögzítése", "reason": "suspension trainers"}
+{"kind": "value", "value_id": "80123", "en": "Coil", "new_hu": "Acélrugós (coil)", "reason": "coil suspension"}
+{"kind": "value", "value_id": "80240", "en": "Paddle tail", "new_hu": "Lapátfarkú", "reason": "paddle tail"}
+{"kind": "attribute", "attribute_id": "swimwear-set-pieces-included", "new_hu": "Fürdőruha-szett részei", "reason": "swimwear sets"}
+{"kind": "attribute", "attribute_id": "swing-trainer-type", "new_hu": "Ütésedző típusa", "reason": "swing trainers"}
+{"kind": "attribute", "attribute_id": "swing-training-objective", "new_hu": "Ütésedzés célja", "reason": "swing training"}
+{"kind": "value", "value_id": "80320", "en": "Bobbers", "new_hu": "Úszók (bobber)", "reason": "bobbers are floats"}
+{"kind": "value", "value_id": "80328", "en": "Sinkers", "new_hu": "Ólmok", "reason": "sinkers"}
+{"kind": "value", "value_id": "80333", "en": "Split rings", "new_hu": "Osztott karikák (split ring)", "reason": "split rings on lures"}
+{"kind": "attribute", "attribute_id": "tang-type", "new_hu": "Nyéltüske típusa", "reason": "a knife tang, not a taste"}
+{"kind": "value", "value_id": "38916", "en": "Encapsulated tang", "new_hu": "Körbezárt nyéltüske", "reason": "knife tang; the Shopify translation read it as taste"}
+{"kind": "value", "value_id": "38917", "en": "Full tang", "new_hu": "Teljes nyéltüske (full tang)", "reason": "knife tang; the Shopify translation read it as taste"}
+{"kind": "value", "value_id": "38918", "en": "Hidden tang", "new_hu": "Rejtett nyéltüske", "reason": "knife tang; the Shopify translation read it as taste"}
+{"kind": "value", "value_id": "38919", "en": "No tang", "new_hu": "Nyéltüske nélküli", "reason": "knife tang; the Shopify translation read it as taste"}
+{"kind": "value", "value_id": "38920", "en": "Partial tang", "new_hu": "Részleges nyéltüske", "reason": "knife tang; the Shopify translation read it as taste"}
+{"kind": "attribute", "attribute_id": "tank-top-back-style", "new_hu": "Trikó hátkivágása", "reason": "spelling"}
+{"kind": "value", "value_id": "23821", "en": "Suede", "new_hu": "Velúrbőr", "reason": "suede is velúrbőr"}
+{"kind": "attribute", "attribute_id": "tee-base-style", "new_hu": "Ütőállvány talptípusa", "reason": "a batting tee, not tea"}
+{"kind": "value", "value_id": "80420", "en": "Pressurized", "new_hu": "Nyomásos", "reason": "pressurized balls"}
+{"kind": "value", "value_id": "80444", "en": "All-season", "new_hu": "Egész éves", "reason": "all-season, apart from 4-season"}
+{"kind": "value", "value_id": "21561", "en": "Rolling", "new_hu": "Dombos", "reason": "rolling terrain; hengerelés is rolling with a roller"}
+{"kind": "attribute", "attribute_id": "thermal-set-components", "new_hu": "Aláöltöző szett részei", "reason": "thermal underwear sets"}
+{"kind": "attribute", "attribute_id": "thread-connection-size", "new_hu": "Menetcsatlakozás mérete", "reason": "the name was garbled"}
+{"kind": "attribute", "attribute_id": "thread-type", "new_hu": "Fonal típusa", "reason": "the name was garbled"}
+{"kind": "attribute", "attribute_id": "thrower-operation-type", "new_hu": "Korongdobó működése", "reason": "clay target throwers"}
+{"kind": "value", "value_id": "80480", "en": "Trap machine", "new_hu": "Trap korongdobó gép", "reason": "trap machine"}
+{"kind": "attribute", "attribute_id": "tippet-rating", "new_hu": "Előke (tippet) besorolása", "reason": "fly fishing tippets"}
+{"kind": "value", "value_id": "21418", "en": "Folding", "new_hu": "Hajtogatható", "reason": "folding tires"}
+{"kind": "attribute", "attribute_id": "tire-repair-kit-components", "new_hu": "Defektjavító készlet elemei", "reason": "tire repair kits"}
+{"kind": "value", "value_id": "80515", "en": "Tubeless plugs", "new_hu": "Tubeless dugók", "reason": "tubeless plugs"}
+{"kind": "value", "value_id": "80516", "en": "Valve core tool", "new_hu": "Szelepmag-kiszedő", "reason": "valve core tool"}
+{"kind": "value", "value_id": "80519", "en": "Tube-type", "new_hu": "Belsős", "reason": "tube-type tires"}
+{"kind": "value", "value_id": "80520", "en": "Tubeless", "new_hu": "Tubeless", "reason": "tubeless tires"}
+{"kind": "attribute", "attribute_id": "toe-pick-style", "new_hu": "Fogazat (toe pick) típusa", "reason": "figure skate toe picks"}
+{"kind": "value", "value_id": "7672", "en": "One piece strap", "new_hu": "Egyrészes pánt", "reason": "one piece strap"}
+{"kind": "value", "value_id": "3110", "en": "Wingtip", "new_hu": "Wingtip (szárnyas orr)", "reason": "wingtip toe"}
+{"kind": "attribute", "attribute_id": "tool-functions-included", "new_hu": "Szerszámfunkciók", "reason": "the name was half English"}
+{"kind": "value", "value_id": "80549", "en": "Cassette remover", "new_hu": "Kazettaleszedő", "reason": "cassette remover"}
+{"kind": "value", "value_id": "80560", "en": "Valve core tool", "new_hu": "Szelepmag-kiszedő", "reason": "valve core tool"}
+{"kind": "attribute", "attribute_id": "towed-water-sport-discipline", "new_hu": "Vontatott vízi sport ága", "reason": "towed sport, not a towable device"}
+{"kind": "attribute", "attribute_id": "track-and-field-discipline", "new_hu": "Atlétikai versenyszám", "reason": "the name said only sport"}
+{"kind": "attribute", "attribute_id": "track-event-specialization", "new_hu": "Atlétikai versenyszám-specializáció", "reason": "the name was garbled (track read as tracking)"}
+{"kind": "attribute", "attribute_id": "track-field-event-suitability", "new_hu": "Alkalmas atlétikai versenyszám", "reason": "the name said only sport"}
+{"kind": "attribute", "attribute_id": "trainer-mounting-type", "new_hu": "Görgős edző rögzítése", "reason": "bike trainers"}
+{"kind": "attribute", "attribute_id": "training-focus", "new_hu": "Edzési fókusz", "reason": "training, not schooling"}
+{"kind": "value", "value_id": "80715", "en": "Snapping", "new_hu": "Snap (labdaindítás)", "reason": "American football snapping"}
+{"kind": "attribute", "attribute_id": "training-focus-area", "new_hu": "Edzési fókuszterület", "reason": "training, not schooling"}
+{"kind": "value", "value_id": "80724", "en": "Face-off", "new_hu": "Bully (face-off)", "reason": "a face-off is a bully; bulizás is partying"}
+{"kind": "attribute", "attribute_id": "training-objective", "new_hu": "Edzési cél", "reason": "training, not schooling"}
+{"kind": "value", "value_id": "80735", "en": "Court positioning", "new_hu": "Helyezkedés a pályán", "reason": "the value was garbled"}
+{"kind": "attribute", "attribute_id": "treadmill-part-type", "new_hu": "Futópad-alkatrész típusa", "reason": "parts, not treadmill types"}
+{"kind": "value", "value_id": "80811", "en": "Hardware kit", "new_hu": "Szerelési készlet", "reason": "hardware kit is fixings"}
+{"kind": "value", "value_id": "21421", "en": "Upright", "new_hu": "Hagyományos (ülő)", "reason": "upright tricycle, not vertical"}
+{"kind": "value", "value_id": "7399", "en": "Front drive", "new_hu": "Elsőkerék-hajtás", "reason": "front wheel drive"}
+{"kind": "value", "value_id": "7398", "en": "Rear drive", "new_hu": "Hátsókerék-hajtás", "reason": "rear wheel drive"}
+{"kind": "value", "value_id": "21422", "en": "Push", "new_hu": "Tolható", "reason": "push tricycle"}
+{"kind": "value", "value_id": "46064", "en": "Pom-pom trim", "new_hu": "Pomponos szegély", "reason": "pom-pom trim; it duplicated tassel"}
+{"kind": "value", "value_id": "46068", "en": "Tassel trim", "new_hu": "Bojtos szegély", "reason": "tassel trim; it duplicated fringe"}
+{"kind": "attribute", "attribute_id": "truck-mounting-hole-pattern", "new_hu": "Gördeszkatengely furatmintázata", "reason": "skateboard trucks, not lorries"}
+{"kind": "attribute", "attribute_id": "truck-mounting-style", "new_hu": "Gördeszkatengely rögzítése", "reason": "skateboard trucks, not lorries"}
+{"kind": "attribute", "attribute_id": "truck-profile", "new_hu": "Gördeszkatengely profilja", "reason": "skateboard trucks, not lorries"}
+{"kind": "attribute", "attribute_id": "tube-weight-category", "new_hu": "Belső gumi súlykategóriája", "reason": "bike inner tubes, not pipes"}
+{"kind": "attribute", "attribute_id": "tubeless-compatible", "new_hu": "Tubeless kompatibilitás", "reason": "the name said usable without tube"}
+{"kind": "attribute", "attribute_id": "tubular-construction-type", "new_hu": "Csőgumi (tubular) kialakítása", "reason": "tubular tyres, not tube frames"}
+{"kind": "attribute", "attribute_id": "undershirt-style", "new_hu": "Alsóing stílusa", "reason": "undershirts, apart from tank tops"}
+{"kind": "value", "value_id": "523", "en": "Boyshorts", "new_hu": "Shortbugyik", "reason": "boyshorts"}
+{"kind": "value", "value_id": "521", "en": "Control briefs", "new_hu": "Alakformáló alsók", "reason": "control briefs shape, they do not check"}
+{"kind": "value", "value_id": "532", "en": "Raw-cut briefs", "new_hu": "Vágott szélű alsók", "reason": "raw-cut briefs"}
+{"kind": "value", "value_id": "526", "en": "Thong panties", "new_hu": "String bugyik", "reason": "thong; it duplicated tanga"}
+{"kind": "attribute", "attribute_id": "uniform-pieces-included", "new_hu": "Egyenruha darabjai", "reason": "the name was literal"}
+{"kind": "value", "value_id": "1083", "en": "Reusable", "new_hu": "Többször használatos", "reason": "reusable, not washable"}
+{"kind": "value", "value_id": "46127", "en": "Waltz", "new_hu": "Bokáig érő (waltz)", "reason": "waltz veil length"}
+{"kind": "attribute", "attribute_id": "visor-brim-type", "new_hu": "Napellenző/karima típusa", "reason": "cap visors"}
+{"kind": "attribute", "attribute_id": "visor-configuration", "new_hu": "Sisakrostély kialakítása", "reason": "helmet visors"}
+{"kind": "value", "value_id": "62562", "en": "Dual-pane shield", "new_hu": "Kétrétegű arcvédő", "reason": "dual-pane shield"}
+{"kind": "attribute", "attribute_id": "visor-style", "new_hu": "Napellenző stílusa", "reason": "cap visors"}
+{"kind": "attribute", "attribute_id": "wader-foot-type", "new_hu": "Gázlóruha lábrészének típusa", "reason": "waders"}
+{"kind": "value", "value_id": "80938", "en": "Stockingfoot", "new_hu": "Zoknis", "reason": "stockingfoot waders"}
+{"kind": "attribute", "attribute_id": "wader-sole-type", "new_hu": "Gázlóruha talpának típusa", "reason": "waders"}
+{"kind": "value", "value_id": "80942", "en": "Felt with studs", "new_hu": "Szöges filc", "reason": "studs on wader soles are metal spikes"}
+{"kind": "value", "value_id": "80944", "en": "Rubber with cleats", "new_hu": "Gumi stoplikkal", "reason": "cleats"}
+{"kind": "value", "value_id": "80945", "en": "Studded rubber", "new_hu": "Szöges gumi", "reason": "studs on wader soles are metal spikes"}
+{"kind": "attribute", "attribute_id": "wader-type", "new_hu": "Gázlóruha típusa", "reason": "waders, not rubber boots"}
+{"kind": "value", "value_id": "24270", "en": "Chest", "new_hu": "Mellig érő", "reason": "chest waders; láda is a box"}
+{"kind": "value", "value_id": "7427", "en": "Stockingfoot", "new_hu": "Zoknis", "reason": "stockingfoot waders"}
+{"kind": "value", "value_id": "7428", "en": "Thigh", "new_hu": "Combig érő", "reason": "thigh waders"}
+{"kind": "value", "value_id": "24272", "en": "Waist", "new_hu": "Derékig érő", "reason": "waist waders"}
+{"kind": "attribute", "attribute_id": "waveski-features", "new_hu": "Waveski jellemzői", "reason": "waveskis, not surfboards"}
+{"kind": "attribute", "attribute_id": "wax-application-method", "new_hu": "Viasz felvitelének módja", "reason": "the name was literal"}
+{"kind": "value", "value_id": "21316", "en": "Specialty", "new_hu": "Speciális", "reason": "specialty bars"}
+{"kind": "value", "value_id": "7064", "en": "Technique training", "new_hu": "Technikai edzés", "reason": "technique training"}
+{"kind": "value", "value_id": "7067", "en": "Curl", "new_hu": "Bicepszrúd (curl)", "reason": "curl bar; csavart is twisted"}
+{"kind": "value", "value_id": "7068", "en": "Safety squat", "new_hu": "Biztonsági guggolórúd", "reason": "safety squat bar"}
+{"kind": "value", "value_id": "21317", "en": "Solid", "new_hu": "Tömör", "reason": "solid bar"}
+{"kind": "value", "value_id": "7069", "en": "Swiss", "new_hu": "Svájci rúd", "reason": "swiss bar"}
+{"kind": "value", "value_id": "7070", "en": "Trap", "new_hu": "Trap bar (hatszögletű rúd)", "reason": "trap bar; csapda is a snare"}
+{"kind": "value", "value_id": "81101", "en": "Ankle", "new_hu": "Bokáig érő", "reason": "ankle height"}
+{"kind": "attribute", "attribute_id": "wetsuit-entry-system", "new_hu": "Neoprénruha cipzárazása", "reason": "wetsuits are neoprénruha"}
+{"kind": "attribute", "attribute_id": "wetsuit-seam-construction", "new_hu": "Neoprénruha varrástechnikája", "reason": "wetsuits are neoprénruha"}
+{"kind": "attribute", "attribute_id": "wetsuit-boot-height", "new_hu": "Neoprén cipő magassága", "reason": "wetsuit boots"}
+{"kind": "value", "value_id": "81127", "en": "Foot", "new_hu": "Lábfék", "reason": "foot brake"}
+{"kind": "value", "value_id": "81130", "en": "Parking", "new_hu": "Rögzítőfék", "reason": "parking brake"}
+{"kind": "attribute", "attribute_id": "wheel-hub-placement", "new_hu": "Csapágyház helyzete a kerékben", "reason": "skate wheel core placement, not steering wheels"}
+{"kind": "value", "value_id": "7638", "en": "Centerset wheel", "new_hu": "Középre helyezett (centerset)", "reason": "skate wheel core placement"}
+{"kind": "value", "value_id": "7639", "en": "Offset wheel", "new_hu": "Eltolt (offset)", "reason": "skate wheel core placement"}
+{"kind": "value", "value_id": "7640", "en": "Side-set wheel", "new_hu": "Oldalra helyezett (sideset)", "reason": "skate wheel core placement"}
+{"kind": "value", "value_id": "81150", "en": "Bullet", "new_hu": "Hegyes (bullet)", "reason": "wheel profile, not a bullet"}
+{"kind": "value", "value_id": "81156", "en": "Tapered Bullet", "new_hu": "Elkeskenyedő hegyes", "reason": "wheel profile, not a bullet"}
+{"kind": "value", "value_id": "21424", "en": "Solid", "new_hu": "Tömör", "reason": "solid wheels"}
+{"kind": "attribute", "attribute_id": "windfoil-board-mounting-system", "new_hu": "Windfoil deszka foil-rögzítése", "reason": "the name was garbled"}
+{"kind": "attribute", "attribute_id": "windsurf-fin-style", "new_hu": "Windszörf uszony stílusa", "reason": "fins, not sails"}
+{"kind": "value", "value_id": "81261", "en": "Weed", "new_hu": "Hínárálló (weed)", "reason": "weed fins"}
+{"kind": "attribute", "attribute_id": "windsurfing-board-style", "new_hu": "Windszörfdeszka stílusa", "reason": "windsurfing"}
+{"kind": "attribute", "attribute_id": "windsurfing-connection-standard", "new_hu": "Windszörf csatlakozási szabvány", "reason": "windsurfing"}
+{"kind": "attribute", "attribute_id": "windsurfing-sail-style", "new_hu": "Windszörfvitorla stílusa", "reason": "windsurfing"}
+{"kind": "value", "value_id": "81288", "en": "Bladder - leading edge", "new_hu": "Tömlő - belépőél", "reason": "wing bladders"}
+{"kind": "value", "value_id": "81289", "en": "Bladder - strut", "new_hu": "Tömlő - merevítő", "reason": "wing bladders"}
+{"kind": "value", "value_id": "81310", "en": "Wave", "new_hu": "Hullám", "reason": "wave riding"}
+{"kind": "value", "value_id": "80599", "en": "Players", "new_hu": "Játékostörölköző", "reason": "golf player towels"}
+{"kind": "attribute", "attribute_id": "wrap-style", "new_hu": "Tekerés módja", "reason": "the name was literal"}
+{"kind": "attribute", "attribute_id": "wrist-support-style", "new_hu": "Csuklótámasz típusa", "reason": "grammar"}
+{"kind": "value", "value_id": "81352", "en": "Sleeve", "new_hu": "Csuklószorító (sleeve)", "reason": "a sleeve support, not a tube"}
+{"kind": "value", "value_id": "17591", "en": "Soccer", "new_en": "Football (Soccer)", "reason": "English names say Football (Soccer) (operator, 2026-10-26)"}
+{"kind": "value", "value_id": "69788", "en": "Soccer jersey", "new_en": "Football (Soccer) jersey", "reason": "English names say Football (Soccer) (operator, 2026-10-26)"}
+{"kind": "value", "value_id": "37836", "en": "Soccer/Football Goal", "new_en": "Football (Soccer) goal", "reason": "English names say Football (Soccer) (operator, 2026-10-26)"}
+{"kind": "value", "value_id": "25109", "en": "Soccer clubs", "new_en": "Football (Soccer) clubs", "reason": "English names say Football (Soccer) (operator, 2026-10-26)"}
+{"kind": "value", "value_id": "17642", "en": "Soccer", "new_en": "Football (Soccer)", "reason": "English names say Football (Soccer) (operator, 2026-10-26)"}
+{"kind": "value", "value_id": "17637", "en": "Padel", "new_hu": "Padel", "reason": "padel is padel; Shopify's Hungarian said rowing"}
+{"kind": "value", "value_id": "3330", "en": "Almond", "new_hu": "Mandula alakú", "reason": "almond toe shape"}
+{"kind": "value", "value_id": "17305", "en": "Cap", "new_hu": "Kapli (cap toe)", "reason": "cap toe; sapka is a hat"}
+{"kind": "value", "value_id": "6800", "en": "Moc", "new_hu": "Mokaszin", "reason": "moc toe"}
+{"kind": "value", "value_id": "6801", "en": "Peep", "new_hu": "Nyitott orrú (peep toe)", "reason": "peep toe"}
+{"kind": "value", "value_id": "17307", "en": "Square", "new_hu": "Szögletes", "reason": "square toe; négyzet is the shape name"}
+{"kind": "value", "value_id": "46016", "en": "Alloy", "new_hu": "Fémötvözet", "reason": "alloy toe caps"}
+{"kind": "value", "value_id": "46020", "en": "Non-metallic", "new_hu": "Nem fém", "reason": "non-metallic toe caps"}

@@ -1,0 +1,16 @@
+{"id": "aa-1-10-5", "new_parent_id": "own-ski-clothing", "reason": "Snow pants, snow bibs and snowsuits are ski and snowboard clothing; sport clothing sits under the sport (operator 2026-10-26), Outerwear links here."}
+{"id": "aa-1-1-2-4", "new_parent_id": "own-base-layers", "reason": "Base layer tops join the base layer bottoms under Base Layers."}
+{"id": "sg-1-12-2-1-1", "new_parent_id": "own-floorball", "reason": "Floorball balls belong with the floorball node (own-floorball), not under Hockey Balls (tree-audit 2026-10-26 sport-findings.jsonl line 63)."}
+{"id": "aa-1-10-2-1", "new_parent_id": "own-jackets", "reason": "Bolero Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
+{"id": "aa-1-10-2-11", "new_parent_id": "own-jackets", "reason": "Sport Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
+{"id": "aa-1-10-2-12", "new_parent_id": "own-jackets", "reason": "Track Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
+{"id": "aa-1-10-2-14", "new_parent_id": "own-jackets", "reason": "Trucker Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
+{"id": "aa-1-10-2-15", "new_parent_id": "own-jackets", "reason": "Varsity Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
+{"id": "aa-1-10-2-16", "new_parent_id": "own-jackets", "reason": "Windbreakers is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
+{"id": "aa-1-10-2-2", "new_parent_id": "own-jackets", "reason": "Bomber Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
+{"id": "aa-1-10-2-9", "new_parent_id": "own-jackets", "reason": "Puffer Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
+{"id": "aa-1-10-2-13", "new_parent_id": "own-coats", "reason": "Trench Coats is a coat type (kabát); Hungarian shops divide coats from jackets first."}
+{"id": "aa-1-10-2-17", "new_parent_id": "own-coats", "reason": "Wrap Coats is a coat type (kabát); Hungarian shops divide coats from jackets first."}
+{"id": "aa-1-10-2-5", "new_parent_id": "own-coats", "reason": "Overcoats is a coat type (kabát); Hungarian shops divide coats from jackets first."}
+{"id": "aa-1-10-2-6", "new_parent_id": "own-coats", "reason": "Parkas is a coat type (kabát); Hungarian shops divide coats from jackets first."}
+{"id": "aa-1-10-2-7", "new_parent_id": "own-coats", "reason": "Pea Coats is a coat type (kabát); Hungarian shops divide coats from jackets first."}

@@ -11,7 +11,7 @@
 {"arukereso_path": "Autó, motor > Mezőgazdasági gumiabroncs", "products": 24, "reason": "covered: Tractor Tires (hg-12-4-10-1)."}
 {"arukereso_path": "Autó, motor > Motocross mez, offroad ruha", "products": 24, "reason": "covered: Motorcycle Outerwear (aa-1-10-7)."}
 {"arukereso_path": "Autó, motor > Motor szélvédő", "products": 24, "reason": "attribute: Vehicle type (motorcycle) of Window Parts & Accessories (vp-1-4-21)."}
-{"arukereso_path": "Autó, motor > Motoros csizma", "products": 24, "reason": "attribute: Use (motorcycling) of Boots (aa-8-3)."}
+{"arukereso_path": "Autó, motor > Motoros csizma", "products": 24, "reason": "attribute: Use (motorcycling) of Boots (aa-8-3).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-motorcycle-boots", "why": "product type and activity are categories (operator 2026-10-26)"}}
 {"arukereso_path": "Autó, motor > Tankpad", "products": 24, "reason": "covered: Samples are protective sticker sets; Vehicle Decals (vp-1-5-4-5)."}
 {"arukereso_path": "Autó, motor > Túradoboz, platni, rögzítő kit", "products": 24, "reason": "covered: Motorcycle Bags & Panniers (vp-1-7-6) holds top cases and their racks."}
 {"arukereso_path": "Autó, motor > Vezérműszíj, vezérműlánc", "products": 24, "reason": "covered: Timing Belts and Timing Chains under Engine Parts (vp-1-4-6)."}
@@ -21,7 +21,7 @@
 {"arukereso_path": "Baba, mama > Babafürdető, babasampon", "products": 56, "reason": "attribute: Age (baby) of Body Wash and Shampoo (hb-3-10-13-3)."}
 {"arukereso_path": "Baba, mama > Babakozmetikum", "products": 24, "reason": "mixed bag: Grooming kits, teething oil, cotton buds and cosmetic bags."}
 {"arukereso_path": "Baba, mama > Babaolaj", "products": 39, "reason": "attribute: Age (baby) of Body Oil (hb-3-2-9-3)."}
-{"arukereso_path": "Baba, mama > Babaszandál, mamusz", "products": 24, "reason": "attribute: Age (kids) of Slippers (aa-8-7) and Sandals."}
+{"arukereso_path": "Baba, mama > Babaszandál, mamusz", "products": 24, "reason": "attribute: Age (kids) of Slippers (aa-8-7) and Sandals.", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "a mixed category of baby sandals and slippers; it keeps its mapping to Baby & Children's Shoes"}}
 {"arukereso_path": "Baba, mama > Babasál", "products": 24, "reason": "attribute: Age (baby) of Scarves & Shawls (aa-2-26)."}
 {"arukereso_path": "Baba, mama > Babatörülköző, kifogó", "products": 24, "reason": "attribute: Age (baby) of Bath Towels (hg-15-4-1-1)."}
 {"arukereso_path": "Baba, mama > Babaápoló krém", "products": 80, "reason": "attribute: Age (baby) of Lotions & Moisturizers and Diaper Rash Creams."}
@@ -37,19 +37,19 @@
 {"arukereso_path": "Bútor, lakberendezés > Konyhabútor összeállítás", "products": 60, "reason": "covered: Prefabricated Kitchens & Kitchenettes (hg-11-9)."}
 {"arukereso_path": "Bútor, lakberendezés > Paplan és párna garnitúra", "products": 51, "reason": "bundle: A duvet and pillow bundle; parts fit Quilts & Comforters (hg-15-1-10) and Pillows."}
 {"arukereso_path": "Bútor, lakberendezés > Sörpad garnitúra, sörasztal", "products": 27, "reason": "covered: Outdoor Furniture Sets (fr-15-2)."}
-{"arukereso_path": "Divat és ruházat > Férfi divat > Férfi halásznadrág", "products": 22, "reason": "attribute: Gender and leg length (3/4) of Pants (aa-1-12)."}
-{"arukereso_path": "Divat és ruházat > Férfi lábbeli > Férfi espadrilles", "products": 82, "reason": "attribute: Gender and shoe style (espadrilles) of Flats (aa-8-9)."}
-{"arukereso_path": "Divat és ruházat > Férfi lábbeli > Férfi mokaszin", "products": 540, "reason": "attribute: Gender and shoe style (loafer, moccasin) of Flats (aa-8-9)."}
-{"arukereso_path": "Divat és ruházat > Gyerek lábbeli > Gyerek papucs", "products": 5824, "reason": "attribute: Age (kids) of Slippers (aa-8-7)."}
+{"arukereso_path": "Divat és ruházat > Férfi divat > Férfi halásznadrág", "products": 22, "reason": "attribute: Gender and leg length (3/4) of Pants (aa-1-12).", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "the leg length is an attribute, not a product type; it stays a filter"}}
+{"arukereso_path": "Divat és ruházat > Férfi lábbeli > Férfi espadrilles", "products": 82, "reason": "attribute: Gender and shoe style (espadrilles) of Flats (aa-8-9).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-espadrilles", "why": "the shoe type is a product type, a category (operator 2026-10-26); the gender stays a filter"}}
+{"arukereso_path": "Divat és ruházat > Férfi lábbeli > Férfi mokaszin", "products": 540, "reason": "attribute: Gender and shoe style (loafer, moccasin) of Flats (aa-8-9).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-loafers", "why": "the shoe type is a product type, a category (operator 2026-10-26); the gender stays a filter"}}
+{"arukereso_path": "Divat és ruházat > Gyerek lábbeli > Gyerek papucs", "products": 5824, "reason": "attribute: Age (kids) of Slippers (aa-8-7).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-kids-slippers", "why": "Shopify keeps its own Baby & Children's Shoes branch, whose children are product types; slippers are the missing type there, so this fills a type gap and adds no new age split"}}
 {"arukereso_path": "Divat és ruházat > Gyermek divat > Gyerek hálóruha, fürdőköpeny", "products": 1269, "reason": "covered: Baby & Children's Sleepwear (aa-1-25-6) and Robes (aa-1-17-5) with an age attribute."}
-{"arukereso_path": "Divat és ruházat > Gyermek divat > Gyerek mellény", "products": 192, "reason": "attribute: Age (kids) of Vests (aa-1-10-6)."}
-{"arukereso_path": "Divat és ruházat > Gyermek divat > Gyerek rövidnadrág", "products": 1097, "reason": "attribute: Age (kids) of Shorts (aa-1-14)."}
-{"arukereso_path": "Divat és ruházat > Női divat > Estélyi ruha", "products": 9, "reason": "attribute: Occasion (evening) of Dresses (aa-1-4)."}
-{"arukereso_path": "Divat és ruházat > Női divat > Koktélruha", "products": 571, "reason": "attribute: Occasion (cocktail) of Dresses (aa-1-4)."}
-{"arukereso_path": "Divat és ruházat > Női divat > Női térdnadrág, halásznadrág", "products": 74, "reason": "attribute: Gender and leg length (3/4, capri) of Pants (aa-1-12)."}
-{"arukereso_path": "Divat és ruházat > Női lábbeli > Női espadrilles", "products": 606, "reason": "attribute: Gender and shoe style (espadrilles) of Flats (aa-8-9)."}
-{"arukereso_path": "Divat és ruházat > Női lábbeli > Női hótaposó", "products": 2773, "reason": "attribute: Gender and boot type (snow) of Boots (aa-8-3)."}
-{"arukereso_path": "Divat és ruházat > Női lábbeli > Női mokaszin", "products": 1701, "reason": "attribute: Gender and shoe style (loafer, moccasin) of Flats (aa-8-9)."}
+{"arukereso_path": "Divat és ruházat > Gyermek divat > Gyerek mellény", "products": 192, "reason": "attribute: Age (kids) of Vests (aa-1-10-6).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-kids-vests", "why": "Shopify keeps its own Baby & Children's Clothing branch, whose children are product types; vests are the missing type there, so this fills a type gap and adds no new age split"}}
+{"arukereso_path": "Divat és ruházat > Gyermek divat > Gyerek rövidnadrág", "products": 1097, "reason": "attribute: Age (kids) of Shorts (aa-1-14).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-kids-shorts", "why": "Shopify keeps its own Baby & Children's Clothing branch, whose children are product types; shorts are the missing type there, so this fills a type gap and adds no new age split"}}
+{"arukereso_path": "Divat és ruházat > Női divat > Estélyi ruha", "products": 9, "reason": "attribute: Occasion (evening) of Dresses (aa-1-4).", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "the occasion is neither a product type nor a sport; it stays a filter"}}
+{"arukereso_path": "Divat és ruházat > Női divat > Koktélruha", "products": 571, "reason": "attribute: Occasion (cocktail) of Dresses (aa-1-4).", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "the occasion is neither a product type nor a sport; it stays a filter"}}
+{"arukereso_path": "Divat és ruházat > Női divat > Női térdnadrág, halásznadrág", "products": 74, "reason": "attribute: Gender and leg length (3/4, capri) of Pants (aa-1-12).", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "the leg length is an attribute, not a product type; it stays a filter"}}
+{"arukereso_path": "Divat és ruházat > Női lábbeli > Női espadrilles", "products": 606, "reason": "attribute: Gender and shoe style (espadrilles) of Flats (aa-8-9).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-espadrilles", "why": "the shoe type is a product type, a category (operator 2026-10-26); the gender stays a filter"}}
+{"arukereso_path": "Divat és ruházat > Női lábbeli > Női hótaposó", "products": 2773, "reason": "attribute: Gender and boot type (snow) of Boots (aa-8-3).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-snow-boots", "why": "the boot type is a product type, a category (operator 2026-10-26); the gender stays a filter"}}
+{"arukereso_path": "Divat és ruházat > Női lábbeli > Női mokaszin", "products": 1701, "reason": "attribute: Gender and shoe style (loafer, moccasin) of Flats (aa-8-9).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-loafers", "why": "the shoe type is a product type, a category (operator 2026-10-26); the gender stays a filter"}}
 {"arukereso_path": "Divat és ruházat > Ruházat kiegészítő > Esernyő", "products": 2458, "reason": "covered: Rain Umbrellas (hg-16-2)."}
 {"arukereso_path": "Divat és ruházat > Ruházat kiegészítő > Gyerek esernyő", "products": 375, "reason": "attribute: Age (kids) of Rain Umbrellas (hg-16-2)."}
 {"arukereso_path": "Erotika > Bilincs, kötöző", "products": 39, "reason": "covered: Sex Toys & Erotic Games (ma-1-4); toy type is an attribute there."}
@@ -125,20 +125,20 @@
 {"arukereso_path": "Otthon és kert > Talajcsavar", "products": 24, "reason": "covered: Ground Spikes (ha-6-13)."}
 {"arukereso_path": "Otthon és kert > Tálalóeszköz", "products": 25, "reason": "covered: Serving spoons and forks under Flatware (hg-11-10-6-6-7) and Serveware."}
 {"arukereso_path": "Sport és Fitness", "products": 0, "reason": "no products: Top-level bucket with no own products."}
-{"arukereso_path": "Sport és Fitness > Airbike", "products": 30, "reason": "attribute: Resistance type (air) of Exercise Bikes (sg-2-4-2-2)."}
-{"arukereso_path": "Sport és Fitness > Alsóruházat", "products": 24, "reason": "covered: Base Layer Tops (aa-1-1-2-4) and Activewear Pants."}
-{"arukereso_path": "Sport és Fitness > Bokszcipő", "products": 24, "reason": "attribute: Activity (boxing, wrestling) of Athletic Shoes (aa-8-1)."}
-{"arukereso_path": "Sport és Fitness > Elektromos egykerekű", "products": 6, "reason": "attribute: Power source (electric) of Unicycles (sg-4-4-8)."}
+{"arukereso_path": "Sport és Fitness > Airbike", "products": 30, "reason": "attribute: Resistance type (air) of Exercise Bikes (sg-2-4-2-2).", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "the resistance type is an attribute of Exercise Bikes, not a product type"}}
+{"arukereso_path": "Sport és Fitness > Alsóruházat", "products": 24, "reason": "covered: Base Layer Tops (aa-1-1-2-4) and Activewear Pants.", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-base-layers", "why": "base layers are a product type; Shopify has tops but no bottoms, so the category sat on Activewear itself"}}
+{"arukereso_path": "Sport és Fitness > Bokszcipő", "products": 24, "reason": "attribute: Activity (boxing, wrestling) of Athletic Shoes (aa-8-1).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-boxing-shoes", "why": "sport is a category (operator 2026-10-26)"}}
+{"arukereso_path": "Sport és Fitness > Elektromos egykerekű", "products": 6, "reason": "attribute: Power source (electric) of Unicycles (sg-4-4-8).", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "the power source is an attribute; it stays a filter"}}
 {"arukereso_path": "Sport és Fitness > Elektromos görkorcsolya", "products": 0, "reason": "no products: Empty on Arukereso."}
 {"arukereso_path": "Sport és Fitness > Fogyasztó öv, karcsúsító öv", "products": 24, "reason": "covered: Waist Cinchers (aa-1-6-10-5)."}
-{"arukereso_path": "Sport és Fitness > Férfi túracipő, túrabakancs", "products": 24, "reason": "attribute: Gender and activity (hiking) of Athletic Shoes (aa-8-1) and Boots (aa-8-3)."}
+{"arukereso_path": "Sport és Fitness > Férfi túracipő, túrabakancs", "products": 24, "reason": "attribute: Gender and activity (hiking) of Athletic Shoes (aa-8-1) and Boots (aa-8-3).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-hiking-footwear", "why": "sport and activity are categories (operator 2026-10-26); the gender stays a filter"}}
 {"arukereso_path": "Sport és Fitness > Jégkorong sisak kiegészítő", "products": 3, "reason": "covered: Hockey Protective Gear (sg-1-12-4)."}
-{"arukereso_path": "Sport és Fitness > Kézilabda háló", "products": 24, "reason": "mixed bag: Goal nets for several sports and a ball cage."}
+{"arukereso_path": "Sport és Fitness > Kézilabda háló", "products": 24, "reason": "mixed bag: Goal nets for several sports and a ball cage.", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "still a mixed bag of goal nets for several sports and a ball cage (tree-audit 2026-10-26 sport-findings.jsonl line 61)"}}
 {"arukereso_path": "Sport és Fitness > Lovas lábszárvédő", "products": 24, "reason": "covered: Chaps (aa-1-10-1)."}
 {"arukereso_path": "Sport és Fitness > Ló fülvédő", "products": 24, "reason": "covered: Horse Fly & Insect Control (sg-4-5-1-10)."}
-{"arukereso_path": "Sport és Fitness > Női túracipő, túrabakancs", "products": 24, "reason": "attribute: Gender and activity (hiking) of Athletic Shoes (aa-8-1) and Boots (aa-8-3)."}
+{"arukereso_path": "Sport és Fitness > Női túracipő, túrabakancs", "products": 24, "reason": "attribute: Gender and activity (hiking) of Athletic Shoes (aa-8-1) and Boots (aa-8-3).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-hiking-footwear", "why": "sport and activity are categories (operator 2026-10-26); the gender stays a filter"}}
 {"arukereso_path": "Sport és Fitness > Pontkesztyű", "products": 24, "reason": "covered: Sparring Gloves (sg-1-4-1-4-4)."}
-{"arukereso_path": "Sport és Fitness > Sídzseki", "products": 24, "reason": "attribute: Activity (ski) of Coats & Jackets (aa-1-10-2)."}
+{"arukereso_path": "Sport és Fitness > Sídzseki", "products": 24, "reason": "attribute: Activity (ski) of Coats & Jackets (aa-1-10-2).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-ski-jackets", "why": "sport is a category (operator 2026-10-26)"}}
 {"arukereso_path": "Sport és Fitness > Trambulin létra", "products": 24, "reason": "covered: Trampoline Accessories (tg-3-13)."}
 {"arukereso_path": "Sport és Fitness > Via ferrata szett", "products": 24, "reason": "covered: Climbing Double Lanyards (sg-4-3-7)."}
 {"arukereso_path": "Számítógép > Adatmentő program", "products": 12, "reason": "covered: Computer Utilities & Maintenance Software (so-1-4)."}

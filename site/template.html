@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ShelfScreen kategóriafa</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,7 +80,13 @@ ul.plain li span:first-child { min-width: 0; overflow-wrap: anywhere; }
 .note { font-size: 12px; color: var(--muted); }
 @media (max-width: 860px) { .main { grid-template-columns: minmax(0, 1fr); } .tree { max-height: 60vh; } .detail { position: static; max-height: none; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+.links a, .lnk { color: var(--accent); text-decoration: none; cursor: pointer; }
+.links a:hover, .lnk:hover { text-decoration: underline; }
+details.vals-d summary { cursor: pointer; color: var(--muted); font-size: 12px; margin-top: 4px; }
+ul.ev { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header>
@@ -109,7 +120,7 @@ ul.plain li span:first-child { min-width: 0; overflow-wrap: anywhere; }
 <script id="data" type="application/json">__DATA__</script>
 <script>
 (function () {
-  var D = JSON.parse(document.getElementById("data").textContent);
+  var DATA = JSON.parse(document.getElementById("data").textContent), D = DATA.nodes, FD = DATA.filters;
   var byId = {}, kids = {}, roots = [];
   D.forEach(function (n) { byId[n.i] = n; kids[n.i] = []; });
   D.forEach(function (n) { if (n.p && byId[n.p]) kids[n.p].push(n.i); else roots.push(n.i); });
@@ -117,23 +128,23 @@ ul.plain li span:first-child { min-width: 0; overflow-wrap: anywhere; }
   sortIds(roots); Object.keys(kids).forEach(function (k) { sortIds(kids[k]); });
 
   var T = {
-    hu: { lede: "Saját, modern kategóriafa a magyar piacra: Shopify v2026-08 gerinc, javított magyar nevek, saját csomópontok és szűrők. A termékszám az Árukereső kategóriaoldalairól jön (2026-10-19).",
-          nodes: "csomópont", own: "saját", ren: "átnevezve", flt: "szűrővel", prod: "termék",
+    hu: { lede: "Saját, modern kategóriafa a magyar piacra: Shopify v2026-08 gerinc, javított magyar nevek, saját csomópontok, a sportcipők és a sportruházat sportáganként, minden csomóponton a Shopify teljes szűrőlistája. Minden csomópont látszik; a termékszám az Árukereső kategóriaoldalairól jön (2026-10-19).",
+          nodes: "csomópont", own: "saját", ren: "átnevezve", flt: "szűrővel", prod: "Árukereső-termék", lnk: "kereszthivatkozás",
           fOwn: "Csak saját", fRen: "Csak átnevezett", fFlt: "Csak szűrős", collapse: "Mind becsuk",
-          pick: "Válassz egy kategóriát a fában.", id: "Azonosító", source: "Forrás", products: "Termék", nameEn: "Angolul", nameHu: "Magyarul",
+          pick: "Válassz egy kategóriát a fában.", id: "Azonosító", source: "Forrás", products: "Árukereső-termék", nameEn: "Angolul", nameHu: "Magyarul",
           srcOwn: "Saját csomópont", srcShop: "Shopify v2026-08", was: "Shopify magyar neve volt", why: "Miért saját",
-          filters: "Szűrők", aru: "Árukereső-kategóriák itt", none: "Nincs találat.", rel: { same: "ugyanaz", aru_broader: "Árukereső tágabb", aru_narrower: "Árukereső szűkebb", none: "nincs pár" },
+          filters: "Szűrők", aru: "Árukereső-kategóriák itt", links: "Lásd még", ev: "Bizonyíték", vals: "érték", unrev: "A magyar név a Shopify fordítása, még nincs átnézve.", notCounted: "nem számolt", moved: "Áthelyezve innen", none: "Nincs találat.", rel: { same: "ugyanaz", aru_broader: "Árukereső tágabb", aru_narrower: "Árukereső szűkebb", none: "nincs pár" },
           own_attr: "saját tulajdonság", vGroup: "E-kereskedelmi kategóriák", vTree: "Teljes fa", noneGroup: "Egyéb",
-          grpLede: "Termékek aránya az Árukereső kategóriaoldalai alapján (2026-10-19). Egy kategória alatt a fa azon ágai állnak, amelyek ide tartoznak; ha egy ág egy része máshová tartozik, az a saját helyén jelenik meg.", subs: "Alkategóriák", branches: "A fa ágai itt", share: "arány", fWeak: "Csak bizonytalan e-ker. kategória", ecomAll: "Minden e-kereskedelmi kategória", ecomNone: "Egyéb",
+          grpLede: "Az Árukereső-termékek aránya a kategóriaoldalak alapján (2026-10-19). Egy kategória alatt a fa azon ágai állnak, amelyek ide tartoznak; ha egy ág egy része máshová tartozik, az a saját helyén jelenik meg.", subs: "Alkategóriák", branches: "A fa ágai itt", share: "arány", fWeak: "Csak bizonytalan e-ker. kategória", ecomAll: "Minden e-kereskedelmi kategória", ecomNone: "Egyéb",
           ecom: "E-kereskedelmi kategória", inh: "örökölt", expl: "saját besorolás", weak: "bizonytalan", noneTag: "egyéb" },
-    en: { lede: "Our own modern category tree for the Hungarian market: Shopify v2026-08 backbone, corrected Hungarian names, own nodes and filters. Product counts come from Arukereso category pages (2026-10-19).",
-          nodes: "nodes", own: "own", ren: "renamed", flt: "with filters", prod: "products",
+    en: { lede: "Our own modern category tree for the Hungarian market: Shopify v2026-08 backbone, corrected Hungarian names, own nodes, sport shoes and sport clothing by sport, and Shopify's full filter list on every node. Every node is shown; product counts come from Arukereso category pages (2026-10-19).",
+          nodes: "nodes", own: "own", ren: "renamed", flt: "with filters", prod: "Arukereso products", lnk: "cross-links",
           fOwn: "Own only", fRen: "Renamed only", fFlt: "With filters only", collapse: "Collapse all",
-          pick: "Pick a category in the tree.", id: "Id", source: "Source", products: "Products", nameEn: "English", nameHu: "Hungarian",
+          pick: "Pick a category in the tree.", id: "Id", source: "Source", products: "Arukereso products", nameEn: "English", nameHu: "Hungarian",
           srcOwn: "Own node", srcShop: "Shopify v2026-08", was: "Shopify Hungarian name was", why: "Why own",
-          filters: "Filters", aru: "Arukereso categories here", none: "No match.", rel: { same: "same", aru_broader: "Arukereso broader", aru_narrower: "Arukereso narrower", none: "no match" },
+          filters: "Filters", aru: "Arukereso categories here", links: "See also", ev: "Evidence", vals: "values", unrev: "The Hungarian name is Shopify's translation, not yet reviewed.", notCounted: "not counted", moved: "Moved from", none: "No match.", rel: { same: "same", aru_broader: "Arukereso broader", aru_narrower: "Arukereso narrower", none: "no match" },
           own_attr: "own attribute", vGroup: "E-commerce categories", vTree: "Full tree", noneGroup: "Other",
-          grpLede: "Share of products from Arukereso category pages (2026-10-19). Under a category stand the branches of the tree that belong there; a part of a branch that belongs elsewhere appears in its own place.", subs: "Subcategories", branches: "Tree branches here", share: "share", fWeak: "Uncertain e-commerce category only", ecomAll: "All e-commerce categories", ecomNone: "Other",
+          grpLede: "Share of Arukereso products from its category pages (2026-10-19). Under a category stand the branches of the tree that belong there; a part of a branch that belongs elsewhere appears in its own place.", subs: "Subcategories", branches: "Tree branches here", share: "share", fWeak: "Uncertain e-commerce category only", ecomAll: "All e-commerce categories", ecomNone: "Other",
           ecom: "E-commerce category", inh: "inherited", expl: "set here", weak: "uncertain", noneTag: "other" }
   };
   var view = "group", gopen = {}, lang = "hu", open = {}, sel = null, q = "", fOwn = false, fRen = false, fFlt = false, fWeak = false, ecomSel = "";
@@ -148,8 +159,8 @@ ul.plain li span:first-child { min-width: 0; overflow-wrap: anywhere; }
   function norm(s) { return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
   function pathOf(id, key) { var p = [], n = byId[id]; while (n) { p.unshift(n[key]); n = n.p ? byId[n.p] : null; } return p.join(" > "); }
 
-  var stats = { own: 0, ren: 0, flt: 0 };
-  D.forEach(function (n) { if (n.s) stats.own++; if (n.r) stats.ren++; if (n.f) stats.flt++; });
+  var stats = { own: 0, ren: 0, flt: 0, lnk: 0 };
+  D.forEach(function (n) { if (n.s) stats.own++; if (n.r) stats.ren++; if (n.f) stats.flt++; if (n.l) stats.lnk += n.l.length; });
   var totalProducts = roots.reduce(function (a, id) { return a + byId[id].n; }, 0);
   function mainOf(n) { return n.c[2] && n.c[2] !== "none" && n.c[2] !== "Other" ? n.c[2] : "none"; }
   function cls(n) { return mainOf(n) + "|" + (mainOf(n) === "none" ? "" : (n.c[3] || "")); }
@@ -271,22 +282,30 @@ ul.plain li span:first-child { min-width: 0; overflow-wrap: anywhere; }
     h.push("<div><h2>" + esc(name(n)) + '</h2><div class="path">' + esc(pathOf(sel, lang === "hu" ? "h" : "e")) + "</div></div>");
     h.push('<dl class="kv"><dt>' + L.nameHu + "</dt><dd>" + esc(n.h) + "</dd><dt>" + L.nameEn + "</dt><dd>" + esc(n.e) + "</dd>" +
       "<dt>" + L.products + '</dt><dd class="mono">' + num(n.n) + "</dd><dt>" + L.source + "</dt><dd>" + (n.s ? L.srcOwn : L.srcShop) + "</dd>" +
-      "<dt>" + L.id + '</dt><dd class="mono">' + esc(n.i) + "</dd>" + (n.r ? "<dt>" + L.was + "</dt><dd>" + esc(n.r) + "</dd>" : "") + "</dl>");
+      "<dt>" + L.id + '</dt><dd class="mono">' + esc(n.i) + "</dd>" + (n.r ? "<dt>" + L.was + "</dt><dd>" + esc(n.r) + "</dd>" : "") +
+      (n.m ? "<dt>" + L.moved + '</dt><dd class="mono">' + esc(n.m) + "</dd>" : "") + "</dl>");
+    if (n.u && lang === "hu") h.push('<p class="note">' + L.unrev + "</p>");
     var c = n.c;
     h.push('<div><p class="label">' + L.ecom + '</p><div class="ecom-line"><span>' +
       (mainOf(n) === "none" ? esc(L.noneGroup) : esc(lang === "hu" ? (c[0] + " > " + (c[1] || "")) : (c[2] + " > " + (c[3] || "")))) +
       '</span><span class="tag ' + (c[4] ? "t-weak" : "t-flt") + '">' + (c[5] ? L.inh : L.expl) + (c[4] === 1 ? ", " + L.weak : "") + "</span></div>" +
       (c[6] ? '<p class="note">' + esc(c[6]) + "</p>" : "") + "</div>");
     if (n.why) h.push('<div><p class="label">' + L.why + '</p><p class="note">' + esc(n.why) + "</p></div>");
+    if (n.ev) h.push('<div><p class="label">' + L.ev + '</p><ul class="ev">' + n.ev.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></div>");
+    if (n.l) h.push('<div class="links"><p class="label">' + L.links + '</p><ul class="plain">' + n.l.filter(function (x) { return byId[x]; }).map(function (x) {
+      return '<li><span><a data-go="' + esc(x) + '">' + esc(pathOf(x, lang === "hu" ? "h" : "e")) + '</a></span><span class="num">' + num(byId[x].n) + "</span></li>"; }).join("") + "</ul></div>");
     if (n.f) {
-      h.push('<div><p class="label">' + L.filters + '</p><ul class="plain">' + n.f.map(function (f) {
-        return '<li style="display:block"><span>' + esc(lang === "hu" ? f[0] : f[1]) + (f[3] === "own" ? ' <span class="note">(' + L.own_attr + ")</span>" : "") +
-          '</span><div class="vals">' + f[2].map(function (v) { return '<span class="val">' + esc(lang === "hu" ? v[0] : v[1]) + "</span>"; }).join("") + "</div></li>";
+      h.push('<div><p class="label">' + L.filters + '</p><ul class="plain">' + n.f.map(function (r) {
+        var own = typeof r !== "number", f = own ? r : FD[r];
+        var vals = f[2].map(function (v) { return '<span class="val">' + esc((lang === "hu" ? v[0] : v[1]) || v[1]) + "</span>"; }).join("");
+        return '<li style="display:block"><span>' + esc((lang === "hu" ? f[0] : f[1]) || f[1]) + (own ? ' <span class="note">(' + L.own_attr + ")</span>" : "") +
+          (lang === "hu" && !f[3] ? ' <span class="tag t-weak">' + (lang === "hu" ? "nincs átnézve" : "not reviewed") + "</span>" : "") +
+          '</span>' + (f[2].length > 12 ? '<details class="vals-d"><summary>' + f[2].length + " " + L.vals + '</summary><div class="vals">' + vals + "</div></details>" : '<div class="vals">' + vals + "</div>") + "</li>";
       }).join("") + "</ul></div>");
     }
     if (n.a) {
       h.push('<div><p class="label">' + L.aru + '</p><ul class="plain">' + n.a.slice().sort(function (x, y) { return (y[1] || 0) - (x[1] || 0); }).map(function (a) {
-        return "<li><span>" + esc(a[0]) + ' <span class="note">(' + (L.rel[a[2]] || a[2]) + ')</span></span><span class="num">' + num(a[1]) + "</span></li>";
+        return "<li><span>" + esc(a[0]) + ' <span class="note">(' + (L.rel[a[2]] || a[2]) + (a[3] ? ", " + L.notCounted : "") + ')</span></span><span class="num">' + num(a[1]) + "</span></li>";
       }).join("") + "</ul></div>");
     }
     detailEl.innerHTML = h.join("");
@@ -299,6 +318,7 @@ ul.plain li span:first-child { min-width: 0; overflow-wrap: anywhere; }
     document.getElementById("stats").innerHTML =
       "<span><b>" + num(D.length) + "</b> " + L.nodes + "</span><span><b>" + num(stats.own) + "</b> " + L.own +
       "</span><span><b>" + num(stats.ren) + "</b> " + L.ren + "</span><span><b>" + num(stats.flt) + "</b> " + L.flt +
+      "</span><span><b>" + num(stats.lnk) + "</b> " + L.lnk +
       "</span><span><b>" + num(totalProducts) + "</b> " + L.prod + "</span>";
     document.getElementById("q").placeholder = lang === "hu" ? "Keresés (magyar vagy angol név)" : "Search (Hungarian or English name)";
     document.getElementById("f-own").textContent = L.fOwn;
@@ -328,6 +348,12 @@ ul.plain li span:first-child { min-width: 0; overflow-wrap: anywhere; }
     if (kids[id].length && !keep) open[id] = !open[id];  // in the grouped view a row may have only cross-class children; toggling is harmless
     sel = id; render(); renderDetail();
   });
+  detailEl.addEventListener("click", function (e) {
+    var a = e.target.closest("[data-go]"); if (!a) return;
+    var id = a.getAttribute("data-go"); view = "tree"; q = ""; document.getElementById("q").value = ""; keep = null;
+    var m = byId[id] && byId[id].p ? byId[byId[id].p] : null; while (m) { open[m.i] = true; m = m.p ? byId[m.p] : null; }
+    sel = id; all(); var row = treeEl.querySelector(".row.sel"); if (row && row.scrollIntoView) row.scrollIntoView({ block: "center" });
+  });
   var t;
   document.getElementById("q").addEventListener("input", function (e) { clearTimeout(t); t = setTimeout(function () { q = e.target.value.trim(); computeKeep(); render(); }, 120); });
   function chip(id, set) { document.getElementById(id).addEventListener("click", function (e) { var v = set(); e.currentTarget.setAttribute("aria-pressed", v); computeKeep(); render(); }); }
@@ -349,3 +375,5 @@ ul.plain li span:first-child { min-width: 0; overflow-wrap: anywhere; }
   var row = treeEl.querySelector('.row.sel'); if (row && row.scrollIntoView) row.scrollIntoView({ block: "center" });
 })();
 </script>
+</body>
+</html>
