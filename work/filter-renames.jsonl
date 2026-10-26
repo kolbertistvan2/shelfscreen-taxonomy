@@ -582,9 +582,9 @@
 {"kind": "value", "value_id": "21523", "en": "Cruising", "old_hu": "Könnyed", "new_hu": "Cruising", "reason": "the style keeps its name"}
 {"kind": "value", "value_id": "21524", "en": "Downhill", "old_hu": "Lejtős", "new_hu": "Downhill", "reason": "the style keeps its name"}
 {"kind": "attribute", "attribute_id": "ski-binding-part-type", "en": "Ski binding part type", "old_hu": "Síkötés típusa", "new_hu": "Síkötés-alkatrész típusa", "reason": "binding parts"}
-{"kind": "value", "value_id": "16918", "en": "Hybrid cap", "old_hu": "Hibrid sapka", "new_hu": "Hibrid cap", "reason": "ski cap construction; sapka is a hat"}
-{"kind": "value", "value_id": "16919", "en": "Partial cap", "old_hu": "Részleges sapka", "new_hu": "Részleges cap", "reason": "ski cap construction; sapka is a hat"}
-{"kind": "value", "value_id": "16920", "en": "Sidewall", "old_hu": "Oldalfal", "new_hu": "Sidewall", "reason": "sidewall construction"}
+{"kind": "value", "value_id": "16918", "en": "Hybrid cap", "old_hu": "Hibrid sapka", "new_hu": "Hibrid (borított felsőlap és oldalfal)", "reason": "ski cap construction; sapka is a hat; hybrid cap construction (fix round 2)"}
+{"kind": "value", "value_id": "16919", "en": "Partial cap", "old_hu": "Részleges sapka", "new_hu": "Részben borított felsőlapos (partial cap)", "reason": "ski cap construction; sapka is a hat; partial cap construction (fix round 2)"}
+{"kind": "value", "value_id": "16920", "en": "Sidewall", "old_hu": "Oldalfal", "new_hu": "Oldalfalas (sidewall)", "reason": "sidewall construction; sidewall construction (fix round 2)"}
 {"kind": "value", "value_id": "7645", "en": "Backcountry skiing", "old_hu": "Hátországi síelés", "new_hu": "Backcountry síelés", "reason": "backcountry skiing"}
 {"kind": "value", "value_id": "7646", "en": "Carve skiing", "old_hu": "Karcolt síelés", "new_hu": "Carving", "reason": "carve skiing"}
 {"kind": "value", "value_id": "7660", "en": "Nordic skiing", "old_hu": "Északi síelés", "new_hu": "Északi sí (nordic)", "reason": "nordic skiing"}
@@ -873,8 +873,6 @@
 {"kind": "value", "value_id": "22624", "en": "Suede", "old_hu": "Szarvasbőr", "new_hu": "Velúrbőr", "reason": "suede (second pass)"}
 {"kind": "value", "value_id": "44672", "en": "Patch", "old_hu": "Folt", "new_hu": "Felvarró (patch)", "reason": "patch (second pass)"}
 {"kind": "value", "value_id": "44669", "en": "Direct to garment (DTG)", "old_hu": "Közvetlen ruhamyomtatás (DTG)", "new_hu": "Közvetlen textilnyomtatás (DTG)", "reason": "spelling (second pass)"}
-{"kind": "value", "value_id": "50154", "en": "Sock", "old_hu": "Zsák", "new_hu": "Zsák (sock)", "reason": "sock decoy (second pass)"}
-{"kind": "value", "value_id": "50164", "en": "Sock", "old_hu": "Zsák", "new_hu": "Zsák (sock)", "reason": "sock decoy (second pass)"}
 {"kind": "value", "value_id": "50171", "en": "Braze-on", "old_hu": "Konzolos", "new_hu": "Forrasztott fül (braze-on)", "reason": "braze-on (second pass)"}
 {"kind": "value", "value_id": "50276", "en": "Star", "old_hu": "Csillag", "new_hu": "Csillagfék", "reason": "star drag (second pass)"}
 {"kind": "value", "value_id": "24724", "en": "Portrait", "old_hu": "Portré", "new_hu": "Fotózás", "reason": "portrait occasion (second pass)"}
@@ -1005,7 +1003,7 @@
 {"kind": "value", "value_id": "45785", "en": "Tummy control", "old_hu": "Haskontroll", "new_hu": "Hasszorító", "reason": "tummy control (second pass)"}
 {"kind": "attribute", "attribute_id": "shapewear-support-level", "en": "Shapewear support level", "old_hu": "Alakformáló ruházati cikkek támogatási szintje", "new_hu": "Alakformálás erőssége", "reason": "the name was garbled (second pass)"}
 {"kind": "value", "value_id": "22935", "en": "Orthopedic", "old_hu": "Ortopéd, gyógy", "new_hu": "Ortopéd", "reason": "orthopedic (second pass)"}
-{"kind": "value", "value_id": "21363", "en": "Cap", "old_hu": "Sapka", "new_hu": "Cap", "reason": "ski cap construction; sapka is a hat (second pass)"}
+{"kind": "value", "value_id": "21363", "en": "Cap", "old_hu": "Sapka", "new_hu": "Borított felsőlapos (cap)", "reason": "ski cap construction; sapka is a hat (second pass); cap ski construction; English left as is before (fix round 2)"}
 {"kind": "value", "value_id": "21911", "en": "Knee", "old_hu": "Térd", "new_hu": "Térdig érő", "reason": "knee length (second pass)"}
 {"kind": "value", "value_id": "24810", "en": "Bracer", "old_hu": "Hátkötős", "new_hu": "Kantáros szoknya", "reason": "bracer skirt (second pass)"}
 {"kind": "value", "value_id": "24811", "en": "Circle", "old_hu": "Kör", "new_hu": "Körszoknya", "reason": "circle skirt (second pass)"}

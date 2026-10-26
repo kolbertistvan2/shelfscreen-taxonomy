@@ -45,10 +45,11 @@ Counts from `sh build/all.sh` on 2026-10-27 (v0.2 after fix round 1) and from th
   Homeware / Bútor és lakberendezés, Grocery / Élelmiszer. A node with none of them is Other / Egyéb. They follow
   `v3 Ecommerce Product category definitions`: running, tennis and basketball shoes are Fashion > Footwear;
   football, climbing and bike shoes are Sports Equipment; activewear, team jerseys and kits (football,
-  basketball, rugby, cricket, cheerleading, Sports Uniforms) are Fashion > Apparel; sport-specific apparel
-  (ski and snowboard clothing, wetsuits and water sport apparel, martial arts clothing, goalkeeper gloves) is
-  Sports Equipment. Cycling and riding apparel stay Sports Equipment with fit `weak`: the definitions name
-  neither.
+  basketball, rugby, Sports Uniforms) are Fashion > Apparel, cricket clothing too with fit `weak`; sport-specific
+  apparel (ski and snowboard clothing, wetsuits and water sport apparel, martial arts and fencing wear,
+  goalkeeper gloves) is Sports Equipment, cheerleading uniforms too with fit `weak`. Cycling and riding apparel
+  stay Sports Equipment with fit `weak`. A `weak` fit means the definitions do not name the product. A class
+  is given once: an older row that a later file replaces carries `superseded_by` and is skipped.
 - Product counts are the "N termék" counters of Arukereso's category pages, read on 2026-10-19. They count
   products listed on Arukereso, not offers and not shops. Arukereso's sitemaps are not used for counts: many of
   their category files stop at 24 products. The custom PC and laptop configuration categories ("Egyedi ...
@@ -65,11 +66,11 @@ dropped and recorded with its reason (`work/filter-drops.jsonl`, `filters_droppe
 
 Review of the Hungarian filter names: the names of the 1 874 Shopify attributes used in the sport, shoes and
 clothing branches (`work/filter-hu-review-scope.txt`, 1 940 attributes marked reviewed with the v0.1 ones) were
-checked, and their 16 010 distinct values were checked one by one; 15 971 are listed in
-`work/filter-values-checked.txt`, the other 39 (mostly fragments of corrupt Shopify values) were not confirmed
-and stay unreviewed. In all, 16 095 of the 73 133 distinct values in the dictionary are marked `hu_reviewed`.
-`work/filter-renames.jsonl` holds 1 133 corrections (339 attribute names and 771 values in Hungarian, 24 in
-English), each with the name it replaced (`old_hu` or `old_en`); the build checks that name before it applies a
+checked, and their 16 010 distinct values were checked one by one; 15 969 are listed in
+`work/filter-values-checked.txt`, the other 41 (mostly fragments of corrupt Shopify values) were not confirmed
+and stay unreviewed. In all, 16 093 of the 73 133 distinct values in the dictionary are marked `hu_reviewed`.
+`work/filter-renames.jsonl` holds 1 131 rows: 340 attribute names and 769 values corrected in Hungarian, 15
+attribute names and 9 values in English (a row may carry both), each with the name it replaced (`old_hu` or `old_en`); the build checks that name before it applies a
 correction.
 
 ## Changes from v0.1
@@ -98,7 +99,7 @@ correction.
 | `arukereso_products_own`, `arukereso_products_subtree` | Arukereso "N termék" counts (2026-10-19) on the node and under it, counted categories only |
 | `arukereso[]` | placed Arukereso categories: `path`, `url`, `relation`, `listed_products`, `counted` |
 | `filters_from` | the Shopify category whose attribute list the node takes, when not its own |
-| `filters[]` | `{"attribute_id", "source": "shopify"}`, or an own filter with `name_en`, `name_hu`, `values` |
+| `filters[]` | `{"attribute_id", "source": "shopify"}`, or an own filter with `attribute_id`, `source: "own"`, `name_en`, `name_hu`, `name_hu_reviewed`, `values[]` (`en`, `hu`) |
 | `filters_dropped[]` | inherited filters left out: `attribute_id`, `reason` (only where any) |
 | `ecommerce_category` | `main`, `sub`, `main_hu`, `sub_hu`, `fit` (clear, weak, none), `inherited`, `reason` |
 

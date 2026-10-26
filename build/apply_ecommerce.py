@@ -20,6 +20,9 @@ explicit = {}
 for i in (1, 2, 3, 4):
     for line in open(T / f"work/ecommerce-{i}.jsonl", encoding="utf-8"):
         r = json.loads(line)
+        if r.get("superseded_by"):  # kept for the record; a later file holds the class
+            continue
+        assert r["id"] not in explicit, ("e-commerce class given twice; mark the older row superseded_by", r["id"])
         main = r.get("category_main") or "none"
         sub = r.get("category_sub")
         if sub and " > " in sub:
