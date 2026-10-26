@@ -1,0 +1,536 @@
+{"id": "hg-11-8-51", "name_en": "Mortars & Pestles", "old_hu": "Törőedények és mozsarak", "new_hu": "Mozsarak és mozsártörők", "reason": "a mortar is mozsár, the pestle mozsártörő; törőedény is not used"}
+{"id": "hg-11-8-54", "name_en": "Oven Mitts & Pot Holders", "old_hu": "Sütőkesztyűk és fazéktartók", "new_hu": "Sütőkesztyűk és edényfogók", "reason": "a pot holder is edényfogó, not fazéktartó"}
+{"id": "hg-11-10", "name_en": "Tableware", "old_hu": "Asztali edények", "new_hu": "Terítés", "reason": "tableware holds cutlery and drinkware too; shops call it Terítés"}
+{"id": "hg-11-10-2", "name_en": "Coffee Servers & Teapots", "old_hu": "Kávéfelszolgálók és teáskannák", "new_hu": "Kávé- és teáskannák", "reason": "felszolgáló means a waiter"}
+{"id": "hg-11-10-4", "name_en": "Dinnerware", "old_hu": "Étkészlet", "new_hu": "Tányérok és étkészletek", "reason": "singular and vague; the node holds plates, bowls and sets"}
+{"id": "hg-11-10-4-2", "name_en": "Dinnerware Sets", "old_hu": "Edénykészletek", "new_hu": "Étkészletek", "reason": "edénykészlet is a cookware (pot) set; dinnerware sets are étkészletek"}
+{"id": "hg-11-10-5", "name_en": "Drinkware", "old_hu": "Italkészletek", "new_hu": "Poharak és bögrék", "reason": "drinkware is glasses and mugs, not drink sets"}
+{"id": "hg-11-10-7", "name_en": "Serveware", "old_hu": "Felszolgálók", "new_hu": "Tálalóedények", "reason": "felszolgáló means a waiter"}
+{"id": "hg-11-10-7-4", "name_en": "Egg Cups", "old_hu": "Tojáscsészék", "new_hu": "Tojástartók", "reason": "an egg cup is tojástartó"}
+{"id": "hg-11-10-7-7", "name_en": "Serving Pitchers & Carafes", "old_hu": "Felszolgálókancsók és -karafák", "new_hu": "Kancsók és karafák", "reason": "overly literal"}
+{"id": "hg-11-10-7-10", "name_en": "Sugar Bowls & Creamers", "old_hu": "Cukortálak és -tartók", "new_hu": "Cukortartók és tejszínkiöntők", "reason": "creamers were lost; sugar bowl is cukortartó"}
+{"id": "hg-11-10-7-10-1", "name_en": "Sugar Bowls", "old_hu": "Cukortálak", "new_hu": "Cukortartók", "reason": "a sugar bowl is cukortartó"}
+{"id": "hg-12", "name_en": "Lawn & Garden", "old_hu": "Gyep és kert", "new_hu": "Kert", "reason": "gyep (turf) is literal; shops call the section Kert"}
+{"id": "hg-12-1-3", "name_en": "Fertilizers", "old_hu": "Műtrágyák", "new_hu": "Trágyák és tápoldatok", "reason": "műtrágya excludes organic fertilizers"}
+{"id": "hg-12-1-4", "name_en": "Garden Pot Saucers & Trays", "old_hu": "Kerti csészealjak és tálcák", "new_hu": "Cserépalátétek és tálcák", "reason": "kerti csészealj is a literal calque"}
+{"id": "hg-12-1-4-1", "name_en": "Garden Pot Saucers", "old_hu": "Kerti cserép alátétek", "new_hu": "Cserépalátétek", "reason": "calque and wrong spacing"}
+{"id": "hg-12-1-7", "name_en": "Gardening Tools", "old_hu": "Kertészeti eszközök", "new_hu": "Kerti szerszámok", "reason": "natural shop term"}
+{"id": "hg-12-1-7-2", "name_en": "Cultivating Tools", "old_hu": "Művelőeszközök", "new_hu": "Talajművelő szerszámok", "reason": "művelőeszköz is unnatural"}
+{"id": "hg-12-1-7-3", "name_en": "Gardening Forks", "old_hu": "Kertészeti villák", "new_hu": "Ásóvillák", "reason": "a garden fork is ásóvilla"}
+{"id": "hg-12-1-7-4", "name_en": "Gardening Sickles & Machetes", "old_hu": "Kertészeti sarlók és macséták", "new_hu": "Sarlók és macseték", "reason": "spelling: macsete"}
+{"id": "hg-12-1-7-4-1", "name_en": "Gardening Machetes", "old_hu": "Kertészeti macséták", "new_hu": "Macseték", "reason": "spelling: macsete; kertészeti is redundant"}
+{"id": "hg-12-1-7-6", "name_en": "Lawn & Garden Sprayers", "old_hu": "Gyep- és kertpermetezők", "new_hu": "Kerti permetezők", "reason": "natural shop term"}
+{"id": "hg-12-1-7-12", "name_en": "Spreaders", "old_hu": "Szórók", "new_hu": "Szórókocsik", "reason": "fertilizer and seed spreaders are szórókocsik"}
+{"id": "hg-12-1-10", "name_en": "Landscape Fabric", "old_hu": "Talajtakarók", "new_hu": "Gyomfóliák", "reason": "landscape fabric is gyomfólia; talajtakaró also clashes with mulch"}
+{"id": "hg-12-1-14", "name_en": "Plant Stands", "old_hu": "Növényállványok", "new_hu": "Virágállványok", "reason": "shops say virágállvány"}
+{"id": "hg-12-1-16", "name_en": "Pots & Planters", "old_hu": "Cserepek és ültetők", "new_hu": "Virágcserepek és kaspók", "reason": "ültető is not a product name; planters are kaspók"}
+{"id": "hg-12-1-16-1", "name_en": "Planters", "old_hu": "Ültetők", "new_hu": "Kaspók és virágládák", "reason": "ültető is not a product name"}
+{"id": "hg-12-1-17", "name_en": "Rain Barrels", "old_hu": "Esőhordók", "new_hu": "Esővízgyűjtő hordók", "reason": "esőhordó is not used"}
+{"id": "hg-12-1-18-2", "name_en": "Soil", "old_hu": "Föld", "new_hu": "Virágföldek", "reason": "a bare Föld is not a category name"}
+{"id": "hg-12-2", "name_en": "Outdoor Living", "old_hu": "Kültéri élet", "new_hu": "Terasz és kertberendezés", "reason": "kültéri élet is a literal calque"}
+{"id": "hg-12-2-6", "name_en": "Outdoor Structures", "old_hu": "Kültéri szerkezetek", "new_hu": "Kerti építmények", "reason": "szerkezet is literal"}
+{"id": "hg-12-2-6-1", "name_en": "Canopies & Gazebos", "old_hu": "Előtetők és pavilonok", "new_hu": "Pavilonok és rendezvénysátrak", "reason": "canopies are pop-up tents, előtető is a porch roof"}
+{"id": "hg-12-2-6-3", "name_en": "Garden Arches, Trellises, Arbors & Pergolas", "old_hu": "Kerti boltívek, rácsok, lugasok és pergolák", "new_hu": "Rózsaívek, futtatórácsok és pergolák", "reason": "shorter, natural shop terms"}
+{"id": "hg-12-2-6-5", "name_en": "Sheds, Garages & Carports", "old_hu": "Istállók, garázsok és autóbeállók", "new_hu": "Kerti házak, garázsok és autóbeállók", "reason": "istálló means a stable for animals"}
+{"id": "hg-12-2-6-5-3", "name_en": "Sheds", "old_hu": "Istállók", "new_hu": "Kerti házak és tárolók", "reason": "istálló means a stable for animals"}
+{"id": "hg-12-2-7", "name_en": "Outdoor Umbrella & Sunshade Accessories", "old_hu": "Kültéri esernyő- és napernyő-kiegészítők", "new_hu": "Napernyő-kiegészítők", "reason": "esernyő is a rain umbrella"}
+{"id": "hg-12-2-7-2", "name_en": "Outdoor Umbrella Bases", "old_hu": "Kültéri esernyőtartók", "new_hu": "Napernyőtalpak", "reason": "esernyő is a rain umbrella; the product is a parasol base"}
+{"id": "hg-12-2-8", "name_en": "Outdoor Umbrellas & Sunshades", "old_hu": "Kültéri esernyők és napernyők", "new_hu": "Napernyők és árnyékolók", "reason": "esernyő is a rain umbrella"}
+{"id": "hg-12-2-8-1", "name_en": "Outdoor Umbrellas", "old_hu": "Kültéri esernyők", "new_hu": "Kerti napernyők", "reason": "esernyő is a rain umbrella"}
+{"id": "hg-12-2-8-3", "name_en": "Shade Sails", "old_hu": "Árnyékvitorlák", "new_hu": "Napvitorlák", "reason": "shops say napvitorla"}
+{"id": "hg-12-2-10", "name_en": "Porch Swings", "old_hu": "Teraszhinták", "new_hu": "Kerti hintaágyak", "reason": "shops say hintaágy"}
+{"id": "hg-12-3", "name_en": "Outdoor Power Equipment", "old_hu": "Kültéri elektromos berendezések", "new_hu": "Kerti gépek", "reason": "many are petrol driven, not elektromos"}
+{"id": "hg-12-3-4", "name_en": "Lawn Aerators & Dethatchers", "old_hu": "Gyepszellőztetők és gyepvágók", "new_hu": "Gyepszellőztetők és levegőztetők", "reason": "gyepvágó is a mower, not a dethatcher"}
+{"id": "hg-12-3-5-1", "name_en": "Riding Mowers", "old_hu": "Gépfűnyírók", "new_hu": "Fűnyíró traktorok", "reason": "riding mowers are fűnyíró traktorok"}
+{"id": "hg-12-3-7", "name_en": "Leaf Blowers", "old_hu": "Levélfúvók", "new_hu": "Lombfúvók", "reason": "shops say lombfúvó"}
+{"id": "hg-12-3-10", "name_en": "Power Sweepers", "old_hu": "Motoros seprűk", "new_hu": "Seprőgépek", "reason": "motoros seprű is unnatural"}
+{"id": "hg-12-3-11", "name_en": "Power Tillers & Cultivators", "old_hu": "Motoros talajlazítók és művelők", "new_hu": "Rotációs kapák és kultivátorok", "reason": "natural shop terms"}
+{"id": "hg-12-3-13", "name_en": "Snow Blowers", "old_hu": "Hófúvók", "new_hu": "Hómarók", "reason": "shops say hómaró"}
+{"id": "hg-12-3-15", "name_en": "Weed Trimmers", "old_hu": "Gyomvágók", "new_hu": "Fűkaszák és szegélynyírók", "reason": "weed trimmers are fűkasza and szegélynyíró"}
+{"id": "hg-12-4", "name_en": "Outdoor Power Equipment Accessories", "old_hu": "Kültéri elektromos berendezés kiegészítők", "new_hu": "Kerti gépek tartozékai", "reason": "consistent with Kerti gépek"}
+{"id": "hg-12-4-18", "name_en": "Tiller & Cultivator Accessories", "old_hu": "Talajmaró és kultivátor tartozékok", "new_hu": "Talajmaró- és kultivátortartozékok", "reason": "spelling of the compound"}
+{"id": "hg-12-4-11", "name_en": "Weed Trimmer Accessories", "old_hu": "Gyomvágó-kiegészítők", "new_hu": "Fűkasza-tartozékok", "reason": "consistent with Fűkaszák"}
+{"id": "hg-12-4-11-4", "name_en": "Weed Trimmer Heads", "old_hu": "Gyomvágó-fejek", "new_hu": "Fűkaszafejek", "reason": "consistent with Fűkaszák"}
+{"id": "hg-12-5", "name_en": "Snow Removal", "old_hu": "Hóeltávolítás", "new_hu": "Hóeltakarítás", "reason": "natural term"}
+{"id": "hg-12-6", "name_en": "Watering & Irrigation", "old_hu": "Öntözés és vízellátás", "new_hu": "Öntözés", "reason": "vízellátás (water supply) is not in the source"}
+{"id": "hg-12-6-1", "name_en": "Garden Hose Fittings & Valves", "old_hu": "Kerti tömlőszerelvények és -szelepek", "new_hu": "Tömlőcsatlakozók és szelepek", "reason": "natural shop terms"}
+{"id": "hg-12-6-2", "name_en": "Garden Hose Spray Nozzles", "old_hu": "Kertitömlő-permetezőfúvókák", "new_hu": "Locsolópisztolyok", "reason": "a hose spray nozzle is locsolópisztoly"}
+{"id": "hg-12-6-4-1", "name_en": "Sprinkler Controls", "old_hu": "Locsolóvezérlők", "new_hu": "Öntözésvezérlők", "reason": "natural shop term"}
+{"id": "hg-12-6-7", "name_en": "Watering Cans", "old_hu": "Öntözőkannák", "new_hu": "Locsolókannák", "reason": "shops say locsolókanna"}
+{"id": "hg-13-2", "name_en": "Floating & Submersible Lights", "old_hu": "Úszó- és merülőfények", "new_hu": "Úszó és víz alatti lámpák", "reason": "fény is light, not a lamp product"}
+{"id": "hg-13-5-2", "name_en": "Desk Lamps", "old_hu": "Íróasztali lámpák", "new_hu": "Asztali lámpák", "reason": "shops say asztali lámpa"}
+{"id": "hg-13-7-2", "name_en": "Fluorescent Tubes", "old_hu": "Fluoreszkáló csövek", "new_hu": "Fénycsövek", "reason": "a fluorescent tube is fénycső"}
+{"id": "hg-13-8", "name_en": "Light Ropes & Strings", "old_hu": "Könnyű kötelek és húrok", "new_hu": "Fénykígyók és fényfüzérek", "reason": "könnyű kötelek és húrok means light-weight ropes and strings"}
+{"id": "hg-13-8-2", "name_en": "String Lights", "old_hu": "Füzérvilágítás", "new_hu": "Fényfüzérek", "reason": "string lights are fényfüzérek"}
+{"id": "hg-13-9", "name_en": "Lighting Fixtures", "old_hu": "Világítótestek", "new_hu": "Lámpatestek", "reason": "natural shop term"}
+{"id": "hg-13-9-4", "name_en": "Wall Light Fixtures", "old_hu": "Falvilágítótestek", "new_hu": "Fali lámpák", "reason": "falvilágítótest is unnatural"}
+{"id": "hg-13-10", "name_en": "Night Lights & Ambient Lighting", "old_hu": "Éjszakai fények és környezeti világítás", "new_hu": "Éjjeli fények és hangulatvilágítás", "reason": "ambient lighting is hangulatvilágítás"}
+{"id": "hg-15", "name_en": "Linens & Bedding", "old_hu": "Textíliák és ágyneműk", "new_hu": "Lakástextil és ágynemű", "reason": "natural section name"}
+{"id": "hg-15-1-1", "name_en": "Bed Canopies", "old_hu": "Ágytetők", "new_hu": "Baldachinok", "reason": "a bed canopy is baldachin"}
+{"id": "hg-15-1-2", "name_en": "Bed Sheets", "old_hu": "Ágyhuzatok", "new_hu": "Lepedők", "reason": "ágyhuzat is not a sheet; bed sheets are lepedők"}
+{"id": "hg-15-1-6-2", "name_en": "Mattress Pads", "old_hu": "Matracbetétek", "new_hu": "Steppelt matracvédők", "reason": "matracbetét is not a product; mattress pads are quilted protectors"}
+{"id": "hg-15-1-12", "name_en": "Mattress Toppers", "old_hu": "Matracvédők", "new_hu": "Fedőmatracok", "reason": "duplicated Matracvédők; a mattress topper is fedőmatrac"}
+{"id": "hg-15-1-9-4", "name_en": "Pregnancy & Maternity Pillows", "old_hu": "Terhességi és kismamapárnák", "new_hu": "Kismamapárnák", "reason": "redundant"}
+{"id": "hg-15-1-10", "name_en": "Quilts & Comforters", "old_hu": "Takarók és paplanok", "new_hu": "Paplanok", "reason": "takaró duplicated the Blankets sibling"}
+{"id": "hg-15-3", "name_en": "Table Linens", "old_hu": "Asztaltextílek", "new_hu": "Asztali textilek", "reason": "misspelled textílek"}
+{"id": "hg-15-3-3", "name_en": "Placemats", "old_hu": "Terítékek", "new_hu": "Tányéralátétek", "reason": "teríték is a place setting, not a placemat"}
+{"id": "hg-15-4-1", "name_en": "Bath Towels & Washcloths", "old_hu": "Fürdőszobai törölközők és mosókendők", "new_hu": "Fürdőtörölközők és mosdókendők", "reason": "shorter, natural terms"}
+{"id": "hg-15-4-1-1", "name_en": "Bath Towels", "old_hu": "Fürdő törölközők", "new_hu": "Fürdőtörölközők", "reason": "compound written as one word"}
+{"id": "hg-15-4-3", "name_en": "Kitchen Towels", "old_hu": "Konyhai törölközők", "new_hu": "Konyharuhák", "reason": "kitchen towels are konyharuhák"}
+{"id": "hg-17-5", "name_en": "Seeds, Bulbs & Accessories", "old_hu": "Magok, hagymák és kiegészítők", "new_hu": "Vetőmagok, virághagymák és kellékek", "reason": "natural shop terms"}
+{"id": "hg-17-5-3", "name_en": "Seed Starting Accessories", "old_hu": "Magvető kiegészítők", "new_hu": "Palántanevelő kellékek", "reason": "magvető is a seeder"}
+{"id": "hg-17-5-2", "name_en": "Seeds & Seed Tape", "old_hu": "Magok és magtekercsek", "new_hu": "Vetőmagok és vetőszalagok", "reason": "seed tape is vetőszalag"}
+{"id": "hg-17-5-2-2", "name_en": "Seeds", "old_hu": "Magok", "new_hu": "Vetőmagok", "reason": "shops say vetőmag"}
+{"id": "hg-18", "name_en": "Pool & Spa", "old_hu": "Medence és fürdő", "new_hu": "Medence és wellness", "reason": "fürdő is a bath; spa here means hot tubs and saunas"}
+{"id": "hg-18-1", "name_en": "Pool & Spa Accessories", "old_hu": "Medence- és fürdőkiegészítők", "new_hu": "Medence- és jakuzzitartozékok", "reason": "fürdő is a bath, spa is a hot tub"}
+{"id": "hg-18-1-3", "name_en": "Pool & Spa Filters", "old_hu": "Medence- és fürdőszűrők", "new_hu": "Medence- és jakuzziszűrők", "reason": "fürdő is a bath, spa is a hot tub"}
+{"id": "hg-18-1-9", "name_en": "Pool Covers & Ground Cloths", "old_hu": "Medencetakarók és talajtakarók", "new_hu": "Medencetakarók és aljzatfóliák", "reason": "talajtakaró is garden mulch; ground cloth is aljzatfólia"}
+{"id": "hg-18-1-9-2", "name_en": "Pool Covers", "old_hu": "Medence-takarók", "new_hu": "Medencetakarók", "reason": "spelling, no hyphen"}
+{"id": "hg-18-1-13", "name_en": "Pool Ladders, Steps & Ramps", "old_hu": "Medence-létrák, -lépcsők és -rámpák", "new_hu": "Medencelétrák és lépcsők", "reason": "spelling, no hyphen; shorter"}
+{"id": "hg-18-1-13-1", "name_en": "Pool Ladders", "old_hu": "Medence-létrák", "new_hu": "Medencelétrák", "reason": "spelling, no hyphen"}
+{"id": "hg-18-1-15", "name_en": "Pool Skimmers", "old_hu": "Medence-szűrők", "new_hu": "Skimmerek", "reason": "medence-szűrő duplicated the filters node"}
+{"id": "hg-18-1-16", "name_en": "Pool Sweeps & Vacuums", "old_hu": "Medence-seprők és -porszívók", "new_hu": "Medenceporszívók és -seprők", "reason": "spelling, no hyphen"}
+{"id": "hg-18-1-16-2", "name_en": "Pool Vacuums", "old_hu": "Medence-porszívók", "new_hu": "Medenceporszívók", "reason": "spelling, no hyphen"}
+{"id": "hg-18-2-2", "name_en": "Sauna Heaters", "old_hu": "Szaunafűtők", "new_hu": "Szaunakályhák", "reason": "a sauna heater is szaunakályha"}
+{"id": "hg-18-4", "name_en": "Spas", "old_hu": "Fürdők", "new_hu": "Jakuzzik", "reason": "fürdő is a bath; spas are hot tubs"}
+{"id": "hg-18-5", "name_en": "Swimming Pools", "old_hu": "Úszómedencék", "new_hu": "Medencék", "reason": "natural shop term"}
+{"id": "hg-19-4", "name_en": "Cigarette Cases", "old_hu": "Cigarettatokok", "new_hu": "Cigarettatárcák", "reason": "a cigarette case is cigarettatárca"}
+{"id": "hg-21", "name_en": "Wood Stoves", "old_hu": "Fakályhák", "new_hu": "Fatüzelésű kályhák", "reason": "fakályha reads as a wooden stove"}
+{"id": "lb", "name_en": "Luggage & Bags", "old_hu": "Poggyász és táskák", "new_hu": "Bőröndök és táskák", "reason": "poggyász is formal; shops say bőrönd"}
+{"id": "lb-1-12", "name_en": "School Backpacks", "old_hu": "Iskolai hátizsákok", "new_hu": "Iskolatáskák", "reason": "natural shop term"}
+{"id": "lb-3", "name_en": "Cosmetic & Toiletry Bags", "old_hu": "Kozmetikai és piperetáskák", "new_hu": "Kozmetikai táskák és neszeszerek", "reason": "a toiletry bag is neszeszer"}
+{"id": "lb-3-4", "name_en": "Toiletry Bags", "old_hu": "Piperetáskák", "new_hu": "Neszeszerek", "reason": "a toiletry bag is neszeszer"}
+{"id": "lb-16", "name_en": "Dry Bags", "old_hu": "Vízhatlan táskák", "new_hu": "Vízálló zsákok", "reason": "dry bags are vízálló zsákok"}
+{"id": "lb-8", "name_en": "Garment Bags", "old_hu": "Ruházati táskák", "new_hu": "Ruhazsákok", "reason": "a garment bag is ruhazsák"}
+{"id": "lb-9", "name_en": "Luggage Accessories", "old_hu": "Poggyászkiegészítők", "new_hu": "Bőröndkiegészítők", "reason": "consistent with Bőröndök"}
+{"id": "lb-9-4", "name_en": "Luggage Straps", "old_hu": "Poggyászpántok", "new_hu": "Bőröndhevederek", "reason": "natural shop term"}
+{"id": "lb-9-5", "name_en": "Luggage Tags", "old_hu": "Poggyászcímkék", "new_hu": "Bőröndcímkék", "reason": "natural shop term"}
+{"id": "lb-11", "name_en": "Shopping Totes", "old_hu": "Bevásárló táskák", "new_hu": "Bevásárlótáskák", "reason": "compound written as one word"}
+{"id": "ma", "name_en": "Mature", "old_hu": "Érett", "new_hu": "Felnőtteknek", "reason": "érett means ripe or mature in age, not adult content"}
+{"id": "ma-1", "name_en": "Erotic", "old_hu": "Erotikus", "new_hu": "Erotika", "reason": "a category is a noun, not an adjective"}
+{"id": "ma-1-4", "name_en": "Sex Toys & Erotic Games", "old_hu": "Szexuális játékok és erotikus játékok", "new_hu": "Szexjátékok és erotikus játékok", "reason": "natural shop term"}
+{"id": "ma-2-2-4", "name_en": "Mace & Pepper Spray", "old_hu": "Buzogány és paprika spray", "new_hu": "Gáz- és paprikasprayk", "reason": "Mace is a defence spray, buzogány is a club"}
+{"id": "me-3-4", "name_en": "Records & LPs", "old_hu": "Lemezek és nagylemezek", "new_hu": "Bakelitlemezek", "reason": "records and LPs are bakelitlemezek"}
+{"id": "me-7", "name_en": "Videos", "old_hu": "Videók", "new_hu": "Filmek", "reason": "media videos are films on disc"}
+{"id": "os", "name_en": "Office Supplies", "old_hu": "Irodai kellékek", "new_hu": "Irodaszerek", "reason": "shops say irodaszer"}
+{"id": "os-2", "name_en": "Desk Pads & Blotters", "old_hu": "Asztalalátétek és felitatók", "new_hu": "Asztali könyöklők", "reason": "a desk pad is könyöklő"}
+{"id": "os-3", "name_en": "Filing & Organization", "old_hu": "Tárolás és rendezés", "new_hu": "Iratrendezés és archiválás", "reason": "filing is iratrendezés"}
+{"id": "os-3-2", "name_en": "Binding Supplies", "old_hu": "Kötőkellékek", "new_hu": "Kötészeti kellékek", "reason": "kötő suggests knitting"}
+{"id": "os-3-2-1", "name_en": "Binder Accessories", "old_hu": "Kötőkiegészítők", "new_hu": "Iratrendező-tartozékok", "reason": "a binder is iratrendező"}
+{"id": "os-3-2-1-2", "name_en": "Index Dividers", "old_hu": "Indexosztók", "new_hu": "Elválasztólapok", "reason": "index dividers are elválasztólapok"}
+{"id": "os-3-2-1-3", "name_en": "Sheet Protectors", "old_hu": "Lapvédők", "new_hu": "Lefűzhető tasakok", "reason": "sheet protectors are lefűzhető tasakok"}
+{"id": "os-3-2-3", "name_en": "Binding Combs & Spines", "old_hu": "Kötőfésűk és -tüskék", "new_hu": "Spirálok és iratsínek", "reason": "binding combs are spirálok, spines iratsínek"}
+{"id": "os-3-2-4", "name_en": "Binding Machines", "old_hu": "Kötőgépek", "new_hu": "Spirálozógépek", "reason": "kötőgép is a knitting machine"}
+{"id": "os-3-9", "name_en": "CD/DVD Cases & Organizers", "old_hu": "CD/DVD-tokok és szervezők", "new_hu": "CD/DVD-tokok és tartók", "reason": "szervező is a person who organizes"}
+{"id": "os-3-5", "name_en": "Calendars, Organizers & Planners", "old_hu": "Naptárak, szervezők és tervezők", "new_hu": "Naptárak, határidőnaplók és tervezők", "reason": "szervező is a person who organizes"}
+{"id": "os-3-5-2", "name_en": "Organizers", "old_hu": "Szervezők", "new_hu": "Határidőnaplók", "reason": "szervező is a person who organizes"}
+{"id": "os-3-5-3", "name_en": "Planners", "old_hu": "Tervezők", "new_hu": "Tervezőfüzetek", "reason": "tervező is a designer"}
+{"id": "os-3-8", "name_en": "Cash Boxes", "old_hu": "Pénzdobozok", "new_hu": "Pénzkazetták", "reason": "a cash box is pénzkazetta"}
+{"id": "os-3-10", "name_en": "Desk Organizers", "old_hu": "Asztalrendezők", "new_hu": "Asztali rendszerezők", "reason": "natural shop term"}
+{"id": "os-3-10-1", "name_en": "Desktop Organizers", "old_hu": "Asztali szervezők", "new_hu": "Asztali tárolók", "reason": "szervező is a person who organizes"}
+{"id": "os-3-10-4", "name_en": "Pen Holders", "old_hu": "Tolltartók", "new_hu": "Írószertartók", "reason": "tolltartó is a pencil case; a desk pen holder is írószertartó"}
+{"id": "os-3-11", "name_en": "File Boxes", "old_hu": "Fájldobozok", "new_hu": "Archiváló dobozok", "reason": "fájl is a computer file"}
+{"id": "os-3-16", "name_en": "Pen & Pencil Cases", "old_hu": "Toll- és ceruzatartók", "new_hu": "Tolltartók", "reason": "a pen and pencil case is tolltartó"}
+{"id": "os-4", "name_en": "General Office Supplies", "old_hu": "Általános irodai kellékek", "new_hu": "Általános irodaszerek", "reason": "consistent with Irodaszerek"}
+{"id": "os-4-5", "name_en": "Laminating Film, Pouches & Sheets", "old_hu": "Lamináló fólia, tasakok és lapok", "new_hu": "Laminálófóliák", "reason": "shorter, natural shop term"}
+{"id": "os-4-8", "name_en": "Paper Clips & Clamps", "old_hu": "Gémkapcsok és bilincsek", "new_hu": "Gémkapcsok és csipeszek", "reason": "bilincs is a hose or pipe clamp"}
+{"id": "os-4-8-1", "name_en": "Binder Clips", "old_hu": "Iratszorítók", "new_hu": "Bindercsipeszek", "reason": "shops say bindercsipesz"}
+{"id": "os-4-8-2", "name_en": "Paper Clips", "old_hu": "Papírkapcsok", "new_hu": "Gémkapcsok", "reason": "shops say gémkapocs"}
+{"id": "os-4-9-6", "name_en": "Cover Paper", "old_hu": "Borítópapír", "new_hu": "Kartonpapírok", "reason": "cover paper is card stock"}
+{"id": "os-4-9-9", "name_en": "Notebooks & Notepads", "old_hu": "Notebookok és jegyzetfüzetek", "new_hu": "Füzetek és jegyzettömbök", "reason": "notebook means a laptop in Hungarian"}
+{"id": "os-4-9-9-5", "name_en": "Notepads", "old_hu": "Jegyzetfüzetek", "new_hu": "Jegyzettömbök", "reason": "a notepad is jegyzettömb"}
+{"id": "os-4-9-11", "name_en": "Printer & Copier Paper", "old_hu": "Nyomtató- és fénymásoló papír", "new_hu": "Nyomtató- és fénymásolópapírok", "reason": "compound spelling, plural"}
+{"id": "os-4-9-12", "name_en": "Receipt & Adding Machine Paper Rolls", "old_hu": "Átvétel és gépi papírtekercsek hozzáadása", "new_hu": "Pénztárgép- és számológépszalagok", "reason": "machine translation: 'receipt' read as receiving, 'adding' as a verb"}
+{"id": "os-4-9-14", "name_en": "Sticky Notes", "old_hu": "Cetlik", "new_hu": "Öntapadós jegyzettömbök", "reason": "cetli is colloquial"}
+{"id": "os-4-10", "name_en": "Rubber Bands", "old_hu": "Befőttesgumik", "new_hu": "Gumigyűrűk", "reason": "befőttesgumi is colloquial; office shops say gumigyűrű"}
+{"id": "os-8", "name_en": "Office & Chair Mats", "old_hu": "Irodai és székszőnyegek", "new_hu": "Székalátétek és irodai szőnyegek", "reason": "chair mats are székalátétek"}
+{"id": "os-8-2", "name_en": "Chair Mats", "old_hu": "Székszőnyegek", "new_hu": "Székalátétek", "reason": "a chair mat is székalátét"}
+{"id": "os-10", "name_en": "Office Equipment", "old_hu": "Irodai berendezések", "new_hu": "Irodagépek", "reason": "natural shop term"}
+{"id": "os-10-3", "name_en": "Electronic Dictionaries & Translators", "old_hu": "Elektronikus szótárak és fordítók", "new_hu": "Elektronikus szótárak és fordítógépek", "reason": "fordító is a human translator"}
+{"id": "os-10-4", "name_en": "Label Makers", "old_hu": "Címkekészítők", "new_hu": "Címkenyomtatók", "reason": "a label maker is címkenyomtató"}
+{"id": "os-10-5", "name_en": "Laminators", "old_hu": "Laminálók", "new_hu": "Laminálógépek", "reason": "natural shop term"}
+{"id": "os-10-6", "name_en": "Office Shredders", "old_hu": "Irodai iratmegsemmisítők", "new_hu": "Iratmegsemmisítők", "reason": "irodai is redundant"}
+{"id": "os-11-2", "name_en": "Clipboards", "old_hu": "Vágólapok", "new_hu": "Felírótáblák", "reason": "vágólap is the computer clipboard"}
+{"id": "os-11-5", "name_en": "Office Stamps", "old_hu": "Irodai bélyegzők", "new_hu": "Bélyegzők", "reason": "irodai is redundant"}
+{"id": "os-11-7", "name_en": "Staple Removers", "old_hu": "Tűzőkapocs-eltávolítók", "new_hu": "Kapocskiszedők", "reason": "a staple remover is kapocskiszedő"}
+{"id": "os-11-10-2", "name_en": "Pen Ink & Refills", "old_hu": "Tolltinta és utántöltők", "new_hu": "Tollbetétek és tinták", "reason": "refills are betétek"}
+{"id": "os-11-10-3", "name_en": "Pencil Lead & Refills", "old_hu": "Ceruzahegy és utántöltők", "new_hu": "Grafitbetétek", "reason": "pencil lead is grafitbetét, ceruzahegy is the tip"}
+{"id": "os-11-11-2", "name_en": "Chalk", "old_hu": "Kréta", "new_hu": "Kréták", "reason": "plural like its siblings"}
+{"id": "os-11-11-4", "name_en": "Markers & Highlighters", "old_hu": "Filctollak és kiemelők", "new_hu": "Filctollak és szövegkiemelők", "reason": "consistent with Szövegkiemelők"}
+{"id": "os-11-11-4-1", "name_en": "Highlighters", "old_hu": "Kiemelők", "new_hu": "Szövegkiemelők", "reason": "shops say szövegkiemelő"}
+{"id": "os-11-11-7-2-2", "name_en": "Writing Pencils", "old_hu": "Íróceruzák", "new_hu": "Grafitceruzák", "reason": "writing pencils are grafitceruzák"}
+{"id": "os-11-11-7-2-2-1", "name_en": "Mechanical Pencils", "old_hu": "Mechanikus ceruzák", "new_hu": "Töltőceruzák", "reason": "a mechanical pencil is töltőceruza"}
+{"id": "os-11-11-7-3-2", "name_en": "Felt Tips", "old_hu": "Filchegyek", "new_hu": "Tűfilcek", "reason": "filchegy is a pen tip, not a pen"}
+{"id": "os-11-11-7-3-5", "name_en": "Rollerball Pens", "old_hu": "Forgógolyós tollak", "new_hu": "Rollerek", "reason": "a rollerball pen is roller"}
+{"id": "os-13-1", "name_en": "Chalkboards", "old_hu": "Palatáblák", "new_hu": "Krétás táblák", "reason": "palatábla is a slate, rare today"}
+{"id": "os-13-2", "name_en": "Display Boards", "old_hu": "Kijelzőtáblák", "new_hu": "Hirdetőtáblák", "reason": "kijelző is an electronic display"}
+{"id": "os-13-2-2", "name_en": "Bulletin Boards", "old_hu": "Faliújságok", "new_hu": "Parafa- és üzenőtáblák", "reason": "faliújság is a wall newspaper"}
+{"id": "os-13-4", "name_en": "Dry-Erase Boards", "old_hu": "Törölhető táblák", "new_hu": "Fehértáblák", "reason": "a dry-erase board is fehértábla"}
+{"id": "os-13-5", "name_en": "Easel Pads", "old_hu": "Táblaállványpárnák", "new_hu": "Flipchart papírok", "reason": "easel pads are flipchart papers, párna is a pillow"}
+{"id": "os-13-6", "name_en": "Easels", "old_hu": "Táblaállványok", "new_hu": "Flipchart állványok", "reason": "in presentation supplies an easel is a flipchart stand"}
+{"id": "os-13-9", "name_en": "Transparencies", "old_hu": "Átlátszó fóliák", "new_hu": "Írásvetítő fóliák", "reason": "transparencies are írásvetítő fóliák"}
+{"id": "os-13-10", "name_en": "Wireless Presenters", "old_hu": "Vezeték nélküli prezentálók", "new_hu": "Prezentációs távirányítók", "reason": "a wireless presenter is prezentációs távirányító"}
+{"id": "os-14", "name_en": "Shipping Supplies", "old_hu": "Szállítási kellékek", "new_hu": "Csomagolás és szállítás", "reason": "natural section name"}
+{"id": "os-14-3", "name_en": "Packing Tape", "old_hu": "Csomagolószalag", "new_hu": "Csomagolószalagok", "reason": "plural like its siblings"}
+{"id": "rc", "name_en": "Religious & Ceremonial", "old_hu": "Vallási és szertartási", "new_hu": "Vallási és ünnepi kellékek", "reason": "an adjective alone is not a category name"}
+{"id": "rc-2-1", "name_en": "Prayer Beads", "old_hu": "Imagyöngyök", "new_hu": "Imafüzérek", "reason": "prayer beads are imafüzérek"}
+{"id": "so", "name_en": "Software", "old_hu": "Szoftver", "new_hu": "Szoftverek", "reason": "plural like the other top categories"}
+{"id": "so-1", "name_en": "Computer Software", "old_hu": "Számítógépes szoftver", "new_hu": "Számítógépes szoftverek", "reason": "plural"}
+{"id": "so-1-1", "name_en": "Antivirus & Security Software", "old_hu": "Vírusirtó és biztonsági szoftver", "new_hu": "Vírusirtók és biztonsági szoftverek", "reason": "plural"}
+{"id": "so-1-2", "name_en": "Business & Productivity Software", "old_hu": "Üzleti és termelékenységi szoftver", "new_hu": "Üzleti és irodai szoftverek", "reason": "termelékenységi is a calque"}
+{"id": "so-1-2-1", "name_en": "Database Management Software", "old_hu": "Adatbázis-kezelő szoftver", "new_hu": "Adatbázis-kezelő szoftverek", "reason": "plural"}
+{"id": "so-1-4", "name_en": "Computer Utilities & Maintenance Software", "old_hu": "Számítógépes segédprogramok és karbantartó szoftverek", "new_hu": "Segédprogramok és karbantartó szoftverek", "reason": "shorter"}
+{"id": "so-1-5", "name_en": "Dictionary & Translation Software", "old_hu": "Szótár és fordító szoftver", "new_hu": "Szótár- és fordítóprogramok", "reason": "natural term"}
+{"id": "so-1-6", "name_en": "Educational Software", "old_hu": "Oktatási szoftver", "new_hu": "Oktatóprogramok", "reason": "natural term"}
+{"id": "so-1-8", "name_en": "GPS Map Data & Software", "old_hu": "GPS térképadatok és szoftverek", "new_hu": "GPS-térképek és szoftverek", "reason": "spelling and shorter"}
+{"id": "so-1-10", "name_en": "Multimedia & Design Software", "old_hu": "Multimédia és tervező szoftver", "new_hu": "Multimédiás és grafikai szoftverek", "reason": "tervező is a designer"}
+{"id": "so-1-10-3", "name_en": "Graphic Design & Illustration Software", "old_hu": "Grafikai tervező és illusztrációs szoftver", "new_hu": "Grafikai és illusztrációs szoftverek", "reason": "shorter, plural"}
+{"id": "so-1-10-9", "name_en": "Video Editing Software", "old_hu": "Videószerkesztő szoftver", "new_hu": "Videószerkesztő szoftverek", "reason": "plural"}
+{"id": "so-1-12", "name_en": "Office Application Software", "old_hu": "Irodai alkalmazás szoftver", "new_hu": "Irodai szoftverek", "reason": "alkalmazás szoftver is ungrammatical"}
+{"id": "so-2", "name_en": "Digital Goods & Currency", "old_hu": "Digitális áruk és valuta", "new_hu": "Digitális termékek és virtuális valuták", "reason": "áru is goods in trade; natural phrasing"}
+{"id": "so-3", "name_en": "Video Game Software", "old_hu": "Videojáték szoftver", "new_hu": "Videojátékok", "reason": "natural shop term"}
+{"id": "so-3-2", "name_en": "Physical Video Games", "old_hu": "Fizikai hordozón lévő videojátékok", "new_hu": "Dobozos videojátékok", "reason": "shops say dobozos"}
+{"id": "sg-1", "name_en": "Athletics", "old_hu": "Atlétika", "new_hu": "Sportágak", "reason": "atlétika means track and field; the node covers all sports"}
+{"id": "sg-1-1-6", "name_en": "American Footballs", "old_hu": "Amerikai futballok", "new_hu": "Amerikaifutball-labdák", "reason": "a futball is the game, the item is a ball"}
+{"id": "sg-1-2-3", "name_en": "Baseball & Softball Gloves & Mitts", "old_hu": "Baseball és softball kesztyűk", "new_hu": "Baseball- és softballkesztyűk", "reason": "compound spelling"}
+{"id": "sg-1-2-11", "name_en": "Baseballs", "old_hu": "Baseballok", "new_hu": "Baseball-labdák", "reason": "baseball is the game, the item is a ball"}
+{"id": "sg-1-3-8", "name_en": "Basketball Apparel", "old_hu": "Kosárlabda ruházat", "new_hu": "Kosárlabdás ruházat", "reason": "adjective form"}
+{"id": "sg-1-3-2", "name_en": "Basketball Hoops", "old_hu": "Kosárlabdakarikák", "new_hu": "Kosárlabdapalánkok", "reason": "shops sell hoops as palánk"}
+{"id": "sg-1-4-1-4-4", "name_en": "Sparring Gloves", "old_hu": "Sparring kesztyűk", "new_hu": "Sparringkesztyűk", "reason": "compound written as one word"}
+{"id": "sg-1-4-1-5", "name_en": "Boxing & MMA Hand Wraps", "old_hu": "Boksz és MMA kézvédők", "new_hu": "Bandázsok", "reason": "hand wraps are bandázs, kézvédő is a hand guard"}
+{"id": "sg-1-4-1-3", "name_en": "Boxing & Martial Arts Headgear", "old_hu": "Boksz- és harcművészeti fejfedők", "new_hu": "Boksz- és harcművészeti fejvédők", "reason": "fejfedő is a hat; headgear here protects"}
+{"id": "sg-1-4-1-6", "name_en": "MMA Shin Guards", "old_hu": "MMA lábszárvédők", "new_hu": "MMA-lábszárvédők", "reason": "hyphen after an acronym"}
+{"id": "sg-1-12", "name_en": "Figure Skating & Hockey", "old_hu": "Műkorcsolya és jégkorong", "new_hu": "Korcsolyázás és hoki", "reason": "the node holds floorball and field hockey too, not only jégkorong"}
+{"id": "sg-1-12-2", "name_en": "Hockey Balls & Pucks", "old_hu": "Jégkoronglabdák és -korongok", "new_hu": "Hokilabdák és korongok", "reason": "ice hockey has no balls"}
+{"id": "sg-1-12-2-1", "name_en": "Hockey Balls", "old_hu": "Jégkoronglabdák", "new_hu": "Hokilabdák", "reason": "ice hockey has no balls"}
+{"id": "sg-1-12-2-1-1", "name_en": "Floorball Balls", "old_hu": "Floorball labdák", "new_hu": "Floorball-labdák", "reason": "hyphen in the compound"}
+{"id": "sg-1-12-2-2", "name_en": "Hockey Pucks", "old_hu": "Jégkorongkorongok", "new_hu": "Hokikorongok", "reason": "jégkorongkorong repeats korong"}
+{"id": "sg-1-12-3", "name_en": "Hockey Goals", "old_hu": "Jégkorongkapuk", "new_hu": "Hokikapuk", "reason": "consistent with the hockey node"}
+{"id": "sg-1-12-4-7", "name_en": "Hockey Shoulder Pads & Chest Protectors", "old_hu": "Jégkorong-vállpárnák és -mellkasvédők", "new_hu": "Jégkorongos váll- és mellvédők", "reason": "pad is not párna here; shorter"}
+{"id": "sg-1-12-8", "name_en": "Hockey Sticks", "old_hu": "Jégkorongütők", "new_hu": "Hokiütők", "reason": "covers floorball and field hockey sticks"}
+{"id": "sg-1-12-10", "name_en": "Ice Skates", "old_hu": "Jégkorcsolyák", "new_hu": "Korcsolyák", "reason": "shops say korcsolya"}
+{"id": "sg-1-13", "name_en": "General Purpose Athletic Equipment", "old_hu": "Általános célú atlétikai felszerelések", "new_hu": "Általános sportfelszerelések", "reason": "atlétikai means track and field"}
+{"id": "sg-1-13-14", "name_en": "Sports Mouthguards", "old_hu": "Sportfogvédők", "new_hu": "Fogvédők", "reason": "sport is redundant under sports"}
+{"id": "sg-1-15", "name_en": "Racquetball & Squash", "old_hu": "Raketball és squash", "new_hu": "Racquetball és squash", "reason": "the sport is racquetball; raketball is a misspelling"}
+{"id": "sg-1-15-1", "name_en": "Racquetball & Squash Balls", "old_hu": "Raketball és squash labdák", "new_hu": "Racquetball- és squashlabdák", "reason": "spelling"}
+{"id": "sg-1-15-1-2", "name_en": "Squash Balls", "old_hu": "Squash labdák", "new_hu": "Squashlabdák", "reason": "compound written as one word"}
+{"id": "sg-1-15-2", "name_en": "Racquetball & Squash Eyewear", "old_hu": "Raketball és squash szemfedők", "new_hu": "Védőszemüvegek", "reason": "szemfedő is a blindfold"}
+{"id": "sg-1-15-6", "name_en": "Squash Rackets", "old_hu": "Squash ütők", "new_hu": "Squashütők", "reason": "compound written as one word"}
+{"id": "sg-1-18", "name_en": "Soccer", "old_hu": "Futball", "new_hu": "Labdarúgás", "reason": "natural shop term for soccer"}
+{"id": "sg-1-18-1", "name_en": "Soccer Balls", "old_hu": "Futball-labdák", "new_hu": "Focilabdák", "reason": "natural shop term"}
+{"id": "sg-1-18-3", "name_en": "Soccer Gloves", "old_hu": "Futballkesztyűk", "new_hu": "Focikesztyűk", "reason": "natural shop term"}
+{"id": "sg-1-18-5", "name_en": "Soccer Goals", "old_hu": "Futballkapuk", "new_hu": "Focikapuk", "reason": "natural shop term"}
+{"id": "sg-1-18-6", "name_en": "Soccer Protective Gear", "old_hu": "Futball-védőfelszerelés", "new_hu": "Focis védőfelszerelések", "reason": "natural shop term"}
+{"id": "sg-1-18-6-1", "name_en": "Soccer Shin Guards", "old_hu": "Futball-lábszárvédők", "new_hu": "Sípcsontvédők", "reason": "soccer shin guards are sípcsontvédők"}
+{"id": "sg-1-18-8", "name_en": "Soccer Shoes", "old_hu": "Futballcipők", "new_hu": "Focicipők", "reason": "natural shop term"}
+{"id": "sg-1-19", "name_en": "Team Handball", "old_hu": "Csapatkézilabda", "new_hu": "Kézilabda", "reason": "csapatkézilabda is not used"}
+{"id": "sg-1-20-6-1", "name_en": "Racket Vibration Dampeners", "old_hu": "Ütő-rezgéscsillapítók", "new_hu": "Rezgéscsillapítók", "reason": "shorter"}
+{"id": "sg-1-20-6-2", "name_en": "Tennis Racket Bags", "old_hu": "Teniszütő táskák", "new_hu": "Tenisztáskák", "reason": "natural shop term"}
+{"id": "sg-1-20-6-5", "name_en": "Tennis Racket String", "old_hu": "Teniszütő húr", "new_hu": "Teniszhúrok", "reason": "plural, natural shop term"}
+{"id": "sg-2", "name_en": "Fitness & General Exercise Equipment", "old_hu": "Fitnesz és általános edzőfelszerelés", "new_hu": "Fitnesz és edzés", "reason": "shorter"}
+{"id": "sg-2-2", "name_en": "Aerobic Steps", "old_hu": "Aerob lépők", "new_hu": "Steppadok", "reason": "an aerobic step is steppad"}
+{"id": "sg-2-4-2-2-3", "name_en": "Spin Exercise Bikes", "old_hu": "Forgó szobakerékpárok", "new_hu": "Spinning kerékpárok", "reason": "forgó means rotating"}
+{"id": "sg-2-4-2-4", "name_en": "Stair Climbers & Steppers", "old_hu": "Lépcsőzőgépek és taposógépek", "new_hu": "Lépcsőzőgépek és stepperek", "reason": "taposógép is not used"}
+{"id": "sg-2-5", "name_en": "Exercise Balls", "old_hu": "Edzőlabdák", "new_hu": "Fitneszlabdák", "reason": "natural shop term"}
+{"id": "sg-2-6", "name_en": "Exercise Bands & Loops", "old_hu": "Edzőszalagok és -hurkok", "new_hu": "Erősítő szalagok és gumik", "reason": "hurok is a noose"}
+{"id": "sg-2-13", "name_en": "Hand Exercisers", "old_hu": "Kézedzők", "new_hu": "Kézerősítők", "reason": "consistent with the child"}
+{"id": "sg-2-27", "name_en": "Ice Baths & Cold Plunge Tubs", "old_hu": "Jégfürdők és merülőmedencék", "new_hu": "Jégfürdők és hidegvizes kádak", "reason": "merülőmedence is unclear"}
+{"id": "sg-2-14", "name_en": "Inversion Tables & Systems", "old_hu": "Inverziós táblázatok és rendszerek", "new_hu": "Inverziós eszközök", "reason": "táblázat is a spreadsheet"}
+{"id": "sg-2-14-2", "name_en": "Inversion Tables & Benches", "old_hu": "Gravitációs padok és asztalok", "new_hu": "Inverziós padok", "reason": "consistent with the parent"}
+{"id": "sg-2-17", "name_en": "Push Up & Pull Up Bars", "old_hu": "Fekvőtámasz- és felhúzórudak", "new_hu": "Fekvőtámasz-markolatok és húzódzkodórudak", "reason": "felhúzórúd is wrong; pull-up is húzódzkodás"}
+{"id": "sg-2-29", "name_en": "Shaker Bottles", "old_hu": "Shaker kulacsok", "new_hu": "Shakerek", "reason": "natural shop term"}
+{"id": "sg-2-24", "name_en": "Weight Lifting", "old_hu": "Súlyemelés", "new_hu": "Súlyzós edzés", "reason": "súlyemelés is the Olympic sport"}
+{"id": "sg-2-24-1", "name_en": "Free Weight Accessories", "old_hu": "Szabadsúly-kiegészítők", "new_hu": "Súlyzó-kiegészítők", "reason": "natural shop term"}
+{"id": "sg-2-24-1-1", "name_en": "Barbells & Weightlifting Bars", "old_hu": "Súlyzók és súlyemelő rudak", "new_hu": "Súlyzórudak", "reason": "barbells are súlyzórudak"}
+{"id": "sg-2-24-2", "name_en": "Free Weights, Dumbbells & Kettlebells", "old_hu": "Szabadsúlyok, kézisúlyzók és kettlebellek", "new_hu": "Súlyzók és kettlebellek", "reason": "shorter"}
+{"id": "sg-2-24-2-4", "name_en": "Weight Plates", "old_hu": "Súlylemezek", "new_hu": "Súlyzótárcsák", "reason": "weight plates are súlyzótárcsák"}
+{"id": "sg-2-24-4", "name_en": "Weight Lifting Gloves & Hand Supports", "old_hu": "Súlyemelő kesztyűk és kéztámaszok", "new_hu": "Edzőkesztyűk és csuklóvédők", "reason": "natural shop terms"}
+{"id": "sg-2-24-4-3", "name_en": "Weight Lifting Gloves", "old_hu": "Súlyemelő kesztyűk", "new_hu": "Edzőkesztyűk", "reason": "natural shop term"}
+{"id": "sg-2-24-6", "name_en": "Weight Lifting Machines & Racks", "old_hu": "Súlyemelő gépek és állványok", "new_hu": "Erőgépek és állványok", "reason": "natural shop term"}
+{"id": "sg-2-24-6-3", "name_en": "Weight Lifting Machines with Pulleys", "old_hu": "Súlyemelő gépek csigával", "new_hu": "Csigás erőgépek", "reason": "natural shop term"}
+{"id": "sg-2-24-6-4", "name_en": "Weight Lifting Racks", "old_hu": "Súlyemelő állványok", "new_hu": "Súlyzóállványok", "reason": "natural shop term"}
+{"id": "sg-2-25-3", "name_en": "Weighted Vests", "old_hu": "Súlyozott mellények", "new_hu": "Súlymellények", "reason": "natural shop term"}
+{"id": "sg-2-26-2", "name_en": "Yoga & Pilates Blocks", "old_hu": "Jóga- és piláteszblokkok", "new_hu": "Jógatéglák", "reason": "a yoga block is jógatégla"}
+{"id": "sg-2-26-3", "name_en": "Yoga & Pilates Mats", "old_hu": "Jóga- és piláteszszőnyegek", "new_hu": "Jógaszőnyegek", "reason": "shorter; shops say jógaszőnyeg"}
+{"id": "sg-2-26-11", "name_en": "Yoga & Pilates Stretch Straps & Bands", "old_hu": "Jóga- és Pilates-nyújtószalagok és -kötelek", "new_hu": "Jógahevederek és nyújtószalagok", "reason": "mixed spelling of pilates; shorter"}
+{"id": "sg-3-11", "name_en": "Sim Racing Equipment", "old_hu": "Verseny-szimulátor felszerelések", "new_hu": "Versenyszimulátor-felszerelések", "reason": "compound spelling"}
+{"id": "sg-3-8", "name_en": "Throwing Darts", "old_hu": "Dobó Darts", "new_hu": "Darts", "reason": "dobó darts is redundant"}
+{"id": "sg-3-8-5", "name_en": "Dart Mats & Throw Lines", "old_hu": "Darts szőnyegek és dobóvonalak", "new_hu": "Dartsszőnyegek és dobóvonalak", "reason": "compound spelling"}
+{"id": "sg-3-8-2-1", "name_en": "Dart Flights", "old_hu": "Darts-nyilak", "new_hu": "Darts-tollak", "reason": "flights are tollak; nyilak are the darts"}
+{"id": "sg-3-8-2-2", "name_en": "Dart Shafts", "old_hu": "Darts-nyelek", "new_hu": "Darts-szárak", "reason": "a dart shaft is szár"}
+{"id": "sg-3-8-4", "name_en": "Darts", "old_hu": "Darts", "new_hu": "Darts-nyilak", "reason": "the darts themselves are nyilak"}
+{"id": "sg-4", "name_en": "Outdoor Recreation", "old_hu": "Szabadtéri kikapcsolódás", "new_hu": "Szabadtéri sportok", "reason": "kikapcsolódás is leisure in general"}
+{"id": "sg-4-1-2", "name_en": "Boating & Water Sport Apparel", "old_hu": "Csónakázó és vízisport-ruházat", "new_hu": "Vízisport-ruházat", "reason": "shorter"}
+{"id": "sg-4-1-2-7", "name_en": "Wetsuits", "old_hu": "Búvárruhák", "new_hu": "Neoprénruhák", "reason": "a wetsuit is neoprénruha, búvárruha is a diving suit"}
+{"id": "sg-4-1-3-5", "name_en": "Diving & Snorkeling Masks", "old_hu": "Búvár- és sznorkelmaszkok", "new_hu": "Búvármaszkok", "reason": "shorter"}
+{"id": "sg-4-1-3-9", "name_en": "Snorkels", "old_hu": "Sznorkelek", "new_hu": "Légzőcsövek", "reason": "shops say légzőcső"}
+{"id": "sg-4-1-6-1", "name_en": "Child Swimming Aids", "old_hu": "Gyermekúszás-segítők", "new_hu": "Úszássegítők gyerekeknek", "reason": "natural phrasing"}
+{"id": "sg-4-1-6-3", "name_en": "Kickboards", "old_hu": "Lábdeszkák", "new_hu": "Úszódeszkák", "reason": "a kickboard is úszódeszka"}
+{"id": "sg-4-1-6-11", "name_en": "Swimming Fins", "old_hu": "Úszóuszonyok", "new_hu": "Uszonyok", "reason": "úszóuszony repeats úszó"}
+{"id": "sg-4-2-1", "name_en": "Camp Furniture", "old_hu": "Tábori bútorok", "new_hu": "Kempingbútorok", "reason": "tábori is military"}
+{"id": "sg-4-2-1-8", "name_en": "Camping Seat Pads & Cushions", "old_hu": "Kemping ülőpárnák és -betétek", "new_hu": "Kemping ülőpárnák", "reason": "shorter"}
+{"id": "sg-4-2-1-3", "name_en": "Cots", "old_hu": "Kiságyak", "new_hu": "Kempingágyak", "reason": "kiságy is a baby cot"}
+{"id": "sg-4-2-2-4", "name_en": "Camping Utensils", "old_hu": "Kemping-evőeszközök", "new_hu": "Kempingevőeszközök", "reason": "compound spelling"}
+{"id": "sg-4-2-2-4-2", "name_en": "Camping Utensil Sets", "old_hu": "Kemping evőeszközkészletek", "new_hu": "Kempingevőeszköz-készletek", "reason": "compound spelling"}
+{"id": "sg-4-2-3", "name_en": "Camping Lights & Lanterns", "old_hu": "Kempinglámpák és -lámpások", "new_hu": "Kempinglámpák", "reason": "lámpás repeats lámpa"}
+{"id": "sg-4-2-4", "name_en": "Camping Tools", "old_hu": "Kempingszerszámok", "new_hu": "Kempingeszközök", "reason": "natural shop term"}
+{"id": "sg-4-2-10", "name_en": "Navigational Compasses", "old_hu": "Navigációs iránytűk", "new_hu": "Iránytűk", "reason": "navigációs is redundant"}
+{"id": "sg-4-2-15", "name_en": "Sleeping Pads", "old_hu": "Hálóbetétek", "new_hu": "Kempingmatracok és polifoamok", "reason": "hálóbetét is a sleeping bag liner"}
+{"id": "sg-4-3", "name_en": "Climbing", "old_hu": "Mászás", "new_hu": "Hegymászás", "reason": "natural shop term"}
+{"id": "sg-4-3-1", "name_en": "Belay Devices", "old_hu": "Mászásbiztosító eszközök", "new_hu": "Biztosítóeszközök", "reason": "natural shop term"}
+{"id": "sg-4-3-3-4", "name_en": "Climbing Shoes", "old_hu": "Hegymászó cipők", "new_hu": "Mászócipők", "reason": "natural shop term"}
+{"id": "sg-4-3-3-3", "name_en": "Crampons", "old_hu": "Hómacskák", "new_hu": "Hágóvasak", "reason": "hómacska is a snow chain; crampons are hágóvas"}
+{"id": "sg-4-3-17", "name_en": "Climbing Chalk", "old_hu": "Mászó magnézia", "new_hu": "Magnézia", "reason": "shorter"}
+{"id": "sg-4-3-5", "name_en": "Climbing Chalk Bags", "old_hu": "Hegymászó krétazsákok", "new_hu": "Magnéziazsákok", "reason": "climbers use magnézia, not kréta"}
+{"id": "sg-4-3-7", "name_en": "Climbing Double Lanyards", "old_hu": "Hegymászó dupla kantár", "new_hu": "Dupla kantárok", "reason": "plural, natural term"}
+{"id": "sg-4-3-8", "name_en": "Climbing Harnesses", "old_hu": "Hegymászó hevederek", "new_hu": "Beülők és hevederek", "reason": "a climbing harness is beülő"}
+{"id": "sg-4-3-8-1", "name_en": "Seat Climbing Harnesses", "old_hu": "Beülő mászóhevederek", "new_hu": "Beülők", "reason": "a seat harness is beülő"}
+{"id": "sg-4-3-10", "name_en": "Climbing Rope", "old_hu": "Hegymászókötél", "new_hu": "Mászókötelek", "reason": "plural"}
+{"id": "sg-4-3-13-1", "name_en": "Ice Climbing Axes", "old_hu": "Jégmászó tengelyek", "new_hu": "Jégcsákányok", "reason": "tengely is an axle"}
+{"id": "sg-4-3-15", "name_en": "Indoor Climbing Holds", "old_hu": "Beltéri hegymászó tartók", "new_hu": "Mászófogások", "reason": "climbing holds are fogások"}
+{"id": "sg-4-4-1-3", "name_en": "Bicycle Bells & Horns", "old_hu": "Kerékpárcsengők és -kürtök", "new_hu": "Kerékpárcsengők és dudák", "reason": "kürt is a horn instrument"}
+{"id": "sg-4-4-1-4", "name_en": "Bicycle Cages", "old_hu": "Kerékpárketrecek", "new_hu": "Kulacstartók", "reason": "ketrec is a cage for animals"}
+{"id": "sg-4-4-1-4-1", "name_en": "Bicycle Bottle Cages", "old_hu": "Kerékpáros palackketrecek", "new_hu": "Kerékpáros kulacstartók", "reason": "ketrec is a cage for animals"}
+{"id": "sg-4-4-1-6", "name_en": "Bicycle Child Seats", "old_hu": "Kerékpár-gyermekülések", "new_hu": "Kerékpáros gyerekülések", "reason": "natural shop term"}
+{"id": "sg-4-4-1-11", "name_en": "Bicycle Front & Rear Racks", "old_hu": "Kerékpáros első és hátsó állványok", "new_hu": "Csomagtartók", "reason": "bike racks are csomagtartók"}
+{"id": "sg-4-4-1-12", "name_en": "Bicycle Handlebar Grips & Decor", "old_hu": "Kerékpárkormány-fogantyúk és -dekoráció", "new_hu": "Markolatok és kormánydíszek", "reason": "natural shop terms"}
+{"id": "sg-4-4-1-12-3", "name_en": "Bicycle Handlebar Grips", "old_hu": "Kerékpár-kormány markolatok", "new_hu": "Markolatok", "reason": "natural shop term"}
+{"id": "sg-4-4-1-20", "name_en": "Bicycle Tire Repair Supplies & Kits", "old_hu": "Kerékpárabroncs-javító kellékek és készletek", "new_hu": "Defektjavító készletek", "reason": "natural shop term"}
+{"id": "sg-4-4-2-1-2", "name_en": "Bicycle Brake Levers", "old_hu": "Kerékpárfékkarok", "new_hu": "Fékkarok", "reason": "shorter under the brake parent"}
+{"id": "sg-4-4-2-1-5", "name_en": "Bicycle Brake Pads", "old_hu": "Kerékpár-fékbetétek", "new_hu": "Fékbetétek", "reason": "shorter under the brake parent"}
+{"id": "sg-4-4-2-1-3", "name_en": "Bicycle Brake Rotors", "old_hu": "Kerékpárfékrotorok", "new_hu": "Féktárcsák", "reason": "a brake rotor is féktárcsa"}
+{"id": "sg-4-4-2-1-4", "name_en": "Bicycle Brake Sets", "old_hu": "Kerékpárfékkészletek", "new_hu": "Fékszettek", "reason": "shorter under the brake parent"}
+{"id": "sg-4-4-2-3", "name_en": "Bicycle Cables", "old_hu": "Kerékpárkábelek", "new_hu": "Bowdenek", "reason": "bike cables are bowdenek"}
+{"id": "sg-4-4-2-4", "name_en": "Bicycle Drivetrain Parts", "old_hu": "Kerékpárhajtáslánc-alkatrészek", "new_hu": "Hajtáslánc-alkatrészek", "reason": "shorter"}
+{"id": "sg-4-4-2-4-2", "name_en": "Bicycle Cassettes & Freewheels", "old_hu": "Kerékpárkazetták és -szabadonfutók", "new_hu": "Fogaskoszorúk és racsnik", "reason": "natural shop terms"}
+{"id": "sg-4-4-2-4-8", "name_en": "Bicycle Shifters", "old_hu": "Kerékpárváltók", "new_hu": "Váltókarok", "reason": "a shifter is váltókar, váltó is the derailleur"}
+{"id": "sg-4-4-2-11", "name_en": "Bicycle Headsets", "old_hu": "Kerékpáros fejhallgatók", "new_hu": "Kormánycsapágyak", "reason": "a headset is kormánycsapágy, not headphones"}
+{"id": "sg-4-4-2-12", "name_en": "Bicycle Kickstands", "old_hu": "Kerékpárállványok", "new_hu": "Kitámasztók", "reason": "a kickstand is kitámasztó"}
+{"id": "sg-4-4-2-25", "name_en": "Bicycle Rear Shocks", "old_hu": "Kerékpár hátsó rugóstagok", "new_hu": "Hátsó rugóstagok", "reason": "shorter"}
+{"id": "sg-4-4-2-21", "name_en": "Bicycle Tires", "old_hu": "Kerékpár-gumiabroncsok", "new_hu": "Kerékpárgumik", "reason": "natural shop term"}
+{"id": "sg-4-4-2-22", "name_en": "Bicycle Tubes", "old_hu": "Kerékpárcsövek", "new_hu": "Belső gumik", "reason": "a tube is belső gumi, cső is a pipe"}
+{"id": "sg-4-4-2-23-8", "name_en": "Bicycle Wheel Rims", "old_hu": "Kerékpárkerék-tárcsák", "new_hu": "Felnik", "reason": "a rim is felni, tárcsa is a disc"}
+{"id": "sg-4-4-4-3", "name_en": "Bicycle Gloves", "old_hu": "Kerékpárkesztyűk", "new_hu": "Kerékpáros kesztyűk", "reason": "natural shop term"}
+{"id": "sg-4-4-4-7", "name_en": "Bicycle Shoe Covers", "old_hu": "Kerékpáros cipőhuzatok", "new_hu": "Kerékpáros kamáslik", "reason": "shoe covers are kamásli"}
+{"id": "sg-4-4-4-8", "name_en": "Cycling Shoes", "old_hu": "Kerékpárcipők", "new_hu": "Kerékpáros cipők", "reason": "natural shop term"}
+{"id": "sg-4-4-4-16", "name_en": "Cycling Shorts & Bib Shorts", "old_hu": "Kerékpáros rövidnadrágok és kantáros rövidnadrágok", "new_hu": "Kerékpáros nadrágok", "reason": "shorter"}
+{"id": "sg-4-4-8", "name_en": "Unicycles", "old_hu": "Egykerekűk", "new_hu": "Egykerekű kerékpárok", "reason": "egykerekűk is ungrammatical"}
+{"id": "sg-4-5-1-2", "name_en": "Horse Boots & Leg Wraps", "old_hu": "Lóbakancsok és -lábszárvédők", "new_hu": "Lábvédők és bandázsok", "reason": "bakancs is a human boot"}
+{"id": "sg-4-5-1-4", "name_en": "Horse Fly Masks", "old_hu": "Lólégymaszkok", "new_hu": "Légymaszkok", "reason": "lólégy is a horse fly"}
+{"id": "sg-4-5-2-1", "name_en": "Bridle Bits", "old_hu": "Kantárbitek", "new_hu": "Zablák", "reason": "a bit is zabla"}
+{"id": "sg-4-5-2-10", "name_en": "Girths", "old_hu": "Hevederek", "new_hu": "Nyereghevederek", "reason": "heveder alone is too broad"}
+{"id": "sg-4-5-3-2-3", "name_en": "Saddle Pads & Blankets", "old_hu": "Nyeregbetétek és -takarók", "new_hu": "Nyeregalátétek", "reason": "natural shop term"}
+{"id": "sg-4-5-5-1", "name_en": "Equestrian Gloves", "old_hu": "Lovas-kesztyűk", "new_hu": "Lovaskesztyűk", "reason": "compound spelling"}
+{"id": "sg-4-5-5-2", "name_en": "Equestrian Helmets", "old_hu": "Lovas-sisakok", "new_hu": "Lovassisakok", "reason": "compound spelling"}
+{"id": "sg-4-5-5-3", "name_en": "Riding Crops & Whips", "old_hu": "Lovaglópálcák és -ostorom", "new_hu": "Lovaglópálcák és ostorok", "reason": "typo: ostorom"}
+{"id": "sg-4-6-1", "name_en": "Bite Alarms", "old_hu": "Kapásriasztók", "new_hu": "Kapásjelzők", "reason": "a bite alarm is kapásjelző"}
+{"id": "sg-4-6-1-1", "name_en": "Fishing Bite Alarms", "old_hu": "Horgászati kapásriasztók", "new_hu": "Elektromos kapásjelzők", "reason": "a bite alarm is kapásjelző"}
+{"id": "sg-4-6-2", "name_en": "Fishing & Hunting Waders", "old_hu": "Horgászati és vadászati gázlók", "new_hu": "Gázlónadrágok és csizmák", "reason": "gázló is a ford in a river"}
+{"id": "sg-4-6-2-1", "name_en": "Fishing Waders", "old_hu": "Horgászgázlók", "new_hu": "Horgász gázlónadrágok", "reason": "gázló is a ford in a river"}
+{"id": "sg-4-6-6", "name_en": "Fishing Lines & Leaders", "old_hu": "Horgászvonalak és -vezetők", "new_hu": "Horgászzsinórok és előkék", "reason": "line is zsinór, leader is előke"}
+{"id": "sg-4-6-7", "name_en": "Fishing Nets", "old_hu": "Horgászhálók", "new_hu": "Merítőszákok", "reason": "fishing nets are merítőszák"}
+{"id": "sg-4-6-10-2", "name_en": "Fishing Rod Holders & Storage Racks", "old_hu": "Horgászbottartók és -tárolóállványok", "new_hu": "Bottartók és állványok", "reason": "shorter"}
+{"id": "sg-4-6-12", "name_en": "Fishing Spears", "old_hu": "Horgászlándzsák", "new_hu": "Szigonyok", "reason": "lándzsa is a lance"}
+{"id": "sg-4-6-13", "name_en": "Fishing Tackle", "old_hu": "Horgászfelszerelés", "new_hu": "Horgászkellékek", "reason": "tackle is kellék, felszerelés is gear in general"}
+{"id": "sg-4-6-13-1", "name_en": "Fishing Baits & Lures", "old_hu": "Horgászcsalik", "new_hu": "Csalik és műcsalik", "reason": "lures are műcsalik"}
+{"id": "sg-4-6-13-1-13", "name_en": "Fishing Bait Additives & Attractants", "old_hu": "Horgászcsali-adalékok és -aromák", "new_hu": "Aromák és adalékok", "reason": "shorter"}
+{"id": "sg-4-6-13-3", "name_en": "Fishing Hooks", "old_hu": "Horgászhorgok", "new_hu": "Horgok", "reason": "horgászhorog repeats horog"}
+{"id": "sg-4-6-13-4", "name_en": "Fishing Sinkers", "old_hu": "Horgász-ólomnehezékek", "new_hu": "Ólmok és nehezékek", "reason": "natural shop term"}
+{"id": "sg-4-6-18", "name_en": "Fishing Weighing & Measuring Tools", "old_hu": "Horgász mérlegek és mérőeszközök", "new_hu": "Horgászmérlegek és mérőeszközök", "reason": "compound spelling"}
+{"id": "sg-4-6-17", "name_en": "Tackle Bags & Boxes", "old_hu": "Felszereléstáskák és -dobozok", "new_hu": "Horgásztáskák és szerelékes dobozok", "reason": "felszereléstáska is unclear"}
+{"id": "sg-4-7-7", "name_en": "Golf Club Parts & Accessories", "old_hu": "Golfütőalkatrészek és -kiegészítők", "new_hu": "Golfütő-alkatrészek és -kiegészítők", "reason": "compound spelling"}
+{"id": "sg-4-7-8", "name_en": "Golf Club Sets", "old_hu": "Golfütő készletek", "new_hu": "Golfütőszettek", "reason": "compound spelling"}
+{"id": "sg-4-7-12", "name_en": "Golf Tees", "old_hu": "Golfpólók", "new_hu": "Golf tee-k", "reason": "golfpóló is a golf shirt"}
+{"id": "sg-4-12", "name_en": "Inline & Roller Skating", "old_hu": "Inline- és görkorcsolya", "new_hu": "Görkorcsolyázás", "reason": "inline skates are görkorcsolya in Hungarian"}
+{"id": "sg-4-12-2", "name_en": "Inline Skate Parts", "old_hu": "Inline-korcsolya-alkatrészek", "new_hu": "Görkorcsolya-alkatrészek", "reason": "inline skates are görkorcsolya"}
+{"id": "sg-4-12-2-3", "name_en": "Inline Skate Wheels", "old_hu": "Inline-korcsolya-kerekek", "new_hu": "Görkorcsolya-kerekek", "reason": "inline skates are görkorcsolya"}
+{"id": "sg-4-12-3", "name_en": "Inline Skates", "old_hu": "Inline-korcsolyák", "new_hu": "Inline görkorcsolyák", "reason": "natural shop term"}
+{"id": "sg-4-12-5", "name_en": "Roller Skates", "old_hu": "Görkorcsolyák", "new_hu": "Négykerekű görkorcsolyák", "reason": "roller skates are the quad type"}
+{"id": "sg-4-14-1-6", "name_en": "Badminton Strings", "old_hu": "Tollasütőhúrok", "new_hu": "Tollaslabdaütő-húrok", "reason": "consistent with its siblings"}
+{"id": "sg-4-14-7", "name_en": "Platform & Paddle Tennis", "old_hu": "Platform- és paddle tenisz", "new_hu": "Padel és platformtenisz", "reason": "padel stays padel"}
+{"id": "sg-4-14-7-5", "name_en": "Platform & Paddle Tennis Bags", "old_hu": "Platform és padel tenisz táskák", "new_hu": "Padeltáskák", "reason": "padel stays padel; shorter"}
+{"id": "sg-4-14-7-1", "name_en": "Platform & Paddle Tennis Paddles", "old_hu": "Platform- és paddle tenisz lapátok", "new_hu": "Padelütők", "reason": "lapát is a shovel; a padel paddle is padelütő"}
+{"id": "sg-4-15", "name_en": "Riding Scooters", "old_hu": "Motoros rollerek", "new_hu": "Rollerek", "reason": "kick scooters have no motor"}
+{"id": "sg-4-15-5", "name_en": "Self-Balancing Scooters", "old_hu": "Önegyensúlyozó rollerek", "new_hu": "Hoverboardok", "reason": "self-balancing scooters are sold as hoverboard"}
+{"id": "sg-4-16-4", "name_en": "Skateboard Parts", "old_hu": "Gördeszkaalkatrészek", "new_hu": "Gördeszka-alkatrészek", "reason": "compound spelling"}
+{"id": "sg-4-16-4-3", "name_en": "Skateboard Trucks", "old_hu": "Gördeszka-felfüggesztések", "new_hu": "Gördeszkatengelyek", "reason": "trucks are tengely, not felfüggesztés"}
+{"id": "sg-4-17", "name_en": "Winter Sports & Activities", "old_hu": "Téli sportok és tevékenységek", "new_hu": "Téli sportok", "reason": "tevékenységek is redundant"}
+{"id": "sg-4-17-2-1-3", "name_en": "Ski Bags", "old_hu": "Sításkák", "new_hu": "Sízsákok", "reason": "natural shop term"}
+{"id": "sg-4-17-2-10", "name_en": "Ski Bindings", "old_hu": "Síléckötők", "new_hu": "Síkötések", "reason": "a ski binding is síkötés"}
+{"id": "sg-4-17-2-13-1", "name_en": "Cross-Country Skis", "old_hu": "Túrasílécek", "new_hu": "Sífutólécek", "reason": "túrasí is ski touring, not cross-country"}
+{"id": "sg-4-17-2-13-2", "name_en": "Downhill Skis", "old_hu": "Lesikló sílécek", "new_hu": "Alpesi sílécek", "reason": "natural shop term"}
+{"id": "sg-4-17-2-15", "name_en": "Snowboard Bindings", "old_hu": "Snowboardkötők", "new_hu": "Snowboardkötések", "reason": "a binding is kötés"}
+{"id": "sg-4-17-2-16", "name_en": "Snowboard Boots", "old_hu": "Snowboardcsizmák", "new_hu": "Snowboardbakancsok", "reason": "natural shop term"}
+{"id": "tg", "name_en": "Toys & Games", "old_hu": "Játékok és játékszerek", "new_hu": "Játékok és társasjátékok", "reason": "játékszer duplicates játék"}
+{"id": "tg-2", "name_en": "Games", "old_hu": "Játékszerek", "new_hu": "Társas- és kártyajátékok", "reason": "the node holds board and card games, játékszer is a toy"}
+{"id": "tg-2-15", "name_en": "Tile Games", "old_hu": "Csempejátékok", "new_hu": "Dominók és lapkajátékok", "reason": "csempe is a wall tile"}
+{"id": "tg-3", "name_en": "Outdoor Play Equipment", "old_hu": "Szabadtéri játékfelszerelések", "new_hu": "Kerti játékok", "reason": "natural shop term"}
+{"id": "tg-3-2", "name_en": "Inflatable Bouncers", "old_hu": "Felfújható kidobók", "new_hu": "Ugrálóvárak", "reason": "kidobó is a ball game"}
+{"id": "tg-3-12", "name_en": "Swing Sets & Playsets", "old_hu": "Hintakészletek és játékkészletek", "new_hu": "Hintaállványok és játszótéri szettek", "reason": "natural shop terms"}
+{"id": "tg-4", "name_en": "Puzzles", "old_hu": "Kirakósok", "new_hu": "Puzzle-k és logikai játékok", "reason": "the node holds jigsaw and mechanical puzzles"}
+{"id": "tg-4-6", "name_en": "Jigsaw Puzzle Accessories", "old_hu": "Kirakósjáték-kiegészítők", "new_hu": "Puzzle-kiegészítők", "reason": "natural shop term"}
+{"id": "tg-4-7", "name_en": "Jigsaw Puzzles", "old_hu": "Kirakós játékok", "new_hu": "Puzzle-k", "reason": "shops say puzzle"}
+{"id": "tg-4-9", "name_en": "Mechanical Puzzles", "old_hu": "Mechanikus kirakósok", "new_hu": "Ördöglakatok és logikai játékok", "reason": "mechanical puzzles are ördöglakatok"}
+{"id": "tg-5-1", "name_en": "Activity Toys", "old_hu": "Tevékenységjátékok", "new_hu": "Ügyességi játékok", "reason": "tevékenységjáték is a calque"}
+{"id": "tg-5-2", "name_en": "Art & Drawing Toys", "old_hu": "Művészet és rajzjátékok", "new_hu": "Kreatív és rajzos játékok", "reason": "művészet is art itself"}
+{"id": "tg-5-2-8", "name_en": "Stamp & Stamp Pad Sets", "old_hu": "Bélyegző- és bélyegzőlapkészletek", "new_hu": "Nyomdakészletek", "reason": "bélyegzőlap is not a stamp pad"}
+{"id": "tg-5-2-10", "name_en": "Stickers & Sticker Machines", "old_hu": "Matricák és matricagépek", "new_hu": "Matricák és matricakészítők", "reason": "natural term"}
+{"id": "tg-5-6-3", "name_en": "Inflatable Rafts & Floats", "old_hu": "Felfújható raftok és úszók", "new_hu": "Felfújható matracok és úszógumik", "reason": "raft is not used for pool toys"}
+{"id": "tg-5-6-11", "name_en": "Water Guns", "old_hu": "Vízi fegyverek", "new_hu": "Vízipisztolyok", "reason": "vízi fegyver reads as a naval weapon"}
+{"id": "tg-5-7-8", "name_en": "Construction Set Toys", "old_hu": "Építőkészlet-játékok", "new_hu": "Építőkészletek", "reason": "shorter"}
+{"id": "tg-5-7-12", "name_en": "Interlocking Blocks", "old_hu": "Összekapcsolható blokkok", "new_hu": "Építőkockák", "reason": "natural shop term"}
+{"id": "tg-5-7-13", "name_en": "Marble Track Sets", "old_hu": "Üveggolyópálya-készletek", "new_hu": "Golyópályák", "reason": "natural shop term"}
+{"id": "tg-5-8", "name_en": "Dolls, Playsets & Toy Figures", "old_hu": "Babák, játékkészletek és játékfigurák", "new_hu": "Babák, figurák és játékszettek", "reason": "consistent with the children"}
+{"id": "tg-5-8-11", "name_en": "Stuffed Animals", "old_hu": "Kitömött állatok", "new_hu": "Plüssjátékok", "reason": "kitömött állat is a taxidermy animal"}
+{"id": "tg-5-8-12", "name_en": "Toy Playsets", "old_hu": "Játékos játékkészletek", "new_hu": "Játékszettek", "reason": "játékos játékkészlet is redundant"}
+{"id": "tg-5-8-12-2", "name_en": "Car Playsets", "old_hu": "Autós játékkészletek", "new_hu": "Autós játékszettek", "reason": "consistent with the parent"}
+{"id": "tg-5-8-12-5", "name_en": "Doctor Playsets", "old_hu": "Doktoros játékkészletek", "new_hu": "Orvosos játékszettek", "reason": "natural shop term"}
+{"id": "tg-5-9-6", "name_en": "Science & Exploration Sets", "old_hu": "Tudományos és felfedező készletek", "new_hu": "Tudományos és kísérletező készletek", "reason": "natural shop term"}
+{"id": "tg-5-13", "name_en": "Musical Toys", "old_hu": "Zenejátékok", "new_hu": "Zenélő játékok", "reason": "natural shop term"}
+{"id": "tg-5-15-6", "name_en": "Toy Race Car & Track Sets", "old_hu": "Játék-versenyautó- és pályakészletek", "new_hu": "Autóversenypályák", "reason": "shorter"}
+{"id": "tg-5-16", "name_en": "Pretend Play", "old_hu": "Szerepjáték", "new_hu": "Szerepjátékok", "reason": "plural like its siblings"}
+{"id": "tg-5-16-3", "name_en": "Pretend Housekeeping", "old_hu": "Háztartási szerepjáték", "new_hu": "Háztartási játékok", "reason": "natural shop term"}
+{"id": "tg-5-16-4", "name_en": "Pretend Lawn & Garden", "old_hu": "Gyepes és kertes szerepjáték", "new_hu": "Kertészkedős játékok", "reason": "gyepes is literal"}
+{"id": "tg-5-16-5", "name_en": "Pretend Professions & Role Playing", "old_hu": "Szakmai és képzeletbeli szerepjáték", "new_hu": "Foglalkozásos szerepjátékok", "reason": "képzeletbeli is wrong; professions are foglalkozások"}
+{"id": "tg-5-16-6", "name_en": "Pretend Shopping & Grocery", "old_hu": "Vásárlásos és élelmiszerboltos szerepjáték", "new_hu": "Boltos játékok", "reason": "natural shop term"}
+{"id": "tg-5-16-7", "name_en": "Toy Kitchens & Play Food", "old_hu": "Játékkonyhák és játékétel", "new_hu": "Játékkonyhák és játékételek", "reason": "plural"}
+{"id": "tg-5-19", "name_en": "Riding Toy Accessories", "old_hu": "Lovaglójáték-kiegészítők", "new_hu": "Járgány-kiegészítők", "reason": "riding toys are járgányok, not horse riding"}
+{"id": "tg-5-20", "name_en": "Riding Toys", "old_hu": "Lovaglójátékok", "new_hu": "Járgányok", "reason": "riding toys are járgányok, not horse riding"}
+{"id": "tg-5-20-1", "name_en": "Electric Riding Vehicles", "old_hu": "Elektromos lovaglójárművek", "new_hu": "Elektromos járgányok", "reason": "riding toys are járgányok"}
+{"id": "tg-5-20-3", "name_en": "Push & Pedal Riding Vehicles", "old_hu": "Nyomó és pedálos lovaglójárművek", "new_hu": "Bébitaxik és pedálos járgányok", "reason": "push riding toys are bébitaxik"}
+{"id": "tg-5-20-4", "name_en": "Rocking & Spring Riding Toys", "old_hu": "Hintázós és rugós lovaglójátékok", "new_hu": "Hintalovak és rugós hintajátékok", "reason": "natural shop terms"}
+{"id": "tg-5-23-6", "name_en": "Fingerboards & Fingerboard Sets", "old_hu": "Fogólapok és fogólapkészletek", "new_hu": "Fingerboardok", "reason": "fogólap is not a word for this; shops say fingerboard"}
+{"id": "tg-5-23-8", "name_en": "Fitness Toys", "old_hu": "Fitneszjátékok", "new_hu": "Mozgásfejlesztő játékok", "reason": "natural shop term"}
+{"id": "tg-5-23-8-4", "name_en": "Kids' Exercise Balls", "old_hu": "Gyerek edzőlabdák", "new_hu": "Ugrálólabdák", "reason": "kids' exercise balls are hopper balls"}
+{"id": "tg-5-23-9", "name_en": "Flying Discs", "old_hu": "Repülő korongok", "new_hu": "Frizbik", "reason": "natural shop term"}
+{"id": "tg-5-23-13", "name_en": "Playground Balls", "old_hu": "Játszótéri labdák", "new_hu": "Gumilabdák", "reason": "natural shop term"}
+{"id": "tg-5-25", "name_en": "Toy Weapon & Gadget Accessories", "old_hu": "Játékfegyver- és kütyükiegészítők", "new_hu": "Játékfegyver-kiegészítők", "reason": "shorter"}
+{"id": "vp-1-2", "name_en": "Electric Vehicle (EV) Parts & Accessories", "old_hu": "Elektromos jármű (EV) alkatrészek és kiegészítők", "new_hu": "Elektromos járművek tartozékai", "reason": "parenthesised EV is clumsy"}
+{"id": "vp-1-2-3", "name_en": "Charging Stations", "old_hu": "Töltőállomások", "new_hu": "Töltőállomások és wallboxok", "reason": "home chargers are sold as wallbox"}
+{"id": "vp-1-3", "name_en": "Motor Vehicle Electronics", "old_hu": "Gépjármű-elektronika", "new_hu": "Autóelektronika", "reason": "natural shop term"}
+{"id": "vp-1-3-1", "name_en": "Motor Vehicle A/V Players & In-Dash Systems", "old_hu": "Gépjármű A/V lejátszók és műszerfali rendszerek", "new_hu": "Autórádiók és multimédiás fejegységek", "reason": "natural shop terms"}
+{"id": "vp-1-3-2", "name_en": "Motor Vehicle Amplifiers", "old_hu": "Gépjármű-erősítők", "new_hu": "Autós erősítők", "reason": "natural shop term"}
+{"id": "vp-1-3-6", "name_en": "Motor Vehicle Parking Cameras", "old_hu": "Gépjármű-parkolókamerák", "new_hu": "Tolatókamerák", "reason": "natural shop term"}
+{"id": "vp-1-3-8", "name_en": "Motor Vehicle Speakers", "old_hu": "Gépjárműhangszórók", "new_hu": "Autóhangszórók", "reason": "natural shop term"}
+{"id": "vp-1-3-9", "name_en": "Motor Vehicle Subwoofers", "old_hu": "Gépjárműmélynyomó", "new_hu": "Autós mélynyomók", "reason": "singular; natural shop term"}
+{"id": "vp-1-4-23", "name_en": "Motor Vehicle Air Intake", "old_hu": "Gépjármű-légbeszívó rendszerek", "new_hu": "Légbeszívó rendszerek", "reason": "shorter"}
+{"id": "vp-1-4-23-1", "name_en": "Engine Air Filters", "old_hu": "Motor-légszűrők", "new_hu": "Levegőszűrők", "reason": "natural shop term"}
+{"id": "vp-1-4-1", "name_en": "Motor Vehicle Braking", "old_hu": "Gépjárműfékezés", "new_hu": "Fékrendszer", "reason": "fékezés is the act of braking"}
+{"id": "vp-1-4-1-6", "name_en": "Brake Master Cylinders", "old_hu": "Főfék-hengerek", "new_hu": "Főfékhengerek", "reason": "compound spelling"}
+{"id": "vp-1-4-1-8", "name_en": "Brake Rotors", "old_hu": "Fékrotorok", "new_hu": "Féktárcsák", "reason": "a brake rotor is féktárcsa"}
+{"id": "vp-1-4-1-12", "name_en": "Wheel Cylinders", "old_hu": "Kerékhengerek", "new_hu": "Fékmunkahengerek", "reason": "a wheel cylinder is fékmunkahenger"}
+{"id": "vp-1-4-2", "name_en": "Motor Vehicle Carpet & Upholstery", "old_hu": "Gépjármű-szőnyegek és -kárpitok", "new_hu": "Szőnyegek és kárpitok", "reason": "shorter"}
+{"id": "vp-1-4-2-1", "name_en": "Cargo Liners", "old_hu": "Csomagtérborítók", "new_hu": "Csomagtértálcák", "reason": "cargo liners are csomagtértálcák"}
+{"id": "vp-1-4-3", "name_en": "Motor Vehicle Climate Control", "old_hu": "Gépjármű-klímaszabályozás", "new_hu": "Klíma és fűtés", "reason": "natural shop term"}
+{"id": "vp-1-4-3-1", "name_en": "AC Compressors", "old_hu": "AC kompresszorok", "new_hu": "Klímakompresszorok", "reason": "AC is not used in Hungarian"}
+{"id": "vp-1-4-3-2", "name_en": "AC Condensers", "old_hu": "AC kondenzátorok", "new_hu": "Klímakondenzátorok", "reason": "AC is not used in Hungarian"}
+{"id": "vp-1-4-4", "name_en": "Motor Vehicle Controls", "old_hu": "Gépjárművezérlők", "new_hu": "Kezelőszervek", "reason": "vezérlő is a controller unit"}
+{"id": "vp-1-4-22", "name_en": "Motor Vehicle Cooling Systems", "old_hu": "Járműhűtési rendszerek", "new_hu": "Motorhűtés", "reason": "natural shop term"}
+{"id": "vp-1-4-22-8", "name_en": "Expansion Tanks", "old_hu": "Tágulási tartályok", "new_hu": "Kiegyenlítő tartályok", "reason": "natural shop term"}
+{"id": "vp-1-4-22-13", "name_en": "Radiator Hoses", "old_hu": "Radiátortömlők", "new_hu": "Hűtőcsövek", "reason": "natural shop term"}
+{"id": "vp-1-4-22-10", "name_en": "Radiators", "old_hu": "Radiátorok", "new_hu": "Vízhűtők", "reason": "radiátor is a room heater"}
+{"id": "vp-1-4-5", "name_en": "Motor Vehicle Engine Oil Circulation", "old_hu": "Gépjárműmotorolaj-keringés", "new_hu": "Kenési rendszer", "reason": "motorolaj-keringés is a calque"}
+{"id": "vp-1-4-6", "name_en": "Motor Vehicle Engine Parts", "old_hu": "Gépjármű-motoralkatrész", "new_hu": "Motoralkatrészek", "reason": "singular and long"}
+{"id": "vp-1-4-6-5", "name_en": "Ignition Components", "old_hu": "Gyújtókomponensek", "new_hu": "Gyújtási alkatrészek", "reason": "komponens is a calque"}
+{"id": "vp-1-4-7", "name_en": "Motor Vehicle Engines", "old_hu": "Gépjárműmotorok", "new_hu": "Motorok", "reason": "shorter"}
+{"id": "vp-1-4-7-3", "name_en": "Engine Mounts", "old_hu": "Motorrögzítők", "new_hu": "Motortartó bakok", "reason": "natural shop term"}
+{"id": "vp-1-4-8", "name_en": "Motor Vehicle Exhaust", "old_hu": "Gépjármű-kipufogók", "new_hu": "Kipufogórendszer", "reason": "natural shop term"}
+{"id": "vp-1-4-8-3", "name_en": "Motor Vehicle Exhaust Tips", "old_hu": "Gépjármű-kipufogóvégek", "new_hu": "Kipufogóvégek", "reason": "shorter"}
+{"id": "vp-1-4-8-5", "name_en": "Motor Vehicle Mufflers", "old_hu": "Gépjármű-kipufogódobok", "new_hu": "Kipufogódobok", "reason": "shorter"}
+{"id": "vp-1-4-9", "name_en": "Motor Vehicle Frame & Body Parts", "old_hu": "Gépjárműváz és -karosszéria-alkatrészek", "new_hu": "Karosszériaelemek", "reason": "shorter"}
+{"id": "vp-1-4-9-4", "name_en": "Grilles", "old_hu": "Rácsok", "new_hu": "Hűtőrácsok", "reason": "rács alone is too vague"}
+{"id": "vp-1-4-10", "name_en": "Motor Vehicle Fuel Systems", "old_hu": "Gépjárműüzemanyag-rendszerek", "new_hu": "Üzemanyagrendszer", "reason": "shorter"}
+{"id": "vp-1-4-11", "name_en": "Motor Vehicle Interior Fittings", "old_hu": "Gépjármű belső szerelvények", "new_hu": "Utastér-kiegészítők", "reason": "natural shop term"}
+{"id": "vp-1-4-11-3", "name_en": "Floor Mats", "old_hu": "Padlószőnyegek", "new_hu": "Autószőnyegek", "reason": "natural shop term"}
+{"id": "vp-1-4-11-4", "name_en": "Pedal Sets", "old_hu": "Pedálkészletek", "new_hu": "Pedálborítások", "reason": "pedal sets are pedal covers"}
+{"id": "vp-1-4-11-6", "name_en": "Steering Wheel Covers", "old_hu": "Kormánykerékhuzatok", "new_hu": "Kormányhuzatok", "reason": "shorter"}
+{"id": "vp-1-4-11-7", "name_en": "Sun Shades", "old_hu": "Napvédők", "new_hu": "Napárnyékolók", "reason": "natural shop term"}
+{"id": "vp-1-4-12-4", "name_en": "Light Bulbs", "old_hu": "Izzók", "new_hu": "Autóizzók", "reason": "tells car bulbs from home bulbs"}
+{"id": "vp-1-4-13", "name_en": "Motor Vehicle Mirrors", "old_hu": "Gépjárműtükrök", "new_hu": "Visszapillantó tükrök", "reason": "natural shop term"}
+{"id": "vp-1-4-14", "name_en": "Motor Vehicle Power & Electrical Systems", "old_hu": "Gépjármű-teljesítmény és elektromos rendszerek", "new_hu": "Elektromos rendszer", "reason": "teljesítmény (performance) is wrong for power"}
+{"id": "vp-1-4-16", "name_en": "Motor Vehicle Sensors & Gauges", "old_hu": "Gépjármű-érzékelők és -műszerek", "new_hu": "Érzékelők és műszerek", "reason": "shorter"}
+{"id": "vp-1-4-16-10", "name_en": "Parking Sensors", "old_hu": "Parkolásérzékelők", "new_hu": "Tolatóradarok", "reason": "natural shop term"}
+{"id": "vp-1-4-17", "name_en": "Motor Vehicle Suspension Parts", "old_hu": "Gépjárműfelfüggesztés-alkatrészek", "new_hu": "Futómű-alkatrészek", "reason": "natural shop term"}
+{"id": "vp-1-4-17-3", "name_en": "Control Arms", "old_hu": "Vezérlőkarok", "new_hu": "Lengőkarok", "reason": "a control arm is lengőkar, vezérlő is a controller"}
+{"id": "vp-1-4-17-7", "name_en": "Suspension Bushings", "old_hu": "Felfüggesztésszilentek", "new_hu": "Szilentblokkok", "reason": "natural shop term"}
+{"id": "vp-1-4-18", "name_en": "Motor Vehicle Towing", "old_hu": "Gépjárművontatás", "new_hu": "Vontatás", "reason": "shorter"}
+{"id": "vp-1-4-18-3", "name_en": "Tow Bars", "old_hu": "Vonóhorgok", "new_hu": "Vontatórudak", "reason": "a tow bar is vontatórúd"}
+{"id": "vp-1-4-18-4", "name_en": "Tow Straps", "old_hu": "Vonópántok", "new_hu": "Vontatókötelek", "reason": "natural shop term"}
+{"id": "vp-1-4-18-6", "name_en": "Trailer Hitches", "old_hu": "Utánfutó-vonószervek", "new_hu": "Vonóhorgok", "reason": "a trailer hitch is vonóhorog"}
+{"id": "vp-1-4-19", "name_en": "Motor Vehicle Transmission & Drivetrain Parts", "old_hu": "Gépjárműsebességváltó- és hajtáslánc-alkatrészek", "new_hu": "Sebességváltó és hajtáslánc", "reason": "shorter"}
+{"id": "vp-1-4-19-17", "name_en": "Clutch Lines", "old_hu": "Tengelykapcsoló-vonalak", "new_hu": "Kuplungcsövek", "reason": "vonal is a drawn line"}
+{"id": "vp-1-4-19-16", "name_en": "Clutch Release Bearings", "old_hu": "Tengelykapcsoló-kioldócsapágyak", "new_hu": "Kinyomócsapágyak", "reason": "natural shop term"}
+{"id": "vp-1-4-19-2", "name_en": "Clutches", "old_hu": "Tengelykapcsolók", "new_hu": "Kuplungok", "reason": "consistent with the kuplung siblings"}
+{"id": "vp-1-4-20", "name_en": "Motor Vehicle Wheel Systems", "old_hu": "Gépjárműkerék-rendszerek", "new_hu": "Kerekek és gumik", "reason": "natural shop term"}
+{"id": "vp-1-4-20-1", "name_en": "Motor Vehicle Rims & Wheels", "old_hu": "Gépjárműfelnik és -kerekek", "new_hu": "Felnik és kerekek", "reason": "shorter"}
+{"id": "vp-1-4-20-1-1", "name_en": "Automotive Rims & Wheels", "old_hu": "Autófelnik és -kerekek", "new_hu": "Autófelnik", "reason": "shorter"}
+{"id": "vp-1-4-20-2", "name_en": "Motor Vehicle Tire Accessories", "old_hu": "Gépjárműgumi-kiegészítők", "new_hu": "Gumiabroncs-kiegészítők", "reason": "shorter"}
+{"id": "vp-1-4-20-3", "name_en": "Motor Vehicle Tires", "old_hu": "Gépjárműgumik", "new_hu": "Gumiabroncsok", "reason": "shorter"}
+{"id": "vp-1-4-20-3-2", "name_en": "Motorcycle Tires", "old_hu": "Motorkerékpárgumik", "new_hu": "Motorgumik", "reason": "natural shop term"}
+{"id": "vp-1-4-20-4", "name_en": "Motor Vehicle Wheel Parts", "old_hu": "Gépjárműkerék-alkatrészek", "new_hu": "Kerékalkatrészek", "reason": "shorter"}
+{"id": "vp-1-4-20-4-2", "name_en": "Wheel Fasteners & Locks", "old_hu": "Kerékrögzítők és kerékőrök", "new_hu": "Kerékcsavarok és kerékzárak", "reason": "kerékőr is not a word"}
+{"id": "vp-1-4-21", "name_en": "Motor Vehicle Window Parts & Accessories", "old_hu": "Gépjárműablak-alkatrészek és -kiegészítők", "new_hu": "Ablakok és ablaktörlők", "reason": "shorter"}
+{"id": "vp-1-4-21-1", "name_en": "Window Glass", "old_hu": "Ablaküveg", "new_hu": "Autóüvegek", "reason": "natural shop term"}
+{"id": "vp-1-4-21-2", "name_en": "Window Regulators", "old_hu": "Ablakszabályzók", "new_hu": "Ablakemelők", "reason": "a window regulator is ablakemelő"}
+{"id": "vp-1-4-21-4", "name_en": "Windshield Wiper Systems & Components", "old_hu": "Ablaktörlő rendszerek és alkatrészek", "new_hu": "Ablaktörlők és alkatrészek", "reason": "shorter"}
+{"id": "vp-1-5", "name_en": "Vehicle Maintenance, Care & Decor", "old_hu": "Járműkarbantartás, -gondozás és -dekoráció", "new_hu": "Autóápolás és karbantartás", "reason": "shorter"}
+{"id": "vp-1-5-1", "name_en": "Portable Fuel Cans", "old_hu": "Hordozható üzemanyag-kannák", "new_hu": "Üzemanyagkannák", "reason": "shorter"}
+{"id": "vp-1-5-3", "name_en": "Vehicle Covers", "old_hu": "Járműburkolatok", "new_hu": "Járműtakarók", "reason": "burkolat is a body panel"}
+{"id": "vp-1-5-3-6", "name_en": "Vehicle Storage Covers", "old_hu": "Járműtároló burkolatok", "new_hu": "Takaróponyvák", "reason": "burkolat is a body panel"}
+{"id": "vp-1-5-3-6-1", "name_en": "Automotive Storage Covers", "old_hu": "Autótároló burkolatok", "new_hu": "Autótakaró ponyvák", "reason": "burkolat is a body panel"}
+{"id": "vp-1-5-3-6-3", "name_en": "Motorcycle Storage Covers", "old_hu": "Motorkerékpár-tároló burkolatok", "new_hu": "Motortakaró ponyvák", "reason": "burkolat is a body panel"}
+{"id": "vp-1-5-4", "name_en": "Vehicle Decor", "old_hu": "Jármű-dekoráció", "new_hu": "Járműdekoráció", "reason": "compound spelling"}
+{"id": "vp-1-5-4-2", "name_en": "Vehicle Air Fresheners", "old_hu": "Járműlégfrissítők", "new_hu": "Autóillatosítók", "reason": "natural shop term"}
+{"id": "vp-1-5-4-5", "name_en": "Vehicle Decals", "old_hu": "Járműmatricák", "new_hu": "Autómatricák", "reason": "natural shop term"}
+{"id": "vp-1-5-4-8", "name_en": "Vehicle Emblems & Hood Ornaments", "old_hu": "Járműemblémák és motorháztetődíszek", "new_hu": "Emblémák és motorháztető-díszek", "reason": "shorter"}
+{"id": "vp-1-5-4-12", "name_en": "Vehicle License Plate Mounts & Holders", "old_hu": "Gépjárműrendszámtábla-rögzítők és -tartók", "new_hu": "Rendszámtábla-tartók", "reason": "shorter"}
+{"id": "vp-1-5-4-17", "name_en": "Vehicle Shift Knobs", "old_hu": "Jármű-váltógombok", "new_hu": "Váltógombok", "reason": "shorter"}
+{"id": "vp-1-5-5", "name_en": "Vehicle Fluids", "old_hu": "Járműfolyadékok", "new_hu": "Autós folyadékok", "reason": "natural shop term"}
+{"id": "vp-1-5-5-1", "name_en": "Vehicle Antifreeze", "old_hu": "Járműfagyálló", "new_hu": "Fagyállók", "reason": "shorter"}
+{"id": "vp-1-5-5-2", "name_en": "Vehicle Brake Fluid", "old_hu": "Járműfékfolyadék", "new_hu": "Fékfolyadékok", "reason": "shorter"}
+{"id": "vp-1-5-5-4", "name_en": "Vehicle Engine Degreasers", "old_hu": "Járműmotor-zsírtalanítók", "new_hu": "Motortisztítók", "reason": "natural shop term"}
+{"id": "vp-1-5-5-5", "name_en": "Vehicle Fuel System Cleaners", "old_hu": "Járműüzemanyag-rendszer tisztítók", "new_hu": "Üzemanyagrendszer-tisztítók", "reason": "shorter, compound spelling"}
+{"id": "vp-1-5-5-8", "name_en": "Vehicle Motor Oil", "old_hu": "Járműmotorolaj", "new_hu": "Motorolajok", "reason": "shorter"}
+{"id": "vp-1-5-5-9", "name_en": "Vehicle Performance Additives", "old_hu": "Járműteljesítmény-adalékok", "new_hu": "Teljesítménynövelő adalékok", "reason": "natural shop term"}
+{"id": "vp-1-5-5-11", "name_en": "Vehicle Transmission Fluid", "old_hu": "Járműsebességváltó folyadék", "new_hu": "Váltóolajok", "reason": "natural shop term"}
+{"id": "vp-1-5-5-12", "name_en": "Vehicle Windshield Fluid", "old_hu": "Járműszélvédő folyadék", "new_hu": "Ablakmosó folyadékok", "reason": "natural shop term"}
+{"id": "vp-1-5-6", "name_en": "Vehicle Paint", "old_hu": "Járműfestés", "new_hu": "Járműfestékek", "reason": "the products are paints, not painting"}
+{"id": "vp-1-5-6-1", "name_en": "Motor Vehicle Body Paint", "old_hu": "Gépjárműkarosszéria-festés", "new_hu": "Karosszériafestékek", "reason": "the products are paints, not painting"}
+{"id": "vp-1-5-7", "name_en": "Vehicle Repair & Specialty Tools", "old_hu": "Járműjavítás és speciális szerszámok", "new_hu": "Autószerelő szerszámok", "reason": "natural shop term"}
+{"id": "vp-1-5-7-6", "name_en": "Vehicle Diagnostic Scanners", "old_hu": "Járműdiagnosztikai szkennerek", "new_hu": "Autódiagnosztikai eszközök", "reason": "natural shop term"}
+{"id": "vp-1-5-7-8", "name_en": "Vehicle Jumper Cables", "old_hu": "Jármű-indítókábelek", "new_hu": "Bikakábelek", "reason": "jumper cables are bikakábel"}
+{"id": "vp-1-5-7-11", "name_en": "Vehicle Lifts & Stands", "old_hu": "Járműemelők és -állványok", "new_hu": "Emelők és bakok", "reason": "natural shop term"}
+{"id": "vp-1-5-7-9", "name_en": "Vehicle Tire Repair & Tire Changing Tools", "old_hu": "Járműgumi-javító és gumicsereeszközök", "new_hu": "Defektjavító és gumiszerelő eszközök", "reason": "natural shop term"}
+{"id": "vp-1-5-7-9-2", "name_en": "Tire Repair Kits", "old_hu": "Gumijavító készletek", "new_hu": "Defektjavító készletek", "reason": "natural shop term"}
+{"id": "vp-1-6", "name_en": "Vehicle Safety & Security", "old_hu": "Járműbiztonság és -védelem", "new_hu": "Biztonság és vagyonvédelem", "reason": "security is vagyonvédelem"}
+{"id": "vp-1-6-1", "name_en": "Motorcycle Protective Gear", "old_hu": "Motorkerékpár-védőfelszerelés", "new_hu": "Motoros védőfelszerelések", "reason": "natural shop term"}
+{"id": "vp-1-6-1-1", "name_en": "Motorcycle Chest & Back Protectors", "old_hu": "Motorkerékpáros mellkas- és hátvédők", "new_hu": "Motoros mell- és hátvédők", "reason": "natural shop term"}
+{"id": "vp-1-6-1-3", "name_en": "Motorcycle Gloves", "old_hu": "Motorkerékpár-kesztyűk", "new_hu": "Motoros kesztyűk", "reason": "natural shop term"}
+{"id": "vp-1-6-1-4", "name_en": "Motorcycle Goggles", "old_hu": "Motorkerékpár-szemüvegek", "new_hu": "Motoros szemüvegek", "reason": "natural shop term"}
+{"id": "vp-1-6-1-6", "name_en": "Motorcycle Helmet Parts & Accessories", "old_hu": "Motorkerékpársisak-alkatrészek és -kiegészítők", "new_hu": "Bukósisak-alkatrészek és -kiegészítők", "reason": "a motorcycle helmet is bukósisak"}
+{"id": "vp-1-6-1-7", "name_en": "Motorcycle Helmets", "old_hu": "Motorkerékpár-sisakok", "new_hu": "Bukósisakok", "reason": "a motorcycle helmet is bukósisak"}
+{"id": "vp-1-6-1-8", "name_en": "Motorcycle Kidney Belts", "old_hu": "Motorkerékpáros veseövek", "new_hu": "Motoros vesevédők", "reason": "natural shop term"}
+{"id": "vp-1-6-1-9", "name_en": "Motorcycle Knee & Shin Guards", "old_hu": "Motorkerékpáros térd- és lábszárvédők", "new_hu": "Motoros térd- és lábszárvédők", "reason": "natural shop term"}
+{"id": "vp-1-6-3-2", "name_en": "Automotive Alarm Systems", "old_hu": "Autós riasztórendszerek", "new_hu": "Autóriasztók", "reason": "shorter"}
+{"id": "vp-1-6-3-3", "name_en": "Motorcycle Alarms & Locks", "old_hu": "Motorkerékpár-riasztók és -zárak", "new_hu": "Motoros riasztók és zárak", "reason": "natural shop term"}
+{"id": "vp-1-6-4", "name_en": "Vehicle Safety Equipment", "old_hu": "Járműbiztonsági berendezések", "new_hu": "Biztonsági felszerelések", "reason": "berendezés is installed equipment"}
+{"id": "vp-1-7", "name_en": "Vehicle Storage & Cargo", "old_hu": "Járműtárolás és -rakomány", "new_hu": "Csomagtartók és szállítás", "reason": "rakomány is freight"}
+{"id": "vp-1-7-1", "name_en": "Motor Vehicle Cargo Nets", "old_hu": "Gépjármű-rakományhálók", "new_hu": "Csomagrögzítő hálók", "reason": "rakomány is freight"}
+{"id": "vp-1-7-1-3", "name_en": "Trunk Cargo Nets", "old_hu": "Teherautó-rakományhálók", "new_hu": "Csomagtartóhálók", "reason": "trunk was read as truck"}
+{"id": "vp-1-7-2", "name_en": "Motor Vehicle Carrying Rack Accessories", "old_hu": "Gépjárműhordozóállvány-kiegészítők", "new_hu": "Csomagtartó-kiegészítők", "reason": "natural shop term"}
+{"id": "vp-1-7-2-1", "name_en": "Vehicle Bicycle Rack Accessories", "old_hu": "Járműkerékpárállvány-kiegészítők", "new_hu": "Kerékpártartó-kiegészítők", "reason": "natural shop term"}
+{"id": "vp-1-7-3", "name_en": "Motor Vehicle Carrying Racks", "old_hu": "Gépjárműállvány-kiegészítők", "new_hu": "Csomagtartók és tetőrendszerek", "reason": "the node holds the racks, not accessories"}
+{"id": "vp-1-7-3-1", "name_en": "Vehicle Base Rack Systems", "old_hu": "Járműalapállvány-rendszerek", "new_hu": "Tetőcsomagtartó rudak", "reason": "base rack systems are roof bars"}
+{"id": "vp-1-7-3-2", "name_en": "Vehicle Bicycle Racks", "old_hu": "Járműkerékpár-állványok", "new_hu": "Autós kerékpártartók", "reason": "natural shop term"}
+{"id": "vp-1-7-3-4", "name_en": "Vehicle Cargo Racks", "old_hu": "Járműrakomány-állványok", "new_hu": "Tetőkosarak", "reason": "cargo racks are roof baskets"}
+{"id": "vp-1-7-3-8", "name_en": "Vehicle Ski & Snowboard Racks", "old_hu": "Járműsí- és snowboardállványok", "new_hu": "Síléc- és snowboardtartók", "reason": "natural shop term"}
+{"id": "vp-1-7-4", "name_en": "Motor Vehicle Loading Ramps", "old_hu": "Gépjármű-rakodórámpák", "new_hu": "Rakodórámpák", "reason": "shorter"}
+{"id": "vp-1-7-5", "name_en": "Motor Vehicle Trailers", "old_hu": "Gépjármű-utánfutók", "new_hu": "Utánfutók", "reason": "shorter"}
+{"id": "vp-1-7-6", "name_en": "Motorcycle Bags & Panniers", "old_hu": "Motorkerékpár-táskák és -oldaltáskák", "new_hu": "Motoros táskák és oldaltáskák", "reason": "natural shop term"}
+{"id": "vp-1-8", "name_en": "Watercraft Parts & Accessories", "old_hu": "Vízijármű-alkatrészek és -kiegészítők", "new_hu": "Hajóalkatrészek és -kiegészítők", "reason": "natural shop term"}
+{"id": "vp-1-8-5", "name_en": "Watercraft Engines & Motors", "old_hu": "Vízijármű-motorok", "new_hu": "Csónakmotorok", "reason": "natural shop term"}
+{"id": "vp-2-1", "name_en": "Aircraft", "old_hu": "Repülőgép", "new_hu": "Légi járművek", "reason": "singular repülőgép excludes drones"}
+{"id": "vp-2-1-1", "name_en": "Heavier-Than-Air Aircraft", "old_hu": "Levegőnél nehezebb repülőgépek", "new_hu": "Levegőnél nehezebb légi járművek", "reason": "drones are not repülőgépek"}
+{"id": "vp-2-2-3-2", "name_en": "Non-Electric Motorcycles & Scooters", "old_hu": "Nem elektromos motorkerékpárok és robogók", "new_hu": "Benzines motorkerékpárok és robogók", "reason": "natural shop term"}
+{"id": "vp-2-2-4", "name_en": "Off-Road and All-Terrain Vehicles", "old_hu": "Off-road és terepjáró járművek", "new_hu": "Quadok és terepjárók", "reason": "off-road repeats terepjáró"}
+{"id": "vp-2-2-4-1", "name_en": "ATVs & UTVs", "old_hu": "ATV-k és UTV-k", "new_hu": "Quadok és UTV-k", "reason": "ATVs are sold as quad"}

@@ -1,0 +1,351 @@
+<title>ShelfScreen kategóriafa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a working tool. Header with figures and controls, then the tree on the left and the selected node's card on the right; one column on a phone. */
+:root {
+  --bg: #f4f6f9; --surface: #ffffff; --fg: #18202e; --muted: #5a6476; --line: #dfe4ec; --hover: #eef2f8;
+  --accent: #1f4fd1; --accent-soft: #e5ecfd; --own: #0b7a57; --own-soft: #e1f4ec; --ren: #8f5d00; --ren-soft: #fbf0d9;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0e1218; --surface: #151b24; --fg: #e5e9f0; --muted: #98a2b4; --line: #263042; --hover: #1c2431;
+  --accent: #7c9cff; --accent-soft: #1d2a4d; --own: #46c79a; --own-soft: #11312a; --ren: #e3ac4c; --ren-soft: #3a2c10; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0e1218; --surface: #151b24; --fg: #e5e9f0; --muted: #98a2b4; --line: #263042; --hover: #1c2431;
+  --accent: #7c9cff; --accent-soft: #1d2a4d; --own: #46c79a; --own-soft: #11312a; --ren: #e3ac4c; --ren-soft: #3a2c10; color-scheme: dark }
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font: 14px/1.45 var(--font-body); }
+.wrap { max-width: 1280px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 32px; display: flex; flex-direction: column; gap: 16px; }
+header { display: flex; flex-direction: column; gap: 12px; }
+h1 { margin: 0; font-size: 22px; font-weight: 600; letter-spacing: -0.01em; text-wrap: balance; }
+.sub { color: var(--muted); margin: 0; max-width: 72ch; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 20px; color: var(--muted); }
+.stats b { color: var(--fg); font-family: var(--font-data); font-weight: 500; white-space: nowrap; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.search { flex: 1 1 260px; min-width: 0; height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--fg); font: inherit; }
+.search:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.seg button, .chip { height: 34px; padding: 0 12px; border: 0; background: transparent; color: var(--muted); font: inherit; cursor: pointer; white-space: nowrap; }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 500; }
+.chip { border: 1px solid var(--line); border-radius: 999px; height: 32px; background: var(--surface); }
+.chip[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+.select { height: 34px; padding: 0 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--fg); font: inherit; max-width: 100%; }
+.sel-wrap { display: inline-flex; min-width: 0; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.t-weak { color: var(--ren); background: var(--ren-soft); }
+.ecom-line { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.row.grp { font-weight: 600; }
+.row.sub { font-weight: 500; }
+.bar { flex: none; width: 90px; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); }
+.share { flex: none; font-family: var(--font-data); font-size: 12px; color: var(--fg); width: 52px; text-align: right; white-space: nowrap; }
+@media (max-width: 520px) { .bar { display: none; } }
+.main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; min-width: 0; }
+.tree { padding-block: 6px; max-height: calc(100vh - 220px); overflow: auto; }
+.row { display: flex; align-items: center; gap: 6px; padding: 3px 10px 3px 0; cursor: pointer; min-width: 0; }
+.row:hover { background: var(--hover); }
+.row.sel { background: var(--accent-soft); }
+.tw { width: 22px; flex: none; text-align: center; color: var(--muted); font-family: var(--font-data); user-select: none; }
+.nm { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.nm mark { background: var(--ren-soft); color: inherit; border-radius: 3px; }
+.alt { color: var(--muted); margin-left: 6px; }
+.num { flex: none; font-family: var(--font-data); font-size: 12px; color: var(--muted); white-space: nowrap; }
+.tag { flex: none; font-size: 11px; padding: 1px 6px; border-radius: 4px; white-space: nowrap; }
+.t-own { color: var(--own); background: var(--own-soft); }
+.t-ren { color: var(--ren); background: var(--ren-soft); }
+.t-flt { color: var(--accent); background: var(--accent-soft); }
+.detail { padding: 18px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); max-height: calc(100vh - 40px); overflow: auto; display: flex; flex-direction: column; gap: 14px; }
+.detail h2 { margin: 0; font-size: 18px; font-weight: 600; text-wrap: balance; }
+.path { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.kv { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 14px; margin: 0; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.mono { font-family: var(--font-data); font-size: 12.5px; }
+.label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 6px; }
+ul.plain { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+ul.plain li { display: flex; gap: 10px; justify-content: space-between; align-items: baseline; }
+ul.plain li span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.vals { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.val { font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); white-space: nowrap; }
+.empty { color: var(--muted); padding: 18px; }
+.note { font-size: 12px; color: var(--muted); }
+@media (max-width: 860px) { .main { grid-template-columns: minmax(0, 1fr); } .tree { max-height: 60vh; } .detail { position: static; max-height: none; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1 id="title">ShelfScreen kategóriafa</h1>
+    <p class="sub" id="lede"></p>
+    <div class="stats" id="stats"></div>
+    <div class="controls">
+      <input id="q" class="search" type="search" autocomplete="off" placeholder="Keresés (magyar vagy angol név)">
+      <div class="seg" role="group" aria-label="Nézet">
+        <button id="view-group" type="button" aria-pressed="true"></button>
+        <button id="view-tree" type="button" aria-pressed="false"></button>
+      </div>
+      <div class="seg" role="group" aria-label="Nyelv">
+        <button id="lang-hu" type="button" aria-pressed="true">Magyar</button>
+        <button id="lang-en" type="button" aria-pressed="false">English</button>
+      </div>
+      <button id="f-own" class="chip" type="button" aria-pressed="false"></button>
+      <button id="f-ren" class="chip" type="button" aria-pressed="false"></button>
+      <button id="f-flt" class="chip" type="button" aria-pressed="false"></button>
+      <button id="f-weak" class="chip" type="button" aria-pressed="false"></button>
+      <label class="sel-wrap"><span class="sr" id="ecom-label">E-kereskedelmi kategória</span><select id="ecom" class="select" aria-labelledby="ecom-label"></select></label>
+      <button id="collapse" class="chip" type="button" aria-pressed="false"></button>
+    </div>
+  </header>
+  <div class="main">
+    <div class="panel tree" id="tree" role="tree" aria-label="Kategóriafa"></div>
+    <aside class="panel detail" id="detail" aria-live="polite"></aside>
+  </div>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById("data").textContent);
+  var byId = {}, kids = {}, roots = [];
+  D.forEach(function (n) { byId[n.i] = n; kids[n.i] = []; });
+  D.forEach(function (n) { if (n.p && byId[n.p]) kids[n.p].push(n.i); else roots.push(n.i); });
+  function sortIds(a) { a.sort(function (x, y) { return byId[y].n - byId[x].n || byId[x].h.localeCompare(byId[y].h, "hu"); }); }
+  sortIds(roots); Object.keys(kids).forEach(function (k) { sortIds(kids[k]); });
+
+  var T = {
+    hu: { lede: "Saját, modern kategóriafa a magyar piacra: Shopify v2026-08 gerinc, javított magyar nevek, saját csomópontok és szűrők. A termékszám az Árukereső kategóriaoldalairól jön (2026-10-19).",
+          nodes: "csomópont", own: "saját", ren: "átnevezve", flt: "szűrővel", prod: "termék",
+          fOwn: "Csak saját", fRen: "Csak átnevezett", fFlt: "Csak szűrős", collapse: "Mind becsuk",
+          pick: "Válassz egy kategóriát a fában.", id: "Azonosító", source: "Forrás", products: "Termék", nameEn: "Angolul", nameHu: "Magyarul",
+          srcOwn: "Saját csomópont", srcShop: "Shopify v2026-08", was: "Shopify magyar neve volt", why: "Miért saját",
+          filters: "Szűrők", aru: "Árukereső-kategóriák itt", none: "Nincs találat.", rel: { same: "ugyanaz", aru_broader: "Árukereső tágabb", aru_narrower: "Árukereső szűkebb", none: "nincs pár" },
+          own_attr: "saját tulajdonság", vGroup: "E-kereskedelmi kategóriák", vTree: "Teljes fa", noneGroup: "Egyéb",
+          grpLede: "Termékek aránya az Árukereső kategóriaoldalai alapján (2026-10-19). Egy kategória alatt a fa azon ágai állnak, amelyek ide tartoznak; ha egy ág egy része máshová tartozik, az a saját helyén jelenik meg.", subs: "Alkategóriák", branches: "A fa ágai itt", share: "arány", fWeak: "Csak bizonytalan e-ker. kategória", ecomAll: "Minden e-kereskedelmi kategória", ecomNone: "Egyéb",
+          ecom: "E-kereskedelmi kategória", inh: "örökölt", expl: "saját besorolás", weak: "bizonytalan", noneTag: "egyéb" },
+    en: { lede: "Our own modern category tree for the Hungarian market: Shopify v2026-08 backbone, corrected Hungarian names, own nodes and filters. Product counts come from Arukereso category pages (2026-10-19).",
+          nodes: "nodes", own: "own", ren: "renamed", flt: "with filters", prod: "products",
+          fOwn: "Own only", fRen: "Renamed only", fFlt: "With filters only", collapse: "Collapse all",
+          pick: "Pick a category in the tree.", id: "Id", source: "Source", products: "Products", nameEn: "English", nameHu: "Hungarian",
+          srcOwn: "Own node", srcShop: "Shopify v2026-08", was: "Shopify Hungarian name was", why: "Why own",
+          filters: "Filters", aru: "Arukereso categories here", none: "No match.", rel: { same: "same", aru_broader: "Arukereso broader", aru_narrower: "Arukereso narrower", none: "no match" },
+          own_attr: "own attribute", vGroup: "E-commerce categories", vTree: "Full tree", noneGroup: "Other",
+          grpLede: "Share of products from Arukereso category pages (2026-10-19). Under a category stand the branches of the tree that belong there; a part of a branch that belongs elsewhere appears in its own place.", subs: "Subcategories", branches: "Tree branches here", share: "share", fWeak: "Uncertain e-commerce category only", ecomAll: "All e-commerce categories", ecomNone: "Other",
+          ecom: "E-commerce category", inh: "inherited", expl: "set here", weak: "uncertain", noneTag: "other" }
+  };
+  var view = "group", gopen = {}, lang = "hu", open = {}, sel = null, q = "", fOwn = false, fRen = false, fFlt = false, fWeak = false, ecomSel = "";
+  try { var s = JSON.parse(localStorage.getItem("ss-tree") || "{}"); if (s.lang) lang = s.lang; } catch (e) {}
+  function save() { try { localStorage.setItem("ss-tree", JSON.stringify({ lang: lang })); } catch (e) {} }
+
+  var fmt = new Intl.NumberFormat("hu-HU");
+  function num(x) { return String(Math.round(x || 0)).replace(/\B(?=(\d{3})+(?!\d))/g, "\u00a0"); }
+  function name(n) { return lang === "hu" ? n.h : n.e; }
+  function other(n) { return lang === "hu" ? n.e : n.h; }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function norm(s) { return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+  function pathOf(id, key) { var p = [], n = byId[id]; while (n) { p.unshift(n[key]); n = n.p ? byId[n.p] : null; } return p.join(" > "); }
+
+  var stats = { own: 0, ren: 0, flt: 0 };
+  D.forEach(function (n) { if (n.s) stats.own++; if (n.r) stats.ren++; if (n.f) stats.flt++; });
+  var totalProducts = roots.reduce(function (a, id) { return a + byId[id].n; }, 0);
+  function mainOf(n) { return n.c[2] && n.c[2] !== "none" && n.c[2] !== "Other" ? n.c[2] : "none"; }
+  function cls(n) { return mainOf(n) + "|" + (mainOf(n) === "none" ? "" : (n.c[3] || "")); }
+  var G = {}, anchors = {}, inCls = {};
+  function inClass(id) {  // products of this node and of its same-class descendants
+    if (inCls[id] != null) return inCls[id];
+    var n = byId[id], t = n.o || 0;
+    kids[id].forEach(function (k) { if (cls(byId[k]) === cls(n)) t += inClass(k); });
+    return inCls[id] = t;
+  }
+  D.forEach(function (n) {
+    var m = mainOf(n), c = cls(n);
+    if (!G[m]) G[m] = { id: m, en: m === "none" ? null : n.c[2], hu: m === "none" ? null : n.c[0], n: 0, subs: {} };
+    var sub = G[m].subs[c] || (G[m].subs[c] = { id: c, en: n.c[3], hu: n.c[1], n: 0 });
+    G[m].n += n.o || 0; sub.n += n.o || 0;
+    if (!n.p || cls(byId[n.p]) !== c) (anchors[c] = anchors[c] || []).push(n.i);
+  });
+  Object.keys(anchors).forEach(function (c) { anchors[c].sort(function (a, b) { return inClass(b) - inClass(a); }); });
+  var mainsSorted = Object.keys(G).sort(function (a, b) { return a === "none" ? 1 : b === "none" ? -1 : G[b].n - G[a].n; });
+  function gName(g, L) { return g.id === "none" ? L.noneGroup : (lang === "hu" ? g.hu : g.en); }
+  function subName(sb, L) { return sb.id.slice(-1) === "|" ? L.noneGroup : (lang === "hu" ? sb.hu : sb.en) || "-"; }
+  function pct(x) { return (totalProducts ? (100 * x / totalProducts) : 0).toLocaleString("hu-HU", { maximumFractionDigits: 1, minimumFractionDigits: 1 }) + "%"; }
+
+  // which nodes match the search and the chips, and which ancestors must stay visible for them
+  var keep = null;
+  function computeKeep() {
+    if (!q && !fOwn && !fRen && !fFlt && !fWeak && !ecomSel) { keep = null; return; }
+    var nq = norm(q); keep = {};
+    D.forEach(function (n) {
+      var ok = (!nq || norm(n.h).indexOf(nq) >= 0 || norm(n.e).indexOf(nq) >= 0) && (!fOwn || n.s) && (!fRen || n.r) && (!fFlt || n.f) &&
+        (!fWeak || (n.c[4] > 0 && !n.c[5])) && (!ecomSel || (ecomSel === "none" ? mainOf(n) === "none" : n.c[2] === ecomSel));
+      if (ok) { var m = n; while (m) { keep[m.i] = keep[m.i] || (m === n ? 2 : 1); m = m.p ? byId[m.p] : null; } }
+    });
+  }
+  function hl(text) {
+    if (!q) return esc(text);
+    var t = norm(text), nq = norm(q), i = t.indexOf(nq);
+    if (i < 0) return esc(text);
+    return esc(text.slice(0, i)) + "<mark>" + esc(text.slice(i, i + q.length)) + "</mark>" + esc(text.slice(i + q.length));
+  }
+
+  var treeEl = document.getElementById("tree");
+  function render() {
+    var L = T[lang], html = [], shown = 0;
+    function walk(id, depth) {
+      if (keep && !keep[id]) return;
+      var n = byId[id], ks = kids[id].filter(function (k) { return !keep || keep[k]; });
+      var isOpen = keep ? true : !!open[id];
+      shown++;
+      html.push('<div class="row' + (sel === id ? " sel" : "") + '" role="treeitem" aria-level="' + (depth + 1) + '"' +
+        (ks.length ? ' aria-expanded="' + isOpen + '"' : "") + ' data-id="' + esc(id) + '" style="padding-left:' + (8 + depth * 18) + 'px">' +
+        '<span class="tw">' + (ks.length ? (isOpen ? "−" : "+") : "") + '</span>' +
+        '<span class="nm" title="' + esc(name(n) + "  |  " + other(n)) + '">' + hl(name(n)) + '<span class="alt">' + hl(other(n)) + '</span></span>' +
+        (n.s ? '<span class="tag t-own">' + L.own + '</span>' : "") +
+        (n.r && lang === "hu" ? '<span class="tag t-ren">' + L.ren + '</span>' : "") +
+        (!n.c[5] && n.c[4] > 0 ? '<span class="tag t-weak">' + (n.c[4] === 2 ? L.noneTag : (lang === "hu" ? "e-ker. " : "e-com ") + L.weak) + '</span>' : "") +
+        (n.f ? '<span class="tag t-flt">' + n.f.length + " " + (lang === "hu" ? "szűrő" : "filter") + '</span>' : "") +
+        '<span class="num">' + num(n.n) + '</span></div>');
+      if (isOpen) ks.forEach(function (k) { walk(k, depth + 1); });
+    }
+    if (view === "tree") roots.forEach(function (r) { walk(r, 0); });
+    else mainsSorted.forEach(function (m) {
+      var g = G[m], subs = Object.keys(g.subs).map(function (k) { return g.subs[k]; }).sort(function (a, b) { return b.n - a.n; });
+      var visSubs = subs.filter(function (sb) { return !keep || (anchors[sb.id] || []).some(function (a) { return keep[a]; }); });
+      if (!visSubs.length) return;
+      var gOpen = keep ? true : !!gopen[m]; shown++;
+      html.push('<div class="row grp' + (sel === "g:" + m ? " sel" : "") + '" role="treeitem" aria-level="1" aria-expanded="' + gOpen + '" data-g="' + esc(m) + '" style="padding-left:8px">' +
+        '<span class="tw">' + (gOpen ? "\u2212" : "+") + '</span><span class="nm">' + esc(gName(g, L)) + '</span>' +
+        '<span class="bar"><i style="width:' + Math.max(1, Math.round(100 * g.n / G[mainsSorted[0]].n)) + '%"></i></span>' +
+        '<span class="share">' + pct(g.n) + '</span><span class="num">' + num(g.n) + "</span></div>");
+      if (!gOpen) return;
+      if (m === "none") { visSubs.forEach(function (sb) { (anchors[sb.id] || []).forEach(function (a) { walkCls(a, 1, sb.id); }); }); return; }
+      visSubs.forEach(function (sb) {
+        var sOpen = keep ? true : !!gopen[sb.id]; shown++;
+        html.push('<div class="row sub' + (sel === "g:" + sb.id ? " sel" : "") + '" role="treeitem" aria-level="2" aria-expanded="' + sOpen + '" data-g="' + esc(sb.id) + '" style="padding-left:26px">' +
+          '<span class="tw">' + (sOpen ? "\u2212" : "+") + '</span><span class="nm">' + esc(subName(sb, L)) + '</span>' +
+          '<span class="share">' + pct(sb.n) + '</span><span class="num">' + num(sb.n) + "</span></div>");
+        if (!sOpen) return;
+        (anchors[sb.id] || []).forEach(function (a) { walkCls(a, 2, sb.id); });
+      });
+    });
+    function walkCls(id, depth, c) {
+      if (keep && !keep[id]) return;
+      var n = byId[id], ks = kids[id].filter(function (k) { return cls(byId[k]) === c && (!keep || keep[k]); });
+      var isOpen = keep ? true : !!open[id]; shown++;
+      html.push('<div class="row' + (sel === id ? " sel" : "") + '" role="treeitem" aria-level="' + (depth + 1) + '"' +
+        (ks.length ? ' aria-expanded="' + isOpen + '"' : "") + ' data-id="' + esc(id) + '" style="padding-left:' + (8 + depth * 18) + 'px">' +
+        '<span class="tw">' + (ks.length ? (isOpen ? "\u2212" : "+") : "") + '</span>' +
+        '<span class="nm" title="' + esc(pathOf(id, lang === "hu" ? "h" : "e")) + '">' + hl(name(n)) + '<span class="alt">' + hl(other(n)) + '</span></span>' +
+        (n.s ? '<span class="tag t-own">' + L.own + '</span>' : "") +
+        '<span class="num">' + num(inClass(id)) + '</span></div>');
+      if (isOpen) ks.forEach(function (k) { walkCls(k, depth + 1, c); });
+    }
+    treeEl.innerHTML = shown ? html.join("") : '<div class="empty">' + L.none + "</div>";
+  }
+
+  var detailEl = document.getElementById("detail");
+  function renderDetail() {
+    var L = T[lang];
+    if (!sel) { detailEl.innerHTML = '<p class="empty">' + (view === "group" ? L.grpLede : L.pick) + "</p>"; return; }
+    if (sel.indexOf("g:") === 0) {
+      var gid = sel.slice(2), isSub = gid.indexOf("|") >= 0, gm = G[isSub ? gid.split("|")[0] : gid], h0 = [];
+      if (isSub) {
+        var sb = gm.subs[gid];
+        h0.push("<div><h2>" + esc(subName(sb, L)) + '</h2><div class="path">' + esc(gName(gm, L)) + "</div></div>");
+        h0.push('<dl class="kv"><dt>' + L.products + '</dt><dd class="mono">' + num(sb.n) + "</dd><dt>" + L.share + '</dt><dd class="mono">' + pct(sb.n) + "</dd></dl>");
+        h0.push('<div><p class="label">' + L.branches + '</p><ul class="plain">' + (anchors[gid] || []).slice(0, 40).map(function (a) {
+          return "<li><span>" + esc(pathOf(a, lang === "hu" ? "h" : "e")) + '</span><span class="num">' + num(inClass(a)) + "</span></li>"; }).join("") + "</ul></div>");
+      } else {
+        h0.push("<div><h2>" + esc(gName(gm, L)) + "</h2></div>");
+        h0.push('<dl class="kv"><dt>' + L.products + '</dt><dd class="mono">' + num(gm.n) + "</dd><dt>" + L.share + '</dt><dd class="mono">' + pct(gm.n) + "</dd></dl>");
+        h0.push('<div><p class="label">' + L.subs + '</p><ul class="plain">' + Object.keys(gm.subs).map(function (k) { return gm.subs[k]; }).sort(function (a, b) { return b.n - a.n; }).map(function (x) {
+          return "<li><span>" + esc(subName(x, L)) + '</span><span class="num">' + num(x.n) + " (" + pct(x.n) + ")</span></li>"; }).join("") + "</ul></div>");
+      }
+      h0.push('<p class="note">' + L.grpLede + "</p>");
+      detailEl.innerHTML = h0.join(""); return;
+    }
+    var n = byId[sel], h = [];
+    h.push("<div><h2>" + esc(name(n)) + '</h2><div class="path">' + esc(pathOf(sel, lang === "hu" ? "h" : "e")) + "</div></div>");
+    h.push('<dl class="kv"><dt>' + L.nameHu + "</dt><dd>" + esc(n.h) + "</dd><dt>" + L.nameEn + "</dt><dd>" + esc(n.e) + "</dd>" +
+      "<dt>" + L.products + '</dt><dd class="mono">' + num(n.n) + "</dd><dt>" + L.source + "</dt><dd>" + (n.s ? L.srcOwn : L.srcShop) + "</dd>" +
+      "<dt>" + L.id + '</dt><dd class="mono">' + esc(n.i) + "</dd>" + (n.r ? "<dt>" + L.was + "</dt><dd>" + esc(n.r) + "</dd>" : "") + "</dl>");
+    var c = n.c;
+    h.push('<div><p class="label">' + L.ecom + '</p><div class="ecom-line"><span>' +
+      (mainOf(n) === "none" ? esc(L.noneGroup) : esc(lang === "hu" ? (c[0] + " > " + (c[1] || "")) : (c[2] + " > " + (c[3] || "")))) +
+      '</span><span class="tag ' + (c[4] ? "t-weak" : "t-flt") + '">' + (c[5] ? L.inh : L.expl) + (c[4] === 1 ? ", " + L.weak : "") + "</span></div>" +
+      (c[6] ? '<p class="note">' + esc(c[6]) + "</p>" : "") + "</div>");
+    if (n.why) h.push('<div><p class="label">' + L.why + '</p><p class="note">' + esc(n.why) + "</p></div>");
+    if (n.f) {
+      h.push('<div><p class="label">' + L.filters + '</p><ul class="plain">' + n.f.map(function (f) {
+        return '<li style="display:block"><span>' + esc(lang === "hu" ? f[0] : f[1]) + (f[3] === "own" ? ' <span class="note">(' + L.own_attr + ")</span>" : "") +
+          '</span><div class="vals">' + f[2].map(function (v) { return '<span class="val">' + esc(lang === "hu" ? v[0] : v[1]) + "</span>"; }).join("") + "</div></li>";
+      }).join("") + "</ul></div>");
+    }
+    if (n.a) {
+      h.push('<div><p class="label">' + L.aru + '</p><ul class="plain">' + n.a.slice().sort(function (x, y) { return (y[1] || 0) - (x[1] || 0); }).map(function (a) {
+        return "<li><span>" + esc(a[0]) + ' <span class="note">(' + (L.rel[a[2]] || a[2]) + ')</span></span><span class="num">' + num(a[1]) + "</span></li>";
+      }).join("") + "</ul></div>");
+    }
+    detailEl.innerHTML = h.join("");
+  }
+
+  function labels() {
+    var L = T[lang];
+    document.documentElement.lang = lang;
+    document.getElementById("lede").textContent = L.lede;
+    document.getElementById("stats").innerHTML =
+      "<span><b>" + num(D.length) + "</b> " + L.nodes + "</span><span><b>" + num(stats.own) + "</b> " + L.own +
+      "</span><span><b>" + num(stats.ren) + "</b> " + L.ren + "</span><span><b>" + num(stats.flt) + "</b> " + L.flt +
+      "</span><span><b>" + num(totalProducts) + "</b> " + L.prod + "</span>";
+    document.getElementById("q").placeholder = lang === "hu" ? "Keresés (magyar vagy angol név)" : "Search (Hungarian or English name)";
+    document.getElementById("f-own").textContent = L.fOwn;
+    document.getElementById("f-ren").textContent = L.fRen;
+    document.getElementById("f-flt").textContent = L.fFlt;
+    document.getElementById("collapse").textContent = L.collapse;
+    document.getElementById("view-group").textContent = L.vGroup;
+    document.getElementById("view-tree").textContent = L.vTree;
+    document.getElementById("view-group").setAttribute("aria-pressed", view === "group");
+    document.getElementById("view-tree").setAttribute("aria-pressed", view === "tree");
+    document.getElementById("f-weak").textContent = L.fWeak;
+    var mains = {}; D.forEach(function (n) { if (mainOf(n) !== "none") mains[n.c[2]] = n.c[0]; });
+    var opts = ['<option value="">' + esc(L.ecomAll) + "</option>"];
+    Object.keys(mains).sort().forEach(function (k) { opts.push('<option value="' + esc(k) + '"' + (ecomSel === k ? " selected" : "") + ">" + esc(lang === "hu" ? mains[k] : k) + "</option>"); });
+    opts.push('<option value="none"' + (ecomSel === "none" ? " selected" : "") + ">" + esc(L.ecomNone) + "</option>");
+    document.getElementById("ecom").innerHTML = opts.join("");
+    document.getElementById("lang-hu").setAttribute("aria-pressed", lang === "hu");
+    document.getElementById("lang-en").setAttribute("aria-pressed", lang === "en");
+  }
+  function all() { labels(); render(); renderDetail(); }
+
+  treeEl.addEventListener("click", function (e) {
+    var row = e.target.closest(".row"); if (!row) return;
+    var gid = row.getAttribute("data-g");
+    if (gid) { if (!keep) gopen[gid] = !gopen[gid]; sel = "g:" + gid; render(); renderDetail(); return; }
+    var id = row.getAttribute("data-id");
+    if (kids[id].length && !keep) open[id] = !open[id];  // in the grouped view a row may have only cross-class children; toggling is harmless
+    sel = id; render(); renderDetail();
+  });
+  var t;
+  document.getElementById("q").addEventListener("input", function (e) { clearTimeout(t); t = setTimeout(function () { q = e.target.value.trim(); computeKeep(); render(); }, 120); });
+  function chip(id, set) { document.getElementById(id).addEventListener("click", function (e) { var v = set(); e.currentTarget.setAttribute("aria-pressed", v); computeKeep(); render(); }); }
+  chip("f-own", function () { return fOwn = !fOwn; });
+  chip("f-ren", function () { return fRen = !fRen; });
+  chip("f-flt", function () { return fFlt = !fFlt; });
+  chip("f-weak", function () { return fWeak = !fWeak; });
+  document.getElementById("ecom").addEventListener("change", function (e) { ecomSel = e.target.value; computeKeep(); render(); });
+  document.getElementById("collapse").addEventListener("click", function () { open = {}; gopen = {}; render(); });
+  document.getElementById("view-group").addEventListener("click", function () { view = "group"; sel = null; all(); });
+  document.getElementById("view-tree").addEventListener("click", function () { view = "tree"; all(); });
+  document.getElementById("lang-hu").addEventListener("click", function () { lang = "hu"; save(); all(); });
+  document.getElementById("lang-en").addEventListener("click", function () { lang = "en"; save(); all(); });
+
+  // open on the racket sports branch so the first view shows the padel decision
+  var start = "own-padel";
+  if (byId[start]) { var m = byId[start]; while (m) { open[m.i] = true; m = m.p ? byId[m.p] : null; } }
+  all();
+  var row = treeEl.querySelector('.row.sel'); if (row && row.scrollIntoView) row.scrollIntoView({ block: "center" });
+})();
+</script>

@@ -1,0 +1,506 @@
+{"id": "fr-4-10", "name_en": "Media Storage Cabinets & Racks", "old_hu": "Médiatároló szekrények és állványok", "new_hu": "Médiaszekrények és -állványok", "reason": "needlessly long"}
+{"id": "fr-4-11", "name_en": "Sideboards", "old_hu": "Oldalszekrények", "new_hu": "Komódok és tálalószekrények", "reason": "overly literal: oldalszekrény is not a sideboard"}
+{"id": "fr-4-12", "name_en": "Storage Cabinets & Lockers", "old_hu": "Tárolószekrények", "new_hu": "Tárolószekrények és öltözőszekrények", "reason": "incomplete, drops part of the English name (lockers)"}
+{"id": "fr-4-13-2", "name_en": "Toy Chests", "old_hu": "Játékosládák", "new_hu": "Játéktároló ládák", "reason": "overly literal"}
+{"id": "fr-4-14", "name_en": "Vanities", "old_hu": "Sminkasztalok", "new_hu": "Sminkasztalok és mosdószekrények", "reason": "incomplete, drops part of the English name: also covers bathroom vanities"}
+{"id": "fr-4-14-1", "name_en": "Bathroom Vanities", "old_hu": "Fürdőszobai sminkasztalok", "new_hu": "Mosdószekrények", "reason": "mistranslation: a bathroom vanity is a sink cabinet, not a makeup table"}
+{"id": "fr-4-16", "name_en": "Wine Racks", "old_hu": "Borállványok", "new_hu": "Bortartók", "reason": "not the webshop term"}
+{"id": "fr-5", "name_en": "Carts & Islands", "old_hu": "Szekerek és szigetek", "new_hu": "Gurulós kocsik és konyhaszigetek", "reason": "mistranslation: szekér is an ox cart"}
+{"id": "fr-5-1", "name_en": "Carts", "old_hu": "Szekerek", "new_hu": "Gurulós kocsik", "reason": "mistranslation: szekér is an ox cart"}
+{"id": "fr-7-1", "name_en": "Armchairs, Recliners & Sleeper Chairs", "old_hu": "Karosszékek, fotelek és kihúzható székek", "new_hu": "Fotelek, relaxfotelek és ágyazható fotelek", "reason": "mistranslation: recliner and sleeper chair"}
+{"id": "fr-7-1-1", "name_en": "Armchairs", "old_hu": "Karosszékek", "new_hu": "Fotelek", "reason": "not the webshop term"}
+{"id": "fr-7-2", "name_en": "Bean Bag Chairs", "old_hu": "Babzsák-székek", "new_hu": "Babzsákfotelek", "reason": "not the webshop term"}
+{"id": "fr-7-7", "name_en": "Gaming Chairs", "old_hu": "Játékszékek", "new_hu": "Gamer székek", "reason": "mistranslation: játékszék reads as a toy chair; matches Gamer asztalok"}
+{"id": "fr-7-10", "name_en": "Rocking Chairs", "old_hu": "Ringatószékek", "new_hu": "Hintaszékek", "reason": "mistranslation"}
+{"id": "fr-7-12", "name_en": "Table & Bar Stools", "old_hu": "Asztali és bárszékek", "new_hu": "Ülőkék és bárszékek", "reason": "mistranslation: a stool is not a table chair"}
+{"id": "fr-9", "name_en": "Entertainment Centers & TV Stands", "old_hu": "Szórakoztató központok és TV-állványok", "new_hu": "TV-szekrények és -állványok", "reason": "overly literal"}
+{"id": "fr-10-3-2", "name_en": "Bar & Pub Table Sets", "old_hu": "Bár- és pub-asztalkészletek", "new_hu": "Bárasztal-készletek", "reason": "overly literal"}
+{"id": "fr-12-4", "name_en": "Workspace Tables", "old_hu": "Munkaterület-asztalok", "new_hu": "Irodai asztalok", "reason": "overly literal"}
+{"id": "fr-12-4-2", "name_en": "Conference Room Tables", "old_hu": "Konferenciatermi asztalok", "new_hu": "Tárgyalóasztalok", "reason": "not the webshop term"}
+{"id": "fr-13-1", "name_en": "Desk Parts & Accessories", "old_hu": "Asztalalkatrészek és -kiegészítők", "new_hu": "Íróasztal-alkatrészek és -kiegészítők", "reason": "consistency with parent or siblings"}
+{"id": "fr-13-2", "name_en": "Office Chair Accessories", "old_hu": "Irodaiszék-kiegészítők", "new_hu": "Irodaszék-kiegészítők", "reason": "spelling"}
+{"id": "fr-15", "name_en": "Outdoor Furniture", "old_hu": "Kültéri bútorok", "new_hu": "Kerti bútorok", "reason": "not the webshop term"}
+{"id": "fr-15-2", "name_en": "Outdoor Furniture Sets", "old_hu": "Kültéri bútorkészletek", "new_hu": "Kerti bútorkészletek", "reason": "consistency with parent or siblings"}
+{"id": "fr-15-4", "name_en": "Outdoor Seating", "old_hu": "Kültéri ülőhelyek", "new_hu": "Kerti ülőbútorok", "reason": "overly literal"}
+{"id": "fr-15-4-1", "name_en": "Outdoor Benches", "old_hu": "Kültéri padok", "new_hu": "Kerti padok", "reason": "consistency with parent or siblings"}
+{"id": "fr-15-4-2", "name_en": "Outdoor Chairs", "old_hu": "Kültéri székek", "new_hu": "Kerti székek", "reason": "consistency with parent or siblings"}
+{"id": "fr-15-5", "name_en": "Outdoor Storage Boxes", "old_hu": "Kültéri tárolódobozok", "new_hu": "Kerti tárolóládák", "reason": "consistency with parent or siblings"}
+{"id": "fr-15-6", "name_en": "Outdoor Tables", "old_hu": "Kültéri asztalok", "new_hu": "Kerti asztalok", "reason": "consistency with parent or siblings"}
+{"id": "fr-15-6-7", "name_en": "Fire Pits", "old_hu": "Tűzhelyek", "new_hu": "Tűzrakók", "reason": "mistranslation: tűzhely is a kitchen stove"}
+{"id": "fr-18", "name_en": "Room Dividers", "old_hu": "Szobaelválasztók", "new_hu": "Paravánok és térelválasztók", "reason": "not the webshop term"}
+{"id": "fr-24-4", "name_en": "Kitchen & Dining Room Tables", "old_hu": "Konyhai és étkezőszékek", "new_hu": "Konyhai és étkezőasztalok", "reason": "mistranslation: said chairs (székek) for tables"}
+{"id": "ha", "name_en": "Hardware", "old_hu": "Hardver", "new_hu": "Barkács és építkezés", "reason": "mistranslation: hardver means computer hardware in Hungarian"}
+{"id": "ha-1", "name_en": "Building Consumables", "old_hu": "Építési fogyóeszközök", "new_hu": "Építési fogyóanyagok", "reason": "overly literal"}
+{"id": "ha-1-2", "name_en": "Hardware Glue & Adhesives", "old_hu": "Hardverragasztók", "new_hu": "Ragasztók", "reason": "mistranslation: hardver means computer hardware"}
+{"id": "ha-1-3", "name_en": "Hardware Tape", "old_hu": "Hardverszalag", "new_hu": "Ragasztószalagok", "reason": "mistranslation: hardver means computer hardware"}
+{"id": "ha-1-3-2", "name_en": "Electrical Tape", "old_hu": "Elektromos szalag", "new_hu": "Szigetelőszalagok", "reason": "overly literal"}
+{"id": "ha-1-4-4", "name_en": "Oil", "old_hu": "Olaj", "new_hu": "Kenőolajok", "reason": "incomplete, drops part of the English name"}
+{"id": "ha-1-5", "name_en": "Masonry Consumables", "old_hu": "Falazati fogyóeszközök", "new_hu": "Falazóanyagok", "reason": "overly literal"}
+{"id": "ha-1-5-1", "name_en": "Bricks & Concrete Blocks", "old_hu": "Tégla- és betonblokkok", "new_hu": "Téglák és betonblokkok", "reason": "mistranslation: brick blocks"}
+{"id": "ha-1-5-3", "name_en": "Grout", "old_hu": "Fuga", "new_hu": "Fugázóanyagok", "reason": "not the webshop term"}
+{"id": "ha-1-6", "name_en": "Painting Consumables", "old_hu": "Festési fogyóeszközök", "new_hu": "Festékek és festési anyagok", "reason": "overly literal"}
+{"id": "ha-1-6-1", "name_en": "Paint", "old_hu": "Festék", "new_hu": "Festékek", "reason": "plural, as its siblings"}
+{"id": "ha-1-6-4", "name_en": "Stains", "old_hu": "Folttisztítás", "new_hu": "Pácok", "reason": "mistranslation: a wood stain is pác, not stain removal"}
+{"id": "ha-1-6-5", "name_en": "Varnishes & Finishes", "old_hu": "Lakkok", "new_hu": "Lakkok és felületkezelők", "reason": "incomplete, drops part of the English name"}
+{"id": "ha-1-9", "name_en": "Solder & Flux", "old_hu": "Forrasztás és folyasztószer", "new_hu": "Forrasztóanyagok és folyasztószerek", "reason": "mistranslation: forrasztás is the act of soldering"}
+{"id": "ha-1-10", "name_en": "Solvents, Strippers & Thinners", "old_hu": "Oldószerek, eltávolítók és hígítók", "new_hu": "Oldószerek, festékeltávolítók és hígítók", "reason": "overly literal"}
+{"id": "ha-1-11", "name_en": "Wall Patching Compounds & Plaster", "old_hu": "Falfoltozó keverékek és vakolat", "new_hu": "Glettek és vakolatok", "reason": "overly literal"}
+{"id": "ha-2-2", "name_en": "Door Hardware", "old_hu": "Ajtóhardver", "new_hu": "Ajtóvasalatok", "reason": "mistranslation: hardver means computer hardware"}
+{"id": "ha-2-2-1", "name_en": "Door Bells & Chimes", "old_hu": "Ajtócsengők és harangok", "new_hu": "Ajtócsengők", "reason": "overly literal: harang is a church bell"}
+{"id": "ha-2-2-2", "name_en": "Door Closers", "old_hu": "Ajtózárók", "new_hu": "Ajtócsukók", "reason": "mistranslation: ajtózár is a door lock"}
+{"id": "ha-2-2-8", "name_en": "Door Stops", "old_hu": "Ajtómegállítók", "new_hu": "Ajtóütközők", "reason": "not the webshop term"}
+{"id": "ha-2-3-1", "name_en": "Garage Doors", "old_hu": "Garázsajtók", "new_hu": "Garázskapuk", "reason": "not the webshop term"}
+{"id": "ha-2-3-2", "name_en": "Home Doors", "old_hu": "Otthoni ajtók", "new_hu": "Bejárati és beltéri ajtók", "reason": "overly literal"}
+{"id": "ha-2-5", "name_en": "Flooring & Carpet", "old_hu": "Padló és szőnyeg", "new_hu": "Padlóburkolatok és szőnyegpadlók", "reason": "overly literal"}
+{"id": "ha-2-9", "name_en": "Insulation", "old_hu": "Szigetelés", "new_hu": "Szigetelőanyagok", "reason": "not the webshop term"}
+{"id": "ha-2-9-3", "name_en": "Foam Board Insulation", "old_hu": "Hablemez-szigetelés", "new_hu": "Habszigetelő lemezek", "reason": "overly literal"}
+{"id": "ha-2-9-6", "name_en": "Spray Foam Insulation", "old_hu": "Sprayhab-szigetelés", "new_hu": "Szórható habszigetelők", "reason": "overly literal"}
+{"id": "ha-2-10", "name_en": "Lumber & Sheet Stock", "old_hu": "Fűrészáru és lemezkészlet", "new_hu": "Fűrészáru és lapanyagok", "reason": "mistranslation: lemezkészlet means a sheet inventory"}
+{"id": "ha-2-11", "name_en": "Molding", "old_hu": "Öntvény", "new_hu": "Díszlécek és szegélylécek", "reason": "mistranslation: öntvény is a casting"}
+{"id": "ha-2-13", "name_en": "Roofing", "old_hu": "Tetőcsavar", "new_hu": "Tetőfedés", "reason": "mistranslation: tetőcsavar is a roof screw"}
+{"id": "ha-2-13-3", "name_en": "Roof Flashings", "old_hu": "Tetőburkolatok", "new_hu": "Tetőbádogozás", "reason": "mistranslation: tetőburkolat is roofing, not flashing"}
+{"id": "ha-2-13-3-1", "name_en": "Drip Edges", "old_hu": "Cseppélek", "new_hu": "Csepegtetőlemezek", "reason": "overly literal"}
+{"id": "ha-2-13-4", "name_en": "Roofing Shingles & Tiles", "old_hu": "Tetőzsindely és cserép", "new_hu": "Zsindelyek és tetőcserepek", "reason": "plural, as its siblings"}
+{"id": "ha-2-18", "name_en": "Wall & Ceiling Tile", "old_hu": "Fali és mennyezeti csempe", "new_hu": "Fali csempék és mennyezeti lapok", "reason": "not the webshop term"}
+{"id": "ha-2-18-1", "name_en": "Ceiling Tiles", "old_hu": "Mennyezeti csempék", "new_hu": "Mennyezeti lapok", "reason": "not the webshop term"}
+{"id": "ha-2-19", "name_en": "Wall Paneling", "old_hu": "Falburkolat", "new_hu": "Falburkoló panelek", "reason": "not the webshop term"}
+{"id": "ha-2-20", "name_en": "Weather Stripping & Weatherization Supplies", "old_hu": "Szigetelőszalag és időjárásálló kellékek", "new_hu": "Ajtó- és ablaktömítések", "reason": "overly literal"}
+{"id": "ha-2-21", "name_en": "Window Hardware", "old_hu": "Ablakhardver", "new_hu": "Ablakvasalatok", "reason": "mistranslation: hardver means computer hardware"}
+{"id": "ha-3", "name_en": "Fencing & Barriers", "old_hu": "Kerítések és akadályok", "new_hu": "Kerítések és korlátok", "reason": "mistranslation: akadály is an obstacle"}
+{"id": "ha-3-3", "name_en": "Fence Pickets", "old_hu": "Kerítéspikett", "new_hu": "Kerítéslécek", "reason": "mistranslation: pikett is not a Hungarian word for a fence picket"}
+{"id": "ha-3-8", "name_en": "Safety & Crowd Control Barriers", "old_hu": "Biztonsági és tömegszabályozási korlátok", "new_hu": "Biztonsági és terelőkorlátok", "reason": "overly literal"}
+{"id": "ha-3-8-3", "name_en": "Parking Locks", "old_hu": "Parkolózárak", "new_hu": "Parkolásgátlók", "reason": "not the webshop term"}
+{"id": "ha-5", "name_en": "Fuel Containers & Tanks", "old_hu": "Üzemanyag-tartályok", "new_hu": "Üzemanyagkannák és -tartályok", "reason": "incomplete, drops part of the English name"}
+{"id": "ha-5-5", "name_en": "Propane Tanks", "old_hu": "Propántartályok", "new_hu": "Gázpalackok", "reason": "not the webshop term"}
+{"id": "ha-6", "name_en": "Hardware Accessories", "old_hu": "Hardverkiegészítők", "new_hu": "Vasáru", "reason": "mistranslation: hardver means computer hardware"}
+{"id": "ha-6-2", "name_en": "Cabinet Hardware", "old_hu": "Szekrényhardver", "new_hu": "Bútorvasalatok", "reason": "mistranslation: hardver means computer hardware"}
+{"id": "ha-6-2-5", "name_en": "Cabinet Knobs & Handles", "old_hu": "Szekrénykilincsek és fogantyúk", "new_hu": "Bútorgombok és -fogantyúk", "reason": "mistranslation: kilincs is a door handle"}
+{"id": "ha-6-4-6", "name_en": "Twine", "old_hu": "Zsinór", "new_hu": "Zsinegek", "reason": "not the webshop term"}
+{"id": "ha-6-14", "name_en": "Hardware Fasteners", "old_hu": "Hardverrögzítők", "new_hu": "Kötőelemek", "reason": "mistranslation: hardver means computer hardware"}
+{"id": "ha-6-14-2", "name_en": "Nails", "old_hu": "Szegecsek", "new_hu": "Szegek", "reason": "mistranslation: szegecs is a rivet"}
+{"id": "ha-6-21", "name_en": "Post Base Plates", "old_hu": "Oszlopalaplemezek", "new_hu": "Oszloptalpak", "reason": "not the webshop term"}
+{"id": "ha-6-24", "name_en": "Tool Storage & Organization", "old_hu": "Szerszámtároló és -szervező", "new_hu": "Szerszámtárolók", "reason": "overly literal"}
+{"id": "ha-6-24-1", "name_en": "Garden Hose Storage", "old_hu": "Kertitömlő-tároló", "new_hu": "Locsolótömlő-tárolók", "reason": "not the webshop term"}
+{"id": "ha-6-24-1-3", "name_en": "Hose Reels", "old_hu": "Tömlőtekercsek", "new_hu": "Tömlődobok", "reason": "mistranslation: tekercs is a coil, not a reel"}
+{"id": "ha-6-24-5", "name_en": "Tool Cabinets & Chests", "old_hu": "Szerszámosszekrények és -ládák", "new_hu": "Szerszámszekrények és szerszámosládák", "reason": "spelling"}
+{"id": "ha-7", "name_en": "Hardware Pumps", "old_hu": "Hardverszivattyúk", "new_hu": "Szivattyúk", "reason": "mistranslation: hardver means computer hardware"}
+{"id": "ha-7-1-3", "name_en": "Recirculating Pumps", "old_hu": "Recirkulációs szivattyúk", "new_hu": "Keringető szivattyúk", "reason": "not the webshop term"}
+{"id": "ha-8-3", "name_en": "HVAC Controls", "old_hu": "HVAC-vezérlők", "new_hu": "Fűtés- és klímavezérlők", "reason": "not the webshop term: HVAC is not used in Hungarian retail"}
+{"id": "ha-9-3", "name_en": "Key Card Entry Systems", "old_hu": "Kulcskártya-beviteli rendszerek", "new_hu": "Kártyás beléptetőrendszerek", "reason": "mistranslation: beviteli means data input"}
+{"id": "ha-10", "name_en": "Plumbing", "old_hu": "Vízvezeték", "new_hu": "Vízszerelés", "reason": "mistranslation: vízvezeték is the water main itself"}
+{"id": "ha-10-1", "name_en": "Plumbing Fittings & Supports", "old_hu": "Vízvezeték-szerelvények és -támasztékok", "new_hu": "Csőidomok és csőtartók", "reason": "overly literal"}
+{"id": "ha-10-1-8", "name_en": "Plumbing Pipe Clamps", "old_hu": "Vízvezeték-csőbilincsek", "new_hu": "Csőbilincsek", "reason": "needlessly long"}
+{"id": "ha-10-1-9", "name_en": "Plumbing Regulators", "old_hu": "Vízvezeték-szabályzók", "new_hu": "Nyomás- és hőmérséklet-szabályozók", "reason": "overly literal"}
+{"id": "ha-10-1-10", "name_en": "Plumbing Valves", "old_hu": "Vízvezetékszelepek", "new_hu": "Szelepek", "reason": "needlessly long"}
+{"id": "ha-10-2", "name_en": "Plumbing Fixture Hardware & Parts", "old_hu": "Vízvezeték-szerelvény-hardver és -alkatrészek", "new_hu": "Szaniter alkatrészek és tartozékok", "reason": "overly literal"}
+{"id": "ha-10-2-1-2", "name_en": "Bathtub Skirts", "old_hu": "Fürdőkádszegélyek", "new_hu": "Kádelőlapok", "reason": "not the webshop term"}
+{"id": "ha-10-2-2", "name_en": "Drain Components", "old_hu": "Lefolyó alkatrészek", "new_hu": "Lefolyóalkatrészek", "reason": "spelling"}
+{"id": "ha-10-2-2-6", "name_en": "Plumbing Traps", "old_hu": "Vízvezeték-csapdák", "new_hu": "Szifonok", "reason": "mistranslation: csapda is a trap for animals"}
+{"id": "ha-10-2-6-4", "name_en": "Shower Bases", "old_hu": "Zuhanylapok", "new_hu": "Zuhanytálcák", "reason": "not the webshop term"}
+{"id": "ha-10-2-6-8", "name_en": "Shower Walls & Surrounds", "old_hu": "Zuhanyfalak és -környékek", "new_hu": "Zuhanyfalak és -burkolatok", "reason": "mistranslation: környék is a neighbourhood"}
+{"id": "ha-10-2-8-2", "name_en": "Bidet Faucets & Sprayers", "old_hu": "Bidé csaptelepek és permetezők", "new_hu": "Bidécsaptelepek és bidézuhanyok", "reason": "overly literal"}
+{"id": "ha-10-2-8-3", "name_en": "Toilet & Bidet Seats", "old_hu": "WC- és bidéülések", "new_hu": "WC- és bidéülőkék", "reason": "not the webshop term"}
+{"id": "ha-10-2-8-7", "name_en": "Toilet Tank Levers", "old_hu": "WC-tartály karok", "new_hu": "Öblítőkarok és -gombok", "reason": "overly literal"}
+{"id": "ha-10-3", "name_en": "Plumbing Fixtures", "old_hu": "Vízvezeték-szerelvények", "new_hu": "Szaniterek", "reason": "overly literal"}
+{"id": "ha-10-3-3-3", "name_en": "Kitchen Sink Faucets", "old_hu": "Konyhamosogató csaptelepek", "new_hu": "Konyhai csaptelepek", "reason": "not the webshop term"}
+{"id": "ha-10-3-4", "name_en": "Shower Stalls & Kits", "old_hu": "Zuhanykabinok és készletek", "new_hu": "Zuhanykabinok és zuhanyszettek", "reason": "overly literal"}
+{"id": "ha-10-3-5", "name_en": "Sinks", "old_hu": "Mosogatók", "new_hu": "Mosdók és mosogatók", "reason": "incomplete, drops part of the English name: also covers bathroom sinks"}
+{"id": "ha-10-3-5-1", "name_en": "Bathroom Sinks", "old_hu": "Fürdőszoba-mosdókagylók", "new_hu": "Mosdók", "reason": "needlessly long"}
+{"id": "ha-10-3-5-2", "name_en": "Kitchen & Utility Sinks", "old_hu": "Konyhai és használati mosdókagylók", "new_hu": "Konyhai mosogatók és kiöntők", "reason": "mistranslation: a kitchen sink is a mosogató, not a mosdókagyló"}
+{"id": "ha-10-7", "name_en": "Water Dispensing & Filtration", "old_hu": "Vízadagolás és szűrés", "new_hu": "Vízszűrők és vízadagolók", "reason": "overly literal"}
+{"id": "ha-10-7-4", "name_en": "Water Filtration Accessories", "old_hu": "Vízszűrési kiegészítők", "new_hu": "Vízszűrő-tartozékok", "reason": "overly literal"}
+{"id": "ha-11", "name_en": "Power & Electrical Supplies", "old_hu": "Tápellátás és elektromos kellékek", "new_hu": "Villamossági cikkek", "reason": "overly literal"}
+{"id": "ha-11-4", "name_en": "Circuit Breaker Panels", "old_hu": "Áramköri megszakítópanelek", "new_hu": "Elosztószekrények", "reason": "not the webshop term"}
+{"id": "ha-11-5", "name_en": "Circuit Breakers", "old_hu": "Áramköri megszakítók", "new_hu": "Kismegszakítók", "reason": "not the webshop term"}
+{"id": "ha-11-8", "name_en": "Electrical Mount Boxes & Brackets", "old_hu": "Elektromos szerelődobozok és konzolok", "new_hu": "Szerelvénydobozok és tartók", "reason": "not the webshop term"}
+{"id": "ha-11-10-1", "name_en": "Light Switches", "old_hu": "Fénykapcsolók", "new_hu": "Villanykapcsolók", "reason": "not the webshop term"}
+{"id": "ha-11-10-1-1", "name_en": "Dimmer Switches", "old_hu": "Dimmerkapcsolók", "new_hu": "Fényerő-szabályzók", "reason": "not the webshop term"}
+{"id": "ha-11-13", "name_en": "Extension Cords", "old_hu": "Hosszabbító kábelek", "new_hu": "Hosszabbítók", "reason": "not the webshop term"}
+{"id": "ha-11-14", "name_en": "Generator Accessories", "old_hu": "Generátorkiegészítők", "new_hu": "Áramfejlesztő-tartozékok", "reason": "consistency with parent or siblings"}
+{"id": "ha-11-15", "name_en": "Generators", "old_hu": "Generátorok", "new_hu": "Áramfejlesztők", "reason": "not the webshop term"}
+{"id": "ha-11-16", "name_en": "Home Automation Kits", "old_hu": "Otthonautomatizálási készletek", "new_hu": "Okosotthon-készletek", "reason": "not the webshop term"}
+{"id": "ha-11-20", "name_en": "Power Inverters", "old_hu": "Tápinverterek", "new_hu": "Inverterek", "reason": "overly literal"}
+{"id": "ha-11-22", "name_en": "Solar Energy Kits", "old_hu": "Napenergia-készletek", "new_hu": "Napelemes készletek", "reason": "not the webshop term"}
+{"id": "ha-11-26", "name_en": "Wall Socket Controls & Sensors", "old_hu": "Fali aljzatvezérlők és érzékelők", "new_hu": "Konnektorvezérlők és érzékelők", "reason": "overly literal"}
+{"id": "ha-11-26-2", "name_en": "Timer Switches", "old_hu": "Időzítőkapcsolók", "new_hu": "Időkapcsolók", "reason": "not the webshop term"}
+{"id": "ha-11-28", "name_en": "Wire Terminals & Connectors", "old_hu": "Drótkivezetések és csatlakozók", "new_hu": "Vezetékcsatlakozók és saruk", "reason": "mistranslation: drótkivezetés is not a wire terminal"}
+{"id": "ha-14-4", "name_en": "Drill & Screwdriver Accessories", "old_hu": "Fúró és csavarhúzó kiegészítők", "new_hu": "Fúró- és csavarhúzó-kiegészítők", "reason": "spelling"}
+{"id": "ha-14-4-1", "name_en": "Drill & Screwdriver Bits", "old_hu": "Fúró és csavarhúzó bitek", "new_hu": "Fúrószárak és bitek", "reason": "overly literal"}
+{"id": "ha-14-7-1", "name_en": "Grinding Wheels & Points", "old_hu": "Köszörűkorongok és -pontok", "new_hu": "Köszörűkorongok és csiszolóhegyek", "reason": "mistranslation: pont is a dot"}
+{"id": "ha-14-14", "name_en": "Mixing Tool Paddles", "old_hu": "Keverőszerszám-lapátok", "new_hu": "Keverőszárak", "reason": "not the webshop term"}
+{"id": "ha-14-15-1", "name_en": "Airbrush Accessories", "old_hu": "Festékszórópisztoly-kiegészítők", "new_hu": "Airbrush-kiegészítők", "reason": "mistranslation: an airbrush is not a spray gun"}
+{"id": "ha-14-16", "name_en": "Power Tool Batteries", "old_hu": "Erőszerszám-akkumulátorok", "new_hu": "Szerszámakkumulátorok", "reason": "overly literal: erőszerszám is not Hungarian"}
+{"id": "ha-14-17", "name_en": "Power Tool Chargers", "old_hu": "Erőszerszám-töltők", "new_hu": "Szerszámakku-töltők", "reason": "overly literal: erőszerszám is not Hungarian"}
+{"id": "ha-14-18", "name_en": "Router Accessories", "old_hu": "Útválasztó-kiegészítők", "new_hu": "Felsőmaró-tartozékok", "reason": "mistranslation: útválasztó is a network router"}
+{"id": "ha-14-18-1", "name_en": "Router Bits", "old_hu": "Útválasztó bitek", "new_hu": "Marófejek", "reason": "mistranslation: útválasztó is a network router"}
+{"id": "ha-14-19", "name_en": "Sanding Accessories", "old_hu": "Csiszoláskiegészítők", "new_hu": "Csiszolótartozékok", "reason": "overly literal"}
+{"id": "ha-14-19-1-3", "name_en": "Polishing Pads", "old_hu": "Polírozópárnák", "new_hu": "Polírozókorongok", "reason": "overly literal"}
+{"id": "ha-14-23-2", "name_en": "Saw Blades", "old_hu": "Fűrészpengék", "new_hu": "Fűrészlapok", "reason": "not the webshop term"}
+{"id": "ha-14-23-2-1", "name_en": "Circular Saw Blades", "old_hu": "Körfűrészpengék", "new_hu": "Körfűrészlapok", "reason": "not the webshop term"}
+{"id": "ha-14-23-2-2", "name_en": "Jigsaw Blades", "old_hu": "Dekopírfűrész-pengék", "new_hu": "Szúrófűrészlapok", "reason": "mistranslation: a jigsaw is szúrófűrész; dekopírfűrész is a scroll saw"}
+{"id": "ha-14-23-2-3", "name_en": "Reciprocating Saw Blades", "old_hu": "Dugattyúsfűrész-pengék", "new_hu": "Orrfűrészlapok", "reason": "mistranslation: a reciprocating saw is an orrfűrész"}
+{"id": "ha-14-29", "name_en": "Welding Accessories", "old_hu": "Hegesztéskiegészítők", "new_hu": "Hegesztési tartozékok", "reason": "spelling"}
+{"id": "ha-15-5", "name_en": "Carving Chisels & Gouges", "old_hu": "Faragóvésők és vésők", "new_hu": "Vésők és hornyolóvésők", "reason": "mistranslation: both halves said véső"}
+{"id": "ha-15-6-3", "name_en": "Caulking Guns", "old_hu": "Tömítőfegyverek", "new_hu": "Kinyomópisztolyok", "reason": "mistranslation: fegyver is a weapon"}
+{"id": "ha-15-8", "name_en": "Compactors", "old_hu": "Tömörítők", "new_hu": "Talajtömörítők", "reason": "not the webshop term"}
+{"id": "ha-15-8-1", "name_en": "Plate Compactors", "old_hu": "Lemeztömörítők", "new_hu": "Lapvibrátorok", "reason": "mistranslation: lemeztömörítő means a sheet compactor"}
+{"id": "ha-15-11", "name_en": "Cutters", "old_hu": "Vágók", "new_hu": "Vágószerszámok", "reason": "overly literal"}
+{"id": "ha-15-11-3", "name_en": "Handheld Metal Shears & Nibblers", "old_hu": "Kézi fémollók és harapók", "new_hu": "Lemezvágó ollók és nibblerek", "reason": "mistranslation: harapó is not a nibbler"}
+{"id": "ha-15-11-7-1", "name_en": "Manual Cutters", "old_hu": "Kézi vágók", "new_hu": "Kézi csempevágók", "reason": "consistency with parent or siblings"}
+{"id": "ha-15-11-8", "name_en": "Utility Knives", "old_hu": "Segédkések", "new_hu": "Tapétavágó kések", "reason": "mistranslation: segédkés means an assistant knife"}
+{"id": "ha-15-13", "name_en": "Dollies & Hand Trucks", "old_hu": "Görgős kocsik és kézi kocsik", "new_hu": "Molnárkocsik és szállítókocsik", "reason": "not the webshop term"}
+{"id": "ha-15-14", "name_en": "Drills", "old_hu": "Fúrók", "new_hu": "Fúrógépek", "reason": "not the webshop term"}
+{"id": "ha-15-14-2", "name_en": "Drill Presses", "old_hu": "Fúróprések", "new_hu": "Oszlopos fúrógépek", "reason": "mistranslation: a drill press is not a press"}
+{"id": "ha-15-15", "name_en": "Electrician Fish Tape", "old_hu": "Villanyszerelő kábelbehúzó", "new_hu": "Kábelbehúzók", "reason": "needlessly long"}
+{"id": "ha-15-18", "name_en": "Grinders", "old_hu": "Csiszolók", "new_hu": "Köszörűk és sarokcsiszolók", "reason": "consistency with parent or siblings: clashed with Sanders (Csiszolók)"}
+{"id": "ha-15-18-1", "name_en": "Angle Grinders", "old_hu": "Szögcsiszolók", "new_hu": "Sarokcsiszolók", "reason": "not the webshop term"}
+{"id": "ha-15-18-2", "name_en": "Bench Grinders", "old_hu": "Padcsiszolók", "new_hu": "Asztali köszörűk", "reason": "not the webshop term"}
+{"id": "ha-15-18-3", "name_en": "Die Grinders", "old_hu": "Marócsiszolók", "new_hu": "Egyenescsiszolók", "reason": "not the webshop term"}
+{"id": "ha-15-20-2", "name_en": "Powered Hammers", "old_hu": "Motoros kalapácsok", "new_hu": "Fúró- és vésőkalapácsok", "reason": "not the webshop term"}
+{"id": "ha-15-21", "name_en": "Handheld Power Mixers", "old_hu": "Kézi elektromos keverők", "new_hu": "Kézi keverőgépek", "reason": "not the webshop term"}
+{"id": "ha-15-22", "name_en": "Hardware Torches", "old_hu": "Hardverlánghegy", "new_hu": "Gázégők és forrasztólámpák", "reason": "mistranslation: hardverlánghegy is not a word"}
+{"id": "ha-15-23", "name_en": "Heat Guns", "old_hu": "Hőfegyverek", "new_hu": "Hőlégfúvók", "reason": "mistranslation: fegyver is a weapon"}
+{"id": "ha-15-23-1", "name_en": "Hot Air Guns", "old_hu": "Hőlégfegyverek", "new_hu": "Hőlégfúvó pisztolyok", "reason": "mistranslation: fegyver is a weapon"}
+{"id": "ha-15-24", "name_en": "Impact Wrenches & Drivers", "old_hu": "Ütköző csavarkulcsok és behajtók", "new_hu": "Ütvecsavarozók", "reason": "mistranslation: ütköző means a bumper"}
+{"id": "ha-15-24-2", "name_en": "Power Screwdrivers", "old_hu": "Erőcsavarhúzók", "new_hu": "Csavarozógépek", "reason": "overly literal: erőcsavarhúzó is not Hungarian"}
+{"id": "ha-15-31", "name_en": "Log Splitters", "old_hu": "Rönkhasítók", "new_hu": "Fahasítók", "reason": "not the webshop term"}
+{"id": "ha-15-31-2", "name_en": "Power Log Splitters", "old_hu": "Motoros rönkhasítók", "new_hu": "Motoros fahasítók", "reason": "consistency with parent or siblings"}
+{"id": "ha-15-34", "name_en": "Masonry Tools", "old_hu": "Falazószerszámok", "new_hu": "Kőműves szerszámok", "reason": "not the webshop term"}
+{"id": "ha-15-34-2", "name_en": "Cement Mixers", "old_hu": "Cementkeverők", "new_hu": "Betonkeverők", "reason": "not the webshop term"}
+{"id": "ha-15-34-2-2", "name_en": "Stand Cement Mixers", "old_hu": "Álló cementkeverők", "new_hu": "Álló betonkeverők", "reason": "consistency with parent or siblings"}
+{"id": "ha-15-36-5", "name_en": "Calipers", "old_hu": "Távolságmérők", "new_hu": "Tolómérők", "reason": "mistranslation: a caliper is a tolómérő; duplicated Distance Meters"}
+{"id": "ha-15-36-9", "name_en": "Electrical Testing Tools", "old_hu": "Elektromos vizsgálóeszközök", "new_hu": "Elektromos mérőműszerek", "reason": "not the webshop term"}
+{"id": "ha-15-36-10", "name_en": "Flow Meters & Controllers", "old_hu": "Áramlásmérők és vezérlők", "new_hu": "Áramlásmérők és -szabályozók", "reason": "mistranslation: vezérlő is an electronic controller"}
+{"id": "ha-15-36-12", "name_en": "Gauges", "old_hu": "Mérők", "new_hu": "Mérőórák", "reason": "overly literal"}
+{"id": "ha-15-36-17-2", "name_en": "Laser Levels", "old_hu": "Lézeres vízmértékek", "new_hu": "Lézeres szintezők", "reason": "not the webshop term"}
+{"id": "ha-15-36-21", "name_en": "PH Meters", "old_hu": "PH-mérők", "new_hu": "pH-mérők", "reason": "spelling"}
+{"id": "ha-15-36-38", "name_en": "Weather Forecasters & Stations", "old_hu": "Időjárás-előrejelzők és állomások", "new_hu": "Időjárás-állomások", "reason": "overly literal"}
+{"id": "ha-15-42-1", "name_en": "Airbrushes", "old_hu": "Festékszórók", "new_hu": "Airbrush pisztolyok", "reason": "mistranslation: an airbrush is not a paint sprayer"}
+{"id": "ha-15-42-7", "name_en": "Paint Sprayers", "old_hu": "Festékpermetezők", "new_hu": "Festékszórók", "reason": "not the webshop term"}
+{"id": "ha-15-47-1", "name_en": "Benchtop Planers", "old_hu": "Asztali gyaluk", "new_hu": "Asztali gyalugépek", "reason": "consistency with parent or siblings: separate from hand planes (Gyaluk)"}
+{"id": "ha-15-47-2", "name_en": "Handheld Planers", "old_hu": "Kézi gyaluk", "new_hu": "Kézi gyalugépek", "reason": "consistency with parent or siblings: separate from hand planes (Gyaluk)"}
+{"id": "ha-15-51", "name_en": "Polishers & Buffers", "old_hu": "Polírozók és fényesítők", "new_hu": "Polírozógépek", "reason": "needlessly long"}
+{"id": "ha-15-52", "name_en": "Post Hole Diggers", "old_hu": "Oszlopásók", "new_hu": "Talajfúrók", "reason": "mistranslation: oszlopásó is not a word"}
+{"id": "ha-15-52-2", "name_en": "Power Diggers", "old_hu": "Motoros ásók", "new_hu": "Motoros talajfúrók", "reason": "consistency with parent or siblings"}
+{"id": "ha-15-57-1", "name_en": "Rivet Guns", "old_hu": "Szegecspisztolyok", "new_hu": "Szegecshúzók", "reason": "not the webshop term"}
+{"id": "ha-15-58", "name_en": "Routing Tools", "old_hu": "Útválasztó szerszámok", "new_hu": "Felsőmarók", "reason": "mistranslation: útválasztó is a network router"}
+{"id": "ha-15-59", "name_en": "Sanders", "old_hu": "Csiszolók", "new_hu": "Csiszológépek", "reason": "consistency with parent or siblings: clashed with Grinders"}
+{"id": "ha-15-59-1", "name_en": "Belt Sanders", "old_hu": "Szíjcsiszolók", "new_hu": "Szalagcsiszolók", "reason": "not the webshop term"}
+{"id": "ha-15-59-3", "name_en": "Orbital Sanders", "old_hu": "Orbitális csiszolók", "new_hu": "Rezgő- és excentercsiszolók", "reason": "overly literal"}
+{"id": "ha-15-62-2", "name_en": "Cut-Off Saws", "old_hu": "Levágófűrészek", "new_hu": "Darabolófűrészek", "reason": "not the webshop term"}
+{"id": "ha-15-62-5", "name_en": "Jigsaws", "old_hu": "Dekopírfűrészek", "new_hu": "Szúrófűrészek", "reason": "mistranslation: a jigsaw is szúrófűrész; dekopírfűrész is a scroll saw"}
+{"id": "ha-15-62-6", "name_en": "Masonry & Tile Saws", "old_hu": "Falazó- és csempefűrészek", "new_hu": "Kő- és csempevágó gépek", "reason": "mistranslation: falazófűrész is not a word"}
+{"id": "ha-15-62-7", "name_en": "Miter Saws", "old_hu": "Gérvágó fűrészek", "new_hu": "Gérvágók", "reason": "not the webshop term"}
+{"id": "ha-15-62-9", "name_en": "Reciprocating Saws", "old_hu": "Dugattyús fűrészek", "new_hu": "Orrfűrészek", "reason": "not the webshop term"}
+{"id": "ha-15-62-10", "name_en": "Scroll Saws", "old_hu": "Görgős fűrészek", "new_hu": "Dekopírfűrészek", "reason": "mistranslation: görgős means with rollers; a scroll saw is a dekopírfűrész"}
+{"id": "ha-15-62-11", "name_en": "Table Saws", "old_hu": "Asztali fűrészek", "new_hu": "Asztali körfűrészek", "reason": "not the webshop term"}
+{"id": "ha-15-71", "name_en": "Tool Clamps & Vises", "old_hu": "Szerszámbilincsek és satuk", "new_hu": "Szorítók és satuk", "reason": "mistranslation: bilincs is a hose clamp"}
+{"id": "ha-15-71-2", "name_en": "Bench Vises", "old_hu": "Padsatuk", "new_hu": "Asztali satuk", "reason": "not the webshop term"}
+{"id": "ha-15-72", "name_en": "Tool Files", "old_hu": "Szerszámfájlok", "new_hu": "Reszelők", "reason": "mistranslation: fájl is a computer file"}
+{"id": "ha-15-73", "name_en": "Tool Keys", "old_hu": "Szerszámkulcsok", "new_hu": "Imbusz- és tokmánykulcsok", "reason": "overly literal"}
+{"id": "ha-15-75-2", "name_en": "Power Tool Combo Sets", "old_hu": "Kombinált elektromos szerszámkészletek", "new_hu": "Elektromos szerszámgép-szettek", "reason": "not the webshop term"}
+{"id": "ha-15-76", "name_en": "Welders", "old_hu": "Hegesztők", "new_hu": "Hegesztőgépek", "reason": "mistranslation: hegesztő is the welder (person)"}
+{"id": "ha-15-80-2", "name_en": "Socket Wrenches", "old_hu": "Aljzatcsavarkulcsok", "new_hu": "Dugókulcsok", "reason": "mistranslation: aljzat is an electrical socket"}
+{"id": "ha-15-80-3", "name_en": "Torque Wrenches", "old_hu": "Nyomatékcsavarkulcsok", "new_hu": "Nyomatékkulcsok", "reason": "needlessly long"}
+{"id": "hb-1", "name_en": "Health Care", "old_hu": "Egészségügyi ellátás", "new_hu": "Egészségmegőrzés", "reason": "overly literal"}
+{"id": "hb-1-4", "name_en": "Biometric Monitors", "old_hu": "Biometrikus figyelők", "new_hu": "Egészségügyi mérőeszközök", "reason": "overly literal"}
+{"id": "hb-1-4-1", "name_en": "Activity Monitors", "old_hu": "Tevékenységfigyelők", "new_hu": "Aktivitásmérők", "reason": "not the webshop term"}
+{"id": "hb-1-4-5", "name_en": "Body Weight Scales", "old_hu": "Testsúlymérlegek", "new_hu": "Személymérlegek", "reason": "not the webshop term"}
+{"id": "hb-1-4-6", "name_en": "Breathalyzers", "old_hu": "Alkoholmérők", "new_hu": "Alkoholszondák", "reason": "not the webshop term"}
+{"id": "hb-1-4-9", "name_en": "Medical Thermometers", "old_hu": "Orvosi hőmérők", "new_hu": "Lázmérők", "reason": "not the webshop term"}
+{"id": "hb-1-4-10", "name_en": "Prenatal Heart Rate Monitors", "old_hu": "Terhességi szívverésfigyelők", "new_hu": "Magzati szívhangfigyelők", "reason": "overly literal"}
+{"id": "hb-1-8-4", "name_en": "First Aid Kits", "old_hu": "Elsősegélynyújtó készletek", "new_hu": "Elsősegélycsomagok", "reason": "not the webshop term"}
+{"id": "hb-1-8-5", "name_en": "Hot & Cold Therapies", "old_hu": "Hideg és meleg terápiák", "new_hu": "Hő- és hidegterápia", "reason": "overly literal"}
+{"id": "hb-1-8-5-2", "name_en": "Heating Pads", "old_hu": "Fűtőpárnák", "new_hu": "Melegítőpárnák", "reason": "not the webshop term"}
+{"id": "hb-1-8-6", "name_en": "Medical Tape & Bandages", "old_hu": "Orvosi szalagok és kötszerek", "new_hu": "Kötszerek és ragtapaszok", "reason": "overly literal"}
+{"id": "hb-1-8-6-5", "name_en": "Kinesiology Tape", "old_hu": "Kineziológiai tapasz", "new_hu": "Kineziológiai tapaszok", "reason": "plural, as its siblings"}
+{"id": "hb-1-9-1", "name_en": "Nutrition Bars", "old_hu": "Táplálkozási rudak", "new_hu": "Fehérje- és energiaszeletek", "reason": "overly literal"}
+{"id": "hb-1-9-2", "name_en": "Nutrition Drinks & Shakes", "old_hu": "Táplálkozási italok és turmixok", "new_hu": "Sportitalok és shake-ek", "reason": "overly literal"}
+{"id": "hb-1-9-2-3", "name_en": "Weight Gainer Shakes", "old_hu": "Tömegnövelő turmixok", "new_hu": "Tömegnövelők", "reason": "not the webshop term"}
+{"id": "hb-1-9-3", "name_en": "Nutrition Gels & Chews", "old_hu": "Táplálkozási gélek és rágók", "new_hu": "Sportgélek és gumicukrok", "reason": "overly literal"}
+{"id": "hb-1-9-6-5", "name_en": "Herbal Supplements", "old_hu": "Gyógynövény-kiegészítők", "new_hu": "Gyógynövényes étrend-kiegészítők", "reason": "overly literal"}
+{"id": "hb-1-9-6-5-1", "name_en": "Flower Essence Remedies", "old_hu": "Virágeszencia-gyógyszerek", "new_hu": "Virágeszenciák", "reason": "mistranslation: these are not medicines (gyógyszer)"}
+{"id": "hb-1-9-6-8", "name_en": "Protein Supplements", "old_hu": "Fehérjekiegészítők", "new_hu": "Fehérjeporok", "reason": "not the webshop term"}
+{"id": "hb-1-9-7", "name_en": "Weight Loss", "old_hu": "Fogyás", "new_hu": "Fogyókúra", "reason": "not the webshop term"}
+{"id": "hb-1-9-7-1", "name_en": "Weight Loss Supplements", "old_hu": "Fogyási kiegészítők", "new_hu": "Fogyókúrás étrend-kiegészítők", "reason": "overly literal"}
+{"id": "hb-1-15", "name_en": "Medical Tests", "old_hu": "Orvosi vizsgálatok", "new_hu": "Orvosi gyorstesztek", "reason": "mistranslation: vizsgálat is a medical examination"}
+{"id": "hb-1-16-2", "name_en": "Cough, Cold & Flu Medicines", "old_hu": "Köhögés-, megfázás- és influenzagyógyszerek", "new_hu": "Köhögés, megfázás és influenza elleni szerek", "reason": "overly literal"}
+{"id": "hb-1-16-7", "name_en": "Topical Skin Treatments", "old_hu": "Helyi bőrkezelések", "new_hu": "Bőrgyógyászati készítmények", "reason": "overly literal"}
+{"id": "hb-1-17", "name_en": "Mobility & Accessibility", "old_hu": "Mobilitás és hozzáférhetőség", "new_hu": "Mozgássegítés és akadálymentesség", "reason": "overly literal"}
+{"id": "hb-1-17-1", "name_en": "Accessibility Equipment", "old_hu": "Kisegítő berendezések", "new_hu": "Mozgássegítő eszközök", "reason": "not the webshop term"}
+{"id": "hb-1-17-2", "name_en": "Accessibility Equipment Accessories", "old_hu": "Kisegítőberendezés-kiegészítők", "new_hu": "Mozgássegítő eszközök tartozékai", "reason": "consistency with parent or siblings"}
+{"id": "hb-1-17-3", "name_en": "Accessibility Furniture & Fixtures", "old_hu": "Kisegítő bútorok és berendezési tárgyak", "new_hu": "Akadálymentesítő bútorok és szerelvények", "reason": "overly literal"}
+{"id": "hb-1-17-5-1", "name_en": "Canes & Walking Sticks", "old_hu": "Sétabotok és sétapálcák", "new_hu": "Járóbotok és sétabotok", "reason": "not the webshop term"}
+{"id": "hb-1-18", "name_en": "Occupational & Physical Therapy Equipment", "old_hu": "Foglalkozási és fizikoterápiás berendezések", "new_hu": "Fizioterápiás eszközök", "reason": "mistranslation: foglalkozási means occupational in the job sense"}
+{"id": "hb-1-19", "name_en": "Pillboxes", "old_hu": "Tablettás dobozok", "new_hu": "Gyógyszeradagolók", "reason": "not the webshop term"}
+{"id": "hb-1-20", "name_en": "Respiratory Care", "old_hu": "Légzőrendszer-gondozás", "new_hu": "Légzésterápia", "reason": "overly literal"}
+{"id": "hb-1-20-1", "name_en": "Nebulizers", "old_hu": "Porlasztók", "new_hu": "Inhalátorok", "reason": "not the webshop term"}
+{"id": "hb-1-24", "name_en": "Supports & Braces", "old_hu": "Tartók és merevítők", "new_hu": "Ortézisek és rögzítők", "reason": "mistranslation: tartó and merevítő are construction words"}
+{"id": "hb-3", "name_en": "Personal Care", "old_hu": "Személyes gondoskodás", "new_hu": "Testápolás és higiénia", "reason": "mistranslation: személyes gondoskodás means personal attention"}
+{"id": "hb-3-1", "name_en": "Back Care", "old_hu": "Hátápolás", "new_hu": "Hátkímélő eszközök", "reason": "overly literal"}
+{"id": "hb-3-2-1", "name_en": "Bath & Body", "old_hu": "Fürdés és test", "new_hu": "Fürdés és testápolás", "reason": "overly literal"}
+{"id": "hb-3-2-1-2-2", "name_en": "Bath Salts & Soaks", "old_hu": "Fürdősók és áztatók", "new_hu": "Fürdősók", "reason": "overly literal"}
+{"id": "hb-3-2-1-2-3", "name_en": "Bubble Bath & Foam", "old_hu": "Habfürdők és habok", "new_hu": "Habfürdők", "reason": "needlessly long"}
+{"id": "hb-3-2-1-5", "name_en": "Body Wash", "old_hu": "Testmosó", "new_hu": "Tusfürdők", "reason": "not the webshop term"}
+{"id": "hb-3-2-5-1-6", "name_en": "Face Mirrors", "old_hu": "Arctükrök", "new_hu": "Kozmetikai tükrök", "reason": "not the webshop term"}
+{"id": "hb-3-2-5-2-4", "name_en": "Manicure Tool Sets", "old_hu": "Manikűr eszközkészletek", "new_hu": "Manikűrkészletek", "reason": "needlessly long"}
+{"id": "hb-3-2-5-2-6", "name_en": "Nail Clippers", "old_hu": "Körömvágók", "new_hu": "Körömcsipeszek", "reason": "not the webshop term"}
+{"id": "hb-3-2-5-2-7", "name_en": "Nail Drill Accessories", "old_hu": "Körömfúró-kiegészítők", "new_hu": "Körömcsiszológép-tartozékok", "reason": "consistency with parent or siblings"}
+{"id": "hb-3-2-5-2-8", "name_en": "Nail Drills", "old_hu": "Körömfúrók", "new_hu": "Körömcsiszoló gépek", "reason": "mistranslation: fúró is a drill"}
+{"id": "hb-3-2-5-2-13", "name_en": "Nail Forms & Molds", "old_hu": "Körömformák és öntőformák", "new_hu": "Műkörömsablonok és -formák", "reason": "overly literal"}
+{"id": "hb-3-2-6-3-3", "name_en": "Eyebrow Enhancers", "old_hu": "Szemöldöknövelők", "new_hu": "Szemöldökformázók", "reason": "mistranslation: növelő means growth enhancer"}
+{"id": "hb-3-2-6-3-4", "name_en": "Eyeliner", "old_hu": "Szemceruza", "new_hu": "Szemhéjtusok és szemceruzák", "reason": "incomplete, drops part of the English name"}
+{"id": "hb-3-2-6-4-2", "name_en": "Face Powder", "old_hu": "Arcpúder", "new_hu": "Púderek", "reason": "not the webshop term"}
+{"id": "hb-3-2-6-4-5", "name_en": "Highlighters & Luminizers", "old_hu": "Kiemelők és fényfokozók", "new_hu": "Highlighterek", "reason": "not the webshop term"}
+{"id": "hb-3-2-6-5-2", "name_en": "Lip Gloss", "old_hu": "Szájfény", "new_hu": "Szájfények", "reason": "plural, as its siblings"}
+{"id": "hb-3-2-6-5-3", "name_en": "Lip Liners", "old_hu": "Ajakkontúrok", "new_hu": "Szájkontúrceruzák", "reason": "not the webshop term"}
+{"id": "hb-3-2-6-6", "name_en": "Makeup Finishing Sprays", "old_hu": "Sminkbefejező spray-k", "new_hu": "Sminkfixálók", "reason": "not the webshop term"}
+{"id": "hb-3-2-7-2-1", "name_en": "Nail Tips", "old_hu": "Körömhegyek", "new_hu": "Műköröm-tipek", "reason": "mistranslation: körömhegy is the tip of a natural nail"}
+{"id": "hb-3-2-7-3", "name_en": "Manicure Glue", "old_hu": "Manikűr ragasztó", "new_hu": "Műkörömragasztók", "reason": "not the webshop term"}
+{"id": "hb-3-2-7-4", "name_en": "Nail Art Kits & Accessories", "old_hu": "Körömművészeti készletek és kiegészítők", "new_hu": "Körömdíszítő készletek és kellékek", "reason": "overly literal"}
+{"id": "hb-3-2-7-4-1", "name_en": "Nail Art Brushes & Dotting Tools", "old_hu": "Körömdíszítő ecsetek és pontozó eszközök", "new_hu": "Körömdíszítő ecsetek és pöttyözők", "reason": "not the webshop term"}
+{"id": "hb-3-2-7-13", "name_en": "Nail Treatments", "old_hu": "Körömkezelések", "new_hu": "Körömápolók", "reason": "overly literal"}
+{"id": "hb-3-2-9-24", "name_en": "After-Sun Skin Care", "old_hu": "Napozás utáni bőrápolás", "new_hu": "Napozás utáni termékek", "reason": "needlessly long"}
+{"id": "hb-3-2-9-3", "name_en": "Body Oil", "old_hu": "Testolaj", "new_hu": "Testolajok", "reason": "plural, as its siblings"}
+{"id": "hb-3-2-9-4", "name_en": "Body Powder", "old_hu": "Testpor", "new_hu": "Testpúderek", "reason": "not the webshop term"}
+{"id": "hb-3-2-9-20", "name_en": "Face Moisturizers", "old_hu": "Archidratálók", "new_hu": "Arckrémek", "reason": "not the webshop term"}
+{"id": "hb-3-2-9-9", "name_en": "Lip Balms & Treatments", "old_hu": "Ajakbalzsamok és kezelések", "new_hu": "Ajakápolók", "reason": "overly literal"}
+{"id": "hb-3-2-9-10", "name_en": "Lotions & Moisturizers", "old_hu": "Testápolók és hidratálók", "new_hu": "Testápolók", "reason": "needlessly long"}
+{"id": "hb-3-2-9-13", "name_en": "Skin Care Masks & Peels", "old_hu": "Bőrápoló maszkok és radírok", "new_hu": "Arcmaszkok és hámlasztók", "reason": "mistranslation: radír is a scrub, a peel is a hámlasztó"}
+{"id": "hb-3-2-9-15", "name_en": "Sunscreen", "old_hu": "Fényvédő krém", "new_hu": "Fényvédők", "reason": "plural, as its siblings"}
+{"id": "hb-3-2-9-16-1", "name_en": "Self Tanner", "old_hu": "Önbarnító", "new_hu": "Önbarnítók", "reason": "plural, as its siblings"}
+{"id": "hb-3-2-9-16-2", "name_en": "Tanning Oil & Lotions", "old_hu": "Barnító olajok és testápolók", "new_hu": "Napolajok és barnítókrémek", "reason": "overly literal"}
+{"id": "hb-3-4", "name_en": "Cotton Swabs", "old_hu": "Pamut törlőkendők", "new_hu": "Fültisztító pálcikák", "reason": "mistranslation: törlőkendő is a wipe"}
+{"id": "hb-3-7-4", "name_en": "Shower & Hose Enema Attachments", "old_hu": "Zuhanyzó- és tömlőbeöntés-kiegészítők", "new_hu": "Zuhanyos beöntőfejek", "reason": "overly literal"}
+{"id": "hb-3-21-3", "name_en": "Essential Oil Diffusers", "old_hu": "Illóolaj-párologtatók", "new_hu": "Aromadiffúzorok", "reason": "not the webshop term"}
+{"id": "hb-3-8", "name_en": "Feminine Sanitary Supplies", "old_hu": "Női egészségügyi kellékek", "new_hu": "Női higiénia", "reason": "not the webshop term"}
+{"id": "hb-3-8-4", "name_en": "Feminine Pads & Protectors", "old_hu": "Női betétek és protektorok", "new_hu": "Egészségügyi és tisztasági betétek", "reason": "not the webshop term"}
+{"id": "hb-3-8-5", "name_en": "Menstrual Cups", "old_hu": "Menstruációs csészék", "new_hu": "Menstruációs kelyhek", "reason": "not the webshop term"}
+{"id": "hb-3-9-4", "name_en": "Insoles & Inserts", "old_hu": "Talpbetétek és betétek", "new_hu": "Talpbetétek", "reason": "needlessly long"}
+{"id": "hb-3-10-2", "name_en": "Hair Color", "old_hu": "Hajszín", "new_hu": "Hajfestékek", "reason": "mistranslation: hajszín is the colour of the hair"}
+{"id": "hb-3-10-6", "name_en": "Hair Loss Treatments", "old_hu": "Hajhullás elleni kezelések", "new_hu": "Hajhullás elleni termékek", "reason": "overly literal"}
+{"id": "hb-3-10-8", "name_en": "Hair Shears", "old_hu": "Hajvágó olló", "new_hu": "Hajvágó ollók", "reason": "plural, as its siblings"}
+{"id": "hb-3-10-12-3", "name_en": "Curling Irons", "old_hu": "Hajsütővasak", "new_hu": "Hajsütők", "reason": "not the webshop term"}
+{"id": "hb-3-10-12-11", "name_en": "Hair Crimpers", "old_hu": "Hajhullámosítók", "new_hu": "Hajkreppelők", "reason": "mistranslation: hullámosító is a waver, not a crimper"}
+{"id": "hb-3-10-14", "name_en": "Hair Treatments", "old_hu": "Hajkezelések", "new_hu": "Hajkúrák és pakolások", "reason": "overly literal"}
+{"id": "hb-3-10-13", "name_en": "Shampoo & Conditioner", "old_hu": "Sampon és balzsam", "new_hu": "Samponok és balzsamok", "reason": "plural, as its siblings"}
+{"id": "hb-3-10-13-1", "name_en": "Conditioners", "old_hu": "Balzsamok", "new_hu": "Hajbalzsamok", "reason": "not the webshop term"}
+{"id": "hb-3-10-13-3", "name_en": "Shampoo", "old_hu": "Sampon", "new_hu": "Samponok", "reason": "plural, as its siblings"}
+{"id": "hb-3-11-4", "name_en": "Massage Oil", "old_hu": "Masszázsolaj", "new_hu": "Masszázsolajok", "reason": "plural, as its siblings"}
+{"id": "hb-3-11-7", "name_en": "Massage Tables", "old_hu": "Masszázstáblák", "new_hu": "Masszázságyak", "reason": "mistranslation: tábla is a board or a sign"}
+{"id": "hb-3-11-8", "name_en": "Massagers", "old_hu": "Masszírozók", "new_hu": "Masszírozógépek", "reason": "not the webshop term"}
+{"id": "hb-3-12-1", "name_en": "Breath Sprays", "old_hu": "Lehelet spray-k", "new_hu": "Szájspray-k", "reason": "not the webshop term"}
+{"id": "hb-3-12-4", "name_en": "Dental Water Jet Replacement Tips", "old_hu": "Fogászati vízsugárcsere-hegyek", "new_hu": "Szájzuhany-pótfejek", "reason": "mistranslation: a dental water jet is a szájzuhany"}
+{"id": "hb-3-12-5", "name_en": "Dental Water Jets", "old_hu": "Fogászati vízsugarak", "new_hu": "Szájzuhanyok", "reason": "mistranslation: vízsugár is a jet of water, not a device"}
+{"id": "hb-3-12-6", "name_en": "Denture Adhesives", "old_hu": "Fogsorragasztók", "new_hu": "Műfogsorrögzítők", "reason": "not the webshop term"}
+{"id": "hb-3-12-7", "name_en": "Denture Cleaners", "old_hu": "Fogsortisztítók", "new_hu": "Műfogsortisztítók", "reason": "not the webshop term"}
+{"id": "hb-3-12-22", "name_en": "Interdental Brushes", "old_hu": "Interdentális kefék", "new_hu": "Fogköztisztító kefék", "reason": "not the webshop term"}
+{"id": "hb-3-12-11", "name_en": "Mouthwash", "old_hu": "Szájvíz", "new_hu": "Szájvizek", "reason": "plural, as its siblings"}
+{"id": "hb-3-12-15", "name_en": "Tongue Scrapers", "old_hu": "Nyelvkaparók", "new_hu": "Nyelvtisztítók", "reason": "not the webshop term"}
+{"id": "hb-3-12-16-2", "name_en": "Toothbrush Replacement Heads", "old_hu": "Fogkefecserefejek", "new_hu": "Fogkefe-pótfejek", "reason": "not the webshop term"}
+{"id": "hb-3-20", "name_en": "Personal Care Gift Sets & Kits", "old_hu": "Személyes ápolás ajándékkészletek", "new_hu": "Szépségápolási ajándékcsomagok", "reason": "overly literal"}
+{"id": "hb-3-13", "name_en": "Personal Lubricants", "old_hu": "Személyes kenőanyagok", "new_hu": "Síkosítók", "reason": "mistranslation: kenőanyag is machine lubricant"}
+{"id": "hb-3-14", "name_en": "Shaving & Grooming", "old_hu": "Borotválkozás és ápolás", "new_hu": "Borotválkozás és szőrtelenítés", "reason": "overly literal"}
+{"id": "hb-3-14-1", "name_en": "Aftershave", "old_hu": "Borotválkozás utáni balzsam", "new_hu": "Borotválkozás utáni termékek", "reason": "incomplete, drops part of the English name: aftershave covers lotions too"}
+{"id": "hb-3-14-18", "name_en": "Beard Shampoo & Wash", "old_hu": "Szakállsampon és -mosó", "new_hu": "Szakállsamponok", "reason": "needlessly long"}
+{"id": "hb-3-14-3", "name_en": "Electric Razor Accessories", "old_hu": "Elektromosborotva-kiegészítők", "new_hu": "Villanyborotva-tartozékok", "reason": "not the webshop term"}
+{"id": "hb-3-14-4", "name_en": "Electric Razors", "old_hu": "Elektromos borotvák", "new_hu": "Villanyborotvák", "reason": "not the webshop term"}
+{"id": "hb-3-14-4-3-2", "name_en": "Body Groomers", "old_hu": "Testszőrzetnyírók", "new_hu": "Testszőrnyírók", "reason": "spelling"}
+{"id": "hb-3-14-6", "name_en": "Hair Clippers & Trimmers", "old_hu": "Hajvágók és trimmerek", "new_hu": "Hajvágógépek", "reason": "not the webshop term"}
+{"id": "hb-3-14-7-4", "name_en": "Hair Removal Wax Warmers", "old_hu": "Szőrtelenítő gyantamelegítők", "new_hu": "Gyantamelegítők", "reason": "needlessly long"}
+{"id": "hb-3-18", "name_en": "Tweezers", "old_hu": "Csipeszek", "new_hu": "Szemöldökcsipeszek", "reason": "not the webshop term"}
+{"id": "hb-3-19", "name_en": "Vision Care", "old_hu": "Látásápolás", "new_hu": "Látás és szemápolás", "reason": "overly literal"}
+{"id": "hb-3-19-1-3", "name_en": "Contact Lens Solution", "old_hu": "Kontaktlencse-megoldás", "new_hu": "Kontaktlencse-folyadékok", "reason": "mistranslation: megoldás is the solution of a problem"}
+{"id": "hb-3-19-2", "name_en": "Eye Drops & Lubricants", "old_hu": "Szemcseppek és síkosítók", "new_hu": "Szemcseppek és műkönnyek", "reason": "mistranslation: síkosító is a sexual lubricant"}
+{"id": "hg-1-2", "name_en": "Bath Mats & Rugs", "old_hu": "Fürdőszőnyegek és szőnyegek", "new_hu": "Fürdőszobaszőnyegek", "reason": "needlessly long"}
+{"id": "hg-1-10", "name_en": "Robe Hooks", "old_hu": "Köntös-horgok", "new_hu": "Törölköző- és köntösakasztók", "reason": "not the webshop term"}
+{"id": "hg-1-11", "name_en": "Safety Grab Bars", "old_hu": "Biztonsági markolórudak", "new_hu": "Kapaszkodók", "reason": "not the webshop term"}
+{"id": "hg-1-15", "name_en": "Soap & Lotion Dispensers", "old_hu": "Szappan- és testápoló-adagolók", "new_hu": "Szappanadagolók", "reason": "needlessly long"}
+{"id": "hg-1-19", "name_en": "Toilet Paper Holders", "old_hu": "WC-papír tartók", "new_hu": "WC-papír-tartók", "reason": "spelling"}
+{"id": "hg-1-21-5", "name_en": "Towel Warmers", "old_hu": "Törölközőmelegítők", "new_hu": "Törölközőszárító radiátorok", "reason": "not the webshop term"}
+{"id": "hg-2", "name_en": "Business & Home Security", "old_hu": "Üzleti és otthoni biztonság", "new_hu": "Biztonságtechnika", "reason": "not the webshop term"}
+{"id": "hg-2-1", "name_en": "Dummy Surveillance Cameras", "old_hu": "Hamis megfigyelőkamerák", "new_hu": "Álkamerák", "reason": "not the webshop term"}
+{"id": "hg-2-2", "name_en": "Home Alarm Systems", "old_hu": "Otthoni riasztórendszerek", "new_hu": "Riasztórendszerek", "reason": "needlessly long"}
+{"id": "hg-2-6", "name_en": "Security Monitors & Recorders", "old_hu": "Biztonsági monitorok és felvevők", "new_hu": "Megfigyelő monitorok és rögzítők", "reason": "overly literal"}
+{"id": "hg-2-6-3", "name_en": "Security Digital Video Recorders", "old_hu": "Biztonsági digitális videorögzítők", "new_hu": "Biztonsági videorögzítők", "reason": "needlessly long"}
+{"id": "hg-2-8", "name_en": "Security Safes", "old_hu": "Biztonsági széfek", "new_hu": "Széfek", "reason": "needlessly long"}
+{"id": "hg-2-9", "name_en": "Security System Sensors", "old_hu": "Biztonságirendszer-érzékelők", "new_hu": "Riasztóérzékelők", "reason": "overly literal"}
+{"id": "hg-3-2", "name_en": "Artificial Flora", "old_hu": "Mesterséges flóra", "new_hu": "Művirágok és műnövények", "reason": "overly literal"}
+{"id": "hg-3-2-1", "name_en": "Artificial Flowering Plants", "old_hu": "Mesterséges virágzó növények", "new_hu": "Művirágok", "reason": "overly literal"}
+{"id": "hg-3-2-4", "name_en": "Artificial Trees", "old_hu": "Mesterséges fák", "new_hu": "Műfák", "reason": "overly literal"}
+{"id": "hg-3-4-2", "name_en": "Posters, Prints, & Visual Artwork", "old_hu": "Plakátok, nyomtatványok és vizuális műalkotások", "new_hu": "Poszterek, nyomatok és falképek", "reason": "mistranslation: nyomtatvány is a printed form"}
+{"id": "hg-3-4-2-1", "name_en": "Posters", "old_hu": "Plakátok", "new_hu": "Poszterek", "reason": "not the webshop term"}
+{"id": "hg-3-10", "name_en": "Bird & Wildlife Houses", "old_hu": "Madár- és vadházak", "new_hu": "Madárodúk és rovarhotelek", "reason": "mistranslation: vadház is not a word"}
+{"id": "hg-3-12", "name_en": "Bookends", "old_hu": "Könyvtartók", "new_hu": "Könyvtámaszok", "reason": "not the webshop term"}
+{"id": "hg-3-17-4", "name_en": "Wall Clocks", "old_hu": "Fali órák", "new_hu": "Faliórák", "reason": "spelling"}
+{"id": "hg-3-26", "name_en": "Door Mats", "old_hu": "Ajtóalátétek", "new_hu": "Lábtörlők", "reason": "mistranslation: alátét is a coaster or washer"}
+{"id": "hg-3-35", "name_en": "Fountains & Ponds", "old_hu": "Szökőkutak és tavak", "new_hu": "Szökőkutak és kerti tavak", "reason": "overly literal"}
+{"id": "hg-3-35-3", "name_en": "Ponds", "old_hu": "Tavak", "new_hu": "Kerti tavak", "reason": "overly literal"}
+{"id": "hg-3-38", "name_en": "Home Decor Decals", "old_hu": "Otthoni dekorációs matricák", "new_hu": "Falmatricák", "reason": "not the webshop term"}
+{"id": "hg-3-39", "name_en": "Home Fragrance Accessories", "old_hu": "Otthoniillat-kiegészítők", "new_hu": "Lakásillatosító kiegészítők", "reason": "overly literal"}
+{"id": "hg-3-40", "name_en": "Home Fragrances", "old_hu": "Otthoni illatok", "new_hu": "Lakásillatosítók", "reason": "overly literal"}
+{"id": "hg-3-40-4", "name_en": "Incense", "old_hu": "Tömjén", "new_hu": "Füstölők", "reason": "mistranslation: tömjén is frankincense, not incense sticks"}
+{"id": "hg-3-40-8", "name_en": "Scented Sachets", "old_hu": "Illatos tasakok", "new_hu": "Illatosító tasakok", "reason": "not the webshop term"}
+{"id": "hg-3-53", "name_en": "Piggy Banks & Money Jars", "old_hu": "Malacperselyek és pénzesüvegek", "new_hu": "Perselyek", "reason": "needlessly long"}
+{"id": "hg-3-56", "name_en": "Refrigerator Magnets", "old_hu": "Hűtőszekrény-mágnesek", "new_hu": "Hűtőmágnesek", "reason": "not the webshop term"}
+{"id": "hg-3-58-3", "name_en": "Christmas Tree Stands", "old_hu": "Karácsonyfa-állványok", "new_hu": "Karácsonyfatalpak", "reason": "not the webshop term"}
+{"id": "hg-3-58-9", "name_en": "Holiday Stockings", "old_hu": "Ünnepi harisnyák", "new_hu": "Karácsonyi zoknik", "reason": "mistranslation: harisnya is pantyhose"}
+{"id": "hg-3-58-11", "name_en": "Nativity Sets", "old_hu": "Betlehemes készletek", "new_hu": "Betlehemek", "reason": "not the webshop term"}
+{"id": "hg-3-68", "name_en": "Wallpaper", "old_hu": "Háttérkép", "new_hu": "Tapéták", "reason": "mistranslation: háttérkép is a desktop wallpaper"}
+{"id": "hg-3-73", "name_en": "Window Treatment Accessories", "old_hu": "Ablakkezelő-kiegészítők", "new_hu": "Függöny- és árnyékolótartozékok", "reason": "mistranslation: ablakkezelés is not a word"}
+{"id": "hg-3-73-2", "name_en": "Curtain & Drape Rods", "old_hu": "Függöny- és drapériarudak", "new_hu": "Karnisok és függönyrudak", "reason": "not the webshop term"}
+{"id": "hg-3-74", "name_en": "Window Treatments", "old_hu": "Ablakkezelések", "new_hu": "Függönyök és árnyékolók", "reason": "mistranslation: ablakkezelés is not a word"}
+{"id": "hg-3-74-1", "name_en": "Curtains & Drapes", "old_hu": "Függönyök és drapériák", "new_hu": "Függönyök és sötétítők", "reason": "not the webshop term"}
+{"id": "hg-3-74-3", "name_en": "Window Blinds & Shades", "old_hu": "Ablakredőnyök és -árnyékolók", "new_hu": "Redőnyök, rolók és reluxák", "reason": "not the webshop term"}
+{"id": "hg-3-74-5", "name_en": "Window Screens", "old_hu": "Ablakképernyők", "new_hu": "Szúnyoghálók", "reason": "mistranslation: képernyő is a display"}
+{"id": "hg-3-75", "name_en": "World Globes", "old_hu": "Világgömbök", "new_hu": "Földgömbök", "reason": "not the webshop term"}
+{"id": "hg-5", "name_en": "Fireplace & Wood Stove Accessories", "old_hu": "Kandalló- és tűzhely-kiegészítők", "new_hu": "Kandalló- és kályhatartozékok", "reason": "mistranslation: tűzhely is a kitchen stove"}
+{"id": "hg-7", "name_en": "Flood, Fire & Gas Safety", "old_hu": "Árvíz-, tűz- és gázbiztonság", "new_hu": "Tűz-, gáz- és beázásvédelem", "reason": "overly literal"}
+{"id": "hg-7-8", "name_en": "Water & Flood Detectors", "old_hu": "Víz- és árvízérzékelők", "new_hu": "Vízszivárgás-érzékelők", "reason": "overly literal"}
+{"id": "hg-8-1", "name_en": "Air Conditioner Accessories", "old_hu": "Légkondicionáló-kiegészítők", "new_hu": "Klímatartozékok", "reason": "consistency with parent or siblings"}
+{"id": "hg-8-6", "name_en": "Furnace & Boiler Accessories", "old_hu": "Kemence- és kazánkiegészítők", "new_hu": "Kazántartozékok", "reason": "mistranslation: kemence is a baking oven"}
+{"id": "hg-8-6-1", "name_en": "Furnace & Boiler Filters", "old_hu": "Kemence- és kazánszűrők", "new_hu": "Kazánszűrők", "reason": "mistranslation: kemence is a baking oven"}
+{"id": "hg-8-7", "name_en": "Heating Radiator Accessories", "old_hu": "Fűtőradiátor-kiegészítők", "new_hu": "Radiátortartozékok", "reason": "needlessly long"}
+{"id": "hg-8-11-12", "name_en": "Cleaning Head Modules", "old_hu": "Tisztítófejmodulok", "new_hu": "Porszívófejek", "reason": "overly literal"}
+{"id": "hg-8-11-26", "name_en": "Extension Hoses", "old_hu": "Hosszabbítótömlők", "new_hu": "Porszívócsövek", "reason": "not the webshop term"}
+{"id": "hg-8-11-29", "name_en": "Filters", "old_hu": "Szűrők", "new_hu": "Porszívószűrők", "reason": "consistency with parent or siblings"}
+{"id": "hg-8-11-65", "name_en": "Vacuum Batteries", "old_hu": "Porszívó akkumulátorok", "new_hu": "Porszívó-akkumulátorok", "reason": "spelling"}
+{"id": "hg-8-12-2", "name_en": "Hot Water Tanks", "old_hu": "Melegvíztartályok", "new_hu": "Melegvíz-tárolók", "reason": "not the webshop term"}
+{"id": "hg-8-12-3", "name_en": "Water Heater Elements", "old_hu": "Vízmelegítő elemek", "new_hu": "Fűtőbetétek", "reason": "overly literal"}
+{"id": "hg-8-12-4", "name_en": "Water Heater Expansion Tanks", "old_hu": "Vízmelegítő tágulási tartályok", "new_hu": "Tágulási tartályok", "reason": "needlessly long"}
+{"id": "hg-9-1", "name_en": "Climate Control Appliances", "old_hu": "Klímaszabályozási készülékek", "new_hu": "Fűtés- és klímatechnika", "reason": "overly literal"}
+{"id": "hg-9-1-1", "name_en": "Air Conditioners", "old_hu": "Légkondicionálók", "new_hu": "Klímaberendezések", "reason": "not the webshop term"}
+{"id": "hg-9-1-1-1", "name_en": "Portable Air Conditioners", "old_hu": "Hordozható klímaberendezések", "new_hu": "Mobilklímák", "reason": "not the webshop term"}
+{"id": "hg-9-1-5", "name_en": "Evaporative Coolers", "old_hu": "Párolgásos hűtők", "new_hu": "Léghűtők", "reason": "not the webshop term"}
+{"id": "hg-9-1-5-3", "name_en": "Portable Evaporative Coolers", "old_hu": "Hordozható párolgásos hűtők", "new_hu": "Hordozható léghűtők", "reason": "consistency with parent or siblings"}
+{"id": "hg-9-1-7", "name_en": "Furnaces & Boilers", "old_hu": "Kemencék és kazánok", "new_hu": "Fűtőkészülékek és kazánok", "reason": "mistranslation: kemence is a baking oven"}
+{"id": "hg-9-1-8", "name_en": "Heating Radiators", "old_hu": "Fűtőradiátorok", "new_hu": "Radiátorok", "reason": "needlessly long"}
+{"id": "hg-9-1-11", "name_en": "Patio Heaters", "old_hu": "Teraszfűtők", "new_hu": "Teraszhősugárzók", "reason": "not the webshop term"}
+{"id": "hg-9-1-12", "name_en": "Space Heaters", "old_hu": "Térfűtők", "new_hu": "Elektromos hősugárzók", "reason": "overly literal"}
+{"id": "hg-9-3-4", "name_en": "Floor Scrubbers", "old_hu": "Padlósúrolók", "new_hu": "Padlótisztító gépek", "reason": "not the webshop term"}
+{"id": "hg-9-8", "name_en": "Laundry Appliances", "old_hu": "Mosási berendezések", "new_hu": "Mosás és vasalás", "reason": "overly literal"}
+{"id": "hg-9-8-3", "name_en": "Irons & Ironing Systems", "old_hu": "Vasalók és vasalórendszerek", "new_hu": "Vasalók és gőzállomások", "reason": "not the webshop term"}
+{"id": "hg-9-8-4", "name_en": "Laundry Combo Units", "old_hu": "Mosodai kombinált egységek", "new_hu": "Kombinált mosó-szárítógépek", "reason": "overly literal"}
+{"id": "hg-9-8-4-1", "name_en": "All-in-One Washer-Dryer Units", "old_hu": "Minden az egyben mosó-szárító-egységek", "new_hu": "Mosó-szárítógépek", "reason": "overly literal"}
+{"id": "hg-9-12", "name_en": "Water Heaters", "old_hu": "Vízmelegítők", "new_hu": "Vízmelegítők és bojlerek", "reason": "not the webshop term"}
+{"id": "hg-9-12-2", "name_en": "Solar Water Heaters", "old_hu": "Napelemes vízmelegítők", "new_hu": "Napkollektoros vízmelegítők", "reason": "mistranslation: solar water heaters use collectors, not panels"}
+{"id": "hg-10-6", "name_en": "Household Cleaning Supplies", "old_hu": "Háztartási tisztítókellékek", "new_hu": "Takarítóeszközök és -szerek", "reason": "overly literal"}
+{"id": "hg-10-6-11", "name_en": "Household Cleaning Products", "old_hu": "Háztartási tisztítótermékek", "new_hu": "Tisztítószerek", "reason": "overly literal"}
+{"id": "hg-10-6-11-3", "name_en": "Descalers & Decalcifiers", "old_hu": "Vízkőmentesítők és vízkőoldók", "new_hu": "Vízkőoldók", "reason": "needlessly long"}
+{"id": "hg-10-6-11-4", "name_en": "Dish Detergent & Soap", "old_hu": "Mosogatószer és szappan", "new_hu": "Mosogatószerek", "reason": "needlessly long"}
+{"id": "hg-10-6-11-7", "name_en": "Floor Cleaning Products", "old_hu": "Padlótisztító termékek", "new_hu": "Padlótisztítók", "reason": "needlessly long"}
+{"id": "hg-10-6-11-15", "name_en": "Toilet Bowl Cleaners", "old_hu": "WC-csésze-tisztítók", "new_hu": "WC-tisztítók", "reason": "not the webshop term"}
+{"id": "hg-10-6-16", "name_en": "Shop Towels & General-Purpose Cleaning Cloths", "old_hu": "Üzlettörölközők és általános célú tisztítókendők", "new_hu": "Tisztítókendők és törlőrongyok", "reason": "mistranslation: üzlettörölköző means a store towel"}
+{"id": "hg-10-6-17", "name_en": "Sponges & Scouring Pads", "old_hu": "Szivacsok és súrolópárnák", "new_hu": "Szivacsok és súrolók", "reason": "overly literal"}
+{"id": "hg-10-6-18", "name_en": "Squeegees", "old_hu": "Gumitörlők", "new_hu": "Ablaklehúzók", "reason": "not the webshop term"}
+{"id": "hg-10-7-1", "name_en": "Facial Tissues", "old_hu": "Arcszövetek", "new_hu": "Papír zsebkendők", "reason": "mistranslation: arcszövet means facial tissue in the anatomical sense"}
+{"id": "hg-10-7-3", "name_en": "Paper Towels", "old_hu": "Papírtörölközők", "new_hu": "Papírtörlők", "reason": "not the webshop term"}
+{"id": "hg-10-9", "name_en": "Laundry Supplies", "old_hu": "Mosodai kellékek", "new_hu": "Mosási kellékek", "reason": "mistranslation: mosoda is a laundromat"}
+{"id": "hg-10-9-4", "name_en": "Drying Racks & Hangers", "old_hu": "Szárítóállványok és -akasztók", "new_hu": "Ruhaszárítók és akasztók", "reason": "not the webshop term"}
+{"id": "hg-10-9-4-2", "name_en": "Drying Racks", "old_hu": "Szárítóállványok", "new_hu": "Ruhaszárító állványok", "reason": "not the webshop term"}
+{"id": "hg-10-9-6", "name_en": "Fabric Shavers", "old_hu": "Szövetborotvák", "new_hu": "Bolyhtalanítók", "reason": "mistranslation: szövetborotva is not a word"}
+{"id": "hg-10-9-8", "name_en": "Fabric Stain Removers", "old_hu": "Szövetfolt-eltávolítók", "new_hu": "Folttisztítók", "reason": "not the webshop term"}
+{"id": "hg-10-9-12", "name_en": "Ironing Board Pads & Covers", "old_hu": "Vasalódeszka-alátétek és huzatok", "new_hu": "Vasalódeszka-huzatok és -betétek", "reason": "overly literal"}
+{"id": "hg-10-9-17", "name_en": "Laundry Detergent", "old_hu": "Mosószer", "new_hu": "Mosószerek", "reason": "plural, as its siblings"}
+{"id": "hg-10-9-22", "name_en": "Laundry Hampers", "old_hu": "Szennyestartó kosarak", "new_hu": "Szennyestartók", "reason": "needlessly long"}
+{"id": "hg-10-9-19", "name_en": "Lint Rollers", "old_hu": "Szöszhengerek", "new_hu": "Ruhatisztító hengerek", "reason": "not the webshop term"}
+{"id": "hg-10-10", "name_en": "Moisture Absorbers", "old_hu": "Nedvességelnyelők", "new_hu": "Páraelnyelők", "reason": "not the webshop term"}
+{"id": "hg-10-11-2-3", "name_en": "Live Traps", "old_hu": "Élő csapdák", "new_hu": "Élvefogó csapdák", "reason": "mistranslation: élő csapda means a living trap"}
+{"id": "hg-10-11-3", "name_en": "Pesticides", "old_hu": "Növényvédő szerek", "new_hu": "Rovar- és rágcsálóirtó szerek", "reason": "mistranslation: növényvédő szer is a crop protection product"}
+{"id": "hg-10-11-4-1", "name_en": "Animal & Pet Repellents", "old_hu": "Állat- és kisállatriasztók", "new_hu": "Állatriasztók", "reason": "needlessly long"}
+{"id": "hg-10-14", "name_en": "Shoe Care & Tools", "old_hu": "Cipőápolás és -eszközök", "new_hu": "Cipőápolás", "reason": "needlessly long"}
+{"id": "hg-10-14-11", "name_en": "Shoe Trees & Shapers", "old_hu": "Cipőfák és -formázók", "new_hu": "Sámfák és cipőformázók", "reason": "not the webshop term"}
+{"id": "hg-10-14-11-2", "name_en": "Shoe Trees", "old_hu": "Cipőfák", "new_hu": "Sámfák", "reason": "not the webshop term"}
+{"id": "hg-10-16", "name_en": "Storage & Organization", "old_hu": "Tárolás és rendezés", "new_hu": "Tárolás és rendszerezés", "reason": "not the webshop term"}
+{"id": "hg-10-16-1", "name_en": "Clothing & Closet Storage", "old_hu": "Ruha- és szekrénytárolás", "new_hu": "Ruhatárolás", "reason": "overly literal"}
+{"id": "hg-10-16-1-2", "name_en": "Closet Organizers & Garment Racks", "old_hu": "Szekrényrendezők és ruhatartók", "new_hu": "Gardróbrendszerezők és ruhaállványok", "reason": "overly literal"}
+{"id": "hg-10-16-1-4", "name_en": "Hangers", "old_hu": "Akasztók", "new_hu": "Vállfák", "reason": "not the webshop term"}
+{"id": "hg-10-16-4", "name_en": "Household Storage Bags", "old_hu": "Háztartási tárolótáskák", "new_hu": "Tárolózsákok", "reason": "not the webshop term"}
+{"id": "hg-10-16-6", "name_en": "Household Storage Containers", "old_hu": "Háztartási tárolóedények", "new_hu": "Tárolódobozok", "reason": "not the webshop term"}
+{"id": "hg-10-16-9", "name_en": "Storage Hooks & Racks", "old_hu": "Tárolóhorgok és -állványok", "new_hu": "Akasztók és fogasok", "reason": "overly literal"}
+{"id": "hg-10-18", "name_en": "Waste Containment", "old_hu": "Hulladékelszigetelés", "new_hu": "Hulladékgyűjtés", "reason": "mistranslation: elszigetelés means isolation"}
+{"id": "hg-10-18-4", "name_en": "Trash Cans & Wastebaskets", "old_hu": "Szemeteskukák és szemeteskosarak", "new_hu": "Szemetesek és papírkosarak", "reason": "not the webshop term"}
+{"id": "hg-10-18-4-1", "name_en": "Trash Cans", "old_hu": "Szemeteskukák", "new_hu": "Szemetesek", "reason": "not the webshop term"}
+{"id": "hg-10-18-4-2", "name_en": "Wastebaskets", "old_hu": "Szemeteskosarak", "new_hu": "Papírkosarak", "reason": "not the webshop term"}
+{"id": "hg-10-19-2", "name_en": "Waste Container Enclosures", "old_hu": "Hulladékgyűjtő-elzárók", "new_hu": "Kukatárolók", "reason": "mistranslation: elzáró is a shut-off valve"}
+{"id": "hg-11", "name_en": "Kitchen & Dining", "old_hu": "Konyha és étkező", "new_hu": "Konyha és étkezés", "reason": "not the webshop term"}
+{"id": "hg-11-1", "name_en": "Barware", "old_hu": "Bárfelszerelés", "new_hu": "Bárkellékek", "reason": "not the webshop term"}
+{"id": "hg-11-1-2", "name_en": "Beer Dispensers & Taps", "old_hu": "Söradagolók és -csapok", "new_hu": "Sörcsapolók", "reason": "not the webshop term"}
+{"id": "hg-11-2", "name_en": "Cookware & Bakeware", "old_hu": "Főzőedények és sütőedények", "new_hu": "Edények és sütőformák", "reason": "overly literal"}
+{"id": "hg-11-2-2", "name_en": "Bakeware Accessories", "old_hu": "Sütőedény-kiegészítők", "new_hu": "Sütéskellékek", "reason": "overly literal"}
+{"id": "hg-11-2-2-1", "name_en": "Baking Mats & Liners", "old_hu": "Sütőszőnyegek és -betétek", "new_hu": "Sütőpapírok és szilikonlapok", "reason": "overly literal"}
+{"id": "hg-11-2-2-1-1", "name_en": "Baking Liners", "old_hu": "Sütőbetétek", "new_hu": "Sütőpapírok", "reason": "overly literal"}
+{"id": "hg-11-2-5-2", "name_en": "Pot & Pan Lids", "old_hu": "Fazék- és serpenyőfedelek", "new_hu": "Fedők", "reason": "needlessly long"}
+{"id": "hg-11-3", "name_en": "Food & Beverage Carriers", "old_hu": "Élelmiszer- és italhordozók", "new_hu": "Ételhordók és kulacsok", "reason": "overly literal"}
+{"id": "hg-11-3-3", "name_en": "Coolers", "old_hu": "Hűtők", "new_hu": "Hűtőtáskák és -dobozok", "reason": "mistranslation: hűtő alone reads as a fridge"}
+{"id": "hg-11-3-5", "name_en": "Flasks", "old_hu": "Lombikok", "new_hu": "Laposüvegek", "reason": "mistranslation: lombik is a laboratory flask"}
+{"id": "hg-11-3-11", "name_en": "Water Bottles", "old_hu": "Vizes-palackok", "new_hu": "Kulacsok", "reason": "not the webshop term"}
+{"id": "hg-11-4", "name_en": "Food Storage", "old_hu": "Élelmiszer-tárolás", "new_hu": "Ételtárolás", "reason": "not the webshop term"}
+{"id": "hg-11-4-1", "name_en": "Bread Boxes & Bags", "old_hu": "Kenyérdobozok és -táskák", "new_hu": "Kenyértartók és -zsákok", "reason": "not the webshop term"}
+{"id": "hg-11-4-1-2", "name_en": "Bread Boxes", "old_hu": "Kenyérdobozok", "new_hu": "Kenyértartók", "reason": "not the webshop term"}
+{"id": "hg-11-4-6", "name_en": "Food Storage Containers", "old_hu": "Élelmiszertároló konténerek", "new_hu": "Ételtároló dobozok", "reason": "overly literal"}
+{"id": "hg-11-4-7", "name_en": "Food Wraps", "old_hu": "Élelmiszer-csomagolások", "new_hu": "Fóliák és csomagolók", "reason": "overly literal"}
+{"id": "hg-11-6", "name_en": "Kitchen Appliance Accessories", "old_hu": "Konyhaigép-kiegészítők", "new_hu": "Konyhai gépek kiegészítői", "reason": "spelling"}
+{"id": "hg-11-6-2", "name_en": "Coffee Maker & Espresso Machine Accessories", "old_hu": "Kávéfőző- és eszpresszógép-kiegészítők", "new_hu": "Kávéfőző-tartozékok", "reason": "needlessly long"}
+{"id": "hg-11-6-2-7", "name_en": "Coffee Maker & Espresso Machine Replacement Parts", "old_hu": "Kávéfőző- és eszpresszógép-cserealkatrészek", "new_hu": "Kávéfőző-alkatrészek", "reason": "needlessly long"}
+{"id": "hg-11-6-2-10", "name_en": "Portafilters", "old_hu": "Portaszűrők", "new_hu": "Portafilterek", "reason": "mistranslation: portaszűrő is not a word"}
+{"id": "hg-11-6-3", "name_en": "Cooktop, Oven & Range Accessories", "old_hu": "Főzőlap-, sütő- és tűzhely-kiegészítők", "new_hu": "Tűzhely- és sütőtartozékok", "reason": "needlessly long"}
+{"id": "hg-11-6-36", "name_en": "Food Mixer Accessories", "old_hu": "Konyhai robotgép kiegészítők", "new_hu": "Robotgép-tartozékok", "reason": "spelling"}
+{"id": "hg-11-6-19", "name_en": "Outdoor Grill Accessories", "old_hu": "Kültérigrill-kiegészítők", "new_hu": "Grilltartozékok", "reason": "overly literal"}
+{"id": "hg-11-6-19-2", "name_en": "Charcoal Chimneys", "old_hu": "Faszén kémények", "new_hu": "Begyújtókémények", "reason": "mistranslation: faszén kémény reads as a building chimney"}
+{"id": "hg-11-6-19-4", "name_en": "Outdoor Grill Covers", "old_hu": "Kültérigrill-burkolatok", "new_hu": "Grilltakarók", "reason": "mistranslation: burkolat is cladding"}
+{"id": "hg-11-6-19-5", "name_en": "Outdoor Grill Racks & Toppers", "old_hu": "Kültérigrill-állványok és -fedők", "new_hu": "Grillrácsok és grilltálcák", "reason": "overly literal"}
+{"id": "hg-11-6-23-3", "name_en": "Filters", "old_hu": "Szűrők", "new_hu": "Páraelszívó-szűrők", "reason": "consistency with parent or siblings"}
+{"id": "hg-11-6-25", "name_en": "Soda Maker Accessories", "old_hu": "Szódakészítő-kiegészítők", "new_hu": "Szódagép-tartozékok", "reason": "not the webshop term"}
+{"id": "hg-11-6-25-4", "name_en": "Chargers", "old_hu": "Töltők", "new_hu": "CO2-patronok", "reason": "mistranslation: soda maker chargers are gas cylinders, not electric chargers"}
+{"id": "hg-11-6-28-1", "name_en": "Vacuum Sealer Bags", "old_hu": "Vákuumcsomagoló-zsákok", "new_hu": "Vákuumtasakok", "reason": "not the webshop term"}
+{"id": "hg-11-7-4", "name_en": "Coffee Makers & Espresso Machines", "old_hu": "Kávéfőzők és eszpresszógépek", "new_hu": "Kávéfőzők és kávégépek", "reason": "not the webshop term"}
+{"id": "hg-11-7-4-1", "name_en": "Drip Coffee Makers", "old_hu": "Csepegtető kávéfőzők", "new_hu": "Filteres kávéfőzők", "reason": "not the webshop term"}
+{"id": "hg-11-7-4-2", "name_en": "Electric & Stovetop Espresso Pots", "old_hu": "Elektromos és tűzhelyes eszpresszóedények", "new_hu": "Kotyogós kávéfőzők", "reason": "overly literal"}
+{"id": "hg-11-7-4-4", "name_en": "French Presses", "old_hu": "Franciaprések", "new_hu": "Dugattyús kávéfőzők", "reason": "not the webshop term"}
+{"id": "hg-11-7-4-9", "name_en": "Single-Serve Coffee Makers", "old_hu": "Egyszemélyes kávéfőzők", "new_hu": "Kapszulás kávéfőzők", "reason": "not the webshop term"}
+{"id": "hg-11-7-8", "name_en": "Deli Slicers", "old_hu": "Hússzeletelők", "new_hu": "Szeletelőgépek", "reason": "not the webshop term"}
+{"id": "hg-11-7-10", "name_en": "Electric Griddles & Grills", "old_hu": "Elektromos rácsok és grillek", "new_hu": "Elektromos grillek és sütőlapok", "reason": "mistranslation: rács is a grate"}
+{"id": "hg-11-7-12", "name_en": "Electric Skillets & Woks", "old_hu": "Elektromos tepsik és wokok", "new_hu": "Elektromos serpenyők és wokok", "reason": "mistranslation: tepsi is a baking tray"}
+{"id": "hg-11-7-12-1", "name_en": "Electric Skillets", "old_hu": "Elektromos tepsik", "new_hu": "Elektromos serpenyők", "reason": "mistranslation: tepsi is a baking tray"}
+{"id": "hg-11-7-14", "name_en": "Food Cookers & Steamers", "old_hu": "Ételfőzők és -párolók", "new_hu": "Főző- és párolókészülékek", "reason": "overly literal"}
+{"id": "hg-11-7-14-6", "name_en": "Water Ovens", "old_hu": "Vízsütők", "new_hu": "Sous vide készülékek", "reason": "mistranslation: vízsütő is not a word"}
+{"id": "hg-11-7-15", "name_en": "Food Dehydrators", "old_hu": "Élelmiszer-szárítók", "new_hu": "Aszalógépek", "reason": "not the webshop term"}
+{"id": "hg-11-7-16", "name_en": "Food Grinders & Mills", "old_hu": "Élelmiszer-darálók és -passzírozók", "new_hu": "Húsdarálók és passzírozók", "reason": "overly literal"}
+{"id": "hg-11-7-16-1", "name_en": "Food Grinders", "old_hu": "Élelmiszer-darálók", "new_hu": "Húsdarálók", "reason": "not the webshop term"}
+{"id": "hg-11-7-16-2", "name_en": "Food Mills", "old_hu": "Élelmiszer-passzírozók", "new_hu": "Passzírozók", "reason": "overly literal"}
+{"id": "hg-11-7-17", "name_en": "Food Mixers & Blenders", "old_hu": "Ételmixerek és -turmixok", "new_hu": "Mixerek és turmixgépek", "reason": "overly literal"}
+{"id": "hg-11-7-17-1", "name_en": "Food Blenders", "old_hu": "Ételturmixok", "new_hu": "Turmixgépek", "reason": "overly literal"}
+{"id": "hg-11-7-17-2", "name_en": "Food Mixers", "old_hu": "Ételmixerek", "new_hu": "Mixerek", "reason": "overly literal"}
+{"id": "hg-11-7-17-2-1", "name_en": "Hand Mixers", "old_hu": "Kézi keverőgépek", "new_hu": "Kézi mixerek", "reason": "not the webshop term"}
+{"id": "hg-11-7-17-2-2", "name_en": "Stand Mixers", "old_hu": "Álló keverőgépek", "new_hu": "Állványos mixerek", "reason": "not the webshop term"}
+{"id": "hg-11-7-18", "name_en": "Food Smokers", "old_hu": "Ételfüstölők", "new_hu": "Füstölőberendezések", "reason": "not the webshop term"}
+{"id": "hg-11-7-19-1", "name_en": "Chafing Dishes", "old_hu": "Melegítőedények", "new_hu": "Melegentartó tálak", "reason": "not the webshop term"}
+{"id": "hg-11-7-22", "name_en": "Garbage Disposals", "old_hu": "Szemétgyűjtők", "new_hu": "Konyhai hulladékőrlők", "reason": "mistranslation: szemétgyűjtő is a trash bin"}
+{"id": "hg-11-7-26", "name_en": "Ice Cream Makers", "old_hu": "Fagylaltkészítők", "new_hu": "Fagylaltgépek", "reason": "not the webshop term"}
+{"id": "hg-11-7-28", "name_en": "Ice Makers", "old_hu": "Jégkészítők", "new_hu": "Jégkockakészítők", "reason": "not the webshop term"}
+{"id": "hg-11-7-29", "name_en": "Juicers", "old_hu": "Gyümölcsfacsarók", "new_hu": "Gyümölcsprések és facsarók", "reason": "incomplete, drops part of the English name"}
+{"id": "hg-11-7-32", "name_en": "Milk Frothers & Steamers", "old_hu": "Tejhabosítók és -gőzölők", "new_hu": "Tejhabosítók", "reason": "needlessly long"}
+{"id": "hg-11-7-34", "name_en": "Outdoor Grills", "old_hu": "Kültéri grillek", "new_hu": "Kerti grillek", "reason": "not the webshop term"}
+{"id": "hg-11-7-36", "name_en": "Pasta Makers", "old_hu": "Tésztakészítők", "new_hu": "Tésztagépek", "reason": "not the webshop term"}
+{"id": "hg-11-7-37", "name_en": "Popcorn Makers", "old_hu": "Popcorn-készítők", "new_hu": "Popcorngépek", "reason": "not the webshop term"}
+{"id": "hg-11-7-40", "name_en": "Ranges", "old_hu": "Elszívók", "new_hu": "Tűzhelyek", "reason": "mistranslation: elszívó is a range hood"}
+{"id": "hg-11-7-41-1", "name_en": "Commercial Refrigerators", "old_hu": "Kereskedelmi hűtőszekrények", "new_hu": "Ipari hűtőszekrények", "reason": "not the webshop term"}
+{"id": "hg-11-7-43", "name_en": "Soda Makers", "old_hu": "Szódakészítők", "new_hu": "Szódagépek", "reason": "not the webshop term"}
+{"id": "hg-11-7-46-1", "name_en": "Countertop & Toaster Ovens", "old_hu": "Munkalap- és kenyérpirító-sütők", "new_hu": "Minisütők", "reason": "mistranslation: munkalap is a countertop slab"}
+{"id": "hg-11-7-46-11", "name_en": "Crêpe Makers", "old_hu": "Palacsintakészítők", "new_hu": "Palacsintasütők", "reason": "not the webshop term"}
+{"id": "hg-11-7-46-4", "name_en": "Pizza Makers & Ovens", "old_hu": "Pizzakészítők és -sütők", "new_hu": "Pizzasütők", "reason": "needlessly long"}
+{"id": "hg-11-7-49", "name_en": "Water Coolers", "old_hu": "Vízhűtők", "new_hu": "Vízadagolók", "reason": "not the webshop term"}
+{"id": "hg-11-8", "name_en": "Kitchen Tools & Utensils", "old_hu": "Konyhai eszközök és edények", "new_hu": "Konyhai eszközök", "reason": "mistranslation: edények means cookware, not utensils"}
+{"id": "hg-11-8-12", "name_en": "Colanders & Strainers", "old_hu": "Szűrőedények és szűrők", "new_hu": "Szűrők és szűrőtálak", "reason": "overly literal"}
+{"id": "hg-11-8-17", "name_en": "Cooking Thermometers", "old_hu": "Főzési hőmérők", "new_hu": "Konyhai hőmérők", "reason": "not the webshop term"}
+{"id": "hg-11-8-18", "name_en": "Cooking Timers", "old_hu": "Főzésidőzítők", "new_hu": "Konyhai időzítők", "reason": "not the webshop term"}
+{"id": "hg-11-8-22", "name_en": "Dish Racks & Drain Boards", "old_hu": "Edénytartók és lefolyódeszkák", "new_hu": "Edényszárítók", "reason": "mistranslation: lefolyódeszka is not a word"}
+{"id": "hg-11-8-31", "name_en": "Food Peelers & Corers", "old_hu": "Élelmiszer-hámozók és -magozók", "new_hu": "Hámozók és magozók", "reason": "needlessly long"}
+{"id": "hg-11-8-31-2", "name_en": "Food Peelers", "old_hu": "Élelmiszer-hámozók", "new_hu": "Hámozók", "reason": "needlessly long"}
+{"id": "hg-11-8-37", "name_en": "Ice Cube Trays", "old_hu": "Jégkockatálcák", "new_hu": "Jégkockatartók", "reason": "not the webshop term"}
+{"id": "hg-11-8-41", "name_en": "Kitchen Organizers", "old_hu": "Konyhaszervezők", "new_hu": "Konyhai rendszerezők", "reason": "overly literal"}
+{"id": "hg-11-8-41-4", "name_en": "Kitchen Counter & Beverage Station Organizers", "old_hu": "Konyhaipult- és italállomás-szervezők", "new_hu": "Pultrendszerezők", "reason": "overly literal"}
+{"id": "hg-11-8-41-8", "name_en": "Paper Towel Holders & Dispensers", "old_hu": "Papírtörlőtartók és -adagolók", "new_hu": "Papírtörlő-tartók és -adagolók", "reason": "spelling"}
+{"id": "hg-11-8-41-10", "name_en": "Spice Organizers", "old_hu": "Fűszerszervezők", "new_hu": "Fűszertartók", "reason": "not the webshop term"}
+{"id": "hg-11-8-45", "name_en": "Kitchen Utensil Sets", "old_hu": "Konyhaiedény-készletek", "new_hu": "Konyhai eszközkészletek", "reason": "mistranslation: edény is cookware, not utensils"}
