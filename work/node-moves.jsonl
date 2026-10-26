@@ -1,8 +1,7 @@
 {"id": "aa-1-10-5", "new_parent_id": "own-ski-clothing", "reason": "Snow pants, snow bibs and snowsuits are ski and snowboard clothing; sport clothing sits under the sport (operator 2026-10-26), Outerwear links here."}
 {"id": "aa-1-1-2-4", "new_parent_id": "own-base-layers", "reason": "Base layer tops join the base layer bottoms under Base Layers."}
-{"id": "sg-1-12-2-1-1", "new_parent_id": "own-floorball", "reason": "Floorball balls belong with the floorball node (own-floorball), not under Hockey Balls (tree-audit 2026-10-26 sport-findings.jsonl line 63)."}
+{"id": "sg-1-12-2-1-1", "new_parent_id": "own-floorball", "reason": "Floorball balls belong with the floorball node (own-floorball), not under Hockey Balls (sources/tree-audit-2026-10-26/sport-findings.jsonl line 63)."}
 {"id": "aa-1-10-2-1", "new_parent_id": "own-jackets", "reason": "Bolero Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
-{"id": "aa-1-10-2-11", "new_parent_id": "own-jackets", "reason": "Sport Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
 {"id": "aa-1-10-2-12", "new_parent_id": "own-jackets", "reason": "Track Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
 {"id": "aa-1-10-2-14", "new_parent_id": "own-jackets", "reason": "Trucker Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}
 {"id": "aa-1-10-2-15", "new_parent_id": "own-jackets", "reason": "Varsity Jackets is a jacket type (dzseki); Hungarian shops divide jackets from coats first."}

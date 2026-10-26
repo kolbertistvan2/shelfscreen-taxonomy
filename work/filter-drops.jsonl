@@ -1,0 +1,20 @@
+{"id": "own-padel-rackets", "attribute_id": "tennis-racket-grip-size", "reason": "inherited from Tennis Rackets; the L0-L5 grip size scale is a tennis racket measure"}
+{"id": "own-padel-balls", "attribute_id": "tennis-ball-court-surface", "reason": "padel balls are not sold by court surface (clay, grass, hard)"}
+{"id": "own-padel-balls", "attribute_id": "felt-duty", "reason": "the regular or extra duty felt grade is a tennis ball grade"}
+{"id": "own-football-kits", "attribute_id": "flame-resistance-standard", "reason": "inherited from Sports Uniforms (aa-1-24-7), which carries the workwear safety attributes; not a property of football kits"}
+{"id": "own-football-kits", "attribute_id": "high-visibility-class", "reason": "inherited from Sports Uniforms (aa-1-24-7), which carries the workwear safety attributes; not a property of football kits"}
+{"id": "own-martial-arts-clothing", "attribute_id": "flame-resistance-standard", "reason": "inherited from Sports Uniforms (aa-1-24-7), which carries the workwear safety attributes; not a property of martial arts clothing"}
+{"id": "own-martial-arts-clothing", "attribute_id": "high-visibility-class", "reason": "inherited from Sports Uniforms (aa-1-24-7), which carries the workwear safety attributes; not a property of martial arts clothing"}
+{"id": "own-martial-arts-uniforms", "attribute_id": "flame-resistance-standard", "reason": "inherited from Sports Uniforms (aa-1-24-7), which carries the workwear safety attributes; not a property of martial arts clothing"}
+{"id": "own-martial-arts-uniforms", "attribute_id": "high-visibility-class", "reason": "inherited from Sports Uniforms (aa-1-24-7), which carries the workwear safety attributes; not a property of martial arts clothing"}
+{"id": "own-riding-jackets", "attribute_id": "jewelry-material", "reason": "inherited from Riding Apparel & Accessories (sg-4-5-5); jewelry material does not describe jackets, shirts or body protectors"}
+{"id": "own-show-jackets", "attribute_id": "jewelry-material", "reason": "inherited from Riding Apparel & Accessories (sg-4-5-5); jewelry material does not describe jackets, shirts or body protectors"}
+{"id": "own-equestrian-body-protectors", "attribute_id": "jewelry-material", "reason": "inherited from Riding Apparel & Accessories (sg-4-5-5); jewelry material does not describe jackets, shirts or body protectors"}
+{"id": "own-keepnets", "attribute_id": "battery-size", "reason": "inherited from Fishing Nets (sg-4-6-7); a keepnet has no battery"}
+{"id": "own-keepnets", "attribute_id": "battery-type", "reason": "inherited from Fishing Nets (sg-4-6-7); a keepnet has no battery"}
+{"id": "own-pocket-knives", "attribute_id": "fire-starter-type", "reason": "inherited from Camping Tools (sg-4-2-4); fire starter type does not describe a pocket knife"}
+{"id": "own-smart-rings", "attribute_id": "diamond-color-grade", "reason": "inherited from Jewelry (aa-6); gemstone and diamond grades do not describe a smart ring"}
+{"id": "own-smart-rings", "attribute_id": "fluorescence-grade", "reason": "inherited from Jewelry (aa-6); gemstone and diamond grades do not describe a smart ring"}
+{"id": "own-smart-rings", "attribute_id": "gemstone-clarity-grade", "reason": "inherited from Jewelry (aa-6); gemstone and diamond grades do not describe a smart ring"}
+{"id": "own-smart-rings", "attribute_id": "stone-cut-grade", "reason": "inherited from Jewelry (aa-6); gemstone and diamond grades do not describe a smart ring"}
+{"id": "own-smart-rings", "attribute_id": "stone-creation-method", "reason": "inherited from Jewelry (aa-6); gemstone and diamond grades do not describe a smart ring"}

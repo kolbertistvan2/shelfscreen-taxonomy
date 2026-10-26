@@ -68,6 +68,7 @@ for r in jl("en-renames.jsonl"):
 renamed4 = 0
 for r in jl("hu-renames-4.jsonl"):
     n = nodes[r["id"]]
+    assert n["name_hu"] == r["old_hu"] or n["source"] == "own", (r, n["name_hu"])
     if n["renamed_hu_from"] is None and n["source"] != "own":
         n["renamed_hu_from"] = n["name_hu"]
     n["name_hu"] = r["new_hu"]
@@ -129,7 +130,7 @@ for h, a in A.items():
     if a["base_attribute_id"]:
         b = A[a["base_attribute_id"]]
         a["vids"], a["name_hu"] = b["vids"], b["name_hu"]
-VH = {v: {"en": val_en[v], "hu": val_hu.get(v), "hu_reviewed": False} for a in A.values() for v in a["vids"]}
+VH = {v: {"en": val_en[v], "hu": val_hu.get(v), "hu_reviewed": False, "renamed_hu_from": None} for a in A.values() for v in a["vids"]}
 # v0.1 filter names (node-attributes.jsonl, source shopify) override Shopify's Hungarian
 for r in jl("node-attributes.jsonl"):
     if r["source"] == "shopify" and r["attribute_id"] in A:
@@ -139,26 +140,27 @@ for r in jl("node-attributes.jsonl"):
         for v in r["values"]:
             if v["en"] in by_en and v.get("hu"):
                 VH[by_en[v["en"]]].update(hu=v["hu"], hu_reviewed=True)
-# v0.2 review: every attribute in the review scope and all its values count as reviewed; fixes come from filter-renames
-scope = [l.strip() for l in open(T / "work/filter-hu-review-scope.txt", encoding="utf-8") if l.strip() and not l.startswith("#")] \
-    if (T / "work/filter-hu-review-scope.txt").exists() else []
+# v0.2 review: an attribute in the review scope has a reviewed name; a value counts as reviewed only when its id is
+# in filter-values-checked.txt (checked one by one) or it was corrected in filter-renames.jsonl
+scope = [l.strip() for l in open(T / "work/filter-hu-review-scope.txt", encoding="utf-8") if l.strip() and not l.startswith("#")]
 for h in scope:
     A[h]["name_hu_reviewed"] = True
-    for v in A[h]["vids"]:
-        VH[v]["hu_reviewed"] = True
+checked = [l.strip() for l in open(T / "work/filter-values-checked.txt", encoding="utf-8") if l.strip() and not l.startswith("#")]
+for v in checked:
+    VH[v]["hu_reviewed"] = True
+filter_renamed = 0
 for r in jl("filter-renames.jsonl"):
-    if r["kind"] == "attribute":
-        a = A[r["attribute_id"]]
-        if r.get("new_en"):
-            a["name_en"] = r["new_en"]
-        if r.get("new_hu"):
-            a["name_hu"], a["name_hu_reviewed"] = r["new_hu"], True
-    else:
-        v = VH[r["value_id"]]
-        if r.get("new_en"):
-            v["en"] = r["new_en"]
-        if r.get("new_hu"):
-            v["hu"], v["hu_reviewed"] = r["new_hu"], True
+    x = A[r["attribute_id"]] if r["kind"] == "attribute" else VH[r["value_id"]]
+    key = "name" if r["kind"] == "attribute" else ""
+    en_k, hu_k = ("name_en", "name_hu") if key else ("en", "hu")
+    if "new_en" in r:
+        assert x[en_k] == r["old_en"], r
+        x[en_k] = r["new_en"]
+    if "new_hu" in r:
+        assert x[hu_k] == r["old_hu"], (r, x[hu_k])
+        x["renamed_hu_from"], x[hu_k] = x[hu_k], r["new_hu"]
+        x["name_hu_reviewed" if key else "hu_reviewed"] = True
+    filter_renamed += 1
 for a in A.values():  # an extended attribute keeps its own English name but takes a reviewed base name only if unreviewed
     if a["base_attribute_id"] and not a["name_hu"]:
         a["name_hu"] = A[a["base_attribute_id"]]["name_hu"]
@@ -195,6 +197,11 @@ for r in jl("node-attributes.jsonl"):
                              "name_hu_reviewed": True, "values": [{"en": v.get("en"), "hu": v.get("hu")} for v in r["values"]]})
     elif r["attribute_id"] not in have and r["attribute_id"] in A:
         n["filters"].append({"attribute_id": r["attribute_id"], "source": "shopify"})
+for r in jl("filter-drops.jsonl"):  # v0.2: inherited filters that do not apply to the node, each with its reason
+    n = nodes[r["id"]]
+    assert any(f["attribute_id"] == r["attribute_id"] for f in n["filters"]), r
+    n["filters"] = [f for f in n["filters"] if f["attribute_id"] != r["attribute_id"]]
+    n.setdefault("filters_dropped", []).append({"attribute_id": r["attribute_id"], "reason": r["reason"]})
 for n in nodes.values():  # a Shopify filter names its attribute; names and values are in dist/attributes.jsonl
     used.update(f["attribute_id"] for f in n["filters"] if f["source"] == "shopify")
 
@@ -221,7 +228,7 @@ assert all("depth" in n for n in nodes.values()), "a node is cut off from the tr
 
 KEYS = ("id", "parent_id", "depth", "name_en", "name_hu", "name_hu_reviewed", "path_en", "path_hu", "source", "renamed_hu_from",
         "renamed_en_from", "moved_from", "reason", "evidence", "links", "has_products_hu", "arukereso_products_own",
-        "arukereso_products_subtree", "arukereso", "filters_from", "filters")
+        "arukereso_products_subtree", "arukereso", "filters_from", "filters", "filters_dropped")
 out = sorted(nodes.values(), key=lambda n: n["path_en"])
 with open(T / "dist/tree.jsonl", "w", encoding="utf-8") as f:
     for n in out:
@@ -232,6 +239,7 @@ with open(T / "dist/attributes.jsonl", "w", encoding="utf-8") as f:
     for h in sorted(used):
         a = A[h]
         d = {k: a[k] for k in ("attribute_id", "shopify_id", "base_attribute_id", "name_en", "name_hu", "name_hu_reviewed")}
+        d["renamed_hu_from"] = a.get("renamed_hu_from")
         d["values"] = [{"id": v, **VH[v]} for v in a["vids"]]
         f.write(json.dumps(d, ensure_ascii=False) + "\n")
 
@@ -251,10 +259,13 @@ assert not [x for x in left if "Padel" in x], left
 padel_like = [x for x in left if not re.search(r"Boating|Swimming|Surfing|Diving|Hairbrush|Kitchen|Pickleball|Paddle Ball|Toys", x)]
 print("paddle names (none is padel):", len(left), padel_like)
 assert not padel_like, padel_like
-soccer = [n["id"] for n in out if re.search(r"\bSoccer\b", n["name_en"]) and "Football (Soccer)" not in n["name_en"]]
+soccer = [n["id"] for n in out if re.search(r"soccer", re.sub(r"football \(soccer\)", "", n["name_en"], flags=re.I), re.I)]
 assert not soccer, soccer
-fsoccer = [a["attribute_id"] for a in A.values() if re.search(r"\bSoccer\b", a["name_en"]) and "Football (Soccer)" not in a["name_en"]] + \
-          [v for v, x in VH.items() if re.search(r"\bSoccer\b", x["en"]) and "Football (Soccer)" not in x["en"]]
+def soccer_alone(t):  # case-insensitive: "Soccer" or "soccer" only inside "Football (Soccer)"
+    return re.search(r"soccer", re.sub(r"football \(soccer\)", "", t, flags=re.I), re.I) is not None
+
+
+fsoccer = [a["attribute_id"] for a in A.values() if soccer_alone(a["name_en"])] + [v for v, x in VH.items() if soccer_alone(x["en"])]
 assert not fsoccer, fsoccer
 fpadel = [v for v, x in VH.items() if "padel" in x["en"].lower() and "padel" not in (x["hu"] or "").lower()]
 assert not fpadel, fpadel

@@ -6,8 +6,8 @@
 {"from": "aa-1-24-7", "to": ["own-football-kits", "sg-1-3-8", "sg-1-17-7", "sg-1-8-10", "sg-1-6-5", "own-martial-arts-clothing"], "reason": "Team kits and martial arts uniforms sit under their sport; Sports Uniforms links there."}
 {"from": "aa-1-10", "to": ["own-ski-clothing", "own-hiking-clothing"], "reason": "Ski and hiking outerwear sit under the sport; Outerwear links there (Snow Pants & Suits moved to Ski & Snowboard Clothing)."}
 {"from": "aa-1-10-2", "to": ["own-ski-jackets"], "reason": "Ski jackets sit under Ski & Snowboard Clothing; Coats & Jackets links there."}
-{"from": "aa-1-20", "to": ["sg-4-1-6", "sg-4-1-2"], "reason": "Swim caps, goggles and water sport apparel sit under the sport; Swimwear links there (tree-audit 2026-10-26 sport-findings.jsonl line 69)."}
-{"from": "aa-2-13", "to": ["sg-4-4-4-3", "sg-1-4-1-4", "sg-1-18-3", "sg-1-12-4-2", "sg-4-5-5-1", "sg-2-24-4-3", "sg-4-7-11"], "reason": "Sport gloves sit under their sport; Gloves & Mittens links there (tree-audit 2026-10-26 fashion-findings.jsonl line 62)."}
+{"from": "aa-1-20", "to": ["sg-4-1-6", "sg-4-1-2"], "reason": "Swim caps, goggles and water sport apparel sit under the sport; Swimwear links there (sources/tree-audit-2026-10-26/sport-findings.jsonl line 69)."}
+{"from": "aa-2-13", "to": ["sg-4-4-4-3", "sg-1-4-1-4", "sg-1-18-3", "sg-1-12-4-2", "sg-4-5-5-1", "sg-2-24-4-3", "sg-4-7-11"], "reason": "Sport gloves sit under their sport; Gloves & Mittens links there (sources/tree-audit-2026-10-26/fashion-findings.jsonl line 62)."}
 {"from": "vp-1-6-1", "to": ["own-motorcycle-boots"], "reason": "Motorcycle boots sit under Boots; Motorcycle Protective Gear links there next to gloves and helmets."}
-{"from": "own-running", "to": ["sg-4-10-9"], "reason": "Hydration vests sit under Hydration System Accessories; Running links there (tree-audit 2026-10-26 sport-findings.jsonl line 58)."}
-{"from": "own-hiking-footwear", "to": ["aa-7-2"], "reason": "Gaiters sit under Shoe Accessories; Hiking Footwear links there (tree-audit 2026-10-26 sport-findings.jsonl line 59)."}
+{"from": "own-running", "to": ["sg-4-10-9"], "reason": "Hydration vests sit under Hydration System Accessories; Running links there (sources/tree-audit-2026-10-26/sport-findings.jsonl line 58)."}
+{"from": "own-hiking-footwear", "to": ["aa-7-2"], "reason": "Gaiters sit under Shoe Accessories; Hiking Footwear links there (sources/tree-audit-2026-10-26/sport-findings.jsonl line 59)."}

@@ -7,8 +7,8 @@
 {"id": "aa-1-1-7-2", "name_en": "Hoodies", "old_hu": "Kapucnis pulóverek", "new_hu": "Kapucnis sportpulóverek", "reason": "the sport node needs a name that stands apart from Clothing Tops > Hoodies"}
 {"id": "aa-1-1-7-4", "name_en": "Sweatshirts", "old_hu": "Melegítő felsők", "new_hu": "Melegítőfelsők", "reason": "one word in Hungarian"}
 {"id": "aa-1-1-7-5", "name_en": "Track Jackets", "old_hu": "Sportdzsekik", "new_hu": "Cipzáras melegítőfelsők", "reason": "a track jacket is a zipped tracksuit top, not a sport jacket"}
-{"id": "aa-1-1-2-2", "name_en": "T-Shirts", "old_hu": "Pólók", "new_hu": "Sportpólók", "reason": "the sport node needs a name that stands apart from Clothing Tops > T-Shirts (tree-audit 2026-10-26 fashion-findings.jsonl line 104)"}
-{"id": "aa-1-1-2-3", "name_en": "Tank Tops", "old_hu": "Ujjatlan felsők", "new_hu": "Sporttrikók", "reason": "shops say trikó and atléta; ujjatlan felső is not a shop term (tree-audit 2026-10-26 fashion-findings.jsonl line 95)"}
+{"id": "aa-1-1-2-2", "name_en": "T-Shirts", "old_hu": "Pólók", "new_hu": "Sportpólók", "reason": "the sport node needs a name that stands apart from Clothing Tops > T-Shirts (sources/tree-audit-2026-10-26/fashion-findings.jsonl line 104)"}
+{"id": "aa-1-1-2-3", "name_en": "Tank Tops", "old_hu": "Ujjatlan felsők", "new_hu": "Sporttrikók", "reason": "shops say trikó and atléta; ujjatlan felső is not a shop term (sources/tree-audit-2026-10-26/fashion-findings.jsonl line 95)"}
 {"id": "aa-1-1-8-2", "name_en": "Jackets", "old_hu": "Dzsekik", "new_hu": "Sportdzsekik", "reason": "the sport node needs a name that stands apart from Outerwear jackets"}
 {"id": "aa-1-1-8-1", "name_en": "Vests", "old_hu": "Mellények", "new_hu": "Sportmellények", "reason": "the sport node needs a name that stands apart from Outerwear vests"}
 {"id": "aa-1-1-9-3", "name_en": "Triathlon Suits", "old_hu": "Triatlon ruhák", "new_hu": "Triatlonruhák", "reason": "one word in Hungarian"}
@@ -33,7 +33,7 @@
 {"id": "aa-1-25-8-15", "name_en": "Swim Dresses", "old_hu": "Úszóruhák", "new_hu": "Szoknyás egyrészes fürdőruhák", "reason": "a swim dress is a one-piece with a skirt"}
 {"id": "aa-1-25-8-16", "name_en": "Swim Jammers", "old_hu": "Úszódressznadrágok", "new_hu": "Jammer úszónadrágok", "reason": "as the adult node"}
 {"id": "aa-1-25-8-17", "name_en": "Swim Trunks", "old_hu": "Úszóshortok", "new_hu": "Fürdőnadrágok", "reason": "úszósort is not used"}
-{"id": "aa-1-25-9-4", "name_en": "Overshirts", "old_hu": "Hosszabbított pólók", "new_hu": "Ingdzsekik", "reason": "an overshirt is an ingdzseki, not a longer T-shirt (tree-audit 2026-10-26 fashion-findings.jsonl line 97)"}
+{"id": "aa-1-25-9-4", "name_en": "Overshirts", "old_hu": "Hosszabbított pólók", "new_hu": "Ingdzsekik", "reason": "an overshirt is an ingdzseki, not a longer T-shirt (sources/tree-audit-2026-10-26/fashion-findings.jsonl line 97)"}
 {"id": "aa-1-25-9-13", "name_en": "Sweatshirts", "old_hu": "Melegítő felsők", "new_hu": "Melegítőfelsők", "reason": "one word in Hungarian"}
 {"id": "aa-1-25-11-3-2-5", "name_en": "Trunks", "old_hu": "Csomagtartók", "new_hu": "Rövid szárú boxeralsók", "reason": "csomagtartó is a luggage rack"}
 {"id": "aa-1-25-11-2-2-1", "name_en": "Bikinis", "old_hu": "Bikinik", "new_hu": "Bikinialsók", "reason": "bikini briefs, not swimwear bikinis"}
@@ -41,10 +41,10 @@
 {"id": "aa-1-25-11-2-2-5", "name_en": "Hipsters", "old_hu": "Hipszterek", "new_hu": "Csípőbugyik", "reason": "as the women's node"}
 {"id": "aa-1-25-11-1", "name_en": "Toddler Underwear", "old_hu": "Csecsemő-fehérneműk", "new_hu": "Kisgyermek-alsóneműk", "reason": "toddler underwear, not baby lingerie"}
 {"id": "aa-1-25-11-1-5", "name_en": "Training Pants", "old_hu": "Edzőnadrágok", "new_hu": "Leszoktató alsók", "reason": "toddler training pants are potty training pants, not sport pants"}
-{"id": "aa-1-13-5", "name_en": "Overshirts", "old_hu": "Hosszabbított pólók", "new_hu": "Ingdzsekik", "reason": "an overshirt is an ingdzseki, not a longer T-shirt (tree-audit 2026-10-26 fashion-findings.jsonl line 97)"}
+{"id": "aa-1-13-5", "name_en": "Overshirts", "old_hu": "Hosszabbított pólók", "new_hu": "Ingdzsekik", "reason": "an overshirt is an ingdzseki, not a longer T-shirt (sources/tree-audit-2026-10-26/fashion-findings.jsonl line 97)"}
 {"id": "aa-1-13-7-2", "name_en": "Dress Shirts", "old_hu": "Öltöningek", "new_hu": "Elegáns ingek", "reason": "shops say elegáns ing"}
 {"id": "aa-1-13-14", "name_en": "Sweatshirts", "old_hu": "Melegítő felsők", "new_hu": "Melegítőfelsők", "reason": "one word in Hungarian"}
-{"id": "aa-1-13-9", "name_en": "Tank Tops", "old_hu": "Ujjatlan felsők", "new_hu": "Trikók és atléták", "reason": "shops say trikó and atléta (Arukereso: Atléta, trikó), not ujjatlan felső (tree-audit 2026-10-26 fashion-findings.jsonl line 95)"}
+{"id": "aa-1-13-9", "name_en": "Tank Tops", "old_hu": "Ujjatlan felsők", "new_hu": "Trikók és atléták", "reason": "shops say trikó and atléta (Arukereso: Atléta, trikó), not ujjatlan felső (sources/tree-audit-2026-10-26/fashion-findings.jsonl line 95)"}
 {"id": "aa-1-6-2-4", "name_en": "Breast Petals & Concealers", "old_hu": "Mellszirmok és -korrektorok", "new_hu": "Mellbimbótapaszok", "reason": "breast petals are nipple covers"}
 {"id": "aa-1-6-4", "name_en": "Camisoles", "old_hu": "Topok", "new_hu": "Spagettipántos topok", "reason": "Topok is too broad for camisoles"}
 {"id": "aa-1-6-8-1", "name_en": "Garter Belts", "old_hu": "Harisnyakötő övek", "new_hu": "Harisnyatartó övek", "reason": "a garter belt is a harisnyatartó öv"}
@@ -78,7 +78,7 @@
 {"id": "aa-1-10-8", "name_en": "Liners & Insulators", "old_hu": "Bélések és szigetelő rétegek", "new_hu": "Kivehető bélések", "reason": "liners and insulators are zip-in liners"}
 {"id": "aa-1-12-3", "name_en": "Chinos", "old_hu": "Chinok", "new_hu": "Chino nadrágok", "reason": "shops write chino nadrág"}
 {"id": "aa-1-12-7", "name_en": "Joggers", "old_hu": "Joggerek", "new_hu": "Jogger nadrágok", "reason": "shops write jogger nadrág"}
-{"id": "aa-1-12-11", "name_en": "Trousers", "old_hu": "Nadrágok", "new_hu": "Szövetnadrágok", "reason": "Nadrágok repeats the parent (tree-audit 2026-10-26 fashion-findings.jsonl line 3)"}
+{"id": "aa-1-12-11", "name_en": "Trousers", "old_hu": "Nadrágok", "new_hu": "Szövetnadrágok", "reason": "Nadrágok repeats the parent (sources/tree-audit-2026-10-26/fashion-findings.jsonl line 3)"}
 {"id": "aa-1-14-8", "name_en": "Legging Shorts", "old_hu": "Leggings rövidnadrágok", "new_hu": "Rövid leggingsek", "reason": "legging shorts"}
 {"id": "aa-1-14-4", "name_en": "Short Trousers", "old_hu": "Rövidnadrág-fazonok", "new_hu": "Szövet rövidnadrágok", "reason": "short trousers are tailored shorts"}
 {"id": "aa-1-16", "name_en": "Skorts", "old_hu": "Skort szoknyák", "new_hu": "Nadrágszoknyák", "reason": "a skort is a nadrágszoknya"}
@@ -110,9 +110,9 @@
 {"id": "aa-1-22-1", "name_en": "Bridal Party Dresses", "old_hu": "Menyecskeruhák", "new_hu": "Koszorúslány- és esküvői kísérőruhák", "reason": "bridal party dresses"}
 {"id": "aa-1-22-1-4", "name_en": "Flower Girl Dresses", "old_hu": "Sziromszóró ruhák", "new_hu": "Virágszóró kislányruhák", "reason": "flower girl dresses"}
 {"id": "aa-1-22-1-3", "name_en": "Mother of the Bride Dresses", "old_hu": "Örömanya ruhák", "new_hu": "Örömanyaruhák", "reason": "one word in Hungarian"}
-{"id": "aa-8-11-5", "name_en": "Baby & Children's Sneakers", "old_hu": "Baba- és gyermektornacipők", "new_hu": "Baba- és gyermeksneakerek", "reason": "a sneaker is not a tornacipő (tree-audit 2026-10-26 fashion-findings.jsonl line 93)"}
+{"id": "aa-8-11-5", "name_en": "Baby & Children's Sneakers", "old_hu": "Baba- és gyermektornacipők", "new_hu": "Baba- és gyermeksneakerek", "reason": "a sneaker is not a tornacipő (sources/tree-audit-2026-10-26/fashion-findings.jsonl line 93)"}
 {"id": "aa-8-11-6", "name_en": "First Steps & Crawlers", "old_hu": "Első lépők és mászók", "new_hu": "Első lépés cipők", "reason": "shops say első lépés cipő"}
-{"id": "aa-8-8", "name_en": "Sneakers", "old_hu": "Tornacipők", "new_hu": "Sneakerek", "reason": "a sneaker is not a tornacipő (tree-audit 2026-10-26 fashion-findings.jsonl line 93)"}
+{"id": "aa-8-8", "name_en": "Sneakers", "old_hu": "Tornacipők", "new_hu": "Sneakerek", "reason": "a sneaker is not a tornacipő (sources/tree-audit-2026-10-26/fashion-findings.jsonl line 93)"}
 {"id": "sg-1-1-3", "name_en": "American Football Kicking Tees & Holders", "old_hu": "Amerikaifutball-rugók és -tartók", "new_hu": "Amerikaifutball-rúgótartók", "reason": "rugó is a spring; a kicking tee is a rúgótartó"}
 {"id": "sg-1-1-4-1", "name_en": "American Football Girdles", "old_hu": "Amerikaifutball-övek", "new_hu": "Amerikaifutball-védőnadrágok", "reason": "girdles are padded compression pants, not belts"}
 {"id": "sg-1-1-4-2-9", "name_en": "American Football Helmet Visor Hardware", "old_hu": "Amerikaifutball-sisakrostély-rögzítők", "new_hu": "Amerikaifutball-sisakplexi-rögzítők", "reason": "visor hardware"}
@@ -133,7 +133,7 @@
 {"id": "sg-1-2-9-4", "name_en": "Baseball & Softball Pitching Screens", "old_hu": "Baseball és softball dobóképernyők", "new_hu": "Baseball- és softball-dobóvédő hálók", "reason": "a pitching screen is a protective net, not a display"}
 {"id": "sg-1-2-9-6", "name_en": "Baseball & Softball Radar Guns", "old_hu": "Baseball és softball radarfegyverek", "new_hu": "Baseball- és softball-sebességmérő radarok", "reason": "a radar gun measures speed; fegyver is a weapon"}
 {"id": "sg-1-2-9-7", "name_en": "Baseball & Softball Swing Trainers", "old_hu": "Baseball és softball lendítésoktatók", "new_hu": "Baseball- és softball-ütésedzők", "reason": "swing trainers train the swing"}
-{"id": "sg-1-3-1-1", "name_en": "Basketball Backboards", "old_hu": "Kosárlabdapalánkok", "new_hu": "Palánklapok", "reason": "the hoop node is Kosárlabdapalánkok; backboards are the board itself (tree-audit 2026-10-26 sport-findings.jsonl line 128)"}
+{"id": "sg-1-3-1-1", "name_en": "Basketball Backboards", "old_hu": "Kosárlabdapalánkok", "new_hu": "Palánklapok", "reason": "the hoop node is Kosárlabdapalánkok; backboards are the board itself (sources/tree-audit-2026-10-26/sport-findings.jsonl line 128)"}
 {"id": "sg-1-3-1-3", "name_en": "Basketball Hoop Posts", "old_hu": "Kosárlabdakarika-oszlopok", "new_hu": "Kosárlabdapalánk-oszlopok", "reason": "the post holds the backboard"}
 {"id": "sg-1-3-1-7", "name_en": "Basketball Return Systems", "old_hu": "Kosárlabda visszatérítő rendszerek", "new_hu": "Kosárlabda-labdavisszaadó rendszerek", "reason": "a return system returns the ball"}
 {"id": "sg-1-3-2-1", "name_en": "In-Ground Basketball Hoops", "old_hu": "Földbe süllyesztett kosárlabda állványok", "new_hu": "Földbe betonozható kosárlabdapalánkok", "reason": "in-ground hoops are set in concrete"}
@@ -176,7 +176,7 @@
 {"id": "sg-1-5-4", "name_en": "Broomball Bags", "old_hu": "Seprűkorong táskák", "new_hu": "Broomball-táskák", "reason": "one name for the sport, as the parent"}
 {"id": "sg-1-5-6", "name_en": "Broomball Protective Gear", "old_hu": "Seprűkorong védőfelszerelés", "new_hu": "Broomball-védőfelszerelés", "reason": "one name for the sport, as the parent"}
 {"id": "sg-1-5-5", "name_en": "Broomball Shoes", "old_hu": "Seprűkorong cipők", "new_hu": "Broomball-cipők", "reason": "one name for the sport, as the parent"}
-{"id": "sg-1-6", "name_en": "Cheerleading", "old_hu": "Szurkolás", "new_hu": "Cheerleading", "reason": "szurkolás is fandom, not the sport (tree-audit 2026-10-26 sport-findings.jsonl line 125)"}
+{"id": "sg-1-6", "name_en": "Cheerleading", "old_hu": "Szurkolás", "new_hu": "Cheerleading", "reason": "szurkolás is fandom, not the sport (sources/tree-audit-2026-10-26/sport-findings.jsonl line 125)"}
 {"id": "sg-1-6-1", "name_en": "Cheerleading Pom Poms", "old_hu": "Szurkolói pom pomok", "new_hu": "Cheerleading pomponok", "reason": "as the parent"}
 {"id": "sg-1-7-2", "name_en": "Field & Court Boundary Markers", "old_hu": "Mező- és udvari határjelzők", "new_hu": "Pályahatár-jelölők", "reason": "udvar is a yard"}
 {"id": "sg-1-7-2-2", "name_en": "Field Marking Paint", "old_hu": "Mezőjelölő festék", "new_hu": "Pályajelölő festékek", "reason": "as the siblings"}
@@ -207,7 +207,7 @@
 {"id": "sg-1-10-4-4", "name_en": "Fencing Sabres", "old_hu": "Vívószablyák", "new_hu": "Vívókardok", "reason": "the sabre is kard in Hungarian fencing"}
 {"id": "sg-1-10-4-4-2", "name_en": "Fencing Sabre Blades", "old_hu": "Vívókard pengék", "new_hu": "Vívókardpengék", "reason": "the sabre is kard in Hungarian fencing"}
 {"id": "sg-1-11-1-4", "name_en": "Field Hockey & Lacrosse Pads", "old_hu": "Gyeplabda és lacrosse párnák", "new_hu": "Gyeplabda- és lacrosse-testvédők", "reason": "párna is a pillow"}
-{"id": "sg-1-11-2", "name_en": "Field Hockey Balls", "old_hu": "Gyeplabdalabdák", "new_hu": "Gyeplabdák", "reason": "gyeplabdalabda repeats labda (tree-audit 2026-10-26 sport-findings.jsonl line 40)"}
+{"id": "sg-1-11-2", "name_en": "Field Hockey Balls", "old_hu": "Gyeplabdalabdák", "new_hu": "Gyeplabdák", "reason": "gyeplabdalabda repeats labda (sources/tree-audit-2026-10-26/sport-findings.jsonl line 40)"}
 {"id": "sg-1-11-4", "name_en": "Field Hockey Sticks", "old_hu": "Gyeplabdabotok", "new_hu": "Gyeplabdaütők", "reason": "a field hockey stick is gyeplabdaütő (Google Hungarian)"}
 {"id": "sg-1-11-5", "name_en": "Field Hockey Training Aids", "old_hu": "Gyeplabda-edzéssegédek", "new_hu": "Gyeplabda edzési segédeszközök", "reason": "edzéssegéd is not used"}
 {"id": "sg-1-11-5-1", "name_en": "Field Hockey Goalkeeper Training Aids", "old_hu": "Gyeplabda-kapusedzéssegédek", "new_hu": "Gyeplabda kapusedzési segédeszközök", "reason": "edzéssegéd is not used"}
@@ -218,12 +218,12 @@
 {"id": "sg-1-11-9-4", "name_en": "Lacrosse Stick Hardware", "old_hu": "Lacrosse ütő rögzítőelemek", "new_hu": "Lacrosse bot-rögzítőelemek", "reason": "the lacrosse stick is bot"}
 {"id": "sg-1-11-10-1", "name_en": "Lacrosse Goalie Sticks", "old_hu": "Lacrosse kapusütők", "new_hu": "Lacrosse kapusbotok", "reason": "the lacrosse stick is bot"}
 {"id": "sg-1-11-10-2", "name_en": "Mini Lacrosse Sticks", "old_hu": "Mini lacrosse ütők", "new_hu": "Mini lacrosse botok", "reason": "the lacrosse stick is bot"}
-{"id": "sg-1-12", "name_en": "Figure Skating & Hockey", "old_hu": "Korcsolyázás és hoki", "new_hu": "Korcsolyázás és jégkorong", "reason": "Arukereso says jégkorong; hoki is ambiguous with field hockey and floorball (tree-audit 2026-10-26 sport-findings.jsonl line 118)"}
+{"id": "sg-1-12", "name_en": "Figure Skating & Hockey", "old_hu": "Korcsolyázás és hoki", "new_hu": "Korcsolyázás és jégkorong", "reason": "Arukereso says jégkorong; hoki is ambiguous with field hockey and floorball (sources/tree-audit-2026-10-26/sport-findings.jsonl line 118)"}
 {"id": "sg-1-12-1-4", "name_en": "Figure Skating & Hockey Slide Boards", "old_hu": "Műkorcsolya- és jégkorong-egyensúlytáblák", "new_hu": "Műkorcsolya- és jégkorong-csúszólapok", "reason": "slide boards, apart from the balance boards"}
 {"id": "sg-1-12-1-9", "name_en": "Figure Skating Spinners", "old_hu": "Műkorcsolya-forgók", "new_hu": "Műkorcsolya-forgásgyakorlók", "reason": "spinners train spins"}
 {"id": "sg-1-12-1-11", "name_en": "Hockey Shooting Pads", "old_hu": "Jégkorong-lövőbetétek", "new_hu": "Jégkorong-lövőlapok", "reason": "shooting pads are the boards shot from"}
 {"id": "sg-1-12-2", "name_en": "Hockey Balls & Pucks", "old_hu": "Hokilabdák és korongok", "new_hu": "Korongok és hokilabdák", "reason": "pucks are korong; the balls are for street and roller hockey"}
-{"id": "sg-1-12-3", "name_en": "Hockey Goals", "old_hu": "Hokikapuk", "new_hu": "Jégkorongkapuk", "reason": "Arukereso says Jégkorong kapu (tree-audit 2026-10-26 sport-findings.jsonl line 118)"}
+{"id": "sg-1-12-3", "name_en": "Hockey Goals", "old_hu": "Hokikapuk", "new_hu": "Jégkorongkapuk", "reason": "Arukereso says Jégkorong kapu (sources/tree-audit-2026-10-26/sport-findings.jsonl line 118)"}
 {"id": "sg-1-12-3-3", "name_en": "Hockey Goal Backstops", "old_hu": "Hokikapu felfogóhálók", "new_hu": "Jégkorongkapu-felfogóhálók", "reason": "as the parent"}
 {"id": "sg-1-12-3-1", "name_en": "Hockey Goal Nets", "old_hu": "Hokikapu hálók", "new_hu": "Jégkorongkapu-hálók", "reason": "as the parent"}
 {"id": "sg-1-12-3-2", "name_en": "Mini Hockey Goals", "old_hu": "Mini hokikapuk", "new_hu": "Mini jégkorongkapuk", "reason": "as the parent"}
@@ -235,7 +235,7 @@
 {"id": "sg-1-12-6-6", "name_en": "Hockey Stick Racks", "old_hu": "Hokiütő tartóállványok", "new_hu": "Jégkorongütő-tartóállványok", "reason": "as the siblings"}
 {"id": "sg-1-12-7-4", "name_en": "Hockey Stick End Plugs & Extensions", "old_hu": "Hokiütő végdugók és hosszabbítók", "new_hu": "Jégkorongütő-végdugók és -hosszabbítók", "reason": "as the siblings"}
 {"id": "sg-1-12-7-3", "name_en": "Hockey Stick Grips", "old_hu": "Hokiütő markolatok", "new_hu": "Jégkorongütő-markolatok", "reason": "as the siblings"}
-{"id": "sg-1-12-8", "name_en": "Hockey Sticks", "old_hu": "Hokiütők", "new_hu": "Jégkorongütők", "reason": "Arukereso says Jégkorong ütő, 2595 products (tree-audit 2026-10-26 sport-findings.jsonl line 118)"}
+{"id": "sg-1-12-8", "name_en": "Hockey Sticks", "old_hu": "Hokiütők", "new_hu": "Jégkorongütők", "reason": "Arukereso says Jégkorong ütő, 2595 products (sources/tree-audit-2026-10-26/sport-findings.jsonl line 118)"}
 {"id": "sg-1-12-9-1", "name_en": "Figure Skate Boots", "old_hu": "Műkorcsolyacsizmák", "new_hu": "Műkorcsolyacipők", "reason": "figure skate boots are the boots without blades"}
 {"id": "sg-1-18-4-3", "name_en": "Football (Soccer) Goal Dummies", "old_hu": "Futballkapu-babák", "new_hu": "Futball sorfalbábuk", "reason": "goal dummies are free-kick wall mannequins"}
 {"id": "sg-1-18-7-3", "name_en": "Football (Soccer) Passing Arcs", "old_hu": "Futball-passzívek", "new_hu": "Futball passzolóívek", "reason": "passing arcs; passzív is not a word"}
@@ -247,7 +247,7 @@
 {"id": "sg-1-27-1-4", "name_en": "Hurling Training Aids", "old_hu": "Hurlingedzéseszközök", "new_hu": "Hurling edzési segédeszközök", "reason": "as the siblings"}
 {"id": "sg-1-13-1", "name_en": "Altitude Training Masks", "old_hu": "Magasság-edzőmaszkok", "new_hu": "Magaslati edzőmaszkok", "reason": "altitude training masks"}
 {"id": "sg-1-13-23", "name_en": "Athletic Cup Accessories", "old_hu": "Szuszpenzor-kiegészítők", "new_hu": "Ágyékvédőkagyló-kiegészítők", "reason": "as the cup node"}
-{"id": "sg-1-13-2", "name_en": "Athletic Cups", "old_hu": "Atlétikai kupák", "new_hu": "Ágyékvédő kagylók", "reason": "kupa is a trophy; an athletic cup is the groin cup (tree-audit 2026-10-26 sport-findings.jsonl line 125)"}
+{"id": "sg-1-13-2", "name_en": "Athletic Cups", "old_hu": "Atlétikai kupák", "new_hu": "Ágyékvédő kagylók", "reason": "kupa is a trophy; an athletic cup is the groin cup (sources/tree-audit-2026-10-26/sport-findings.jsonl line 125)"}
 {"id": "sg-1-13-19", "name_en": "Athletic Supporters", "old_hu": "Szuszpenzorok", "new_hu": "Sport szuszpenzorok", "reason": "the node shared its name with Lingerie > Jock Straps"}
 {"id": "sg-1-13-3-5", "name_en": "Ball Display Stands", "old_hu": "Labdatartó állványok", "new_hu": "Labdabemutató állványok", "reason": "display stands, apart from storage racks"}
 {"id": "sg-1-13-10", "name_en": "Practice Nets & Screens", "old_hu": "Gyakorlóhálók és -képernyők", "new_hu": "Gyakorló- és védőhálók", "reason": "képernyő is a display"}
@@ -279,9 +279,9 @@
 {"id": "sg-1-14-5-7", "name_en": "Gymnastics Vaulting Trainers", "old_hu": "Gimnasztikai ugróedzők", "new_hu": "Tornaugrás-edzőeszközök", "reason": "vaulting trainers"}
 {"id": "sg-1-14-6", "name_en": "Pommel Horses", "old_hu": "Lólengők", "new_hu": "Kápás lovak", "reason": "the pommel horse is kápás ló"}
 {"id": "sg-4-14-1-3-1", "name_en": "Feather Shuttlecocks", "old_hu": "Toll-tollaslabdák", "new_hu": "Természetes tollú tollaslabdák", "reason": "feather shuttlecocks"}
-{"id": "own-padel-grips", "name_en": "Padel Grips & Overgrips", "old_hu": "Padel markolatok és gripek", "new_hu": "Padel gripek és fedőgripek", "reason": "shops say grip and fedőgrip (tree-audit 2026-10-26 sport-findings.jsonl line 126)"}
+{"id": "own-padel-grips", "name_en": "Padel Grips & Overgrips", "old_hu": "Padel markolatok és gripek", "new_hu": "Padel gripek és fedőgripek", "reason": "shops say grip and fedőgrip (sources/tree-audit-2026-10-26/sport-findings.jsonl line 126)"}
 {"id": "sg-4-14-6-6", "name_en": "Pickleball Accessories & Training Aids", "old_hu": "Pickleball kiegészítők és oktatási segédeszközök", "new_hu": "Pickleball kiegészítők és edzési segédeszközök", "reason": "training aids, not teaching aids"}
-{"id": "sg-4-14-6-1", "name_en": "Pickleball Paddles", "old_hu": "Pickleball-lapátok", "new_hu": "Pickleballütők", "reason": "shops write pickleballütő; lapát is a shovel (tree-audit 2026-10-26 sport-findings.jsonl line 126)"}
+{"id": "sg-4-14-6-1", "name_en": "Pickleball Paddles", "old_hu": "Pickleball-lapátok", "new_hu": "Pickleballütők", "reason": "shops write pickleballütő; lapát is a shovel (sources/tree-audit-2026-10-26/sport-findings.jsonl line 126)"}
 {"id": "sg-1-15-9", "name_en": "Racquetball & Squash Cleaning Accessories", "old_hu": "Fallabda- és squash-tisztító kiegészítők", "new_hu": "Racquetball- és squash-tisztító kiegészítők", "reason": "one name for the sports, as the parent"}
 {"id": "sg-1-15-3", "name_en": "Racquetball & Squash Gloves", "old_hu": "Raketball és squash kesztyűk", "new_hu": "Racquetball- és squashkesztyűk", "reason": "one name for the sports, as the parent"}
 {"id": "sg-1-15-7", "name_en": "Racquetball & Squash Shoes", "old_hu": "Raketball és squash cipők", "new_hu": "Racquetball- és squashcipők", "reason": "one name for the sports, as the parent"}
@@ -476,7 +476,7 @@
 {"id": "sg-4-1-5-1", "name_en": "Bodyboards", "old_hu": "Bodyszörfök", "new_hu": "Bodyboardok", "reason": "shops say bodyboard"}
 {"id": "sg-4-1-5-10", "name_en": "Surfing Tail Pads", "old_hu": "Szörf-farokpárnák", "new_hu": "Szörfdeszka-csúszásgátló párnák", "reason": "tail pads are traction pads"}
 {"id": "sg-4-1-6-1-1", "name_en": "Swim Armbands", "old_hu": "Úszókarszalagok", "new_hu": "Karúszók", "reason": "swim armbands"}
-{"id": "sg-4-1-6-1-2", "name_en": "Swim Boards", "old_hu": "Úszódeszkák", "new_hu": "Gyerek úszódeszkák", "reason": "Kickboards (sg-4-1-6-3) is Úszódeszkák (tree-audit 2026-10-26 sport-findings.jsonl line 128)"}
+{"id": "sg-4-1-6-1-2", "name_en": "Swim Boards", "old_hu": "Úszódeszkák", "new_hu": "Gyerek úszódeszkák", "reason": "Kickboards (sg-4-1-6-3) is Úszódeszkák (sources/tree-audit-2026-10-26/sport-findings.jsonl line 128)"}
 {"id": "sg-4-1-6-1-5", "name_en": "Swim Fins", "old_hu": "Úszóuszonyok", "new_hu": "Gyerek úszóuszonyok", "reason": "the node sits under the children's aids"}
 {"id": "sg-4-1-6-1-6", "name_en": "Swim Kickboards", "old_hu": "Úszólábdeszkák", "new_hu": "Gyerek lábtempó-deszkák", "reason": "kickboards train the kick"}
 {"id": "sg-4-1-6-2", "name_en": "Hand Paddles", "old_hu": "Kézi lapátok", "new_hu": "Tenyérellenállók", "reason": "hand paddles are tenyérellenálló"}
@@ -563,10 +563,10 @@
 {"id": "sg-4-3-12-1", "name_en": "Climbing Daisy Chains", "old_hu": "Hegymászó fűzőlétrák", "new_hu": "Daisy chainek", "reason": "climbers keep daisy chain"}
 {"id": "sg-4-3-12-2", "name_en": "Climbing Slings", "old_hu": "Hegymászó kapcsok", "new_hu": "Hurkok (slingek)", "reason": "slings are hurok, not clips"}
 {"id": "sg-4-3-13-2", "name_en": "Ice Climbing Crampons", "old_hu": "Jégmászó hómacskák", "new_hu": "Jégmászó hágóvasak", "reason": "the node shared its name with Crampons (sg-4-3-3-3)"}
-{"id": "sg-4-3-13-3", "name_en": "Ice Climbing Screws", "old_hu": "Jégcsavarok", "new_hu": "Jégmászó csavarok", "reason": "Ice Screws (sg-4-3-14) is Jégcsavarok (tree-audit 2026-10-26 sport-findings.jsonl line 128)"}
+{"id": "sg-4-3-13-3", "name_en": "Ice Climbing Screws", "old_hu": "Jégcsavarok", "new_hu": "Jégmászó csavarok", "reason": "Ice Screws (sg-4-3-14) is Jégcsavarok (sources/tree-audit-2026-10-26/sport-findings.jsonl line 128)"}
 {"id": "sg-4-4-1-1-3", "name_en": "Bicycle Top Cases", "old_hu": "Kerékpáros felső tokok", "new_hu": "Kerékpáros dobozok", "reason": "top cases are boxes"}
 {"id": "sg-4-4-1-4-2", "name_en": "Bicycle Storage Cages", "old_hu": "Kerékpáros tárolóketrecek", "new_hu": "Kerékpáros tárolórekeszek", "reason": "storage cages"}
-{"id": "sg-4-4-1-12-1", "name_en": "Bicycle Handlebar Tape & Wraps", "old_hu": "Kerékpár-kormánybandázsok", "new_hu": "Kormányszalagok", "reason": "handlebar tape (tree-audit 2026-10-26 sport-findings.jsonl line 10)"}
+{"id": "sg-4-4-1-12-1", "name_en": "Bicycle Handlebar Tape & Wraps", "old_hu": "Kerékpár-kormánybandázsok", "new_hu": "Kormányszalagok", "reason": "handlebar tape (sources/tree-audit-2026-10-26/sport-findings.jsonl line 10)"}
 {"id": "sg-4-4-1-13-1", "name_en": "Bicycle Cable Locks", "old_hu": "Kerékpárkábelzárak", "new_hu": "Kerékpáros kábelzárak", "reason": "as the siblings"}
 {"id": "sg-4-4-1-13-3", "name_en": "Bicycle Disc Locks", "old_hu": "Kerékpárlemezzárak", "new_hu": "Féktárcsazárak", "reason": "disc locks lock the brake disc"}
 {"id": "sg-4-4-1-13-5", "name_en": "Bicycle Ground Anchors", "old_hu": "Kerékpáros földi horgonyok", "new_hu": "Kerékpárzár-talajhorgonyok", "reason": "ground anchors"}
@@ -594,20 +594,20 @@
 {"id": "sg-4-4-1-24-4", "name_en": "Wind Bicycle Trainers", "old_hu": "Szeles kerékpáredzők", "new_hu": "Légellenállásos edzőgörgők", "reason": "wind trainers use air resistance"}
 {"id": "sg-4-4-1-25", "name_en": "Bicycle Training Wheels", "old_hu": "Kerékpáredző kerekek", "new_hu": "Pótkerekek", "reason": "training wheels on a children's bike are pótkerék"}
 {"id": "sg-4-4-2-2", "name_en": "Bicycle Cable Housings", "old_hu": "Kerékpárkábelházak", "new_hu": "Bowdenházak", "reason": "cable housings are bowdenház"}
-{"id": "sg-4-4-2-4-1", "name_en": "Bicycle Bottom Brackets", "old_hu": "Kerékpáros alsó tartók", "new_hu": "Középcsapágyak", "reason": "bottom brackets are középcsapágy, not lower holders (tree-audit 2026-10-26 sport-findings.jsonl line 5)"}
-{"id": "sg-4-4-2-4-2-1", "name_en": "Bicycle Cassettes", "old_hu": "Kerékpárkazetták", "new_hu": "Kazetták", "reason": "cassettes (tree-audit 2026-10-26 sport-findings.jsonl line 6)"}
+{"id": "sg-4-4-2-4-1", "name_en": "Bicycle Bottom Brackets", "old_hu": "Kerékpáros alsó tartók", "new_hu": "Középcsapágyak", "reason": "bottom brackets are középcsapágy, not lower holders (sources/tree-audit-2026-10-26/sport-findings.jsonl line 5)"}
+{"id": "sg-4-4-2-4-2-1", "name_en": "Bicycle Cassettes", "old_hu": "Kerékpárkazetták", "new_hu": "Kazetták", "reason": "cassettes (sources/tree-audit-2026-10-26/sport-findings.jsonl line 6)"}
 {"id": "sg-4-4-2-4-3", "name_en": "Bicycle Chainrings", "old_hu": "Kerékpárláncgyűrűk", "new_hu": "Lánctányérok", "reason": "chainrings"}
 {"id": "sg-4-4-2-4-9", "name_en": "Bicycle Derailleur Hangers", "old_hu": "Kerékpár-váltótartó fülek", "new_hu": "Váltótartó fülek", "reason": "derailleur hangers"}
-{"id": "sg-4-4-2-4-6", "name_en": "Bicycle Derailleurs", "old_hu": "Kerékpár-váltóátvitel", "new_hu": "Kerékpárváltók", "reason": "a derailleur is a váltó, not a transmission (tree-audit 2026-10-26 sport-findings.jsonl line 5)"}
+{"id": "sg-4-4-2-4-6", "name_en": "Bicycle Derailleurs", "old_hu": "Kerékpár-váltóátvitel", "new_hu": "Kerékpárváltók", "reason": "a derailleur is a váltó, not a transmission (sources/tree-audit-2026-10-26/sport-findings.jsonl line 5)"}
 {"id": "sg-4-4-2-4-8-6", "name_en": "Trigger Shifters", "old_hu": "Karos váltókarok", "new_hu": "Trigger váltókarok", "reason": "trigger shifters"}
 {"id": "sg-4-4-2-7", "name_en": "Bicycle Groupsets", "old_hu": "Kerékpár-csoportkészletek", "new_hu": "Groupsetek", "reason": "groupsets"}
 {"id": "sg-4-4-2-8", "name_en": "Bicycle Handlebar Extensions", "old_hu": "Kerékpárkormány-kiterjesztők", "new_hu": "Kormánytoldatok", "reason": "handlebar extensions"}
-{"id": "sg-4-4-2-10", "name_en": "Bicycle Headset Parts", "old_hu": "Kerékpárosfejhallgató-alkatrészek", "new_hu": "Kormánycsapágy-alkatrészek", "reason": "fejhallgató is a headphone (tree-audit 2026-10-26 sport-findings.jsonl line 119)"}
+{"id": "sg-4-4-2-10", "name_en": "Bicycle Headset Parts", "old_hu": "Kerékpárosfejhallgató-alkatrészek", "new_hu": "Kormánycsapágy-alkatrészek", "reason": "fejhallgató is a headphone (sources/tree-audit-2026-10-26/sport-findings.jsonl line 119)"}
 {"id": "sg-4-4-2-10-1", "name_en": "Bicycle Headset Bearings", "old_hu": "Kerékpárosfejhallgató-csapágyak", "new_hu": "Kormánycsapágy-csapágyak", "reason": "fejhallgató is a headphone"}
 {"id": "sg-4-4-2-10-3", "name_en": "Bicycle Headset Compression Plugs & Star Nuts", "old_hu": "Kerékpár-kormánycsapágy diók és csillaganyák", "new_hu": "Kormánycsapágy-feszítők és csillaganyák", "reason": "compression plugs and star nuts"}
 {"id": "sg-4-4-2-10-2", "name_en": "Bicycle Headset Spacers", "old_hu": "Kerékpárosfejhallgató-távtartók", "new_hu": "Kormánycsapágy-hézagolók", "reason": "fejhallgató is a headphone"}
 {"id": "sg-4-4-2-16-1", "name_en": "Bicycle Cable Ends", "old_hu": "Kerékpárkábelvégek", "new_hu": "Bowdenvégek", "reason": "cable ends"}
-{"id": "sg-4-4-2-17", "name_en": "Bicycle Stems", "old_hu": "Kerékpár-kormánycsapágyak", "new_hu": "Kormányszárak", "reason": "stems are kormányszár; kormánycsapágy is the headset (tree-audit 2026-10-26 sport-findings.jsonl line 119)"}
+{"id": "sg-4-4-2-17", "name_en": "Bicycle Stems", "old_hu": "Kerékpár-kormánycsapágyak", "new_hu": "Kormányszárak", "reason": "stems are kormányszár; kormánycsapágy is the headset (sources/tree-audit-2026-10-26/sport-findings.jsonl line 119)"}
 {"id": "sg-4-4-2-21-1", "name_en": "Clinchers", "old_hu": "Gumiperemek", "new_hu": "Peremes külsők (clincher)", "reason": "a clincher is a tire, not a rim; the bicycle tire is külső"}
 {"id": "sg-4-4-2-21-2", "name_en": "Tubeless Ready Tires", "old_hu": "Cső nélküli kész gumiabroncsok", "new_hu": "Tubeless ready külsők", "reason": "shops keep tubeless ready"}
 {"id": "sg-4-4-2-21-3", "name_en": "Tubeless Tires", "old_hu": "Cső nélküli gumiabroncsok", "new_hu": "Tubeless külsők", "reason": "shops keep tubeless"}
@@ -618,8 +618,8 @@
 {"id": "sg-4-4-2-23-6", "name_en": "Bicycle Wheel Axles & Skewers", "old_hu": "Kerékpártengelyek és -nyársak", "new_hu": "Keréktengelyek és gyorszárrudak", "reason": "axles and skewers"}
 {"id": "sg-4-4-3-3", "name_en": "Cross Country Bikes", "old_hu": "Országúti kerékpárok", "new_hu": "Cross-country kerékpárok", "reason": "országúti is road"}
 {"id": "sg-4-4-3-4", "name_en": "Cruiser Bikes", "old_hu": "Cirkáló kerékpárok", "new_hu": "Cruiser kerékpárok", "reason": "cirkáló is a warship"}
-{"id": "sg-4-4-3-10", "name_en": "Mountain Bikes", "old_hu": "Hegyi kerékpárok", "new_hu": "Mountain bike-ok (MTB)", "reason": "shops say MTB and mountain bike (tree-audit 2026-10-26 sport-findings.jsonl line 124)"}
-{"id": "sg-4-4-3-11", "name_en": "Road Bikes", "old_hu": "Közúti kerékpárok", "new_hu": "Országúti kerékpárok", "reason": "road bikes are országúti, as Road Cycling Shoes (tree-audit 2026-10-26 sport-findings.jsonl line 124)"}
+{"id": "sg-4-4-3-10", "name_en": "Mountain Bikes", "old_hu": "Hegyi kerékpárok", "new_hu": "Mountain bike-ok (MTB)", "reason": "shops say MTB and mountain bike (sources/tree-audit-2026-10-26/sport-findings.jsonl line 124)"}
+{"id": "sg-4-4-3-11", "name_en": "Road Bikes", "old_hu": "Közúti kerékpárok", "new_hu": "Országúti kerékpárok", "reason": "road bikes are országúti, as Road Cycling Shoes (sources/tree-audit-2026-10-26/sport-findings.jsonl line 124)"}
 {"id": "sg-4-4-4-1", "name_en": "Bicycle Cleat Accessories", "old_hu": "Kerékpárcipőklipsz-kiegészítők", "new_hu": "Stopli-kiegészítők", "reason": "cleats are stopli"}
 {"id": "sg-4-4-4-1-4", "name_en": "Bicycle Cleat Adapters", "old_hu": "Kerékpáros stopliadapterek", "new_hu": "Stopliadapterek", "reason": "cleats are stopli"}
 {"id": "sg-4-4-4-1-1", "name_en": "Bicycle Cleat Bolts", "old_hu": "Kerékpárcipőklipsz-anyák", "new_hu": "Stoplicsavarok", "reason": "cleats are stopli; bolts are csavar"}
@@ -639,9 +639,9 @@
 {"id": "sg-4-5-2-1-3", "name_en": "Bridle Snaffle Bits", "old_hu": "Kantár sima bitek", "new_hu": "Csikózablák", "reason": "snaffle bits"}
 {"id": "sg-4-5-2-2-2", "name_en": "Headstalls", "old_hu": "Fejtartók", "new_hu": "Kantárfejek", "reason": "headstalls"}
 {"id": "sg-4-5-2-3", "name_en": "Cinches", "old_hu": "Fűzők", "new_hu": "Hevederek és futószárazó hevederek", "reason": "the node shared its name with Girths; its children are English girths, surcingles and western cinches"}
-{"id": "sg-4-5-2-4", "name_en": "Horse Halters", "old_hu": "Lókötők", "new_hu": "Kötőfékek", "reason": "lókötő is an idiom for a rogue (tree-audit 2026-10-26 sport-findings.jsonl line 120)"}
+{"id": "sg-4-5-2-4", "name_en": "Horse Halters", "old_hu": "Lókötők", "new_hu": "Kötőfékek", "reason": "lókötő is an idiom for a rogue (sources/tree-audit-2026-10-26/sport-findings.jsonl line 120)"}
 {"id": "sg-4-5-2-5-3", "name_en": "Harness Breechings", "old_hu": "Hám farmatringok", "new_hu": "Farhámok", "reason": "harness breechings"}
-{"id": "sg-4-5-2-6", "name_en": "Horse Leads", "old_hu": "Lóvezetők", "new_hu": "Vezetőszárak", "reason": "horse leads (tree-audit 2026-10-26 sport-findings.jsonl line 120)"}
+{"id": "sg-4-5-2-6", "name_en": "Horse Leads", "old_hu": "Lóvezetők", "new_hu": "Vezetőszárak", "reason": "horse leads (sources/tree-audit-2026-10-26/sport-findings.jsonl line 120)"}
 {"id": "sg-4-5-2-7", "name_en": "Reins", "old_hu": "Kantárkötelek", "new_hu": "Szárak", "reason": "reins are szár"}
 {"id": "sg-4-5-3-7", "name_en": "Horse Spurs", "old_hu": "Lovas sarkantyúk", "new_hu": "Sarkantyúk", "reason": "spurs"}
 {"id": "sg-4-5-3-2-8", "name_en": "Saddle Utility Accessories", "old_hu": "Nyeregkiegészítők", "new_hu": "Egyéb nyeregkiegészítők", "reason": "the node shared its name with its parent Saddle Accessories"}
@@ -651,7 +651,7 @@
 {"id": "sg-4-5-4-2", "name_en": "Vaulting Reins", "old_hu": "Ugró-kantárkötelek", "new_hu": "Voltizs-szárak", "reason": "horse vaulting is voltizs"}
 {"id": "sg-4-5-4-3", "name_en": "Vaulting Supports", "old_hu": "Ugrótámasztékok", "new_hu": "Voltizstámaszok", "reason": "horse vaulting is voltizs"}
 {"id": "sg-4-5-4-5", "name_en": "Vaulting Surcingles", "old_hu": "Voltigizáló hevederek", "new_hu": "Voltizshevederek", "reason": "horse vaulting is voltizs"}
-{"id": "sg-4-5-5-4-2", "name_en": "Breeches", "old_hu": "Lovaglónadrágok", "new_hu": "Lovagló térdnadrágok", "reason": "breeches, apart from the parent Lovaglónadrágok (tree-audit 2026-10-26 sport-findings.jsonl line 128)"}
+{"id": "sg-4-5-5-4-2", "name_en": "Breeches", "old_hu": "Lovaglónadrágok", "new_hu": "Lovagló térdnadrágok", "reason": "breeches, apart from the parent Lovaglónadrágok (sources/tree-audit-2026-10-26/sport-findings.jsonl line 128)"}
 {"id": "sg-4-6-1-3", "name_en": "Fishing Chain Hangers", "old_hu": "Horgászlánc-akasztók", "new_hu": "Swinger kapásjelzők", "reason": "chain hangers are swingers"}
 {"id": "sg-4-6-4", "name_en": "Fishing Gaffs", "old_hu": "Horgászati fogók", "new_hu": "Gaffok", "reason": "a gaff is a hook, not pliers"}
 {"id": "sg-4-6-5", "name_en": "Fishing Hook Removal Tools", "old_hu": "Horgászhorog-eltávolító eszközök", "new_hu": "Horogszabadítók és csalizó eszközök", "reason": "the node holds hook removers and baiting tools"}
@@ -668,10 +668,10 @@
 {"id": "sg-4-6-5-16", "name_en": "Heavy Lip Close Needles", "old_hu": "Nehéz ajakzáró tűk", "new_hu": "Erős fűzőtűk", "reason": "baiting needles"}
 {"id": "sg-4-6-5-18", "name_en": "Pellet Stops", "old_hu": "Pelletmegállítók", "new_hu": "Pelletstopperek", "reason": "pellet stops"}
 {"id": "sg-4-6-5-20", "name_en": "Throwing Sticks", "old_hu": "Dobóbotok", "new_hu": "Bojlidobó csövek", "reason": "throwing sticks are boilie throwing tubes"}
-{"id": "sg-4-6-6-1", "name_en": "Fishing Braids", "old_hu": "Horgászfonatok", "new_hu": "Fonott zsinórok", "reason": "braids (tree-audit 2026-10-26 sport-findings.jsonl line 21)"}
+{"id": "sg-4-6-6-1", "name_en": "Fishing Braids", "old_hu": "Horgászfonatok", "new_hu": "Fonott zsinórok", "reason": "braids (sources/tree-audit-2026-10-26/sport-findings.jsonl line 21)"}
 {"id": "sg-4-6-6-2", "name_en": "Fishing Fluorocarbons", "old_hu": "Horgászati fluorkarbonok", "new_hu": "Fluorokarbon zsinórok", "reason": "fluorocarbons"}
-{"id": "sg-4-6-6-5", "name_en": "Fishing Leaders", "old_hu": "Horgász előkék", "new_hu": "Előkék", "reason": "leaders (tree-audit 2026-10-26 sport-findings.jsonl line 21)"}
-{"id": "sg-4-6-6-3", "name_en": "Fishing Monofilaments", "old_hu": "Horgászati monofilamentek", "new_hu": "Monofil zsinórok", "reason": "monofilaments (tree-audit 2026-10-26 sport-findings.jsonl line 21)"}
+{"id": "sg-4-6-6-5", "name_en": "Fishing Leaders", "old_hu": "Horgász előkék", "new_hu": "Előkék", "reason": "leaders (sources/tree-audit-2026-10-26/sport-findings.jsonl line 21)"}
+{"id": "sg-4-6-6-3", "name_en": "Fishing Monofilaments", "old_hu": "Horgászati monofilamentek", "new_hu": "Monofil zsinórok", "reason": "monofilaments (sources/tree-audit-2026-10-26/sport-findings.jsonl line 21)"}
 {"id": "sg-4-6-6-4", "name_en": "Fishing Wires", "old_hu": "Horgászhuzalok", "new_hu": "Acélelőkék és huzalok", "reason": "fishing wires"}
 {"id": "sg-4-6-23", "name_en": "Fishing Net Accessories", "old_hu": "Horgászháló-kiegészítők", "new_hu": "Merítőháló-kiegészítők", "reason": "net accessories are handles and poles"}
 {"id": "sg-4-6-23-1", "name_en": "Fishing Net Handles & Poles", "old_hu": "Horgászháló-nyelek és -rudak", "new_hu": "Merítőnyelek", "reason": "net handles"}
@@ -680,10 +680,10 @@
 {"id": "sg-4-6-7-3", "name_en": "Landing Nets", "old_hu": "Merítőhálók", "new_hu": "Merítőszákok", "reason": "landing nets are merítőszák"}
 {"id": "sg-4-6-8-3", "name_en": "Fishing Reel Replacement Spools", "old_hu": "Horgászorsó-cserék", "new_hu": "Pótdobok", "reason": "replacement spools (Google Hungarian)"}
 {"id": "sg-4-6-8-3-1", "name_en": "Spinning Fishing Reel Replacement Spools", "old_hu": "Peremfutó orsó pótdobok", "new_hu": "Fixorsó pótdobok", "reason": "spinning reels are fixorsó"}
-{"id": "sg-4-6-9-1", "name_en": "Baitcasting Fishing Reels", "old_hu": "Baitcasting horgászorsók", "new_hu": "Multiplikátoros orsók", "reason": "baitcasting reels (tree-audit 2026-10-26 sport-findings.jsonl line 123)"}
+{"id": "sg-4-6-9-1", "name_en": "Baitcasting Fishing Reels", "old_hu": "Baitcasting horgászorsók", "new_hu": "Multiplikátoros orsók", "reason": "baitcasting reels (sources/tree-audit-2026-10-26/sport-findings.jsonl line 123)"}
 {"id": "sg-4-6-9-2", "name_en": "Centerpin Fishing Reels", "old_hu": "Középtűs horgászorsók", "new_hu": "Centerpin orsók", "reason": "anglers keep centerpin"}
 {"id": "sg-4-6-9-3", "name_en": "Fly Fishing Reels", "old_hu": "Légy-horgászorsók", "new_hu": "Legyezőorsók", "reason": "fly reels"}
-{"id": "sg-4-6-9-5", "name_en": "Spinning Fishing Reels", "old_hu": "Forgó horgászorsók", "new_hu": "Fixorsók", "reason": "spinning reels are fixorsó (tree-audit 2026-10-26 sport-findings.jsonl line 123)"}
+{"id": "sg-4-6-9-5", "name_en": "Spinning Fishing Reels", "old_hu": "Forgó horgászorsók", "new_hu": "Fixorsók", "reason": "spinning reels are fixorsó (sources/tree-audit-2026-10-26/sport-findings.jsonl line 123)"}
 {"id": "sg-4-6-9-6", "name_en": "Triggerspin Fishing Reels", "old_hu": "Pergető horgászorsók", "new_hu": "Triggerspin orsók", "reason": "pergető is a spinning rod"}
 {"id": "sg-4-6-11-1", "name_en": "Baitcasting Fishing Rods", "old_hu": "Baitcasting horgászbotok", "new_hu": "Casting botok", "reason": "baitcasting rods"}
 {"id": "sg-4-6-11-3", "name_en": "Fly Fishing Rods", "old_hu": "Légyhorgászbotok", "new_hu": "Legyezőbotok", "reason": "fly rods"}
@@ -691,20 +691,20 @@
 {"id": "sg-4-6-11-3-3", "name_en": "Spey Fly Fishing Rods", "old_hu": "Spey műlegyező botok", "new_hu": "Spey legyezőbotok", "reason": "as the parent"}
 {"id": "sg-4-6-11-3-1", "name_en": "Switch Fly Fishing Rods", "old_hu": "Switch műlegyező botok", "new_hu": "Switch legyezőbotok", "reason": "as the parent"}
 {"id": "sg-4-6-11-4", "name_en": "Ice Fishing Rods", "old_hu": "Jéghorgászbotok", "new_hu": "Lékhorgász botok", "reason": "ice fishing is lékhorgászat"}
-{"id": "sg-4-6-11-7", "name_en": "Spinning Fishing Rods", "old_hu": "Forgó horgászbotok", "new_hu": "Pergetőbotok", "reason": "spinning rods are pergetőbot (tree-audit 2026-10-26 sport-findings.jsonl line 123)"}
-{"id": "sg-4-6-11-8", "name_en": "Surf Fishing Rods", "old_hu": "Szörfhorgászbotok", "new_hu": "Tengeri dobóbotok", "reason": "surf rods (tree-audit 2026-10-26 sport-findings.jsonl line 123)"}
+{"id": "sg-4-6-11-7", "name_en": "Spinning Fishing Rods", "old_hu": "Forgó horgászbotok", "new_hu": "Pergetőbotok", "reason": "spinning rods are pergetőbot (sources/tree-audit-2026-10-26/sport-findings.jsonl line 123)"}
+{"id": "sg-4-6-11-8", "name_en": "Surf Fishing Rods", "old_hu": "Szörfhorgászbotok", "new_hu": "Tengeri dobóbotok", "reason": "surf rods (sources/tree-audit-2026-10-26/sport-findings.jsonl line 123)"}
 {"id": "sg-4-6-11-11", "name_en": "Trolling Fishing Rods", "old_hu": "Trolling horgábotok", "new_hu": "Trolling horgászbotok", "reason": "spelling"}
 {"id": "sg-4-6-13-1-1", "name_en": "Artificial Fish Decoys", "old_hu": "Mesterséges halcsalik", "new_hu": "Mű csalihalak", "reason": "fish decoys"}
-{"id": "sg-4-6-13-1-2", "name_en": "Artificial Fishing Flies", "old_hu": "Mesterséges horgászlegyek", "new_hu": "Műlegyek", "reason": "flies (tree-audit 2026-10-26 sport-findings.jsonl line 122)"}
-{"id": "sg-4-6-13-1-3", "name_en": "Artificial Fishing Jigs", "old_hu": "Mesterséges horgászfogók", "new_hu": "Jigek", "reason": "fogó is pliers (tree-audit 2026-10-26 sport-findings.jsonl line 122)"}
-{"id": "sg-4-6-13-1-4", "name_en": "Artificial Fishing Plugs", "old_hu": "Mesterséges horgászdugók", "new_hu": "Plugok", "reason": "dugó is a cork (tree-audit 2026-10-26 sport-findings.jsonl line 122)"}
+{"id": "sg-4-6-13-1-2", "name_en": "Artificial Fishing Flies", "old_hu": "Mesterséges horgászlegyek", "new_hu": "Műlegyek", "reason": "flies (sources/tree-audit-2026-10-26/sport-findings.jsonl line 122)"}
+{"id": "sg-4-6-13-1-3", "name_en": "Artificial Fishing Jigs", "old_hu": "Mesterséges horgászfogók", "new_hu": "Jigek", "reason": "fogó is pliers (sources/tree-audit-2026-10-26/sport-findings.jsonl line 122)"}
+{"id": "sg-4-6-13-1-4", "name_en": "Artificial Fishing Plugs", "old_hu": "Mesterséges horgászdugók", "new_hu": "Plugok", "reason": "dugó is a cork (sources/tree-audit-2026-10-26/sport-findings.jsonl line 122)"}
 {"id": "sg-4-6-13-1-5", "name_en": "Artificial Fishing Poppers", "old_hu": "Mesterséges horgászpopperek", "new_hu": "Popperek", "reason": "poppers"}
-{"id": "sg-4-6-13-1-6", "name_en": "Artificial Fishing Spinners", "old_hu": "Mesterséges horgászforgók", "new_hu": "Körforgó villantók", "reason": "spinners (tree-audit 2026-10-26 sport-findings.jsonl line 122)"}
+{"id": "sg-4-6-13-1-6", "name_en": "Artificial Fishing Spinners", "old_hu": "Mesterséges horgászforgók", "new_hu": "Körforgó villantók", "reason": "spinners (sources/tree-audit-2026-10-26/sport-findings.jsonl line 122)"}
 {"id": "sg-4-6-13-1-6-1", "name_en": "Inline Fishing Spinners", "old_hu": "Körforgó villantók", "new_hu": "Inline körforgó villantók", "reason": "inline spinners"}
-{"id": "sg-4-6-13-1-7", "name_en": "Artificial Fishing Spoons", "old_hu": "Mesterséges horgászkanalak", "new_hu": "Támolygó villantók", "reason": "spoons are támolygó villantó; kanál is a kitchen spoon (tree-audit 2026-10-26 sport-findings.jsonl line 122)"}
+{"id": "sg-4-6-13-1-7", "name_en": "Artificial Fishing Spoons", "old_hu": "Mesterséges horgászkanalak", "new_hu": "Támolygó villantók", "reason": "spoons are támolygó villantó; kanál is a kitchen spoon (sources/tree-audit-2026-10-26/sport-findings.jsonl line 122)"}
 {"id": "sg-4-6-13-1-8", "name_en": "Artificial Fishing Swimbait", "old_hu": "Mesterséges horgász úszócsalik", "new_hu": "Swimbaitek", "reason": "swimbaits"}
 {"id": "sg-4-6-13-1-9", "name_en": "Artificial Fishing Wobblers", "old_hu": "Mesterséges horgászwobblerek", "new_hu": "Wobblerek", "reason": "wobblers"}
-{"id": "sg-4-6-13-1-10", "name_en": "Artificial Soft Plastic Baits", "old_hu": "Mesterséges lágy műanyag csalik", "new_hu": "Gumihalak és plasztik csalik", "reason": "soft plastics (tree-audit 2026-10-26 sport-findings.jsonl line 122)"}
+{"id": "sg-4-6-13-1-10", "name_en": "Artificial Soft Plastic Baits", "old_hu": "Mesterséges lágy műanyag csalik", "new_hu": "Gumihalak és plasztik csalik", "reason": "soft plastics (sources/tree-audit-2026-10-26/sport-findings.jsonl line 122)"}
 {"id": "sg-4-6-13-1-10-2", "name_en": "Soft Plastic Worms", "old_hu": "Plasztik giliszták", "new_hu": "Gumigiliszták", "reason": "soft plastic worms"}
 {"id": "sg-4-6-13-3-1-2", "name_en": "Double Fishing Hooks", "old_hu": "Ketteshorgok", "new_hu": "Duplahorgok", "reason": "double hooks"}
 {"id": "sg-4-6-13-3-2", "name_en": "Single Fishing Hooks", "old_hu": "Egyedüli horgászhorgok", "new_hu": "Egyágú horgok", "reason": "single hooks"}
@@ -714,11 +714,11 @@
 {"id": "sg-4-6-13-4-4", "name_en": "Fishing Dipseys", "old_hu": "Horgászati merítőhalak", "new_hu": "Dipsey ólmok", "reason": "dipseys are sinkers, not fish"}
 {"id": "sg-4-6-13-4-5", "name_en": "Fishing Pyramids", "old_hu": "Horgászpiramisok", "new_hu": "Piramisólmok", "reason": "pyramid sinkers"}
 {"id": "sg-4-6-13-4-6", "name_en": "Fishing Split-Shots", "old_hu": "Horgászati Split-Shot nehezékek", "new_hu": "Sörétólmok", "reason": "split shot"}
-{"id": "sg-4-6-13-5", "name_en": "Fishing Snaps & Swivels", "old_hu": "Horgászkapcsok és -forgógombok", "new_hu": "Kapcsok és forgók", "reason": "snaps and swivels (tree-audit 2026-10-26 sport-findings.jsonl line 23)"}
+{"id": "sg-4-6-13-5", "name_en": "Fishing Snaps & Swivels", "old_hu": "Horgászkapcsok és -forgógombok", "new_hu": "Kapcsok és forgók", "reason": "snaps and swivels (sources/tree-audit-2026-10-26/sport-findings.jsonl line 23)"}
 {"id": "sg-4-6-25", "name_en": "Fishing Trap Accessories", "old_hu": "Horgászcsapda-kiegészítők", "new_hu": "Halcsapda-kiegészítők", "reason": "as the parent"}
 {"id": "sg-4-6-14", "name_en": "Fishing Traps", "old_hu": "Horgászcsapdák", "new_hu": "Halcsapdák", "reason": "Google Hungarian"}
 {"id": "sg-4-6-16", "name_en": "Live Bait", "old_hu": "Élő csali", "new_hu": "Élő csalik", "reason": "plural, as the siblings"}
-{"id": "sg-4-6-17-2", "name_en": "Tackle Boxes", "old_hu": "Horgászdobozok", "new_hu": "Szerelékes dobozok", "reason": "tackle boxes (tree-audit 2026-10-26 sport-findings.jsonl line 24)"}
+{"id": "sg-4-6-17-2", "name_en": "Tackle Boxes", "old_hu": "Horgászdobozok", "new_hu": "Szerelékes dobozok", "reason": "tackle boxes (sources/tree-audit-2026-10-26/sport-findings.jsonl line 24)"}
 {"id": "sg-4-7-1", "name_en": "Divot Tools", "old_hu": "Javítóeszközök", "new_hu": "Gyepjavító villák", "reason": "divot tools repair the green"}
 {"id": "sg-4-7-3-4", "name_en": "Golf Scorecard Holders", "old_hu": "Golfpontkártya-tartók", "new_hu": "Golf eredménykártya-tartók", "reason": "scorecards"}
 {"id": "sg-4-7-8-1", "name_en": "Golf Iron Sets", "old_hu": "Vas golfütőkészletek", "new_hu": "Vasütő-szettek", "reason": "iron sets"}
@@ -809,8 +809,8 @@
 {"id": "sg-4-15-3-3-1", "name_en": "Brake Cables & Hoses", "old_hu": "Fékkábelek és -tömlők", "new_hu": "Elektromos roller fékkábelek és -tömlők", "reason": "the node must stand apart from bicycle brakes"}
 {"id": "sg-4-15-3-3-5", "name_en": "Brake Calipers", "old_hu": "Féknyergek", "new_hu": "Elektromos roller féknyergek", "reason": "the node must stand apart from bicycle brakes"}
 {"id": "sg-4-15-3-3-4", "name_en": "Brake Levers & Master Cylinders", "old_hu": "Fékkarok és főhengerek", "new_hu": "Elektromos roller fékkarok és főhengerek", "reason": "the node must stand apart from bicycle brakes"}
-{"id": "sg-4-15-3-3-3", "name_en": "Brake Pads", "old_hu": "Fékbetétek", "new_hu": "Elektromos roller fékbetétek", "reason": "the same name as the bicycle brake pads (tree-audit 2026-10-26 sport-findings.jsonl line 128)"}
-{"id": "sg-4-15-3-3-2", "name_en": "Brake Rotors", "old_hu": "Féktárcsák", "new_hu": "Elektromos roller féktárcsák", "reason": "the same name as the bicycle brake rotors (tree-audit 2026-10-26 sport-findings.jsonl line 128)"}
+{"id": "sg-4-15-3-3-3", "name_en": "Brake Pads", "old_hu": "Fékbetétek", "new_hu": "Elektromos roller fékbetétek", "reason": "the same name as the bicycle brake pads (sources/tree-audit-2026-10-26/sport-findings.jsonl line 128)"}
+{"id": "sg-4-15-3-3-2", "name_en": "Brake Rotors", "old_hu": "Féktárcsák", "new_hu": "Elektromos roller féktárcsák", "reason": "the same name as the bicycle brake rotors (sources/tree-audit-2026-10-26/sport-findings.jsonl line 128)"}
 {"id": "sg-4-15-3-7", "name_en": "Electric Motors", "old_hu": "Elektromos motorok", "new_hu": "Elektromos roller motorok", "reason": "the node must stand apart from other motors"}
 {"id": "sg-4-15-3-6", "name_en": "Electrical Components", "old_hu": "Elektromos alkatrészek", "new_hu": "Elektromos roller elektromos alkatrészek", "reason": "the node must stand apart from other parts"}
 {"id": "sg-4-15-3-6-1", "name_en": "Electronic Speed Controllers", "old_hu": "Elektronikus sebességszabályozók", "new_hu": "Elektromos roller vezérlők", "reason": "speed controllers"}
@@ -821,7 +821,7 @@
 {"id": "sg-4-15-3-9", "name_en": "Lights & Reflectors", "old_hu": "Lámpák és fényvisszaverők", "new_hu": "Elektromos roller lámpák és prizmák", "reason": "the node must stand apart from bicycle lights"}
 {"id": "sg-4-15-3-10", "name_en": "Suspension Parts", "old_hu": "Felfüggesztés-alkatrészek", "new_hu": "Elektromos roller felfüggesztés-alkatrészek", "reason": "the node must stand apart from other suspension parts"}
 {"id": "sg-4-15-3-2", "name_en": "Wheels & Tires", "old_hu": "Kerekek és gumik", "new_hu": "Elektromos roller kerekek és gumik", "reason": "the node must stand apart from other wheels"}
-{"id": "sg-4-15-4", "name_en": "Kick Scooter Parts", "old_hu": "Rolleralkatrészek", "new_hu": "Rúgós roller alkatrészek", "reason": "kick scooter parts (tree-audit 2026-10-26 sport-findings.jsonl line 17)"}
+{"id": "sg-4-15-4", "name_en": "Kick Scooter Parts", "old_hu": "Rolleralkatrészek", "new_hu": "Rúgós roller alkatrészek", "reason": "kick scooter parts (sources/tree-audit-2026-10-26/sport-findings.jsonl line 17)"}
 {"id": "sg-4-16-1-1", "name_en": "Cruisers", "old_hu": "Cirkálók", "new_hu": "Cruiser gördeszkák", "reason": "cirkáló is a warship"}
 {"id": "sg-4-16-1-2", "name_en": "Mini-Cruisers", "old_hu": "Mini cirkálók", "new_hu": "Mini cruiser gördeszkák", "reason": "cirkáló is a warship"}
 {"id": "sg-4-16-1-4", "name_en": "Mountainboards", "old_hu": "Hegyi deszkák", "new_hu": "Mountainboardok", "reason": "mountainboards"}
@@ -840,6 +840,8 @@
 {"id": "sg-4-17-2-14-3", "name_en": "Snowboard Binding Highbacks", "old_hu": "Snowboardkötő hátsó rész", "new_hu": "Snowboardkötés-highbackek", "reason": "highbacks"}
 {"id": "sg-4-17-3-4", "name_en": "Snow Racers", "old_hu": "Hóversenyzők", "new_hu": "Snow racer szánkók", "reason": "snow racers are steerable sleds"}
 {"id": "sg-4-17-3-5", "name_en": "Snow Tubes", "old_hu": "Hócsövek", "new_hu": "Hófánkok", "reason": "snow tubes are hófánk"}
-{"id": "sg-4-17-4", "name_en": "Snowshoeing", "old_hu": "Hócipőzés", "new_hu": "Hótalpazás", "reason": "hócipő is a snow boot (tree-audit 2026-10-26 sport-findings.jsonl line 121)"}
+{"id": "sg-4-17-4", "name_en": "Snowshoeing", "old_hu": "Hócipőzés", "new_hu": "Hótalpazás", "reason": "hócipő is a snow boot (sources/tree-audit-2026-10-26/sport-findings.jsonl line 121)"}
 {"id": "sg-4-17-4-1", "name_en": "Snowshoe Bindings", "old_hu": "Hócipőkötők", "new_hu": "Hótalpkötések", "reason": "hócipő is a snow boot"}
-{"id": "sg-4-17-4-2", "name_en": "Snowshoes", "old_hu": "Hócipők", "new_hu": "Hótalpak", "reason": "hócipő is a snow boot (tree-audit 2026-10-26 sport-findings.jsonl line 121)"}
+{"id": "sg-4-17-4-2", "name_en": "Snowshoes", "old_hu": "Hócipők", "new_hu": "Hótalpak", "reason": "hócipő is a snow boot (sources/tree-audit-2026-10-26/sport-findings.jsonl line 121)"}
+{"id": "aa-1-20", "name_en": "Swimwear", "old_hu": "Fürdőruha", "new_hu": "Fürdőruházat", "reason": "the category holds all swimwear; fürdőruha is one garment (fix round 1)"}
+{"id": "aa-2-17-5", "name_en": "Bucket Hats", "old_hu": "Vödörsapkák", "new_hu": "Halászsapkák", "reason": "bucket hats are halászsapka; vödörsapka is literal (fix round 1)"}
