@@ -3,7 +3,7 @@
 A product category tree for webshop catalogues: one modern, market-wide tree with English and Hungarian names,
 built on Shopify's Standard Product Taxonomy v2026-08. Hungary first; other markets add their languages later.
 
-Version 0.4.0 (2026-10-27: e-commerce categories decided by rule, the Jev, review and the controller's rulings). Version 0.3.1 was 2026-10-27 (fix round 1 of the v0.3.0 review), version 0.2 was 2026-10-26 (two fix rounds on 2026-10-27), version 0.1 was 2026-10-20.
+Version 0.4.1 (2026-10-27: ruling II, ECDB first). Version 0.4.0 was 2026-10-27 (e-commerce categories decided by rule, the Jev, review and the controller's rulings), version 0.3.1 was 2026-10-27 (fix round 1 of the v0.3.0 review), version 0.2 was 2026-10-26 (two fix rounds on 2026-10-27), version 0.1 was 2026-10-20.
 
 ## What is in it
 
@@ -17,9 +17,9 @@ Version 0.4.0 (2026-10-27: e-commerce categories decided by rule, the Jev, revie
 | Node moves | none | 15 Shopify nodes moved under own nodes | 49 (34 more: the motorcycle, heating and gift-set homes and others) | the same |
 | Filters | 300 on 267 nodes | 95 058 on 14 742 nodes, from 8 501 Shopify attributes with all their values; 20 inherited filters dropped with a reason | 95 969 on 14 888 nodes; 16 filters added with a reason; 21 dropped (the 20 and the garment type on Erotic Clothing) | the same |
 | Arukereso | all 2 988 categories placed; 10 234 765 products | all 2 988 placed; 9 732 089 products counted (two custom configuration categories not counted) | the same; 21 categories moved to a better existing node and 142 placed on new own nodes | the same |
-| E-commerce categories | every node classed into seven e-commerce categories | the same, with the new nodes classed | the same; Fireplaces reclassed to DIY (heating), Paper Hand Towels to Care Products > Personal Care, Practice Heads to Other | every node classed on its own, with a source (rule, jev, review, review-pending, ruling) and the Jev's confidence; see "E-commerce categories" below |
+| E-commerce categories | every node classed into seven e-commerce categories | the same, with the new nodes classed | the same; Fireplaces reclassed to DIY (heating), Paper Hand Towels to Care Products > Personal Care, Practice Heads to Other | every node classed on its own, with a source (rule, jev, review, review-pending, ruling) and the Jev's confidence; see "E-commerce categories" below; v0.4.1: ruling II (ECDB first) moves 9 ruled nodes to their reviewed class |
 
-Counts from `sh build/all.sh` on 2026-10-27 (v0.4.0 and v0.3.1) and from the v0.1 and v0.2 release files.
+Counts from `sh build/all.sh` on 2026-10-27 (v0.4.1, v0.4.0 and v0.3.1) and from the v0.1 and v0.2 release files.
 
 ## Rules
 
@@ -79,7 +79,7 @@ Counts from `sh build/all.sh` on 2026-10-27 (v0.4.0 and v0.3.1) and from the v0.
 
 The operator, 2026-10-27, quoted in the controller's brief: "nézd meg az ecdb kategorizálását is a biztonság kedvéért
 meg a shopify-t és a google shopping-ot. és erre építünk szabályt, a jev meg eldönti", then "oke mehet". The run is
-`bench/ecommerce_classify/` in the fast-browse-jev repo (commits b6e7be5f and a339026f); its full evidence is in
+`bench/ecommerce_classify/` in the fast-browse-jev repo (commits b6e7be5f, a339026f and ef5a35f3); its full evidence is in
 `shelfscreen-data/2026-10-27/ecommerce-classify/`. `work/ecommerce-6.jsonl` holds one row per node: `category_main`,
 `category_sub`, `fit`, `source`, `confidence` (the Jev's, where it answered), `reason`, `jev` (its choice and
 confidence).
@@ -115,24 +115,35 @@ confidence).
    (`work/controller-rulings.jsonl`: heating, heating scope, workwear; fix round 1: Practice Heads Other, Paper Hand
    Towels Personal Care) override all of these (source `ruling`, 103 nodes); 73 nodes where the Jev or a reviewer chose
    otherwise are listed in `shelfscreen-data/2026-10-27/ecommerce-classify/v040/ruling-conflicts.jsonl`.
+5. Ruling II (v0.4.1, controller, 2026-10-27, not the operator's words): ECDB first. The categories are built on
+   ECDB's definitions, so a controller ruling holds only where ECDB's definitions do not name the item. Where a
+   reviewer was sure and quoted an ECDB definition that names the item, the reviewed class stands: Hardhats and
+   Welding Helmets (Workwear excludes "Helmets", Headwear "Safety helmets"), Protective Eyewear, Goggles and Safety
+   Glasses (Workwear and Sunglasses exclude "Safety glasses and goggles"), Hearing Protection Earmuffs (Headphones
+   exclude "Hearing protection") go to Other; Medical Masks to Care Products > Health Care (Other Medical Products
+   includes "Personal protection equipment (e.g. gloves, masks)"); Water Heaters and Heat Pump Water Heaters to
+   Electronics > Electrical Appliances (Household Appliances includes "Heating and cooling appliances"). The other
+   sure reviews in the ruled subtrees quote no ECDB line naming the item (Face Shields, Safety Knee Pads, the work
+   safety harnesses and tethers, 10 nodes) and keep the ruling.
 
 Counts (`sh build/all.sh`, 2026-10-27):
 
-| | v0.3.1 | v0.4.0 |
-|---|---|---|
-| Hobby & Leisure | 5 688 | 5 687 |
-| DIY | 2 644 | 2 591 |
-| Electronics | 2 068 | 1 924 |
-| Furniture & Homeware | 1 521 | 1 490 |
-| Care Products | 1 157 | 1 116 |
-| Grocery | 753 | 749 |
-| Fashion | 732 | 746 |
-| Other | 492 | 752 |
-| fit clear / weak / none | 13 759 / 804 / 492 | 10 603 / 3 700 / 752 |
-| source | 289 explicit, 14 766 inherited | rule 5 377, jev 5 013, review 1 157, review-pending 3 405, ruling 103 |
+| | v0.3.1 | v0.4.0 | v0.4.1 |
+|---|---|---|---|
+| Hobby & Leisure | 5 688 | 5 687 | 5 687 |
+| DIY | 2 644 | 2 591 | 2 582 |
+| Electronics | 2 068 | 1 924 | 1 926 |
+| Furniture & Homeware | 1 521 | 1 490 | 1 490 |
+| Care Products | 1 157 | 1 116 | 1 117 |
+| Grocery | 753 | 749 | 749 |
+| Fashion | 732 | 746 | 746 |
+| Other | 492 | 752 | 758 |
+| fit clear / weak / none | 13 759 / 804 / 492 | 10 603 / 3 700 / 752 | 10 597 / 3 700 / 758 |
+| source | 289 explicit, 14 766 inherited | rule 5 377, jev 5 013, review 1 157, review-pending 3 405, ruling 103 | rule 5 377, jev 5 013, review 1 166, review-pending 3 405, ruling 94 |
 
-By source and fit in v0.4.0: rule clear 5 377; jev clear 5 013; review clear 111, weak 354, none 692 (reviewed to
-Other); review-pending weak 3 346, none 59; ruling clear 102, none 1 (Practice Heads). A `weak` fit now also means the
+By source and fit in v0.4.1: rule clear 5 377; jev clear 5 013; review clear 114, weak 354, none 698 (reviewed to
+Other); review-pending weak 3 346, none 59; ruling clear 93, none 1 (Practice Heads). In v0.4.0, review had clear
+111 and none 692, ruling clear 102. A `weak` fit now also means the
 class waits for review.
 
 ## Filters
@@ -157,10 +168,11 @@ correction.
 
 ## Changes from v0.3.1
 
-| v0.3.1 | v0.4.0 |
+| v0.3.1 | v0.4.0 and v0.4.1 |
 |---|---|
 | e-commerce classes in `ecommerce-1..5.jsonl`, inherited down the tree from 289 explicit rows | `ecommerce-6.jsonl` classes every node; every older row carries `superseded_by` |
 | `ecommerce_category`: `main`, `sub`, `main_hu`, `sub_hu`, `fit`, `inherited`, `reason` | plus `source` and `confidence`; `dist/tree-hu.csv` has `ecommerce_source` and `ecommerce_confidence` |
+| controller rulings over every other source | v0.4.1, ruling II: ECDB first; a ruling holds only where ECDB's definitions do not name the item |
 | Google's taxonomy used only through Shopify's mapping file | the Google taxonomy 2021-09-21 itself (English, Hungarian) in `sources/google-2021-09-21/` |
 
 ## Changes from v0.2
