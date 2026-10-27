@@ -115,3 +115,17 @@
 {"from": "own-accommodation", "to": ["own-experience-vouchers"], "reason": "Experience vouchers live under Entertainment & Recreation Services. (sources/tree-audit-2026-10-26/other-findings.jsonl line 22)", "added": "v0.3 (2026-10-27)"}
 {"from": "so-3", "to": ["own-game-top-up-cards"], "reason": "Game subscriptions and top-up cards live under Digital Goods & Currency. (sources/tree-audit-2026-10-26/other-findings.jsonl line 26)", "added": "v0.3 (2026-10-27)"}
 {"from": "vp-2-2-4", "to": ["tg-5-20-1"], "reason": "Kids' motorised vehicles live under Toys > Electric Riding Vehicles. (sources/tree-audit-2026-10-26/other-findings.jsonl line 27)", "added": "v0.3 (2026-10-27)"}
+{"from": "aa-1-1", "to": ["own-football-clothing", "own-golf-clothing", "own-hunting-clothing", "own-handball-clothing", "own-table-tennis-clothing", "own-sailing-clothing"], "reason": "Sport clothing sits under its sport (operator 2026-10-26: by sport, linked from Clothing); v0.5.0 adds the new sport clothing nodes.", "added": "v0.5.0 (2026-10-27)"}
+{"from": "aa-1-1-2", "to": ["own-padel-tops", "own-running-tops", "own-hiking-tops"], "reason": "Activewear Tops links to the sport tops (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "aa-1-1-1", "to": ["own-padel-pants", "own-running-tights", "own-hiking-pants", "own-football-pants"], "reason": "Activewear Pants links to the sport pants (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "aa-1-1-1-3", "to": ["own-padel-shorts", "own-running-shorts", "own-football-shorts"], "reason": "Activewear Shorts links to the sport shorts (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "aa-1-15", "to": ["own-padel-skirts"], "reason": "Skirts links to the sport skirts (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "aa-1-4", "to": ["own-padel-dresses"], "reason": "Dresses links to the sport dresses (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "aa-1-1-8", "to": ["own-padel-jackets", "own-hiking-jackets"], "reason": "Activewear Vests & Jackets links to the sport jackets (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "aa-1-1-7", "to": ["own-padel-sweatshirts", "own-football-training-tops"], "reason": "Activewear Sweatshirts & Hoodies links to the sport sweatshirts (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "aa-1-18-2", "to": ["own-football-socks"], "reason": "Athletic Socks links to football socks (sportszár) (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "aa-8-3", "to": ["own-mountaineering-boots"], "reason": "Boots used for a sport sit under the sport; Boots links there (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "sg-4-2", "to": ["own-freeze-dried-meals", "own-camping-cupboards"], "reason": "Camping & Hiking links to freeze-dried meals (their home is Prepared Foods) (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "lb-9-7", "to": ["own-perfume-atomizers"], "reason": "Travel Bottles & Containers links to perfume atomizers (their home is Perfumes & Colognes) (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "fb-1-1-1", "to": ["fb-1-1-6-1"], "reason": "Radlers and flavoured beer mixes are Beer-Based Cocktails + Radler; Beer links there (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}
+{"from": "fb-1-8-1", "to": ["fb-1-1-6-1"], "reason": "Alcohol-free radlers take the radler value here; Beer-Based Cocktails holds the alcoholic ones (v0.5.0).", "added": "v0.5.0 (2026-10-27)"}

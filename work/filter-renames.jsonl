@@ -1129,3 +1129,18 @@
 {"kind": "value", "value_id": "81256", "en": "Lightwind", "old_hu": "Lightwind", "new_hu": "Gyenge szeles", "reason": "light wind (second pass)"}
 {"kind": "value", "value_id": "81294", "en": "Leash", "old_hu": "Leash", "new_hu": "Póráz (leash)", "reason": "wing leash (second pass)"}
 {"kind": "value", "value_id": "34372", "en": "Engineered (plywood/MDF)", "old_hu": "Méretezett (rétegelt lemez/MDF)", "new_hu": "Szerelt faanyag (rétegelt lemez/MDF)", "reason": "engineered wood (second pass)"}
+{"kind": "value", "value_id": "8797", "en": "Pale lager", "old_hu": "Pale lager", "new_hu": "Világos sör", "reason": "shops say világos sör (beer.db, gold beer-005)", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "10000", "en": "Dark lager", "old_hu": "Sötét lager", "new_hu": "Barna sör", "reason": "shops say barna sör (gold beer-001)", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "10006", "en": "Lager", "old_hu": "Lager", "new_hu": "Láger", "reason": "Hungarian spelling", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "10005", "en": "India pale ale (IPA)", "old_hu": "Indiai pale ale (IPA)", "new_hu": "IPA", "reason": "shops say IPA (beer.db, gold beer-003)", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "10013", "en": "Wheat beer/Weizenbier", "old_hu": "Búzasör/Weizenbier", "new_hu": "Búzasör", "reason": "shops say búzasör (beer.db)", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "9996", "en": "Amber/Red ale", "old_hu": "Amber/Red ale", "new_hu": "Vörös sör", "reason": "shops say vörös sör ('Dreher Red Ale vörös sör', beer.db)", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "25583", "en": "Lotion", "old_hu": "Ápoló", "new_hu": "Arcvíz", "reason": "aftershave lotion is borotválkozás utáni arcvíz (gold perfume-023)", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "9879", "en": "Pollock", "old_hu": "Sárga tőkehal", "new_hu": "Alaszkai tőkehal", "reason": "shops say alaszkai tőkehal (gold frosta-048)", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "19360", "en": "Scallop", "old_hu": "Kagyló", "new_hu": "Fésűkagyló", "reason": "kagyló is Clam; a scallop is fésűkagyló", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "9885", "en": "Squid", "old_hu": "Tintahal", "new_hu": "Kalmár", "reason": "tintahal is Cuttlefish; a squid is kalmár", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "9862", "en": "Crab", "old_hu": "Rák", "new_hu": "Tarisznyarák", "reason": "rák is any crustacean; a crab is tarisznyarák", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "9857", "en": "Calamari", "old_hu": "Calamari", "new_hu": "Tintahalkarika", "reason": "shops say tintahalkarika (frosta.db 'panírozott tintahalkarika')", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "value", "value_id": "78176", "en": "Pellet", "old_hu": "Pellet", "new_hu": "Légfegyver-lövedék", "reason": "shops say légfegyver-lövedék or diabolo (gold decathlon-own-030)", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "attribute", "attribute_id": "seafood-type", "en": "Seafood type", "old_hu": "„Tenger gyümölcsei” termék típusa", "new_hu": "Hal vagy tenger gyümölcse fajtája", "reason": "the values are fish and seafood species", "source": "v0.5.0 (2026-10-27) tree gaps"}
+{"kind": "attribute", "attribute_id": "artificial-bait-form", "en": "Artificial bait form", "old_hu": "Műcsali formája", "new_hu": "Csali formája", "reason": "boilies, groundbait, paste and pellets are baits, not lures", "source": "v0.5.0 (2026-10-27) tree gaps"}

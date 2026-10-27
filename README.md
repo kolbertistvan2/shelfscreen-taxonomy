@@ -3,23 +3,23 @@
 A product category tree for webshop catalogues: one modern, market-wide tree with English and Hungarian names,
 built on Shopify's Standard Product Taxonomy v2026-08. Hungary first; other markets add their languages later.
 
-Version 0.4.1 (2026-10-27: ruling II, ECDB first). Version 0.4.0 was 2026-10-27 (e-commerce categories decided by rule, the Jev, review and the controller's rulings), version 0.3.1 was 2026-10-27 (fix round 1 of the v0.3.0 review), version 0.2 was 2026-10-26 (two fix rounds on 2026-10-27), version 0.1 was 2026-10-20.
+Version 0.5.0 (2026-10-27: the tree gaps, 57 own nodes for product types no node and no kind filter value held). Version 0.4.1 was 2026-10-27 (ruling II, ECDB first), version 0.4.0 was 2026-10-27 (e-commerce categories decided by rule, the Jev, review and the controller's rulings), version 0.3.1 was 2026-10-27 (fix round 1 of the v0.3.0 review), version 0.2 was 2026-10-26 (two fix rounds on 2026-10-27), version 0.1 was 2026-10-20.
 
 ## What is in it
 
-| | v0.1 (2026-10-20) | v0.2 (2026-10-26) | v0.3.1 (2026-10-27) | v0.4.0 (2026-10-27) |
-|---|---|---|---|---|
-| Nodes | 14 865: Shopify's 14 606 plus 259 own | 14 901: Shopify's 14 606 plus 295 own | 15 055: Shopify's 14 606 plus 449 own | the same |
-| Shown | 3 095 (only nodes with Hungarian products under them) | every node | every node | the same |
-| Hungarian names | every node; 1 512 Shopify translations corrected | every node; 1 512 + 847 corrected; 6 212 marked reviewed | every node; 1 512 + 847 + 3 283 + 105 corrected; 14 297 marked reviewed (758 not: the reviewer was unsure) | the same |
-| English names | Shopify's | 39 renamed to "Football (Soccer)" | the same, plus Drills (own node) | the same |
-| Links | none | 114 on 13 nodes (Shoes and Clothing to the sport nodes) | 271 on 114 nodes | the same |
-| Node moves | none | 15 Shopify nodes moved under own nodes | 49 (34 more: the motorcycle, heating and gift-set homes and others) | the same |
-| Filters | 300 on 267 nodes | 95 058 on 14 742 nodes, from 8 501 Shopify attributes with all their values; 20 inherited filters dropped with a reason | 95 969 on 14 888 nodes; 16 filters added with a reason; 21 dropped (the 20 and the garment type on Erotic Clothing) | the same |
-| Arukereso | all 2 988 categories placed; 10 234 765 products | all 2 988 placed; 9 732 089 products counted (two custom configuration categories not counted) | the same; 21 categories moved to a better existing node and 142 placed on new own nodes | the same |
-| E-commerce categories | every node classed into seven e-commerce categories | the same, with the new nodes classed | the same; Fireplaces reclassed to DIY (heating), Paper Hand Towels to Care Products > Personal Care, Practice Heads to Other | every node classed on its own, with a source (rule, jev, review, review-pending, ruling) and the Jev's confidence; see "E-commerce categories" below; v0.4.1: ruling II (ECDB first) moves 9 ruled nodes to their reviewed class |
+| | v0.1 (2026-10-20) | v0.2 (2026-10-26) | v0.3.1 (2026-10-27) | v0.4.0 (2026-10-27) | v0.5.0 (2026-10-27) |
+|---|---|---|---|---|---|
+| Nodes | 14 865: Shopify's 14 606 plus 259 own | 14 901: Shopify's 14 606 plus 295 own | 15 055: Shopify's 14 606 plus 449 own | the same | 15 112: Shopify's 14 606 plus 506 own (57 new, see "Tree gaps") |
+| Shown | 3 095 (only nodes with Hungarian products under them) | every node | every node | the same | the same |
+| Hungarian names | every node; 1 512 Shopify translations corrected | every node; 1 512 + 847 corrected; 6 212 marked reviewed | every node; 1 512 + 847 + 3 283 + 105 corrected; 14 297 marked reviewed (758 not: the reviewer was unsure) | the same | every node; 2 more Shopify names corrected (`hu-renames-7.jsonl`); 14 354 marked reviewed (the 57 new own nodes named when made) |
+| English names | Shopify's | 39 renamed to "Football (Soccer)" | the same, plus Drills (own node) | the same | the same |
+| Links | none | 114 on 13 nodes (Shoes and Clothing to the sport nodes) | 271 on 114 nodes | the same | 300 on 125 nodes (the new sport clothing, Beer to the radlers) |
+| Node moves | none | 15 Shopify nodes moved under own nodes | 49 (34 more: the motorcycle, heating and gift-set homes and others) | the same | the same |
+| Filters | 300 on 267 nodes | 95 058 on 14 742 nodes, from 8 501 Shopify attributes with all their values; 20 inherited filters dropped with a reason | 95 969 on 14 888 nodes; 16 filters added with a reason; 21 dropped (the 20 and the garment type on Erotic Clothing) | the same | 96 447 on 14 945 nodes; 18 added (beer kinds on alcohol-free beer); 13 kind values and 2 filter names corrected in Hungarian |
+| Arukereso | all 2 988 categories placed; 10 234 765 products | all 2 988 placed; 9 732 089 products counted (two custom configuration categories not counted) | the same; 21 categories moved to a better existing node and 142 placed on new own nodes | the same | the same |
+| E-commerce categories | every node classed into seven e-commerce categories | the same, with the new nodes classed | the same; Fireplaces reclassed to DIY (heating), Paper Hand Towels to Care Products > Personal Care, Practice Heads to Other | every node classed on its own, with a source (rule, jev, review, review-pending, ruling) and the Jev's confidence; see "E-commerce categories" below; v0.4.1: ruling II (ECDB first) moves 9 ruled nodes to their reviewed class | the new own nodes inherit their parent's class; 6 sport clothing nodes carry their own (`ecommerce-7.jsonl`) |
 
-Counts from `sh build/all.sh` on 2026-10-27 (v0.4.1, v0.4.0 and v0.3.1) and from the v0.1 and v0.2 release files.
+Counts from `sh build/all.sh` on 2026-10-27 (v0.5.0, v0.4.1, v0.4.0 and v0.3.1) and from the v0.1 and v0.2 release files.
 
 ## Rules
 
@@ -46,7 +46,8 @@ Counts from `sh build/all.sh` on 2026-10-27 (v0.4.1, v0.4.0 and v0.3.1) and from
   Pickleball, Squash, Badminton and Table Tennis. The word "paddle" names no padel node and no padel filter value.
 - A new own node enters only with its evidence written next to it in `work/own-nodes.jsonl`: an Arukereso
   category with its listed products, an Arukereso category whose name lists the type (counted on the parent when
-  Arukereso does not divide it), a mapper sample note, or the Decathlon study's product names. A finding that rests
+  Arukereso does not divide it), a mapper sample note, the Decathlon study's product names, or (since v0.5.0) the
+  studies' product databases and the name gold set, read on a stated date. A finding that rests
   on knowledge alone, on Shopify attribute values alone or on Google 2021 alone is not added
   (`work/audit-v03-decisions.jsonl` says why, finding by finding).
 - Controller rulings of 2026-10-27 (the operator left these to the controller: "nem tudom"; they are not his
@@ -128,23 +129,72 @@ confidence).
 
 Counts (`sh build/all.sh`, 2026-10-27):
 
-| | v0.3.1 | v0.4.0 | v0.4.1 |
-|---|---|---|---|
-| Hobby & Leisure | 5 688 | 5 687 | 5 687 |
-| DIY | 2 644 | 2 591 | 2 582 |
-| Electronics | 2 068 | 1 924 | 1 926 |
-| Furniture & Homeware | 1 521 | 1 490 | 1 490 |
-| Care Products | 1 157 | 1 116 | 1 117 |
-| Grocery | 753 | 749 | 749 |
-| Fashion | 732 | 746 | 746 |
-| Other | 492 | 752 | 758 |
-| fit clear / weak / none | 13 759 / 804 / 492 | 10 603 / 3 700 / 752 | 10 597 / 3 700 / 758 |
-| source | 289 explicit, 14 766 inherited | rule 5 377, jev 5 013, review 1 157, review-pending 3 405, ruling 103 | rule 5 377, jev 5 013, review 1 166, review-pending 3 405, ruling 94 |
+| | v0.3.1 | v0.4.0 | v0.4.1 | v0.5.0 |
+|---|---|---|---|---|
+| Hobby & Leisure | 5 688 | 5 687 | 5 687 | 5 711 |
+| DIY | 2 644 | 2 591 | 2 582 | 2 582 |
+| Electronics | 2 068 | 1 924 | 1 926 | 1 926 |
+| Furniture & Homeware | 1 521 | 1 490 | 1 490 | 1 490 |
+| Care Products | 1 157 | 1 116 | 1 117 | 1 118 |
+| Grocery | 753 | 749 | 749 | 758 |
+| Fashion | 732 | 746 | 746 | 769 |
+| Other | 492 | 752 | 758 | 758 |
+| fit clear / weak / none | 13 759 / 804 / 492 | 10 603 / 3 700 / 752 | 10 597 / 3 700 / 758 | 10 602 / 3 701 / 758 explicit; the other 51 inherit |
+| source | 289 explicit, 14 766 inherited | rule 5 377, jev 5 013, review 1 157, review-pending 3 405, ruling 103 | rule 5 377, jev 5 013, review 1 166, review-pending 3 405, ruling 94 | rule 5 383, jev 5 013, review 1 166, review-pending 3 405, ruling 94, inherited 51 |
 
 By source and fit in v0.4.1: rule clear 5 377; jev clear 5 013; review clear 114, weak 354, none 698 (reviewed to
 Other); review-pending weak 3 346, none 59; ruling clear 93, none 1 (Practice Heads). In v0.4.0, review had clear
 111 and none 692, ruling clear 102. A `weak` fit now also means the
 class waits for review.
+
+## Tree gaps (v0.5.0)
+
+The operator, 2026-10-27 19:24, handing the open tree gaps to the controller: "oldd ezeket meg okosan"
+(`work/operator-decisions.jsonl`). Controller ruling ZZ (2026-10-27, not the operator's words): a product type is
+covered when a node exists for it or when the deepest fitting node carries a kind filter (a Shopify `*-variety` or
+`*-type` attribute) whose value names it, for example Beer with beer-variety Pale lager. Only a type that neither
+covers is a gap, and a gap becomes an own node by the area-structure rule of 2026-10-27.
+
+Candidates came from real data, read on 2026-10-27: the name gold set's product words whose node is missing or only
+a parent (`shelfscreen-data/2026-10-27/name-gold/gold.jsonl`, 360 rows, and the tree gaps of the name loop); the
+breadcrumb leaves of the Decathlon study's 17 201 products (1 782 distinct paths; `studies/decathlon/exports/decathlon/
+builder-input-decathlon.hu.jsonl`); and the product groups and names of the beer (528 products), FRoSTA (356),
+perfume (17 583) and padel (9 877) studies' databases. Each candidate was checked against the node names and the kind
+values of the tree before it became a node.
+
+| Outcome | What |
+|---|---|
+| own node (57, `own-nodes.jsonl`, `added: v0.5.0`) | padel clothing by garment (tops, shorts, skirts, dresses, pants, jackets, sweatshirts) and padel equipment (racket accessories with frame protectors, dampeners and covers, ball pressurizers, nets); running and hiking clothing by garment; Football (Soccer) Clothing with shorts, pants, training tops and socks (sportszár); Golf, Hunting, Handball, Table Tennis and Sailing Clothing (Sailing as a sport); Orienteering with its control flags; mountaineering boots; freeze-dried outdoor meals; Basque pelota and frontenis; petanque; kite parts; fishing particle baits, feeder baskets and pre-tied rigs; dive marker buoys; camping cupboards; kick scooter wheels, brakes, handlebars and grip tape; table tennis table parts; trampoline frame parts and springs; breaded fish with fish fingers, breaded cheese, breaded vegetables and onion rings; dill, parsley, chives and basil; refillable perfume atomizers |
+| covered by a kind value | lager, dark beer, IPA (beer-variety); radler and the flavoured beer mixes (Beer-Based Cocktails, beer-based-cocktail-variety Radler); alcohol-free lager and radler (the two beer kind filters added to Low Alcohol & Alcohol-Free Beer); wax beans; spray and stick deodorants (dispenser-type); half chaps; air gun pellets (BBs, projectile-type Pellet); fish by species (seafood-type) |
+| covered by a node | ready meals by dish, vegetable mixes by use, plant-based burgers, dive computers, golf trolleys (Golf Bag Carts), shaker bottles, pedometers (Activity Monitors), grip gel, peteca (Shuttlecocks), fencing underarm protectors (Plastrons), tent parts, bicycle parts, most fishing, riding and winter items |
+| filter, not a node | the cut of a fish or a vegetable (fillet, florets), a beer gift pack, the sport of a sock, cap or wristband |
+| not made | a generic "ale" (Shopify names the ale kinds one by one; a beer named only ale takes Other), figure skating dresses and tennis garments (too few), items with one to four products |
+
+Every candidate that did not become a node is in `own-nodes-rejected.jsonl` with its outcome, the node or value that
+covers it and the reason (47 rows, `added: v0.5.0`).
+
+Thresholds (controller, 2026-10-27, not the operator's words): a sport clothing node needs 20 products in the sources
+above, and a garment node under it (shorts under Padel Clothing) 25 products of that garment; socks, caps and
+wristbands stay on the general accessory nodes with the sport as a filter, except football socks (sportszár), which
+Hungarian shops sell as their own product. A product type of its own (feeder baskets, dill) needs no threshold.
+
+Placement: sport goods sit under their sport, and Activewear, its Tops, Pants, Shorts, Vests & Jackets and
+Sweatshirts & Hoodies, Skirts, Dresses, Athletic Socks and Boots link to the new sport nodes (`links.jsonl`). Beer and
+Low Alcohol & Alcohol-Free Beer link to Beer-Based Cocktails, whose Hungarian name is now "Radlerek és sörkoktélok".
+Freeze-dried meals live under Prepared Foods with a link from Camping & Hiking; perfume atomizers under Perfumes &
+Colognes with a link from Travel Bottles & Containers.
+
+E-commerce category: a new node inherits its parent's class. Where that would break the rule above, the node has its
+own row in `ecommerce-7.jsonl`: Football (Soccer), Golf, Handball and Table Tennis Clothing are Fashion > Apparel
+(activewear and team kits), Hunting Clothing Fashion > Apparel with fit `weak` (the definitions do not name it), Sailing
+Clothing Hobby & Leisure > Sports Equipment (water sport apparel).
+
+Hungarian labels of kind values that Hungarian shops say otherwise (`filter-renames.jsonl`, `added` in `source`):
+beer-variety Pale lager "Világos sör", Dark lager "Barna sör", Lager "Láger", India pale ale (IPA) "IPA", Wheat beer
+"Búzasör", Amber/Red ale "Vörös sör"; aftershave-product-form Lotion "Arcvíz"; seafood-type Pollock "Alaszkai
+tőkehal", Scallop "Fésűkagyló", Squid "Kalmár", Crab "Tarisznyarák", Calamari "Tintahalkarika"; projectile-type
+Pellet "Légfegyver-lövedék"; and the filter names seafood-type "Hal vagy tenger gyümölcse fajtája" and
+artificial-bait-form "Csali formája".
 
 ## Filters
 
@@ -165,6 +215,15 @@ and stay unreviewed. In all, 16 093 of the 73 133 distinct values in the diction
 `work/filter-renames.jsonl` holds 1 131 rows: 340 attribute names and 769 values corrected in Hungarian, 15
 attribute names and 9 values in English (a row may carry both), each with the name it replaced (`old_hu` or `old_en`); the build checks that name before it applies a
 correction.
+
+## Changes from v0.4.1
+
+| v0.4.1 | v0.5.0 |
+|---|---|
+| 449 own nodes | 506: 57 for the tree gaps, each with its evidence and `products_2026_10_27` |
+| `hu-renames-1..6.jsonl` | plus `hu-renames-7.jsonl` (Búvárkomputerek, Radlerek és sörkoktélok) |
+| `ecommerce-1..6.jsonl` | plus `ecommerce-7.jsonl` (6 sport clothing nodes) |
+| `own-nodes-rejected.jsonl` rows on Arukereso categories | plus rows on gap candidates: `candidate`, `source`, `products`, `outcome`, `covered_by`, `reason` |
 
 ## Changes from v0.3.1
 
@@ -251,14 +310,14 @@ The decisions in `work/`:
 | `controller-rulings.jsonl` | the controller's rulings of 2026-10-27 on the DIY questions the operator left open (not his words) |
 | `audit-v03-decisions.jsonl` | the decision on every finding of the seven v0.3 audits |
 | `mapping-arukereso.jsonl`, `arukereso-not-counted.jsonl` | Arukereso categories on the tree; the ones not counted |
-| `hu-renames-1..6.jsonl`, `hu-review-scope.tsv` | Hungarian node renames; which node names were reviewed and in which round |
+| `hu-renames-1..7.jsonl`, `hu-review-scope.tsv` | Hungarian node renames; which node names were reviewed and in which round |
 | `en-renames.jsonl` | English node renames (Football (Soccer), Drills) |
 | `own-nodes.jsonl`, `own-nodes-rejected.jsonl` | own nodes with their evidence; proposals rejected, with reasons |
 | `node-moves.jsonl`, `links.jsonl` | moved nodes; links between nodes |
 | `arukereso-remaps.jsonl` | Arukereso categories moved to another existing node, with the old node and the reason |
 | `node-attributes.jsonl`, `filter-adds.jsonl`, `filter-drops.jsonl` | own filters; filters added; inherited filters dropped, with reasons |
 | `filter-renames.jsonl`, `filter-hu-review-scope.txt`, `filter-values-checked.txt` | filter name fixes with the old names; which attributes and which values were reviewed |
-| `ecommerce-1..6.jsonl` | e-commerce classes; 6 (v0.4.0) holds every node with its source and confidence, the older rows are superseded |
+| `ecommerce-1..7.jsonl` | e-commerce classes; 6 (v0.4.0) holds every node with its source and confidence, the older rows are superseded; 7 (v0.5.0) the new sport clothing nodes |
 
 ## How the decisions were made
 

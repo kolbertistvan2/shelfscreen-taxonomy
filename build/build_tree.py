@@ -89,6 +89,14 @@ for r in jl("hu-renames-6.jsonl"):  # v0.3.1: fix round 1 of the v0.3.0 review, 
         n["renamed_hu_from"] = n["name_hu"]
     n["name_hu"] = r["new_hu"]
     renamed6 += 1
+renamed7 = 0
+for r in jl("hu-renames-7.jsonl"):  # v0.5.0: shop words for nodes the tree gaps showed (Búvárkomputerek, Radlerek és sörkoktélok)
+    n = nodes[r["id"]]
+    assert n["name_hu"] == r["old_hu"], (r, n["name_hu"])
+    if n["renamed_hu_from"] is None and n["source"] != "own":
+        n["renamed_hu_from"] = n["name_hu"]
+    n["name_hu"] = r["new_hu"]
+    renamed7 += 1
 for r in jl("node-moves.jsonl"):
     assert r["new_parent_id"] in nodes, r
     old = r.get("old_parent_id") or r["id"].rsplit("-", 1)[0]
@@ -285,7 +293,7 @@ with open(T / "dist/attributes.jsonl", "w", encoding="utf-8") as f:
 # Report and checks
 own_n = sum(n["source"] == "own" for n in nodes.values())
 nf = sum(len(n["filters"]) for n in nodes.values())
-print("nodes", len(nodes), "own", own_n, "hu renamed", renamed, "+", renamed4, "(v0.2) +", renamed5, "(v0.3) +", renamed6, "(v0.3.1)", "en renamed", sum(bool(n["renamed_en_from"]) for n in nodes.values()))
+print("nodes", len(nodes), "own", own_n, "hu renamed", renamed, "+", renamed4, "(v0.2) +", renamed5, "(v0.3) +", renamed6, "(v0.3.1) +", renamed7, "(v0.5.0)", "en renamed", sum(bool(n["renamed_en_from"]) for n in nodes.values()))
 print("moved", sum(1 for n in nodes.values() if n.get("moved_from")), "filters added", filters_added)
 print("links", n_links, "on", sum(bool(n["links"]) for n in nodes.values()), "nodes; filters", nf, "on",
       sum(bool(n["filters"]) for n in nodes.values()), "nodes;", len(used), "Shopify attributes used")
