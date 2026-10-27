@@ -1,7 +1,7 @@
-"""Assemble the category tree (v0.2, 2026-10-26): Shopify v2026-08 backbone, Hungarian and English renames, own nodes,
-the Racket Sports group, node moves, links, Shopify's full attribute lists as filters, and Arukereso categories with
-their listed product counts. Every node is shown (operator 2026-10-26: "mindent"); has_products_hu stays null until
-our own shop reads fill it."""
+"""Assemble the category tree (v0.3, 2026-10-27): Shopify v2026-08 backbone, Hungarian and English renames, own nodes,
+the Racket Sports group, node moves, links, Shopify's full attribute lists as filters (plus the filter additions of
+v0.3), and Arukereso categories with their listed product counts (v0.3 remaps applied first). Every node is shown
+(operator 2026-10-26: "mindent"); has_products_hu stays null until our own shop reads fill it."""
 import collections, json, re, sys
 from pathlib import Path
 
@@ -73,10 +73,20 @@ for r in jl("hu-renames-4.jsonl"):
         n["renamed_hu_from"] = n["name_hu"]
     n["name_hu"] = r["new_hu"]
     renamed4 += 1
+renamed5 = 0
+for r in jl("hu-renames-5.jsonl"):  # v0.3: the name review of the nodes v0.2 did not review, with the consistency fixes
+    n = nodes[r["id"]]
+    assert n["name_hu"] == r["old_hu"], (r, n["name_hu"])
+    if n["renamed_hu_from"] is None and n["source"] != "own":
+        n["renamed_hu_from"] = n["name_hu"]
+    n["name_hu"] = r["new_hu"]
+    renamed5 += 1
 for r in jl("node-moves.jsonl"):
     assert r["new_parent_id"] in nodes, r
+    old = r.get("old_parent_id") or r["id"].rsplit("-", 1)[0]
+    assert nodes[r["id"]]["parent_id"] == old, (r, nodes[r["id"]]["parent_id"])
     nodes[r["id"]]["parent_id"] = r["new_parent_id"]
-    nodes[r["id"]]["moved_from"] = r["id"].rsplit("-", 1)[0]
+    nodes[r["id"]]["moved_from"] = old
 n_links = 0
 for r in jl("links.jsonl"):
     for t in r["to"]:
@@ -95,9 +105,16 @@ for n in nodes.values():
 
 # Arukereso categories: own node when the own-nodes step placed them, else the mapped Shopify node
 own_of = {p: r["id"] for r in own_rows for p in r["arukereso_paths"]}
+remap = {}
+for r in jl("arukereso-remaps.jsonl"):  # v0.3: an Arukereso category moved to another existing node, with its reason
+    remap[r["arukereso_path"]] = r
 not_counted = {r["arukereso_path"] for r in jl("arukereso-not-counted.jsonl")}
 for m in jl("mapping-arukereso.jsonl"):
     nid = own_of.get(m["arukereso_path"], m["shopify_id"])
+    if m["arukereso_path"] in remap:
+        r = remap.pop(m["arukereso_path"])
+        assert r["old_id"] == nid and r["new_id"] in nodes, (r, nid)
+        nid = r["new_id"]
     nodes[nid]["arukereso"].append({"path": m["arukereso_path"], "url": m["url"], "relation": m["relation"],
                                     "listed_products": m.get("products_listed_2026_10_19"),
                                     "counted": m["arukereso_path"] not in not_counted})
@@ -197,6 +214,20 @@ for r in jl("node-attributes.jsonl"):
                              "name_hu_reviewed": True, "values": [{"en": v.get("en"), "hu": v.get("hu")} for v in r["values"]]})
     elif r["attribute_id"] not in have and r["attribute_id"] in A:
         n["filters"].append({"attribute_id": r["attribute_id"], "source": "shopify"})
+assert not remap, remap
+filters_added = 0
+for r in jl("filter-adds.jsonl"):  # v0.3: a filter the node lacked, each with its reason
+    n = nodes[r["id"]]
+    assert not any(f["attribute_id"] == r["attribute_id"] for f in n["filters"]), r
+    if r["source"] == "shopify":
+        assert r["attribute_id"] in A, r
+        n["filters"].append({"attribute_id": r["attribute_id"], "source": "shopify"})
+    else:
+        src = [f for f in nodes[r["copy_from"]]["filters"] if f["attribute_id"] == r["attribute_id"]]
+        assert len(src) == 1, r
+        n["filters"].append(dict(src[0]))
+    n.setdefault("filters_added", []).append({"attribute_id": r["attribute_id"], "reason": r["reason"]})
+    filters_added += 1
 for r in jl("filter-drops.jsonl"):  # v0.2: inherited filters that do not apply to the node, each with its reason
     n = nodes[r["id"]]
     assert any(f["attribute_id"] == r["attribute_id"] for f in n["filters"]), r
@@ -228,7 +259,7 @@ assert all("depth" in n for n in nodes.values()), "a node is cut off from the tr
 
 KEYS = ("id", "parent_id", "depth", "name_en", "name_hu", "name_hu_reviewed", "path_en", "path_hu", "source", "renamed_hu_from",
         "renamed_en_from", "moved_from", "reason", "evidence", "links", "has_products_hu", "arukereso_products_own",
-        "arukereso_products_subtree", "arukereso", "filters_from", "filters", "filters_dropped")
+        "arukereso_products_subtree", "arukereso", "filters_from", "filters", "filters_added", "filters_dropped")
 out = sorted(nodes.values(), key=lambda n: n["path_en"])
 with open(T / "dist/tree.jsonl", "w", encoding="utf-8") as f:
     for n in out:
@@ -246,7 +277,8 @@ with open(T / "dist/attributes.jsonl", "w", encoding="utf-8") as f:
 # Report and checks
 own_n = sum(n["source"] == "own" for n in nodes.values())
 nf = sum(len(n["filters"]) for n in nodes.values())
-print("nodes", len(nodes), "own", own_n, "hu renamed", renamed, "+", renamed4, "(v0.2)", "en renamed", sum(bool(n["renamed_en_from"]) for n in nodes.values()))
+print("nodes", len(nodes), "own", own_n, "hu renamed", renamed, "+", renamed4, "(v0.2) +", renamed5, "(v0.3)", "en renamed", sum(bool(n["renamed_en_from"]) for n in nodes.values()))
+print("moved", sum(1 for n in nodes.values() if n.get("moved_from")), "filters added", filters_added)
 print("links", n_links, "on", sum(bool(n["links"]) for n in nodes.values()), "nodes; filters", nf, "on",
       sum(bool(n["filters"]) for n in nodes.values()), "nodes;", len(used), "Shopify attributes used")
 print("hu names reviewed", sum(n["name_hu_reviewed"] for n in nodes.values()), "of", len(nodes))
@@ -259,6 +291,9 @@ assert not [x for x in left if "Padel" in x], left
 padel_like = [x for x in left if not re.search(r"Boating|Swimming|Surfing|Diving|Hairbrush|Kitchen|Pickleball|Paddle Ball|Toys", x)]
 print("paddle names (none is padel):", len(left), padel_like)
 assert not padel_like, padel_like
+AGE_ONLY = re.compile(r"^(gyerek|gyermek|gyerekek|gyermekek|bébi|bébik|kids?|children|baby|babies|junior|juniors|felnőtt|felnőttek|adults?|teens?|tini|tinik|kamasz)$", re.I)
+age_only = [n["id"] for n in out if AGE_ONLY.match(n["name_en"].strip()) or AGE_ONLY.match(n["name_hu"].strip())]
+assert not age_only, age_only
 soccer = [n["id"] for n in out if re.search(r"soccer", re.sub(r"football \(soccer\)", "", n["name_en"], flags=re.I), re.I)]
 assert not soccer, soccer
 def soccer_alone(t):  # case-insensitive: "Soccer" or "soccer" only inside "Football (Soccer)"

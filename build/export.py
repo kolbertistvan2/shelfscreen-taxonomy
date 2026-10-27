@@ -1,4 +1,4 @@
-"""Write the release files from dist/tree.jsonl and dist/attributes.jsonl (v0.2, 2026-10-26): the whole tree as CSV, the
+"""Write the release files from dist/tree.jsonl and dist/attributes.jsonl (v0.3, 2026-10-27): the whole tree as CSV, the
 e-commerce category summary, and the browsable page (site/index.html from site/template.html). Every node is shown."""
 import collections, csv, json, sys
 from pathlib import Path
