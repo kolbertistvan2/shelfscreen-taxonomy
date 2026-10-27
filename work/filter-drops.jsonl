@@ -18,3 +18,4 @@
 {"id": "own-smart-rings", "attribute_id": "gemstone-clarity-grade", "reason": "inherited from Jewelry (aa-6); gemstone and diamond grades do not describe a smart ring"}
 {"id": "own-smart-rings", "attribute_id": "stone-cut-grade", "reason": "inherited from Jewelry (aa-6); gemstone and diamond grades do not describe a smart ring"}
 {"id": "own-smart-rings", "attribute_id": "stone-creation-method", "reason": "inherited from Jewelry (aa-6); gemstone and diamond grades do not describe a smart ring"}
+{"id": "ma-1-1", "attribute_id": "own-attr-garment-type", "reason": "every garment type value is a child node of Erotic Clothing since v0.3 (fix round 1, 2026-10-27)"}

@@ -111,7 +111,7 @@
 {"arukereso_path": "Műszaki cikk > Vázsapka", "products": 27, "reason": "covered: Lens Caps (co-1-3-3)."}
 {"arukereso_path": "Otthon és kert > Emésztőgödör, szeptikus tartály", "products": 24, "reason": "mixed bag: Septic parts, fire hose couplings and sewage lift tanks."}
 {"arukereso_path": "Otthon és kert > Esküvői dekoráció", "products": 24, "reason": "mixed bag: Wedding is an occasion; ribbons, petals and stickers fit Party Supplies."}
-{"arukereso_path": "Otthon és kert > Fagylaltkehely", "products": 14, "reason": "covered: Dinnerware Bowls (hg-11-10-4-1).", "revisited_2026_10_27": {"decision": "remapped", "node_id": "hg-11-10-4-1", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
+{"arukereso_path": "Otthon és kert > Fagylaltkehely", "products": 14, "reason": "covered: Dinnerware Bowls (hg-11-10-4-1)."}
 {"arukereso_path": "Otthon és kert > Gabion fal", "products": 0, "reason": "no products: Empty on Arukereso.", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-gabions", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Otthon és kert > Gabion kosár", "products": 0, "reason": "no products: Empty on Arukereso.", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-gabions", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Otthon és kert > Időjárás állomás szenzor", "products": 44, "reason": "covered: Measuring Tool & Sensor Accessories (ha-14-13)."}

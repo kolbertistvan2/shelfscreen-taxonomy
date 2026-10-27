@@ -81,6 +81,14 @@ for r in jl("hu-renames-5.jsonl"):  # v0.3: the name review of the nodes v0.2 di
         n["renamed_hu_from"] = n["name_hu"]
     n["name_hu"] = r["new_hu"]
     renamed5 += 1
+renamed6 = 0
+for r in jl("hu-renames-6.jsonl"):  # v0.3.1: fix round 1 of the v0.3.0 review, own-node name checks and the consistency fixes
+    n = nodes[r["id"]]
+    assert n["name_hu"] == r["old_hu"], (r, n["name_hu"])
+    if n["renamed_hu_from"] is None and n["source"] != "own":
+        n["renamed_hu_from"] = n["name_hu"]
+    n["name_hu"] = r["new_hu"]
+    renamed6 += 1
 for r in jl("node-moves.jsonl"):
     assert r["new_parent_id"] in nodes, r
     old = r.get("old_parent_id") or r["id"].rsplit("-", 1)[0]
@@ -101,7 +109,7 @@ for line in open(T / "work/hu-review-scope.tsv", encoding="utf-8"):
     if nid != "id":
         reviewed[nid] = rev
 for n in nodes.values():
-    n["name_hu_reviewed"] = n["id"] in reviewed or n["source"] == "own"
+    n["name_hu_reviewed"] = n["id"] in reviewed  # v0.3.1: own nodes too need a scope line
 
 # Arukereso categories: own node when the own-nodes step placed them, else the mapped Shopify node
 own_of = {p: r["id"] for r in own_rows for p in r["arukereso_paths"]}
@@ -277,7 +285,7 @@ with open(T / "dist/attributes.jsonl", "w", encoding="utf-8") as f:
 # Report and checks
 own_n = sum(n["source"] == "own" for n in nodes.values())
 nf = sum(len(n["filters"]) for n in nodes.values())
-print("nodes", len(nodes), "own", own_n, "hu renamed", renamed, "+", renamed4, "(v0.2) +", renamed5, "(v0.3)", "en renamed", sum(bool(n["renamed_en_from"]) for n in nodes.values()))
+print("nodes", len(nodes), "own", own_n, "hu renamed", renamed, "+", renamed4, "(v0.2) +", renamed5, "(v0.3) +", renamed6, "(v0.3.1)", "en renamed", sum(bool(n["renamed_en_from"]) for n in nodes.values()))
 print("moved", sum(1 for n in nodes.values() if n.get("moved_from")), "filters added", filters_added)
 print("links", n_links, "on", sum(bool(n["links"]) for n in nodes.values()), "nodes; filters", nf, "on",
       sum(bool(n["filters"]) for n in nodes.values()), "nodes;", len(used), "Shopify attributes used")
@@ -291,7 +299,10 @@ assert not [x for x in left if "Padel" in x], left
 padel_like = [x for x in left if not re.search(r"Boating|Swimming|Surfing|Diving|Hairbrush|Kitchen|Pickleball|Paddle Ball|Toys", x)]
 print("paddle names (none is padel):", len(left), padel_like)
 assert not padel_like, padel_like
-AGE_ONLY = re.compile(r"^(gyerek|gyermek|gyerekek|gyermekek|bébi|bébik|kids?|children|baby|babies|junior|juniors|felnőtt|felnőttek|adults?|teens?|tini|tinik|kamasz)$", re.I)
+# v0.3.1: an age group alone is no category name, in any suffixed form (Felnőtteknek, Gyerekeknek, Kids', Adults only)
+AGE_HU = re.compile(r"^((felnőtt|gyerek|gyermek|kisgyerek|kisgyermek|bébi|tini|kamasz|újszülött|kicsi)(ek|ök|k)?(nek|nak)?|babá(k)?nak)$", re.I)
+AGE_EN = re.compile(r"^(kids?'?|children'?s?|baby|babies|adults?( only)?|for adults|teens?|juniors?|toddlers?|infants?|newborns?)$", re.I)
+AGE_ONLY = re.compile(AGE_HU.pattern + "|" + AGE_EN.pattern, re.I)
 age_only = [n["id"] for n in out if AGE_ONLY.match(n["name_en"].strip()) or AGE_ONLY.match(n["name_hu"].strip())]
 assert not age_only, age_only
 soccer = [n["id"] for n in out if re.search(r"soccer", re.sub(r"football \(soccer\)", "", n["name_en"], flags=re.I), re.I)]

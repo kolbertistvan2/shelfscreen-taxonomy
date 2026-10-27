@@ -37,3 +37,4 @@
 {"id": "sg-1-18-8", "old_en": "Soccer Shoes", "new_en": "Football (Soccer) Boots", "reason": "English names say 'Football (Soccer)' where Shopify says 'Soccer' (operator 2026-10-26); the shoes are football boots"}
 {"id": "sg-1-18-9", "old_en": "Soccer Bags & Carriers", "new_en": "Football (Soccer) Bags & Carriers", "reason": "English names say 'Football (Soccer)' where Shopify says 'Soccer' (operator 2026-10-26)"}
 {"id": "tg-5-23-16", "old_en": "Soccer Toys", "new_en": "Football (Soccer) Toys", "reason": "English names say 'Football (Soccer)' where Shopify says 'Soccer' (operator 2026-10-26)"}
+{"id": "own-corded-drills", "old_en": "Drills & Hammer Drills", "new_en": "Drills", "reason": "drills without a screwdriving function; Hammer Drills and Impact Drills are their own nodes (fix round 1, 2026-10-27)"}

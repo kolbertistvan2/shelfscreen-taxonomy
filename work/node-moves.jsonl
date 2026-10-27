@@ -26,7 +26,6 @@
 {"id": "bi-25-14", "new_parent_id": "aa-1-24", "reason": "High-visibility vests are workwear; workwear goes under Fashion (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 26)", "added": "v0.3 (2026-10-27)"}
 {"id": "ha-14-26", "new_parent_id": "ha-15-80-2", "reason": "Tool sockets and socket wrenches are one shopping group; one home under Wrenches. (sources/tree-audit-2026-10-26/diy-findings.jsonl line 27)", "added": "v0.3 (2026-10-27)"}
 {"id": "hg-9-1-7", "new_parent_id": "own-heating", "reason": "Heating goes under DIY in one group (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 98)", "added": "v0.3 (2026-10-27)"}
-{"id": "hg-9-1-13", "new_parent_id": "own-heating", "reason": "Heating goes under DIY in one group (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 98)", "added": "v0.3 (2026-10-27)"}
 {"id": "hg-9-1-8", "new_parent_id": "own-heating", "reason": "Heating goes under DIY in one group (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 98)", "added": "v0.3 (2026-10-27)"}
 {"id": "hg-9-12", "new_parent_id": "own-heating", "reason": "Heating goes under DIY in one group (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 98)", "added": "v0.3 (2026-10-27)"}
 {"id": "hg-6", "new_parent_id": "own-heating", "reason": "Heating goes under DIY in one group (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 98)", "added": "v0.3 (2026-10-27)"}
@@ -34,6 +33,7 @@
 {"id": "hg-8-7", "new_parent_id": "own-heating", "reason": "Heating goes under DIY in one group (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 98)", "added": "v0.3 (2026-10-27)"}
 {"id": "hg-8-12", "new_parent_id": "own-heating", "reason": "Heating goes under DIY in one group (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 98)", "added": "v0.3 (2026-10-27)"}
 {"id": "own-underfloor-heating", "new_parent_id": "own-heating", "reason": "Heating goes under DIY in one group (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 98)", "added": "v0.3 (2026-10-27)", "old_parent_id": "ha-8"}
+{"id": "hg-6-2", "new_parent_id": "hg-12-2", "reason": "Outdoor fireplaces are garden products (DIY > Garden); the heating ruling covers heating devices, not garden fire pits (controller ruling, fix round 1, 2026-10-27). (sources/tree-audit-2026-10-26/diy-findings.jsonl line 98)", "added": "v0.3 (2026-10-27)"}
 {"id": "ha-15-69-2", "new_parent_id": "own-taps", "reason": "Spiral-flute taps are taps. (sources/tree-audit-2026-10-26/diy-findings.jsonl line 201)", "added": "v0.3 (2026-10-27)"}
 {"id": "ha-15-69-3", "new_parent_id": "own-taps", "reason": "Straight-flute taps are taps. (sources/tree-audit-2026-10-26/diy-findings.jsonl line 201)", "added": "v0.3 (2026-10-27)"}
 {"id": "ha-15-69-1", "new_parent_id": "own-dies", "reason": "Hex dies are dies. (sources/tree-audit-2026-10-26/diy-findings.jsonl line 201)", "added": "v0.3 (2026-10-27)"}
@@ -47,4 +47,3 @@
 {"id": "ae-2-6-3-1", "new_parent_id": "own-model-locomotives", "reason": "Diesel, electric and steam locomotives are locomotives. (sources/tree-audit-2026-10-26/hobby-findings.jsonl line 68)", "added": "v0.3 (2026-10-27)"}
 {"id": "ae-2-6-3-2", "new_parent_id": "own-model-locomotives", "reason": "Diesel, electric and steam locomotives are locomotives. (sources/tree-audit-2026-10-26/hobby-findings.jsonl line 68)", "added": "v0.3 (2026-10-27)"}
 {"id": "ae-2-6-3-5", "new_parent_id": "own-model-locomotives", "reason": "Diesel, electric and steam locomotives are locomotives. (sources/tree-audit-2026-10-26/hobby-findings.jsonl line 68)", "added": "v0.3 (2026-10-27)"}
-{"id": "hg-5-7", "new_parent_id": "own-heating", "reason": "Firewood, pellets and briquettes are heating fuel; heating goes under DIY (controller ruling 2026-10-27). (sources/tree-audit-2026-10-26/other-findings.jsonl line 29)", "added": "v0.3 (2026-10-27)"}

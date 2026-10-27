@@ -3,23 +3,23 @@
 A product category tree for webshop catalogues: one modern, market-wide tree with English and Hungarian names,
 built on Shopify's Standard Product Taxonomy v2026-08. Hungary first; other markets add their languages later.
 
-Version 0.3 (2026-10-27). Version 0.2 was 2026-10-26 (two fix rounds on 2026-10-27), version 0.1 was 2026-10-20.
+Version 0.3.1 (2026-10-27, fix round 1 of the v0.3.0 review). Version 0.2 was 2026-10-26 (two fix rounds on 2026-10-27), version 0.1 was 2026-10-20.
 
 ## What is in it
 
-| | v0.1 (2026-10-20) | v0.2 (2026-10-26) | v0.3 (2026-10-27) |
+| | v0.1 (2026-10-20) | v0.2 (2026-10-26) | v0.3.1 (2026-10-27) |
 |---|---|---|---|
-| Nodes | 14 865: Shopify's 14 606 plus 259 own | 14 901: Shopify's 14 606 plus 295 own | 15 056: Shopify's 14 606 plus 450 own |
+| Nodes | 14 865: Shopify's 14 606 plus 259 own | 14 901: Shopify's 14 606 plus 295 own | 15 055: Shopify's 14 606 plus 449 own |
 | Shown | 3 095 (only nodes with Hungarian products under them) | every node | every node |
-| Hungarian names | every node; 1 512 Shopify translations corrected | every node; 1 512 + 847 corrected; 6 212 marked reviewed | every node; 1 512 + 847 + 3 283 corrected; 14 298 marked reviewed (758 not: the reviewer was unsure) |
-| English names | Shopify's | 39 renamed to "Football (Soccer)" | the same |
-| Links | none | 114 on 13 nodes (Shoes and Clothing to the sport nodes) | 269 on 114 nodes |
-| Node moves | none | 15 Shopify nodes moved under own nodes | 50 (35 more: the motorcycle, heating and gift-set homes and others) |
-| Filters | 300 on 267 nodes | 95 058 on 14 742 nodes, from 8 501 Shopify attributes with all their values; 20 inherited filters dropped with a reason | 95 973 on 14 889 nodes; 16 filters added with a reason; the same 20 dropped |
-| Arukereso | all 2 988 categories placed; 10 234 765 products | all 2 988 placed; 9 732 089 products counted (two custom configuration categories not counted) | the same; 25 categories moved to a better existing node and 143 placed on new own nodes |
-| E-commerce categories | every node classed into seven e-commerce categories | the same, with the new nodes classed | the same; Fireplaces and Firewood & Fuel reclassed to DIY (heating) |
+| Hungarian names | every node; 1 512 Shopify translations corrected | every node; 1 512 + 847 corrected; 6 212 marked reviewed | every node; 1 512 + 847 + 3 283 + 105 corrected; 14 297 marked reviewed (758 not: the reviewer was unsure) |
+| English names | Shopify's | 39 renamed to "Football (Soccer)" | the same, plus Drills (own node) |
+| Links | none | 114 on 13 nodes (Shoes and Clothing to the sport nodes) | 271 on 114 nodes |
+| Node moves | none | 15 Shopify nodes moved under own nodes | 49 (34 more: the motorcycle, heating and gift-set homes and others) |
+| Filters | 300 on 267 nodes | 95 058 on 14 742 nodes, from 8 501 Shopify attributes with all their values; 20 inherited filters dropped with a reason | 95 969 on 14 888 nodes; 16 filters added with a reason; 21 dropped (the 20 and the garment type on Erotic Clothing) |
+| Arukereso | all 2 988 categories placed; 10 234 765 products | all 2 988 placed; 9 732 089 products counted (two custom configuration categories not counted) | the same; 21 categories moved to a better existing node and 142 placed on new own nodes |
+| E-commerce categories | every node classed into seven e-commerce categories | the same, with the new nodes classed | the same; Fireplaces reclassed to DIY (heating), Paper Hand Towels to Care Products > Personal Care, Practice Heads to Other |
 
-Counts from `sh build/all.sh` on 2026-10-27 (v0.3) and from the v0.1 and v0.2 release files.
+Counts from `sh build/all.sh` on 2026-10-27 (v0.3.1) and from the v0.1 and v0.2 release files.
 
 ## Rules
 
@@ -27,10 +27,12 @@ Counts from `sh build/all.sh` on 2026-10-27 (v0.3) and from the v0.1 and v0.2 re
   (2021-09-21) is only a mapping target, through Shopify's own mapping file.
 - Every node has an English and a Hungarian name. Shopify's Hungarian translation is not taken as it is: v0.2
   reviewed the sport, shoes and clothing branches, v0.3 every other node. `name_hu_reviewed` is true where the
-  reviewer was sure (changed or kept); 758 names the reviewer was unsure of stay `false`, changed or not.
-- No category is named only by an age group ("Gyerek", "Kids"); a children's category names its product type
+  reviewer was sure (changed or kept); 758 names the reviewer was unsure of stay `false`, changed or not. An own
+  node counts as reviewed only through its line in `work/hu-review-scope.tsv` (since v0.3.1; the 154 v0.3 own
+  nodes were checked one by one in fix round 1).
+- No category is named only by an age group ("Gyerek", "Felnőtteknek", "Kids"), in any suffixed form; a children's category names its product type
   (the operator, 2026-10-27). The children's branches (Baby & Children's Clothing and Shoes) stay (the operator,
-  2026-10-27). The build stops on an age-only name.
+  2026-10-27). The build stops on an age-only name. Mature is "Korhatáros termékek (18+)" in Hungarian.
 - Every node is shown (the operator, 2026-10-26). `has_products_hu` stays empty (null) until the product
   database fills it; the Arukereso counts are their own fields (`arukereso_products_own`,
   `arukereso_products_subtree`) and do not decide what is shown.
@@ -50,8 +52,10 @@ Counts from `sh build/all.sh` on 2026-10-27 (v0.3) and from the v0.1 and v0.2 re
 - Controller rulings of 2026-10-27 (the operator left these to the controller: "nem tudom"; they are not his
   words, see `work/controller-rulings.jsonl`): motorcycle parts have their own group (Vehicle Parts & Accessories >
   Motorcycle Parts & Accessories) beside the car parts; tyre season is a filter (Vehicle tire type), not a node;
-  heating goes under DIY (Hardware > Heating, Ventilation & Air Conditioning > Heating, with boilers, heat pumps,
-  radiators, water heaters, fireplaces, fuel and their accessories); workwear goes under Fashion (Safety Boots under
+  heating goes under DIY (Hardware > Heating, Ventilation & Air Conditioning > Heating, with boilers, radiators,
+  water heaters, indoor fireplaces and their accessories; heat pumps stay under Climate Control Appliances with a
+  link from Heating, firewood and fuel stay with the fireplace accessories, outdoor fireplaces go to Outdoor
+  Living: the heating ruling covers heating devices, not fuel or garden fire pits, fix round 1); workwear goes under Fashion (Safety Boots under
   Shoes, High-Visibility Safety Apparel under Uniforms & Workwear; protective equipment stays in Work Safety
   Protective Gear).
 - A console platform (PlayStation, Xbox, Nintendo) is brand-named, so it stays a filter (Video game platform);
@@ -93,14 +97,14 @@ correction.
 
 ## Changes from v0.2
 
-| v0.2 | v0.3 |
+| v0.2 | v0.3.1 |
 |---|---|
-| Hungarian names reviewed in the sport, shoes and clothing branches (6 212) | every branch reviewed (14 298 marked reviewed); `work/hu-renames-5.jsonl` holds 3 283 corrections, each with the name it replaced (`old_hu`), the reviewer's certainty (`sure`) and its source (review, consistency check or audit naming finding) |
-| own nodes in sport and fashion | 155 more own nodes in DIY, Electronics, Furniture & Homeware, Care Products, Grocery and Hobby & Leisure, each with its evidence and the audit finding it answers |
-| Arukereso categories placed by the v0.1 mapping or an own node | `work/arukereso-remaps.jsonl` moves 25 categories to a better existing node (the build checks the old node) |
+| Hungarian names reviewed in the sport, shoes and clothing branches (6 212) | every branch reviewed (14 297 marked reviewed); `work/hu-renames-5.jsonl` holds 3 283 corrections and `work/hu-renames-6.jsonl` the 105 of fix round 1, each with the name it replaced (`old_hu`), the reviewer's certainty (`sure`) and its source (review, consistency check or audit naming finding) |
+| own nodes in sport and fashion | 154 more own nodes in DIY, Electronics, Furniture & Homeware, Care Products, Grocery and Hobby & Leisure, each with its evidence and the audit finding it answers |
+| Arukereso categories placed by the v0.1 mapping or an own node | `work/arukereso-remaps.jsonl` moves 21 categories to a better existing node (the build checks the old node) |
 | filters from Shopify's list, minus the dropped ones | plus `filters_added` (`work/filter-adds.jsonl`) |
 | `moved_from` on moved Shopify nodes | also on moved own nodes (`old_parent_id` in `work/node-moves.jsonl`; the build checks it) |
-| e-commerce classes in `ecommerce-1..4.jsonl` | plus `ecommerce-5.jsonl` (Fireplaces and Firewood & Fuel to DIY under the heating ruling; the older rows carry `superseded_by`) |
+| e-commerce classes in `ecommerce-1..4.jsonl` | plus `ecommerce-5.jsonl` (Fireplaces to DIY under the heating ruling, Paper Hand Towels, Practice Heads; the older rows carry `superseded_by`) |
 | no record of the audit decisions | `work/audit-v03-decisions.jsonl`: one row per finding of the seven audits (1 120), with the decision and the nodes it made |
 
 ## Changes from v0.1
@@ -166,8 +170,8 @@ The decisions in `work/`:
 | `controller-rulings.jsonl` | the controller's rulings of 2026-10-27 on the DIY questions the operator left open (not his words) |
 | `audit-v03-decisions.jsonl` | the decision on every finding of the seven v0.3 audits |
 | `mapping-arukereso.jsonl`, `arukereso-not-counted.jsonl` | Arukereso categories on the tree; the ones not counted |
-| `hu-renames-1..5.jsonl`, `hu-review-scope.tsv` | Hungarian node renames; which node names were reviewed and in which round |
-| `en-renames.jsonl` | English node renames (Football (Soccer)) |
+| `hu-renames-1..6.jsonl`, `hu-review-scope.tsv` | Hungarian node renames; which node names were reviewed and in which round |
+| `en-renames.jsonl` | English node renames (Football (Soccer), Drills) |
 | `own-nodes.jsonl`, `own-nodes-rejected.jsonl` | own nodes with their evidence; proposals rejected, with reasons |
 | `node-moves.jsonl`, `links.jsonl` | moved nodes; links between nodes |
 | `arukereso-remaps.jsonl` | Arukereso categories moved to another existing node, with the old node and the reason |
@@ -185,6 +189,8 @@ it. In v0.3 seven reviewers checked the Hungarian names of the remaining 8 689 n
 unsure); the controller checked every parent and child pair and every renamed term across the tree for
 consistency and fixed 36 names (for example camera lenses are objektív throughout, Taps & Dies is Menetfúrók és
 menetmetszők, the Rivet Guns children say szegecshúzó), and applied 9 audit naming findings on names reviewed
-earlier. The structure of DIY, Electronics, Furniture & Homeware, Care Products, Grocery, Hobby & Leisure and Other
-follows the 2026-10-26 audit findings: 155 own nodes, 35 moves, 155 links and 25 remapped Arukereso categories, each
+earlier. Fix round 1 of the v0.3.0 review (v0.3.1) applied the review's name table, checked the 154 new own
+node names one by one and every renamed name against its parent, and reverted four remaps that contradicted their
+evidence. The structure of DIY, Electronics, Furniture & Homeware, Care Products, Grocery, Hobby & Leisure and Other
+follows the 2026-10-26 audit findings: 154 own nodes, 34 moves, 157 links and 21 remapped Arukereso categories, each
 tied to its finding. Each decision sits in `work/` with its reason; a change is made there and the tree rebuilt.
