@@ -7,19 +7,19 @@ Version 0.5.0 (2026-10-27: the tree gaps, 57 own nodes for product types no node
 
 ## What is in it
 
-| | v0.1 (2026-10-20) | v0.2 (2026-10-26) | v0.3.1 (2026-10-27) | v0.4.0 (2026-10-27) | v0.5.0 (2026-10-27) |
-|---|---|---|---|---|---|
-| Nodes | 14 865: Shopify's 14 606 plus 259 own | 14 901: Shopify's 14 606 plus 295 own | 15 055: Shopify's 14 606 plus 449 own | the same | 15 112: Shopify's 14 606 plus 506 own (57 new, see "Tree gaps") |
-| Shown | 3 095 (only nodes with Hungarian products under them) | every node | every node | the same | the same |
-| Hungarian names | every node; 1 512 Shopify translations corrected | every node; 1 512 + 847 corrected; 6 212 marked reviewed | every node; 1 512 + 847 + 3 283 + 105 corrected; 14 297 marked reviewed (758 not: the reviewer was unsure) | the same | every node; 2 more Shopify names corrected (`hu-renames-7.jsonl`); 14 354 marked reviewed (the 57 new own nodes named when made) |
-| English names | Shopify's | 39 renamed to "Football (Soccer)" | the same, plus Drills (own node) | the same | the same |
-| Links | none | 114 on 13 nodes (Shoes and Clothing to the sport nodes) | 271 on 114 nodes | the same | 300 on 125 nodes (the new sport clothing, Beer to the radlers) |
-| Node moves | none | 15 Shopify nodes moved under own nodes | 49 (34 more: the motorcycle, heating and gift-set homes and others) | the same | the same |
-| Filters | 300 on 267 nodes | 95 058 on 14 742 nodes, from 8 501 Shopify attributes with all their values; 20 inherited filters dropped with a reason | 95 969 on 14 888 nodes; 16 filters added with a reason; 21 dropped (the 20 and the garment type on Erotic Clothing) | the same | 96 447 on 14 945 nodes; 18 added (beer kinds on alcohol-free beer); 13 kind values and 2 filter names corrected in Hungarian |
-| Arukereso | all 2 988 categories placed; 10 234 765 products | all 2 988 placed; 9 732 089 products counted (two custom configuration categories not counted) | the same; 21 categories moved to a better existing node and 142 placed on new own nodes | the same | the same |
-| E-commerce categories | every node classed into seven e-commerce categories | the same, with the new nodes classed | the same; Fireplaces reclassed to DIY (heating), Paper Hand Towels to Care Products > Personal Care, Practice Heads to Other | every node classed on its own, with a source (rule, jev, review, review-pending, ruling) and the Jev's confidence; see "E-commerce categories" below; v0.4.1: ruling II (ECDB first) moves 9 ruled nodes to their reviewed class | the new own nodes inherit their parent's class; 6 sport clothing nodes carry their own (`ecommerce-7.jsonl`) |
+| | v0.1 (2026-10-20) | v0.2 (2026-10-26) | v0.3.1 (2026-10-27) | v0.4.0 (2026-10-27) | v0.5.0 (2026-10-27) | v0.5.1 (2026-10-27) |
+|---|---|---|---|---|---|---|
+| Nodes | 14 865: Shopify's 14 606 plus 259 own | 14 901: Shopify's 14 606 plus 295 own | 15 055: Shopify's 14 606 plus 449 own | the same | 15 112: Shopify's 14 606 plus 506 own (57 new, see "Tree gaps") | 15 115: Shopify's 14 606 plus 509 own (3 new, see "Aliases and tree gaps (v0.5.1)") |
+| Shown | 3 095 (only nodes with Hungarian products under them) | every node | every node | the same | the same | the same |
+| Hungarian names | every node; 1 512 Shopify translations corrected | every node; 1 512 + 847 corrected; 6 212 marked reviewed | every node; 1 512 + 847 + 3 283 + 105 corrected; 14 297 marked reviewed (758 not: the reviewer was unsure) | the same | every node; 2 more Shopify names corrected (`hu-renames-7.jsonl`); 14 354 marked reviewed (the 57 new own nodes named when made) | 1 more corrected (`hu-renames-8.jsonl`, Elektromos csónakmotorok); 14 358 marked reviewed; 30 aliases on 16 nodes (`aliases_hu`, `aliases_en`) |
+| English names | Shopify's | 39 renamed to "Football (Soccer)" | the same, plus Drills (own node) | the same | the same | the same |
+| Links | none | 114 on 13 nodes (Shoes and Clothing to the sport nodes) | 271 on 114 nodes | the same | 300 on 125 nodes (the new sport clothing, Beer to the radlers) | the same |
+| Node moves | none | 15 Shopify nodes moved under own nodes | 49 (34 more: the motorcycle, heating and gift-set homes and others) | the same | the same | the same |
+| Filters | 300 on 267 nodes | 95 058 on 14 742 nodes, from 8 501 Shopify attributes with all their values; 20 inherited filters dropped with a reason | 95 969 on 14 888 nodes; 16 filters added with a reason; 21 dropped (the 20 and the garment type on Erotic Clothing) | the same | 96 447 on 14 945 nodes; 18 added (beer kinds on alcohol-free beer); 13 kind values and 2 filter names corrected in Hungarian | 96 474 on 14 948 nodes; 22 added (boot-type on Chaps, seafood-cut, bag-style on Padel Bags); 2 own kind filters (dish of a ready meal, kind of a vegetable mix); 3 own values (Ale, Flavoured beer, Hake); 1 value renamed (Half chaps: Hopilett) |
+| Arukereso | all 2 988 categories placed; 10 234 765 products | all 2 988 placed; 9 732 089 products counted (two custom configuration categories not counted) | the same; 21 categories moved to a better existing node and 142 placed on new own nodes | the same | the same | the same |
+| E-commerce categories | every node classed into seven e-commerce categories | the same, with the new nodes classed | the same; Fireplaces reclassed to DIY (heating), Paper Hand Towels to Care Products > Personal Care, Practice Heads to Other | every node classed on its own, with a source (rule, jev, review, review-pending, ruling) and the Jev's confidence; see "E-commerce categories" below; v0.4.1: ruling II (ECDB first) moves 9 ruled nodes to their reviewed class | the new own nodes inherit their parent's class; 6 sport clothing nodes carry their own (`ecommerce-7.jsonl`) | the 3 new own nodes inherit their parent's class |
 
-Counts from `sh build/all.sh` on 2026-10-27 (v0.5.0, v0.4.1, v0.4.0 and v0.3.1) and from the v0.1 and v0.2 release files.
+Counts from `sh build/all.sh` on 2026-10-27 (v0.5.1, v0.5.0, v0.4.1, v0.4.0 and v0.3.1) and from the v0.1 and v0.2 release files.
 
 ## Rules
 
@@ -196,6 +196,36 @@ tőkehal", Scallop "Fésűkagyló", Squid "Kalmár", Crab "Tarisznyarák", Calam
 Pellet "Légfegyver-lövedék"; and the filter names seafood-type "Hal vagy tenger gyümölcse fajtája" and
 artificial-bait-form "Csali formája".
 
+## Aliases and tree gaps (v0.5.1)
+
+The second pass on the tree gaps, from the name builder's measured misses on tree v0.5.0 (the catalogue branch's
+`bench/name_gold/loop.md`, "Tree gaps for the next taxonomy pass"), under the same hand-over (the operator,
+2026-10-27 19:24: "oldd ezeket meg okosan") and controller ruling ZZ.
+
+Aliases: `work/aliases.jsonl` holds one row per word (`id`, `lang`, `alias`, `relation`, `source`, `added`), and the
+build writes them on the node as `aliases_hu` and `aliases_en` (empty lists elsewhere). An alias is a word shops use
+for the node that its names lack, with its source (the shop wording or product it was read from); never a brand,
+never a filter value alone. `relation` is `synonym`, or `compound` for a shop word that joins the node's word and
+one of its filter values (`deostick`: Deodorants + dispenser-type Stick; `karfiolrózsa`: Cauliflower +
+vegetable-preparation-style Florets). 30 aliases on 16 nodes, for example `komputer` and `búvárszámítógép` (Dive
+Computers), `fogaskoszorú` (Bicycle Cassettes), `sícipő` (Ski Boots), `lövedék` (BBs), `markolat` (Padel Grips &
+Overgrips), `pressurizer` and `labdanyomás-megőrző` (Padel Ball Pressurizers), `deo` and `deostick` (Deodorants),
+`futóóra` (Sports Watches), `zöldségburger` (Plant-Based Burgers), `sörital` and `beer mix` (Beer-Based Cocktails),
+`kormánybandázs` (Handlebar Tape & Wraps).
+
+| Outcome | What |
+|---|---|
+| own node (3) | Fish Bites & Shapes (Halfalatkák és halfigurák, 6 products: halfalatka, halfigura, fish nuggets), Protein Water (Fehérjevizek, 2), Peteca (1, a game of its own beside Basque pelota) |
+| own value (3, `value-adds.jsonl`) | beer-variety Ale (7 beers say only "ale") and Flavoured beer (Ízesített sör, 5 beers flavoured in brewing; a beer mixed with a flavoured drink stays Beer-Based Cocktails); seafood-type Hake (Hekk, 2) |
+| own kind filter (2, `node-attributes.jsonl`) | Prepared Meals & Entrées: dish (lasagne, tepsis halfilé, rák rizzsel, paella, risotto, gnocchi, curry, pasta dish, rice dish); Vegetable Mixes: kind (serpenyős, wok, tepsis, krémleves, leveszöldség, franciasaláta-alap, rizses) |
+| filter added (4) | boot-type on Chaps (v0.5.0 recorded hopilett as Chaps + Half chaps without the filter on the node); seafood-cut on Fresh & Frozen Seafood and Breaded Fish & Seafood (tilápiafilé, lazacsteak, hekkfilé); bag-style on Padel Bags (padel hátizsák) |
+| renamed | Trolling Motors: Elektromos csónakmotorok (was Villanymotorok); boot-type Half chaps: Hopilett |
+| covered by a node | etetőpellet-szett (Fishing Pellets), hátsó gyerekülés (Bicycle Child Seats + placement Rear), kormányszalag-rögzítő ragasztószalag (Handlebar Tape & Wraps, one product), hajpánt (Hair Bands; the gold row's Headbands is in doubt), izomstimulátor and testpermet (their nodes' names hold the word) |
+
+Every candidate has a row in `own-nodes-rejected.jsonl` with `added: v0.5.1` (22 rows), counts read on 2026-10-27
+from the Decathlon builder input, the beer, FRoSTA, perfume and padel databases and the name gold set. A product type
+of its own needs real products in that data, not a threshold.
+
 ## Filters
 
 A node's filters are Shopify's attribute list for its category, with all values. An own node takes the list of
@@ -215,6 +245,15 @@ and stay unreviewed. In all, 16 093 of the 73 133 distinct values in the diction
 `work/filter-renames.jsonl` holds 1 131 rows: 340 attribute names and 769 values corrected in Hungarian, 15
 attribute names and 9 values in English (a row may carry both), each with the name it replaced (`old_hu` or `old_en`); the build checks that name before it applies a
 correction.
+
+## Changes from v0.5.0
+
+| v0.5.0 | v0.5.1 |
+|---|---|
+| no aliases | `aliases_hu`, `aliases_en` on every node (`work/aliases.jsonl`) |
+| Shopify's attribute values only | plus own values (`work/value-adds.jsonl`, id `own-...`), kept before Other |
+| `hu-renames-1..7.jsonl` | plus `hu-renames-8.jsonl` |
+| 506 own nodes | 509 |
 
 ## Changes from v0.4.1
 
@@ -267,6 +306,7 @@ correction.
 | `renamed_hu_from`, `renamed_en_from` | Shopify's name before a rename, else null |
 | `moved_from` | the parent before the node was moved (only on moved nodes) |
 | `reason`, `evidence` | own nodes only: why the node exists, and the measured evidence |
+| `aliases_hu`, `aliases_en` | words shops use for the node that its names lack (since v0.5.1; empty lists where none) |
 | `links` | ids of nodes this node points to (Apparel > Shoes and Clothing to the sport nodes) |
 | `has_products_hu` | null for now |
 | `arukereso_products_own`, `arukereso_products_subtree` | Arukereso "N termék" counts (2026-10-19) on the node and under it, counted categories only |
@@ -284,13 +324,13 @@ correction.
 | `attribute_id` | Shopify handle, the key a node filter refers to |
 | `shopify_id`, `base_attribute_id` | Shopify's numeric id; for an extended attribute, the attribute it takes its values from |
 | `name_en`, `name_hu`, `name_hu_reviewed`, `renamed_hu_from` | names, review flag, the Hungarian name before a correction |
-| `values[]` | `id`, `en`, `hu`, `hu_reviewed`, `renamed_hu_from` |
+| `values[]` | `id`, `en`, `hu`, `hu_reviewed`, `renamed_hu_from`; an own value (v0.5.1) has an id starting `own-` |
 
 ## Layout
 
 | Path | What |
 |---|---|
-| `dist/tree.jsonl` | every node: id, parent, names, paths, source, rename and move history, evidence, links, Arukereso categories and counts, filters, e-commerce category |
+| `dist/tree.jsonl` | every node: id, parent, names, paths, source, rename and move history, evidence, aliases, links, Arukereso categories and counts, filters, e-commerce category |
 | `dist/attributes.jsonl` | the filter dictionary: every Shopify attribute in use with its English and Hungarian names and values |
 | `dist/tree-hu.csv` | every node, flat, with Hungarian names and filter names |
 | `dist/ecommerce-summary.csv` | Arukereso products per e-commerce category and subcategory |
@@ -310,9 +350,10 @@ The decisions in `work/`:
 | `controller-rulings.jsonl` | the controller's rulings of 2026-10-27 on the DIY questions the operator left open (not his words) |
 | `audit-v03-decisions.jsonl` | the decision on every finding of the seven v0.3 audits |
 | `mapping-arukereso.jsonl`, `arukereso-not-counted.jsonl` | Arukereso categories on the tree; the ones not counted |
-| `hu-renames-1..7.jsonl`, `hu-review-scope.tsv` | Hungarian node renames; which node names were reviewed and in which round |
+| `hu-renames-1..8.jsonl`, `hu-review-scope.tsv` | Hungarian node renames; which node names were reviewed and in which round |
 | `en-renames.jsonl` | English node renames (Football (Soccer), Drills) |
 | `own-nodes.jsonl`, `own-nodes-rejected.jsonl` | own nodes with their evidence; proposals rejected, with reasons |
+| `aliases.jsonl`, `value-adds.jsonl` | node aliases with their sources; own values of Shopify attributes, with reasons (v0.5.1) |
 | `node-moves.jsonl`, `links.jsonl` | moved nodes; links between nodes |
 | `arukereso-remaps.jsonl` | Arukereso categories moved to another existing node, with the old node and the reason |
 | `node-attributes.jsonl`, `filter-adds.jsonl`, `filter-drops.jsonl` | own filters; filters added; inherited filters dropped, with reasons |

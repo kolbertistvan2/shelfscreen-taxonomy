@@ -97,6 +97,14 @@ for r in jl("hu-renames-7.jsonl"):  # v0.5.0: shop words for nodes the tree gaps
         n["renamed_hu_from"] = n["name_hu"]
     n["name_hu"] = r["new_hu"]
     renamed7 += 1
+renamed8 = 0
+for r in jl("hu-renames-8.jsonl"):  # v0.5.1: shop words for nodes the name builder's misses showed (Elektromos csónakmotorok)
+    n = nodes[r["id"]]
+    assert n["name_hu"] == r["old_hu"], (r, n["name_hu"])
+    if n["renamed_hu_from"] is None and n["source"] != "own":
+        n["renamed_hu_from"] = n["name_hu"]
+    n["name_hu"] = r["new_hu"]
+    renamed8 += 1
 for r in jl("node-moves.jsonl"):
     assert r["new_parent_id"] in nodes, r
     old = r.get("old_parent_id") or r["id"].rsplit("-", 1)[0]
@@ -194,6 +202,14 @@ for r in jl("filter-renames.jsonl"):
         x["renamed_hu_from"], x[hu_k] = x[hu_k], r["new_hu"]
         x["name_hu_reviewed" if key else "hu_reviewed"] = True
     filter_renamed += 1
+values_added = 0
+for r in jl("value-adds.jsonl"):  # v0.5.1: a kind a Shopify attribute lacks (plain ale, hake), each with its reason; kept before Other
+    a = A[r["attribute_id"]]
+    assert r["value_id"] not in VH and r["en"] not in {VH[v]["en"] for v in a["vids"]}, r
+    VH[r["value_id"]] = {"en": r["en"], "hu": r["hu"], "hu_reviewed": True, "renamed_hu_from": None}
+    other = [i for i, v in enumerate(a["vids"]) if VH[v]["en"] == "Other"]
+    a["vids"].insert(other[0] if other else len(a["vids"]), r["value_id"])
+    values_added += 1
 for a in A.values():  # an extended attribute keeps its own English name but takes a reviewed base name only if unreviewed
     if a["base_attribute_id"] and not a["name_hu"]:
         a["name_hu"] = A[a["base_attribute_id"]]["name_hu"]
@@ -252,6 +268,17 @@ for r in jl("filter-drops.jsonl"):  # v0.2: inherited filters that do not apply 
 for n in nodes.values():  # a Shopify filter names its attribute; names and values are in dist/attributes.jsonl
     used.update(f["attribute_id"] for f in n["filters"] if f["source"] == "shopify")
 
+# v0.5.1: aliases, the words shops use for a node that its names lack (work/aliases.jsonl, one row per word with its source)
+for n in nodes.values():
+    n["aliases_hu"], n["aliases_en"] = [], []
+for r in jl("aliases.jsonl"):
+    n = nodes[r["id"]]
+    key = "aliases_" + r["lang"]
+    low = r["alias"].lower()
+    assert low not in (n["name_hu"].lower(), n["name_en"].lower()) and low not in [x.lower() for x in n[key]], r
+    n[key].append(r["alias"])
+n_aliases = sum(len(n["aliases_hu"]) + len(n["aliases_en"]) for n in nodes.values())
+
 children = collections.defaultdict(list)
 for n in nodes.values():
     if n["parent_id"]:
@@ -274,7 +301,7 @@ for root in [n["id"] for n in nodes.values() if not n["parent_id"]]:
 assert all("depth" in n for n in nodes.values()), "a node is cut off from the tree"
 
 KEYS = ("id", "parent_id", "depth", "name_en", "name_hu", "name_hu_reviewed", "path_en", "path_hu", "source", "renamed_hu_from",
-        "renamed_en_from", "moved_from", "reason", "evidence", "links", "has_products_hu", "arukereso_products_own",
+        "renamed_en_from", "moved_from", "reason", "evidence", "aliases_hu", "aliases_en", "links", "has_products_hu", "arukereso_products_own",
         "arukereso_products_subtree", "arukereso", "filters_from", "filters", "filters_added", "filters_dropped")
 out = sorted(nodes.values(), key=lambda n: n["path_en"])
 with open(T / "dist/tree.jsonl", "w", encoding="utf-8") as f:
@@ -293,8 +320,9 @@ with open(T / "dist/attributes.jsonl", "w", encoding="utf-8") as f:
 # Report and checks
 own_n = sum(n["source"] == "own" for n in nodes.values())
 nf = sum(len(n["filters"]) for n in nodes.values())
-print("nodes", len(nodes), "own", own_n, "hu renamed", renamed, "+", renamed4, "(v0.2) +", renamed5, "(v0.3) +", renamed6, "(v0.3.1) +", renamed7, "(v0.5.0)", "en renamed", sum(bool(n["renamed_en_from"]) for n in nodes.values()))
-print("moved", sum(1 for n in nodes.values() if n.get("moved_from")), "filters added", filters_added)
+print("nodes", len(nodes), "own", own_n, "hu renamed", renamed, "+", renamed4, "(v0.2) +", renamed5, "(v0.3) +", renamed6, "(v0.3.1) +", renamed7, "(v0.5.0) +", renamed8, "(v0.5.1)", "en renamed", sum(bool(n["renamed_en_from"]) for n in nodes.values()))
+print("moved", sum(1 for n in nodes.values() if n.get("moved_from")), "filters added", filters_added, "values added", values_added,
+      "aliases", n_aliases)
 print("links", n_links, "on", sum(bool(n["links"]) for n in nodes.values()), "nodes; filters", nf, "on",
       sum(bool(n["filters"]) for n in nodes.values()), "nodes;", len(used), "Shopify attributes used")
 print("hu names reviewed", sum(n["name_hu_reviewed"] for n in nodes.values()), "of", len(nodes))
