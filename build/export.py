@@ -1,4 +1,4 @@
-"""Write the release files from dist/tree.jsonl and dist/attributes.jsonl (v0.3, 2026-10-27): the whole tree as CSV, the
+"""Write the release files from dist/tree.jsonl and dist/attributes.jsonl (v0.4, 2026-10-27): the whole tree as CSV, the
 e-commerce category summary, and the browsable page (site/index.html from site/template.html). Every node is shown."""
 import collections, csv, json, sys
 from pathlib import Path
@@ -15,12 +15,14 @@ with open(T / "dist/tree-hu.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
     w.writerow(["id", "parent_id", "depth", "path_hu", "path_en", "name_hu", "name_en", "name_hu_reviewed", "source",
                 "links", "arukereso_products_subtree", "arukereso_products_own", "ecommerce_main", "ecommerce_sub",
-                "ecommerce_main_hu", "ecommerce_sub_hu", "ecommerce_fit", "arukereso_categories", "filters_hu", "filters_en"])
+                "ecommerce_main_hu", "ecommerce_sub_hu", "ecommerce_fit", "ecommerce_source", "ecommerce_confidence",
+                "arukereso_categories", "filters_hu", "filters_en"])
     for n in rows:
         e = n["ecommerce_category"]
         w.writerow([n["id"], n["parent_id"], n["depth"], n["path_hu"], n["path_en"], n["name_hu"], n["name_en"],
                     int(n["name_hu_reviewed"]), n["source"], " ".join(n["links"]), n["arukereso_products_subtree"],
-                    n["arukereso_products_own"], e["main"], e["sub"], e["main_hu"], e["sub_hu"], e["fit"], len(n["arukereso"]),
+                    n["arukereso_products_own"], e["main"], e["sub"], e["main_hu"], e["sub_hu"], e["fit"], e.get("source") or "",
+                    "" if e.get("confidence") is None else e["confidence"], len(n["arukereso"]),
                     "; ".join(fname(x, "name_hu") for x in n["filters"]), "; ".join(fname(x, "name_en") for x in n["filters"])])
 
 main, sub = collections.Counter(), collections.Counter()
