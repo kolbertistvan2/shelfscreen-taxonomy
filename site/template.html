@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="hu">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShelfScreen kategóriafa</title>
+<title>ShelfScreen category tree</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -90,7 +90,7 @@ ul.ev { margin: 0; padding-left: 18px; display: flex; flex-direction: column; ga
 
 <div class="wrap">
   <header>
-    <h1 id="title">ShelfScreen kategóriafa</h1>
+    <h1 id="title">ShelfScreen category tree</h1>
     <p class="sub" id="lede"></p>
     <div class="stats" id="stats"></div>
     <div class="controls">
@@ -100,8 +100,8 @@ ul.ev { margin: 0; padding-left: 18px; display: flex; flex-direction: column; ga
         <button id="view-tree" type="button" aria-pressed="false"></button>
       </div>
       <div class="seg" role="group" aria-label="Nyelv">
-        <button id="lang-hu" type="button" aria-pressed="true">Magyar</button>
-        <button id="lang-en" type="button" aria-pressed="false">English</button>
+        <button id="lang-hu" type="button" aria-pressed="false">Magyar</button>
+        <button id="lang-en" type="button" aria-pressed="true">English</button>
       </div>
       <button id="f-own" class="chip" type="button" aria-pressed="false"></button>
       <button id="f-ren" class="chip" type="button" aria-pressed="false"></button>
@@ -147,7 +147,7 @@ ul.ev { margin: 0; padding-left: 18px; display: flex; flex-direction: column; ga
           grpLede: "Share of Arukereso products from its category pages (2026-10-19). Under a category stand the branches of the tree that belong there; a part of a branch that belongs elsewhere appears in its own place.", subs: "Subcategories", branches: "Tree branches here", share: "share", fWeak: "Uncertain e-commerce category only", ecomAll: "All e-commerce categories", ecomNone: "Other",
           ecom: "E-commerce category", inh: "inherited", expl: "set here", weak: "uncertain", noneTag: "other" }
   };
-  var view = "group", gopen = {}, lang = "hu", open = {}, sel = null, q = "", fOwn = false, fRen = false, fFlt = false, fWeak = false, ecomSel = "";
+  var view = "group", gopen = {}, lang = "en", open = {}, sel = null, q = "", fOwn = false, fRen = false, fFlt = false, fWeak = false, ecomSel = "";
   try { var s = JSON.parse(localStorage.getItem("ss-tree") || "{}"); if (s.lang) lang = s.lang; } catch (e) {}
   function save() { try { localStorage.setItem("ss-tree", JSON.stringify({ lang: lang })); } catch (e) {} }
 
@@ -314,6 +314,8 @@ ul.ev { margin: 0; padding-left: 18px; display: flex; flex-direction: column; ga
   function labels() {
     var L = T[lang];
     document.documentElement.lang = lang;
+    var t = lang === "hu" ? "ShelfScreen kategóriafa" : "ShelfScreen category tree";
+    document.getElementById("title").textContent = t; document.title = t;
     document.getElementById("lede").textContent = L.lede;
     document.getElementById("stats").innerHTML =
       "<span><b>" + num(D.length) + "</b> " + L.nodes + "</span><span><b>" + num(stats.own) + "</b> " + L.own +
