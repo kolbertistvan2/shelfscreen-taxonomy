@@ -1,4 +1,4 @@
-"""Resolve every tree node's e-commerce category by inheritance from ecommerce-1..4.jsonl (4: v0.2, 2026-10-26) and write it
+"""Resolve every tree node's e-commerce category by inheritance from ecommerce-1..5.jsonl (4: v0.2, 2026-10-26; 5: v0.3, 2026-10-27) and write it
 into dist/tree.jsonl. Every node gets one, since every node is shown."""
 import json, collections, sys
 from pathlib import Path
@@ -17,7 +17,7 @@ HU_SUB = {"Apparel": "Ruházat", "Bags & Accessories": "Táskák és kiegészít
           "Vehicle Parts": "Járműalkatrészek", "Health Care": "Egészségmegőrzés", "Household Care": "Háztartási tisztítás",
           "Personal Care": "Személyes ápolás"}
 explicit = {}
-for i in (1, 2, 3, 4):
+for i in (1, 2, 3, 4, 5):
     for line in open(T / f"work/ecommerce-{i}.jsonl", encoding="utf-8"):
         r = json.loads(line)
         if r.get("superseded_by"):  # kept for the record; a later file holds the class

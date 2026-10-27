@@ -3,28 +3,28 @@ Fashion,Divat,,,2351410,0.2416
 Fashion,Divat,Apparel,Ruházat,1598959,0.1643
 Fashion,Divat,Bags & Accessories,Táskák és kiegészítők,420635,0.0432
 Fashion,Divat,Footwear,Lábbeli,331816,0.0341
-DIY,Barkács,,,2120876,0.2179
-DIY,Barkács,Tools & Construction Supplies,Szerszámok és építőanyagok,1197692,0.1231
+DIY,Barkács,,,2128396,0.2187
+DIY,Barkács,Tools & Construction Supplies,Szerszámok és építőanyagok,1205212,0.1238
 DIY,Barkács,Vehicle Parts,Járműalkatrészek,823688,0.0846
 DIY,Barkács,Garden,Kert,99496,0.0102
-Hobby & Leisure,Hobbi és szabadidő,,,1949243,0.2003
+Hobby & Leisure,Hobbi és szabadidő,,,1946735,0.2000
 Hobby & Leisure,Hobbi és szabadidő,Media,Média,494902,0.0509
 Hobby & Leisure,Hobbi és szabadidő,"Stationery, Crafts & Art Supplies","Írószer, kreatív és művészellátó",458953,0.0472
 Hobby & Leisure,Hobbi és szabadidő,Sports Equipment,Sportfelszerelés,255560,0.0263
 Hobby & Leisure,Hobbi és szabadidő,Toys,Játékok,220246,0.0226
 Hobby & Leisure,Hobbi és szabadidő,Pet Supplies,Kisállatkellékek,174788,0.0180
 Hobby & Leisure,Hobbi és szabadidő,Musical Instruments,Hangszerek,115470,0.0119
-Hobby & Leisure,Hobbi és szabadidő,Other Hobby & Leisure,Egyéb hobbi és szabadidő,87470,0.0090
+Hobby & Leisure,Hobbi és szabadidő,Other Hobby & Leisure,Egyéb hobbi és szabadidő,88493,0.0091
 Hobby & Leisure,Hobbi és szabadidő,Erotic & Adult,Erotika,83851,0.0086
-Hobby & Leisure,Hobbi és szabadidő,Flowers & Gifts,Virág és ajándék,42681,0.0044
+Hobby & Leisure,Hobbi és szabadidő,Flowers & Gifts,Virág és ajándék,39150,0.0040
 Hobby & Leisure,Hobbi és szabadidő,Camping & Adventure,Kemping és túra,12123,0.0012
 Hobby & Leisure,Hobbi és szabadidő,Smoking Supplies,Dohányzási kellékek,3199,0.0003
-Electronics,Elektronika,,,1805165,0.1855
+Electronics,Elektronika,,,1797882,0.1847
 Electronics,Elektronika,Consumer Electronics,Szórakoztató elektronika és IT,1627571,0.1672
-Electronics,Elektronika,Electrical Appliances,Háztartási gépek,177594,0.0182
-Furniture & Homeware,Bútor és lakberendezés,,,853527,0.0877
-Furniture & Homeware,Bútor és lakberendezés,Homeware,Lakberendezés,689841,0.0709
-Furniture & Homeware,Bútor és lakberendezés,Furniture,Bútorok,163686,0.0168
+Electronics,Elektronika,Electrical Appliances,Háztartási gépek,170311,0.0175
+Furniture & Homeware,Bútor és lakberendezés,,,856279,0.0880
+Furniture & Homeware,Bútor és lakberendezés,Homeware,Lakberendezés,693278,0.0712
+Furniture & Homeware,Bútor és lakberendezés,Furniture,Bútorok,163001,0.0167
 Care Products,Szépségápolás és drogéria,,,515013,0.0529
 Care Products,Szépségápolás és drogéria,Personal Care,Személyes ápolás,300721,0.0309
 Care Products,Szépségápolás és drogéria,Health Care,Egészségmegőrzés,151511,0.0156
@@ -32,4 +32,4 @@ Care Products,Szépségápolás és drogéria,Household Care,Háztartási tiszt�
 Grocery,Élelmiszer,,,118894,0.0122
 Grocery,Élelmiszer,Beverages,Italok,61764,0.0063
 Grocery,Élelmiszer,Food,Étel,57130,0.0059
-Other,Egyéb,,,17961,0.0018
+Other,Egyéb,,,17480,0.0018

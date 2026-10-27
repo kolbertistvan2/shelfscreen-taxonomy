@@ -3,14 +3,14 @@
 {"arukereso_path": "Ajándékozás > Keresztelő ajándék", "products": 17, "reason": "mixed bag: Occasion-based mix of candles, baby clothing and imprint kits."}
 {"arukereso_path": "Ajándékozás > Képeslap", "products": 24, "reason": "covered: Post Cards (os-4-9-10)."}
 {"arukereso_path": "Ajándékozás > Marokkő", "products": 24, "reason": "covered: Palm stones and tumbled stones fit Minerals (ae-2-2-6-3)."}
-{"arukereso_path": "Ajándékozás > Vicces ajándék", "products": 139, "reason": "mixed bag: Novelty gifts across many product types; an occasion, not a product type."}
+{"arukereso_path": "Ajándékozás > Vicces ajándék", "products": 139, "reason": "mixed bag: Novelty gifts across many product types; an occasion, not a product type.", "revisited_2026_10_27": {"decision": "remapped", "node_id": "ae-2-5", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Autó, motor > Autó kormányszervó", "products": 4, "reason": "mislabeled: Named power steering but holds steering motors for kids' ride-on cars; they fit Riding Toy Accessories (tg-5-19)."}
 {"arukereso_path": "Autó, motor > Autó napfénytető", "products": 12, "reason": "mislabeled: Named sunroof but holds window sun shades; they fit Sun Shades (vp-1-4-11-7)."}
-{"arukereso_path": "Autó, motor > Autó tolatólámpa", "products": 24, "reason": "attribute: Light function (reversing) of Motor Vehicle Lighting (vp-1-4-12)."}
+{"arukereso_path": "Autó, motor > Autó tolatólámpa", "products": 24, "reason": "attribute: Light function (reversing) of Motor Vehicle Lighting (vp-1-4-12).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-reversing-lights", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Autó, motor > Karosszéria javító elem", "products": 24, "reason": "covered: Frame & Body Parts (vp-1-4-9) has Fenders, Quarter Panels and Side Panels."}
 {"arukereso_path": "Autó, motor > Mezőgazdasági gumiabroncs", "products": 24, "reason": "covered: Tractor Tires (hg-12-4-10-1)."}
 {"arukereso_path": "Autó, motor > Motocross mez, offroad ruha", "products": 24, "reason": "covered: Motorcycle Outerwear (aa-1-10-7)."}
-{"arukereso_path": "Autó, motor > Motor szélvédő", "products": 24, "reason": "attribute: Vehicle type (motorcycle) of Window Parts & Accessories (vp-1-4-21)."}
+{"arukereso_path": "Autó, motor > Motor szélvédő", "products": 24, "reason": "attribute: Vehicle type (motorcycle) of Window Parts & Accessories (vp-1-4-21).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-motorcycle-windscreens", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Autó, motor > Motoros csizma", "products": 24, "reason": "attribute: Use (motorcycling) of Boots (aa-8-3).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-motorcycle-boots", "why": "product type and activity are categories (operator 2026-10-26)"}}
 {"arukereso_path": "Autó, motor > Tankpad", "products": 24, "reason": "covered: Samples are protective sticker sets; Vehicle Decals (vp-1-5-4-5)."}
 {"arukereso_path": "Autó, motor > Túradoboz, platni, rögzítő kit", "products": 24, "reason": "covered: Motorcycle Bags & Panniers (vp-1-7-6) holds top cases and their racks."}
@@ -25,18 +25,18 @@
 {"arukereso_path": "Baba, mama > Babasál", "products": 24, "reason": "attribute: Age (baby) of Scarves & Shawls (aa-2-26)."}
 {"arukereso_path": "Baba, mama > Babatörülköző, kifogó", "products": 24, "reason": "attribute: Age (baby) of Bath Towels (hg-15-4-1-1)."}
 {"arukereso_path": "Baba, mama > Babaápoló krém", "products": 80, "reason": "attribute: Age (baby) of Lotions & Moisturizers and Diaper Rash Creams."}
-{"arukereso_path": "Baba, mama > Bébi desszert és puding", "products": 24, "reason": "covered: Baby Food (bt-10-1-3)."}
-{"arukereso_path": "Baba, mama > Bébi tea", "products": 11, "reason": "covered: Baby Drinks (bt-10-1-2)."}
+{"arukereso_path": "Baba, mama > Bébi desszert és puding", "products": 24, "reason": "covered: Baby Food (bt-10-1-3).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-baby-desserts", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
+{"arukereso_path": "Baba, mama > Bébi tea", "products": 11, "reason": "covered: Baby Drinks (bt-10-1-2).", "revisited_2026_10_27": {"decision": "remapped", "node_id": "bt-10-1-2-2", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Baba, mama > Bébiétel melegítő", "products": 71, "reason": "covered: Bottle Warmers (bt-10-6-1)."}
 {"arukereso_path": "Baba, mama > Mellbimbóvédő", "products": 24, "reason": "covered: Nursing Pads & Shields (bt-10-12)."}
 {"arukereso_path": "Baba, mama > Pelenkatorta", "products": 24, "reason": "covered: Baby Gift Sets (bt-2)."}
 {"arukereso_path": "Bútor, lakberendezés", "products": 0, "reason": "no products: Top-level bucket with no own products."}
 {"arukereso_path": "Bútor, lakberendezés > Elemes hálószoba bútor", "products": 24, "reason": "mixed bag: Modular bedroom pieces, mostly vanity tables, which fit Vanities."}
-{"arukereso_path": "Bútor, lakberendezés > Elemes ifjúsági- és gyerekbútor", "products": 24, "reason": "attribute: Age (kids) of Cabinets & Storage (fr-4)."}
+{"arukereso_path": "Bútor, lakberendezés > Elemes ifjúsági- és gyerekbútor", "products": 24, "reason": "attribute: Age (kids) of Cabinets & Storage (fr-4).", "revisited_2026_10_27": {"decision": "remapped", "node_id": "fr-10-2", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Bútor, lakberendezés > Gyerekágy", "products": 26, "reason": "covered: Toddler Beds (fr-1-6-11) and Beds & Bed Frames."}
-{"arukereso_path": "Bútor, lakberendezés > Konyhabútor összeállítás", "products": 60, "reason": "covered: Prefabricated Kitchens & Kitchenettes (hg-11-9)."}
+{"arukereso_path": "Bútor, lakberendezés > Konyhabútor összeállítás", "products": 60, "reason": "covered: Prefabricated Kitchens & Kitchenettes (hg-11-9).", "revisited_2026_10_27": {"decision": "remapped", "node_id": "hg-11-9", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Bútor, lakberendezés > Paplan és párna garnitúra", "products": 51, "reason": "bundle: A duvet and pillow bundle; parts fit Quilts & Comforters (hg-15-1-10) and Pillows."}
-{"arukereso_path": "Bútor, lakberendezés > Sörpad garnitúra, sörasztal", "products": 27, "reason": "covered: Outdoor Furniture Sets (fr-15-2)."}
+{"arukereso_path": "Bútor, lakberendezés > Sörpad garnitúra, sörasztal", "products": 27, "reason": "covered: Outdoor Furniture Sets (fr-15-2).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-beer-table-sets", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Divat és ruházat > Férfi divat > Férfi halásznadrág", "products": 22, "reason": "attribute: Gender and leg length (3/4) of Pants (aa-1-12).", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "the leg length is an attribute, not a product type; it stays a filter"}}
 {"arukereso_path": "Divat és ruházat > Férfi lábbeli > Férfi espadrilles", "products": 82, "reason": "attribute: Gender and shoe style (espadrilles) of Flats (aa-8-9).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-espadrilles", "why": "the shoe type is a product type, a category (operator 2026-10-26); the gender stays a filter"}}
 {"arukereso_path": "Divat és ruházat > Férfi lábbeli > Férfi mokaszin", "products": 540, "reason": "attribute: Gender and shoe style (loafer, moccasin) of Flats (aa-8-9).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-loafers", "why": "the shoe type is a product type, a category (operator 2026-10-26); the gender stays a filter"}}
@@ -52,15 +52,15 @@
 {"arukereso_path": "Divat és ruházat > Női lábbeli > Női mokaszin", "products": 1701, "reason": "attribute: Gender and shoe style (loafer, moccasin) of Flats (aa-8-9).", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-loafers", "why": "the shoe type is a product type, a category (operator 2026-10-26); the gender stays a filter"}}
 {"arukereso_path": "Divat és ruházat > Ruházat kiegészítő > Esernyő", "products": 2458, "reason": "covered: Rain Umbrellas (hg-16-2)."}
 {"arukereso_path": "Divat és ruházat > Ruházat kiegészítő > Gyerek esernyő", "products": 375, "reason": "attribute: Age (kids) of Rain Umbrellas (hg-16-2)."}
-{"arukereso_path": "Erotika > Bilincs, kötöző", "products": 39, "reason": "covered: Sex Toys & Erotic Games (ma-1-4); toy type is an attribute there."}
+{"arukereso_path": "Erotika > Bilincs, kötöző", "products": 39, "reason": "covered: Sex Toys & Erotic Games (ma-1-4); toy type is an attribute there.", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-restraints", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Erotika > Lakk, latex, bőr ápolószer", "products": 42, "reason": "mislabeled: Samples are poppers sold as leather cleaner, not a care product."}
 {"arukereso_path": "Erotika > Szexi ágynemű", "products": 24, "reason": "mislabeled: Named sexy bedding but holds harnesses and a throw."}
 {"arukereso_path": "Hangszer > Dobszék", "products": 24, "reason": "covered: Music Benches & Stools (ae-2-7-5)."}
 {"arukereso_path": "Hangszer > Egyéb ütős hangszer és kiegészítők", "products": 27, "reason": "mixed bag: Wind chimes, tingsha, kalimba and a drum microphone."}
 {"arukereso_path": "Hangszer > Elektromos hegedű", "products": 24, "reason": "attribute: Power source (electric) of Violins (ae-2-8-7-6)."}
-{"arukereso_path": "Hangszer > Timpani, üstdob", "products": 0, "reason": "no products: Empty on Arukereso."}
+{"arukereso_path": "Hangszer > Timpani, üstdob", "products": 0, "reason": "no products: Empty on Arukereso.", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-timpani", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Hobbi > Bridzs kellék", "products": 9, "reason": "covered: Card Game Accessories (tg-2-6)."}
-{"arukereso_path": "Hobbi > Festőállvány", "products": 24, "reason": "covered: Easels (os-13-6)."}
+{"arukereso_path": "Hobbi > Festőállvány", "products": 24, "reason": "covered: Easels (os-13-6).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-art-easels", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Hobbi > Homokkép készítő", "products": 25, "reason": "covered: Craft Kits (tg-5-2-3)."}
 {"arukereso_path": "Hobbi > Kártyajátékok", "products": 304, "reason": "covered: Card Games (tg-2-7)."}
 {"arukereso_path": "Háziállat > Akvárium hűtés", "products": 16, "reason": "mislabeled: Mostly misplaced HVAC heat-recovery units and sensors, not aquarium chillers."}
@@ -88,12 +88,12 @@
 {"arukereso_path": "Irodatechnika > Rendezvény bútor", "products": 24, "reason": "mixed bag: Folding bar stools and chair covers."}
 {"arukereso_path": "Irodatechnika > Tanulói munkalap", "products": 43, "reason": "covered: Activity Sheets (me-10-3) and Educational Flash Cards (tg-5-9-4)."}
 {"arukereso_path": "Irodatechnika > Vonalzó", "products": 203, "reason": "covered: Rulers (ha-15-36-25); office or school use is an attribute."}
-{"arukereso_path": "Irodatechnika > Zacskó, tasak", "products": 48, "reason": "mixed bag: Paper food bags, vacuum sealer bags and courier bags."}
+{"arukereso_path": "Irodatechnika > Zacskó, tasak", "products": 48, "reason": "mixed bag: Paper food bags, vacuum sealer bags and courier bags.", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-bags-pouches", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Játék > Dominó", "products": 33, "reason": "covered: Dominoes are Tile Games (tg-2-15)."}
 {"arukereso_path": "Játék > Fodrász játék, szépségszalon", "products": 114, "reason": "covered: Pretend Professions & Role Playing (tg-5-16-5)."}
 {"arukereso_path": "Játék > Gyerekszoba dekoráció", "products": 24, "reason": "attribute: Age (kids) of Decor (hg-3)."}
-{"arukereso_path": "Játék > LEGO alkatrészek", "products": 1016, "reason": "brand: LEGO spare parts and minifigures; a brand split of Interlocking Blocks (tg-5-7-12)."}
-{"arukereso_path": "Játék > Sakk", "products": 88, "reason": "covered: Chess sets are Board Games (tg-2-5)."}
+{"arukereso_path": "Játék > LEGO alkatrészek", "products": 1016, "reason": "brand: LEGO spare parts and minifigures; a brand split of Interlocking Blocks (tg-5-7-12).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-building-block-parts", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
+{"arukereso_path": "Játék > Sakk", "products": 88, "reason": "covered: Chess sets are Board Games (tg-2-5).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-chess", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Műszaki cikk", "products": 0, "reason": "no products: Top-level bucket with no own products."}
 {"arukereso_path": "Műszaki cikk > Android Mini PC", "products": 1, "reason": "mislabeled: One product, a mini PC mount."}
 {"arukereso_path": "Műszaki cikk > Audio dokkoló", "products": 22, "reason": "mixed bag: Audio docks mixed with smart displays."}
@@ -101,29 +101,29 @@
 {"arukereso_path": "Műszaki cikk > CD váltó", "products": 0, "reason": "no products: Empty on Arukereso."}
 {"arukereso_path": "Műszaki cikk > Drón", "products": 314, "reason": "covered: Spans Drones (vp-2-1-1-2) and toy Drones (tg-5-12-2)."}
 {"arukereso_path": "Műszaki cikk > Fotóbank", "products": 0, "reason": "no products: Empty on Arukereso."}
-{"arukereso_path": "Műszaki cikk > Fény vezérlő", "products": 24, "reason": "covered: Camera Flash Accessories (co-1-4-6)."}
-{"arukereso_path": "Műszaki cikk > Fényképező tisztítás", "products": 29, "reason": "covered: Electronics Cleaners (el-7-10)."}
+{"arukereso_path": "Műszaki cikk > Fény vezérlő", "products": 24, "reason": "covered: Camera Flash Accessories (co-1-4-6).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-flash-triggers", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
+{"arukereso_path": "Műszaki cikk > Fényképező tisztítás", "products": 29, "reason": "covered: Electronics Cleaners (el-7-10).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-camera-cleaning", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Műszaki cikk > GPS kijelzővédő fólia", "products": 6, "reason": "mixed bag: Camera, drawing tablet and navigation screen protectors; each fits Screen Protectors."}
-{"arukereso_path": "Műszaki cikk > Gyorscseretalp", "products": 34, "reason": "covered: Tripod Collars & Mounts (co-1-6-3)."}
+{"arukereso_path": "Műszaki cikk > Gyorscseretalp", "products": 34, "reason": "covered: Tripod Collars & Mounts (co-1-6-3).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-quick-release-plates", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Műszaki cikk > Mindig TV kártya", "products": 0, "reason": "no products: Empty on Arukereso (pay-TV subscription card)."}
 {"arukereso_path": "Műszaki cikk > Okosóra, aktivitásmérő", "products": 1069, "reason": "covered: Smart Watches (aa-6-12) and Activity Monitors (hb-1-4-1)."}
 {"arukereso_path": "Műszaki cikk > TV hangszóró", "products": 0, "reason": "no products: Empty on Arukereso."}
 {"arukereso_path": "Műszaki cikk > Vázsapka", "products": 27, "reason": "covered: Lens Caps (co-1-3-3)."}
 {"arukereso_path": "Otthon és kert > Emésztőgödör, szeptikus tartály", "products": 24, "reason": "mixed bag: Septic parts, fire hose couplings and sewage lift tanks."}
 {"arukereso_path": "Otthon és kert > Esküvői dekoráció", "products": 24, "reason": "mixed bag: Wedding is an occasion; ribbons, petals and stickers fit Party Supplies."}
-{"arukereso_path": "Otthon és kert > Fagylaltkehely", "products": 14, "reason": "covered: Dinnerware Bowls (hg-11-10-4-1)."}
-{"arukereso_path": "Otthon és kert > Gabion fal", "products": 0, "reason": "no products: Empty on Arukereso."}
-{"arukereso_path": "Otthon és kert > Gabion kosár", "products": 0, "reason": "no products: Empty on Arukereso."}
+{"arukereso_path": "Otthon és kert > Fagylaltkehely", "products": 14, "reason": "covered: Dinnerware Bowls (hg-11-10-4-1).", "revisited_2026_10_27": {"decision": "remapped", "node_id": "hg-11-10-4-1", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
+{"arukereso_path": "Otthon és kert > Gabion fal", "products": 0, "reason": "no products: Empty on Arukereso.", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-gabions", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
+{"arukereso_path": "Otthon és kert > Gabion kosár", "products": 0, "reason": "no products: Empty on Arukereso.", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-gabions", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Otthon és kert > Időjárás állomás szenzor", "products": 44, "reason": "covered: Measuring Tool & Sensor Accessories (ha-14-13)."}
-{"arukereso_path": "Otthon és kert > Katalitikus lámpa", "products": 12, "reason": "mislabeled: Mostly refill oils, which fit Fragrance Oil; the few lamps fit Fragrance Diffusers (hg-3-39-5)."}
+{"arukereso_path": "Otthon és kert > Katalitikus lámpa", "products": 12, "reason": "mislabeled: Mostly refill oils, which fit Fragrance Oil; the few lamps fit Fragrance Diffusers (hg-3-39-5).", "revisited_2026_10_27": {"decision": "remapped", "node_id": "hg-3-40-3", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Otthon és kert > Keréknyomásmérő", "products": 25, "reason": "attribute: Use (tires) of Pressure Gauges (ha-15-36-12-2)."}
 {"arukereso_path": "Otthon és kert > Medence porszívó", "products": 65, "reason": "covered: Pool Vacuums (hg-18-1-16-2)."}
 {"arukereso_path": "Otthon és kert > Muffin papír", "products": 24, "reason": "covered: Baking Liners (hg-11-2-2-1-1)."}
 {"arukereso_path": "Otthon és kert > Okos világítás kiegészítő", "products": 32, "reason": "covered: Lighting Control Kits (ha-11-16-2)."}
 {"arukereso_path": "Otthon és kert > Okos világítás szett", "products": 42, "reason": "covered: Smart bulbs fit Light Bulbs and TV backlight kits fit TV LED backlight strips."}
 {"arukereso_path": "Otthon és kert > Szén-monoxid- füst és gáz riasztó", "products": 170, "reason": "covered: Smoke & Carbon Monoxide Detectors (hg-7-7) and Gas Detectors under Measuring Tools."}
-{"arukereso_path": "Otthon és kert > Talajcsavar", "products": 24, "reason": "covered: Ground Spikes (ha-6-13)."}
-{"arukereso_path": "Otthon és kert > Tálalóeszköz", "products": 25, "reason": "covered: Serving spoons and forks under Flatware (hg-11-10-6-6-7) and Serveware."}
+{"arukereso_path": "Otthon és kert > Talajcsavar", "products": 24, "reason": "covered: Ground Spikes (ha-6-13).", "revisited_2026_10_27": {"decision": "remapped", "node_id": "ha-6-13", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
+{"arukereso_path": "Otthon és kert > Tálalóeszköz", "products": 25, "reason": "covered: Serving spoons and forks under Flatware (hg-11-10-6-6-7) and Serveware.", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-serving-utensils", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Sport és Fitness", "products": 0, "reason": "no products: Top-level bucket with no own products."}
 {"arukereso_path": "Sport és Fitness > Airbike", "products": 30, "reason": "attribute: Resistance type (air) of Exercise Bikes (sg-2-4-2-2).", "revisited_2026_10_26": {"decision": "rejection stands", "node_id": null, "why": "the resistance type is an attribute of Exercise Bikes, not a product type"}}
 {"arukereso_path": "Sport és Fitness > Alsóruházat", "products": 24, "reason": "covered: Base Layer Tops (aa-1-1-2-4) and Activewear Pants.", "revisited_2026_10_26": {"decision": "now a node", "node_id": "own-base-layers", "why": "base layers are a product type; Shopify has tops but no bottoms, so the category sat on Activewear itself"}}
@@ -143,15 +143,15 @@
 {"arukereso_path": "Sport és Fitness > Via ferrata szett", "products": 24, "reason": "covered: Climbing Double Lanyards (sg-4-3-7)."}
 {"arukereso_path": "Számítógép > Adatmentő program", "products": 12, "reason": "covered: Computer Utilities & Maintenance Software (so-1-4)."}
 {"arukereso_path": "Számítógép > DVD író program", "products": 2, "reason": "covered: Computer Utilities & Maintenance Software (so-1-4)."}
-{"arukereso_path": "Számítógép > Játék előfizetés, feltöltőkártya", "products": 47, "reason": "mixed bag: Game subscriptions and in-game currency; currency fits Virtual Currency (so-2)."}
+{"arukereso_path": "Számítógép > Játék előfizetés, feltöltőkártya", "products": 47, "reason": "mixed bag: Game subscriptions and in-game currency; currency fits Virtual Currency (so-2).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-game-top-up-cards", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Számítógép > Képszerkesztő program", "products": 44, "reason": "covered: Graphic Design & Illustration Software (so-1-10-3)."}
 {"arukereso_path": "Számítógép > Navigációs szoftver", "products": 0, "reason": "no products: Empty on Arukereso."}
 {"arukereso_path": "Számítógép > POS monitor", "products": 122, "reason": "attribute: Use (POS touch) of Computer Monitors (el-17-1)."}
 {"arukereso_path": "Számítógép > Szótár program", "products": 0, "reason": "no products: Empty on Arukereso."}
 {"arukereso_path": "Számítógép > Utazási programcsomag", "products": 0, "reason": "no products: Empty on Arukereso."}
 {"arukereso_path": "Szépségápolás és egészség > Alakformáló krém", "products": 62, "reason": "attribute: Use (anti-cellulite, firming) of Lotions & Moisturizers (hb-3-2-9-10)."}
-{"arukereso_path": "Szépségápolás és egészség > Gőzkabin", "products": 6, "reason": "covered: Shower Stalls & Kits (ha-10-3-4)."}
-{"arukereso_path": "Szépségápolás és egészség > Hidromasszázs kád", "products": 36, "reason": "attribute: Feature (whirlpool) of Bathtubs (ha-10-3-2)."}
+{"arukereso_path": "Szépségápolás és egészség > Gőzkabin", "products": 6, "reason": "covered: Shower Stalls & Kits (ha-10-3-4).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-steam-cabins", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
+{"arukereso_path": "Szépségápolás és egészség > Hidromasszázs kád", "products": 36, "reason": "attribute: Feature (whirlpool) of Bathtubs (ha-10-3-2).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-whirlpool-bathtubs", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Szépségápolás és egészség > Japán manikűr", "products": 18, "reason": "covered: Nail Treatments (hb-3-2-7-13)."}
 {"arukereso_path": "Szépségápolás és egészség > Kompressziós harisnya és zokni", "products": 24, "reason": "covered: Compression Socks (aa-1-18-12)."}
 {"arukereso_path": "Szépségápolás és egészség > Kéztámasz", "products": 24, "reason": "mixed bag: Manicure hand rests mixed with toe separators."}
@@ -160,32 +160,32 @@
 {"arukereso_path": "Szépségápolás és egészség > Sminkvatta", "products": 28, "reason": "covered: Cotton Balls (hb-3-3)."}
 {"arukereso_path": "Szépségápolás és egészség > Szakállvágó olló", "products": 3, "reason": "attribute: Use (beard) of Hair Shears (hb-3-10-8)."}
 {"arukereso_path": "Építkezés, felújítás > Asztali polírozó", "products": 14, "reason": "attribute: Mounting (bench) of Polishers & Buffers (ha-15-51)."}
-{"arukereso_path": "Építkezés, felújítás > Csempe, padlólap", "products": 112, "reason": "covered: Wall Tiles (ha-2-18-2) and Flooring & Carpet (ha-2-5); wall or floor use is an attribute."}
+{"arukereso_path": "Építkezés, felújítás > Csempe, padlólap", "products": 112, "reason": "covered: Wall Tiles (ha-2-18-2) and Flooring & Carpet (ha-2-5); wall or floor use is an attribute.", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-tiles", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Építkezés, felújítás > Csemperagasztó", "products": 24, "reason": "covered: Polymer-Modified Mortar (ha-1-5-2-5)."}
 {"arukereso_path": "Építkezés, felújítás > Fűrészlap", "products": 59, "reason": "covered: Saw Blades (ha-14-23-2)."}
 {"arukereso_path": "Építkezés, felújítás > Fűtés szerelvény", "products": 115, "reason": "mixed bag: Valves, pipes and fittings; each fits Plumbing (ha-10)."}
 {"arukereso_path": "Építkezés, felújítás > Hegesztőkocsi", "products": 24, "reason": "covered: Welding Accessories (ha-14-29)."}
 {"arukereso_path": "Építkezés, felújítás > Hőfüggöny", "products": 24, "reason": "mixed bag: Decorative door curtains, thermal curtains and PVC strip curtains."}
-{"arukereso_path": "Építkezés, felújítás > Ipari szőnyeg, ipari rács", "products": 24, "reason": "covered: Anti-Fatigue Mats (os-8-1) and Garage Floor Mats (hg-10-4)."}
+{"arukereso_path": "Építkezés, felújítás > Ipari szőnyeg, ipari rács", "products": 24, "reason": "covered: Anti-Fatigue Mats (os-8-1) and Garage Floor Mats (hg-10-4).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-industrial-floor-mats", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Építkezés, felújítás > Keverőszelep", "products": 24, "reason": "covered: Temperature Regulators (ha-10-1-9-2)."}
 {"arukereso_path": "Építkezés, felújítás > Kismegszakító, szalagbiztosíték, fogyasztásmérő", "products": 2953, "reason": "covered: Mostly Circuit Breakers under Power & Electrical Supplies (ha-11)."}
-{"arukereso_path": "Építkezés, felújítás > Mosogatótálca szett", "products": 659, "reason": "bundle: A sink and faucet bundle; parts fit Kitchen & Utility Sinks (ha-10-3-5-2) and Kitchen Sink Faucets (ha-10-3-3-3)."}
+{"arukereso_path": "Építkezés, felújítás > Mosogatótálca szett", "products": 659, "reason": "bundle: A sink and faucet bundle; parts fit Kitchen & Utility Sinks (ha-10-3-5-2) and Kitchen Sink Faucets (ha-10-3-3-3).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-sink-sets", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Építkezés, felújítás > Munkavédelmi könyökvédő, térdvédő, csuklóvédő", "products": 24, "reason": "covered: Samples are knee pads; Safety Knee Pads (bi-25-9)."}
-{"arukereso_path": "Építkezés, felújítás > Tapétaragasztó", "products": 24, "reason": "attribute: Use (wallpaper) of Hardware Glue & Adhesives (ha-1-2)."}
+{"arukereso_path": "Építkezés, felújítás > Tapétaragasztó", "products": 24, "reason": "attribute: Use (wallpaper) of Hardware Glue & Adhesives (ha-1-2).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-wallpaper-paste", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Építkezés, felújítás > Távfelügyeleti rendszer", "products": 97, "reason": "mixed bag: Unclear mix of remote monitoring and camera devices."}
 {"arukereso_path": "Építkezés, felújítás > Vízzáró tömítő paszta", "products": 50, "reason": "covered: Protective Coatings & Sealants (ha-1-8)."}
 {"arukereso_path": "Építkezés, felújítás > Zuhanycső", "products": 24, "reason": "covered: Shower Connectors (ha-10-2-6-3-2)."}
-{"arukereso_path": "Építkezés, felújítás > Üvegtégla", "products": 24, "reason": "attribute: Material (glass) of Bricks & Concrete Blocks (ha-1-5-1)."}
+{"arukereso_path": "Építkezés, felújítás > Üvegtégla", "products": 24, "reason": "attribute: Material (glass) of Bricks & Concrete Blocks (ha-1-5-1).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-glass-blocks", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Étel-Ital > Babapiskóta", "products": 21, "reason": "covered: Cookies (fb-2-1-6)."}
 {"arukereso_path": "Étel-Ital > Kolloid", "products": 25, "reason": "covered: Colloidal silver is a mineral supplement under Vitamins & Supplements (hb-1-9-6)."}
 {"arukereso_path": "Étel-Ital > Kókuszreszelék", "products": 24, "reason": "covered: Nuts & Seeds (fb-2-13)."}
 {"arukereso_path": "Étel-Ital > Mák", "products": 10, "reason": "covered: Nuts & Seeds (fb-2-13)."}
 {"arukereso_path": "Étel-Ital > Protein étel", "products": 32, "reason": "mixed bag: Protein cookies, porridge and mug cakes; each fits its own food node."}
-{"arukereso_path": "Ajándékozás > Fényképalbum", "products": 74, "reason": "covered: Photo Albums (hg-10-16-8-1)."}
+{"arukereso_path": "Ajándékozás > Fényképalbum", "products": 74, "reason": "covered: Photo Albums (hg-10-16-8-1).", "revisited_2026_10_27": {"decision": "remapped", "node_id": "hg-10-16-8-1", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Háziállat > Nyakörv kutyáknak", "products": 887, "reason": "covered: Pet Collars & Harnesses (ap-2-17)."}
 {"arukereso_path": "Otthon és kert > Beltéri szökőkút, csobogó", "products": 25, "reason": "covered: Fountains & Waterfalls (hg-3-35-2)."}
-{"arukereso_path": "Otthon és kert > Fürdőszobai lámpa", "products": 1432, "reason": "attribute: Room (bathroom) of Wall Light Fixtures (hg-13-9-4) and ceiling fixtures."}
-{"arukereso_path": "Otthon és kert > Medence szivattyú, vízforgató", "products": 584, "reason": "covered: Pool, Fountain & Pond Pumps (ha-7-2)."}
+{"arukereso_path": "Otthon és kert > Fürdőszobai lámpa", "products": 1432, "reason": "attribute: Room (bathroom) of Wall Light Fixtures (hg-13-9-4) and ceiling fixtures.", "revisited_2026_10_27": {"decision": "remapped", "node_id": "hg-13-9", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
+{"arukereso_path": "Otthon és kert > Medence szivattyú, vízforgató", "products": 584, "reason": "covered: Pool, Fountain & Pond Pumps (ha-7-2).", "revisited_2026_10_27": {"decision": "now a node", "node_id": "own-pool-pumps", "why": "v0.3 structure review of the 2026-10-26 tree audit (work/audit-v03-decisions.jsonl)"}}
 {"arukereso_path": "Erotika > Erotikus ajándék", "products": 59, "reason": "mixed bag: Advent calendars, pheromone sprays, wax candles and calendars."}
 {"arukereso_path": "Szépségápolás és egészség > Orrcsepp, orrspray", "products": 77, "reason": "covered: Cough, Cold & Flu Medicines (hb-1-16-2)."}
 {"arukereso_path": "Autó, motor > Váltókar", "products": 24, "reason": "mislabeled: Generic shift lever name, but the samples are bicycle shifters; Bicycle Shifters (sg-4-4-2-4-8) holds them."}
